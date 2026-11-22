@@ -1,0 +1,33 @@
+<aside class="side" id="side" aria-label="Navigation">
+  <div class="brand">
+    <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+      <defs><linearGradient id="gg" x1="0" x2="1"><stop offset="0" stop-color="#ff8a2a"/><stop offset=".5" stop-color="#ff3d8b"/><stop offset="1" stop-color="#1c9fc4"/></linearGradient></defs>
+      <circle cx="17" cy="17" r="15.5" fill="none" stroke="#2b384d"/>
+      <path d="M17 1.5a15.5 15.5 0 0 1 15.5 15.5" fill="none" stroke="url(#gg)" stroke-width="1.5"/>
+      <path d="M6 21l6-6 4.5 3.5L23 10l5 4.5" fill="none" stroke="#e9eef6" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="23" cy="10" r="2" fill="#ff8a2a"/>
+    </svg>
+    <div class="brand-n">ANALYST<b>DESK</b></div>
+  </div>
+  <nav class="nav" id="nav"></nav>
+  <div class="side-f" id="side-f">Daten werden geladen</div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="top-l">
+      <button class="btn" id="menu" type="button" aria-label="Navigation öffnen">Menü</button>
+      <button class="btn" id="back" type="button" hidden aria-label="Zurück zur vorherigen Ansicht">← Zurück</button>
+      <div><div class="micro" id="crumb">Analyst Desk</div><h1 id="title">Lage</h1></div>
+    </div>
+    <div class="top-r">
+      <label class="search"><span class="sr">Suchen</span><input id="q" type="search" placeholder="Ticker, Thema oder Name" autocomplete="off"></label>
+      <a class="btn" href="#fragen">Desk fragen</a>
+      <span id="swtop"><a class="btn btn-p" href="#sweep">Sweep</a></span>
+    </div>
+  </header>
+  <main class="wrap">
+    <div id="view"><p class="empty">Daten werden geladen.</p></div>
+    <footer id="foot"></footer>
+  </main>
+</div>
+<div id="tip" role="status"></div>
