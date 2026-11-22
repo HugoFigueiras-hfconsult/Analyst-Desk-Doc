@@ -40,4 +40,7 @@ Felder der Datendateien: Tabelle „Felder“ in `agent/auftrag.md`. Hier nur, w
 | `stm/<id>` | Aussage aus Seiten-Sweep: Felder wie statements plus `srcN`, `srcU`, `at`; `id` = `w<lauf>-<kopf>-<nr>` | Seite |
 | `tl/<id>` | Story-Ereignis: `{st, d, t, srcN, srcU, sw, at}` | Seite |
 
-Der große Lauf übernimmt `stm` und `tl` in die Dateien und löscht sie danach.
+| `files/<name>` | ganze Datei als Überlagerung: `{run, at, data}`; name = people, moves, stories, scenarios, desk, prices, kb, calls, calendar, agent; höchstens 250 KiB | Agent |
+| `stm/<id>` mit vorhandener id | ersetzt die Aussage aus der Datei; `{del:1, sw}` entfernt sie | Agent |
+
+Geltung: Der Desk übernimmt aus `files`, `stm`, `tl` nur Dokumente, deren `run` oder `sw` über `desk.sweep.n` der veröffentlichten Dateien liegt. Werden Dateien neu veröffentlicht, verfallen ältere Dokumente von selbst.

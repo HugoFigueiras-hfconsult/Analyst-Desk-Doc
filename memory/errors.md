@@ -27,3 +27,4 @@
 | 2026-11-21 | Behobene Fehler der Seite ohne Regel, verdichtet in Lauf 5: Arrays direkt an `replaceChildren` (Helfer `put()`); Dedupe-Schlüssel der Positionen zu grob (jetzt p, tk, ac, det) | – | behoben | – |
 
 Musterprüfung in Lauf 5 (jeder 5. Lauf): Datum (4 Fälle), Zuordnung (4), Doppel und Quelle (2), Preise (4), Werkzeuge (2). Daraus neu oder geschärft in `lessons.md`: Datum, Zuordnung, Doppel, Preise, Marktpreise, Werkzeuge, Laufnummer.
+| 2026-11-22 | Nachtrag zu Lauf 5 | – | Chat hat das Bündel als Dateien veröffentlicht (Version 1795378040-c5fe). Seite liest ab Version 1795378168-be42 Überlagerungen `files/<name>` und nimmt aus `stm`/`tl` nur Einträge über dem Dateistand. Künftige Läufe veröffentlichen über Weg B. | Werkzeuge |

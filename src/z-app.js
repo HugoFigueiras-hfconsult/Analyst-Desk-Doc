@@ -33,6 +33,21 @@ function buildNav() {
     h("p", {}, "Kurse: " + D.prices.src + ", jeweils mit Basis gekennzeichnet. Kassa, Spot und Future werden nicht vermischt. Kursbewegungen nach Aussagen zeigen einen zeitlichen Zusammenhang, keine Ursache. Relative Stärke misst Kurse, keine Mittelflüsse."));
   put("#swtop", swButton(false, true));
 }
+function prep(fr) {
+  const dk = D.desk;
+  dk.f13 = dk.f13 || { asOf: "2026-09-30", q: "3. Quartal 2026" }; dk.direkt = dk.direkt || {}; dk.areaPx = dk.areaPx || {}; dk.rot = dk.rot || { bench: "SPX", groups: {}, items: [], pairs: [] }; dk.chartFor = dk.chartFor || {};
+  dk.sweep = dk.sweep || {}; if (typeof dk.sweep.n !== "number") dk.sweep.n = maxSw();
+  Object.keys(P).forEach(k => { delete P[k]; }); Object.keys(KB).forEach(k => { delete KB[k]; });
+  D.people.forEach(p => { P[p.id] = p; });
+  D.kb.forEach(k => { KB[k.id] = k; });
+  D.statements.forEach(s => { (s.a || []).forEach(a => { slugMap.t[slug(a)] = a; }); (s.th || []).forEach(t => { slugMap.th[slug(t)] = t; }); });
+  D.moves.forEach(m => m.tk.split("·").forEach(t => { if (t !== "—") slugMap.t[slug(t)] = t; }));
+  Object.keys(D.prices.s).concat(Object.keys(dk.assets)).forEach(k => { slugMap.t[slug(k)] = k; });
+  D.stories.forEach(s => { if (!slugMap.t[slug(s.tk)]) slugMap.t[slug(s.tk)] = s.tk; });
+  dk.fileRun = fr != null ? fr : dk.sweep.n;
+  normStories();
+  rotStats.c = null; pairStats.c = null; depotFlows.c = null; bigMoves.c = null; rxCache.clear();
+}
 async function boot() {
   const files = ["people", "statements", "moves", "stories", "scenarios", "desk", "prices", "kb", "calls", "calendar", "agent"];
   try {
@@ -40,17 +55,7 @@ async function boot() {
     files.forEach((f, i) => { D[f] = data[i]; });
   } catch (e) { put("#view", h("p", { class: "empty" }, "Die Datendateien konnten nicht geladen werden. Seite neu laden.")); return; }
   try {
-    const dk = D.desk;
-    dk.f13 = dk.f13 || { asOf: "2026-09-30", q: "3. Quartal 2026" }; dk.direkt = dk.direkt || {}; dk.areaPx = dk.areaPx || {}; dk.rot = dk.rot || { bench: "SPX", groups: {}, items: [], pairs: [] }; dk.chartFor = dk.chartFor || {};
-    dk.sweep = dk.sweep || {}; if (typeof dk.sweep.n !== "number") dk.sweep.n = maxSw();
-    D.people.forEach(p => { P[p.id] = p; });
-    D.kb.forEach(k => { KB[k.id] = k; });
-    D.statements.forEach(s => { (s.a || []).forEach(a => { slugMap.t[slug(a)] = a; }); (s.th || []).forEach(t => { slugMap.th[slug(t)] = t; }); });
-    D.moves.forEach(m => m.tk.split("·").forEach(t => { if (t !== "—") slugMap.t[slug(t)] = t; }));
-    Object.keys(D.prices.s).concat(Object.keys(dk.assets)).forEach(k => { slugMap.t[slug(k)] = k; });
-    D.stories.forEach(s => { if (!slugMap.t[slug(s.tk)]) slugMap.t[slug(s.tk)] = s.tk; });
-    dk.fileRun = dk.sweep.n;
-    normStories();
+    prep();
     buildNav();
   } catch (e) { console.error(e); put("#view", h("p", { class: "empty" }, "Die Daten sind unvollständig und konnten nicht aufbereitet werden: " + (e && e.message ? e.message : e))); return; }
   trail.push(location.hash);

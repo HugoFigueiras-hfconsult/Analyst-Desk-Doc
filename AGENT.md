@@ -24,6 +24,9 @@ Schritte 0 bis 10 aus `agent/auftrag.md`. Zusätzlich:
 | Ausgewogenheit | Jeder Kopf gleich gründlich; alle neuen, belegten Aussagen aufnehmen. Kein Deckel je Kopf, keine Sperrliste. Der Desk zählt je Kopf nur die jüngste Aussage. |
 | Seiten-Sweeps | `db_list` der Sammlungen `stm` und `tl`: Einträge prüfen, in die Dateien übernehmen, danach in der Datenbank löschen |
 | Meinungswechsel | `chg.a` = genau der betroffene Wert |
+| Veröffentlichen | Ohne `publish_files` (geplante Aufgabe): Weg B über die Datenbank, siehe `agent/auftrag.md` Schritt 8. Vollständigen Dateisatz zusätzlich nach `memory/pending/data`. |
+| Zeiten | `startedAt` und `finishedAt` mit `date -u` bestimmen, nicht schätzen |
+| Kurse | Ist Yahoo gesperrt: alte Kurse behalten und vermerken |
 
 ## 3 Gedächtnis schreiben (Pflicht, auch bei Abbruch)
 
@@ -35,7 +38,7 @@ Schritte 0 bis 10 aus `agent/auftrag.md`. Zusätzlich:
 | `memory/lessons.md` | nur dauerhafte Regel; Doppeltes zusammenführen | höchstens 60 Zeilen |
 | `memory/backlog.md` | Erledigtes streichen, Neues eintragen | getrennt nach „Agent“ und „Chat/Hugo“ |
 
-Danach `git add memory && git commit -m "sweep: Lauf <n>, <ein Satz>" && git push` auf `main`, ohne Rückfrage und ohne Pull Request (Hugos Vorgabe). Scheitert der Push: Kurznotiz in `data/agent.json` (offen) und in der Abschlussmeldung.
+Danach `git pull --rebase`, `git add memory && git commit -m "sweep: Lauf <n>, <ein Satz>" && git push` auf `main`, ohne Rückfrage und ohne Pull Request (Hugos Vorgabe). Scheitert der Push: Kurznotiz in `data/agent.json` (offen) und in der Abschlussmeldung.
 
 ## 4 Besser werden
 

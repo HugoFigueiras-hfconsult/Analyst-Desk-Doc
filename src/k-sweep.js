@@ -109,29 +109,45 @@ async function sweepOne(t, run, dry) {
   }
   return out.length;
 }
+/* db entries count only when they are newer than the published files (sw or run above fileRun) */
 function applyDb(stm, tl) {
-  const have = new Set(D.statements.map(s => s.id)); let n = 0;
+  const fr = D.desk.fileRun || 0; let n = 0;
   stm.forEach(x => {
-    if (have.has(x.id) || !x.d || !x.t || !ST[x.s] || (x.p && !P[x.p])) return;
-    const key = "w:" + x.id; D.desk.sources[key] = { n: x.srcN || "Quelle", u: x.srcU || "#" };
-    D.statements.push({ ...x, src: key, k: x.k || "Bericht", live: 1 }); n++;
+    if (!((x.sw || 0) > fr) || (x.p && !P[x.p])) return;
+    const i = D.statements.findIndex(s => s.id === x.id);
+    if (x.del) { if (i >= 0) { D.statements.splice(i, 1); n++; } return; }
+    if (!x.d || !x.t || !ST[x.s]) return;
+    let src = x.src && D.desk.sources[x.src] ? x.src : null;
+    if (!src) { src = "w:" + x.id; D.desk.sources[src] = { n: x.srcN || "Quelle", u: x.srcU || "#" }; }
+    const o = { ...x, src, k: x.k || "Bericht", live: 1 };
+    if (i >= 0) D.statements[i] = o; else D.statements.push(o);
+    n++;
     (x.a || []).forEach(a => { slugMap.t[slug(a)] = a; }); (x.th || []).forEach(t => { slugMap.th[slug(t)] = t; });
   });
   tl.forEach(x => {
     const st = D.stories.find(s => s.id === x.st);
-    if (!st || !x.d || !x.t || st.tl.some(e => e.d === x.d && e.t === x.t)) return;
+    if (!((x.sw || 0) > fr) || !st || !x.d || !x.t || st.tl.some(e => e.d === x.d && e.t === x.t)) return;
     const key = "w:" + x.id; D.desk.sources[key] = { n: x.srcN || "Quelle", u: x.srcU || "#" };
     st.tl.push({ d: x.d, t: x.t }); st.tl.sort((a, b) => a.d < b.d ? -1 : 1); (st.src = st.src || []).push(key); n++;
   });
   if (n) { D.desk.sweep.n = Math.max(D.desk.sweep.n, maxSw()); rotStats.c = null; bigMoves.c = null; rxCache.clear(); }
   return n;
 }
+/* overlays: a run without publish rights writes whole data files to files/<name> = {run, at, data} */
+const OVER = ["people", "moves", "stories", "scenarios", "desk", "prices", "kb", "calls", "calendar", "agent"];
 async function loadDb() {
   if (!SW.db) return 0;
+  const fr = D.desk.fileRun; let n = 0;
+  try {
+    const f = await SW.db.collection("files").limit(20).get(), bak = {};
+    f.docs.forEach(d => { const x = d.data(); if (OVER.includes(d.id) && x && x.run > fr && x.data && typeof x.data === "object") { bak[d.id] = D[d.id]; D[d.id] = JSON.parse(JSON.stringify(x.data)); n++; } });
+    if (n) { try { prep(fr); } catch (e) { console.error(e); Object.keys(bak).forEach(k => { D[k] = bak[k]; }); prep(fr); n = 0; } }
+  } catch (e) { /* ohne Überlagerung */ }
   try {
     const [a, b] = await Promise.all([SW.db.collection("stm").limit(1000).get(), SW.db.collection("tl").limit(1000).get()]);
-    return applyDb(a.docs.map(d => ({ id: d.id, ...d.data() })), b.docs.map(d => ({ id: d.id, ...d.data() })));
-  } catch (e) { return 0; }
+    n += applyDb(a.docs.map(d => ({ id: d.id, ...d.data() })), b.docs.map(d => ({ id: d.id, ...d.data() })));
+  } catch (e) { /* ohne Datenbank-Einträge */ }
+  return n;
 }
 async function runSweep() {
   if (RUN.on) return;

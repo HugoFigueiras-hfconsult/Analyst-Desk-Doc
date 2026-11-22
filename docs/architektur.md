@@ -24,9 +24,10 @@ Laufzeitvertrag 0.2.96. Erste Nutzung von `mcp` und `sample` fragt den Betrachte
 
 | Weg | Schritte |
 |---|---|
-| Laden | `boot()` lädt 11 JSON-Dateien → `normStories()` rechnet KPI aus Kursen → `loadDb()` mischt `stm` und `tl` aus der Datenbank dazu |
+| Laden | `boot()` lädt 11 JSON-Dateien → `prep()` baut Verzeichnisse und KPI → `loadDb()` legt Überlagerungen `files/<name>` darüber und mischt `stm` und `tl` dazu; es zählt nur, was über dem Dateistand `desk.sweep.n` liegt |
 | Seiten-Sweep | Knopf → `runSweep()` → je Ziel `web_search` → `sample` → Prüfung → `db.doc("stm/…")` → sofort im Desk |
-| Großer Lauf | Agent lädt Dateien per `read_file` → `prices.py` → Recherche → `check.py` → `publish_files` (nur `data/*`) → `sweep/status` |
+| Großer Lauf im Chat | Dateien laden → `prices.py` → Recherche → `check.py` → `publish_files` (nur `data/*`) → `sweep/status` |
+| Großer Lauf als geplante Aufgabe | wie oben, aber ohne `publish_files`: schreibt `files/<name>` und `stm/<id>` in die Datenbank und den Dateisatz nach `memory/pending/data`; Kurse nur, wenn die Umgebung Yahoo erlaubt |
 
 ## Quellteile (`src/`, Reihenfolge = Dateiname)
 

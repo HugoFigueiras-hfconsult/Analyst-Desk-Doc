@@ -2,14 +2,11 @@
 
 | Feld | Wert |
 |---|---|
-| Angelegt | 22.11.2026 durch Claude im Chat, Kennung `trig_01HPgeD8BBoo9JXtrzg2g1rZ` |
-| Zeitplan | keiner: läuft nur auf Abruf (in Claude starten oder im Chat anstoßen lassen) |
-| Freigaben | Lauf fragt vor Aktionen nach. Für unbeaufsichtigte Läufe stellt Hugo in den Einstellungen der Aufgabe „Automatisch genehmigen“ ein. |
-| Connectoren | Parallel Search, Claude Code Remote und weitere des Kontos |
-| Gedächtnis | dieses Repo, Zweig `main`, Einstieg `AGENT.md` |
-| Offen | Zeitplan (Vorschlag: werktags 06:43 Uhr, Europe/Berlin) setzt Hugo selbst, ebenso die automatische Genehmigung |
-
-Vorgeschichte: Drei Versuche mit Zeitplan und dem Zusatz „unbeaufsichtigt, keine Rückfragen“ lehnte das Berechtigungssystem ab. Angelegt wurde die Fassung ohne Zeitplan und mit Rückfrage vor Aktionen.
+| Angelegt | 22.11.2026 von Hugo, Kennung `trig_01SsqoYSjEqL1eWtKkFb4BKB` |
+| Zeitplan | täglich 07:15 Uhr, Europe/Berlin |
+| Zugriff | Repo ja, Artefakt lesen ja, Datenbank ja, Parallel Search ja; Dateien veröffentlichen nein (Weg B über die Datenbank); Yahoo nein, solange die Netzrichtlinie der Umgebung `query1.finance.yahoo.com` sperrt |
+| Benachrichtigungen | aus |
+| Erster Lauf | 22.11.2026, Lauf 5, Umfang Kurz: 23 Aussagen, 21 Story-Ereignisse, Seiten-Sweep geprüft |
 
 ## Auftragstext der angelegten Aufgabe
 

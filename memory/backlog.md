@@ -4,9 +4,6 @@
 
 | Punkt | Stand |
 |---|---|
-| Bündel `memory/pending/data/*.json` (Lauf 5, Basis-Version 1795374461-4d32, `check.py` 0 Fehler) veröffentlichen, sobald Dateien allein veröffentlicht werden können. Danach alle Dokumente `w4-*` und `r5-*` in `stm` und `tl` löschen und den Ordner `memory/pending` entfernen. Hat sich die Version geändert oder liegen neue Datenbank-Einträge (`w6-…`) vor: Bündel als Vorlage nehmen und diese zusätzlich übernehmen. Nächste Laufnummer: 6 | offen |
-| Im Bündel, aber noch nicht im Desk: 24 Positionen (13F von Griffin, Sundheim, Cohen; Burry-Handel vom 16. und 20.11.), 2 Calls (Lee, Yardeni), 9 Termine, Fed-Szenario 93 % zu 7 %, Gold-Spot 3.518,50 $, Story-Texte und Level, Wissensbank, Korrektur n07 | offen |
-| `w4-griffin-0` und `w4-sundheim-0` liegen als Aussagen in der Datenbank: beim Übernehmen nicht als Aussage führen (im Bündel bereits Positionen) | offen |
 | Kurse neu ziehen: Yahoo war in Lauf 5 gesperrt; Stand Schluss 20.11., Bitcoin 21.11. | offen |
 | Brent-Reihe prüfen: 20.11. laut Yahoo 89,95 $, laut Reuters 92,57 $ | offen |
 | Fed-Szenario mit CME FedWatch abgleichen (Quellen zum 20.11. weichen ab) | offen |
@@ -22,7 +19,7 @@
 
 | Punkt | Stand |
 |---|---|
-| Veröffentlichen aus der geplanten Aufgabe ermöglichen: entweder den Connector mit `publish_files` (`mcp__claude-artifacts__*`) in die Sitzung bringen oder erlauben, dass die unveränderte Seite über `Artifact` mitgesendet wird. Bis dahin landen nur Aussagen und Ereignisse im Desk (über die Datenbank) | wartet auf Hugo |
+| Bündel aus `memory/pending/data` gelegentlich als Dateien veröffentlichen (Chat), damit die Überlagerungen in der Datenbank klein bleiben | bei Bedarf |
 | Netzfreigabe für `query1.finance.yahoo.com` in der Umgebung der geplanten Aufgabe, sonst keine neuen Kurse | wartet auf Hugo |
 | Geplante Aufgabe: Zeitplan und „Automatisch genehmigen“ in den Einstellungen setzen | wartet auf Hugo |
 | Befund zur Sitzung der geplanten Aufgabe (22.11.): Repo-Zugriff ja, Artefakt lesen ja, Datenbank ja, Parallel Search ja; Dateien veröffentlichen nein, Yahoo nein | bekannt |

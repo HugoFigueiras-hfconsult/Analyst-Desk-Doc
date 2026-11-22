@@ -7,7 +7,7 @@
 | Suche | Parallel Search über `mcp` | Parallel Search, Ersatz WebSearch |
 | Auswertung | `sample` (Claude ohne Netz) | Agent |
 | Holt | neue Aussagen der Köpfe, Ereignisse der Stories | zusätzlich Kurse, 13F, Szenarien, Kalender, Wissensbank, Calls |
-| Schreibt | Datenbank `stm`, `tl`, `sweep/status` | `data/*.json` per `publish_files`, `sweep/status`, `memory/` |
+| Schreibt | Datenbank `stm`, `tl`, `sweep/status` | im Chat `data/*.json` per `publish_files`; als geplante Aufgabe Datenbank `files/<name>` und `stm/<id>`; dazu `sweep/status` und `memory/` |
 | Prüfung | in der Seite (unten) | `agent/check.py` |
 | Gedächtnis | keins | dieses Repo |
 

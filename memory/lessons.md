@@ -22,7 +22,7 @@
 | Calls | Zwischenstand, keine Trefferquote, solange wenige Calls abgeschlossen sind. | 2026-11-21 |
 | Ursache | Kursbewegung nach Aussage ist zeitlicher Zusammenhang. Ursache nur mit Quelle im Feld `fx`. | 2026-11-22 |
 | Veröffentlichen | Nie ohne `check.py` mit 0 Fehlern. Nur `data/*` senden, nie `index.html`. | 2026-11-22 |
-| Werkzeuge | In der Sitzung der geplanten Aufgabe fehlen `mcp__claude-artifacts__*`. Lesen geht mit `Artifact` (`action: read`, `paths`), die Datenbank mit `ArtifactData`. Dateien allein veröffentlichen geht damit nicht: `Artifact` verlangt die Seite als `file_path`. Dann die Seite nicht senden, sondern Aussagen und Story-Ereignisse nach `stm`/`tl` schreiben und den Rest als Bündel nach `memory/pending/data` legen. | 2026-11-22 |
+| Werkzeuge | In der Sitzung der geplanten Aufgabe fehlen `mcp__claude-artifacts__*` und damit `publish_files`. Lesen geht mit `Artifact` (`action: read`, `paths`), die Datenbank mit `ArtifactData`. Veröffentlicht wird dort über die Datenbank (Weg B in `agent/auftrag.md`): `files/<name>` für ganze Dateien, `stm/<id>` für Aussagen. Nie die Seite senden. Alte Dokumente in `stm`, `tl`, `files` nicht löschen: Der Desk ignoriert alles mit Laufnummer bis `desk.sweep.n` der Dateien. | 2026-11-22 |
 | Laufnummer | Lauf = max(`desk.sweep.n`, höchste `sw` in der Datenbank) + 1; der Seiten-Sweep zählt nur in der Datenbank. | 2026-11-22 |
 | Prüfen | Vor dem Schreiben die Seite lokal bauen (`src/build.py` in den Scratchpad) und alle Routen mit Playwright (Node) durchlaufen; Python-Playwright fehlt in der Sitzung. | 2026-11-22 |
 | Wortwahl | Keine unbelegten Superlative („Rekord“), wenn die Daten nur sechs Monate zeigen. | 2026-11-21 |
