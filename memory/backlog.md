@@ -23,6 +23,7 @@
 
 | Punkt | Stand |
 |---|---|
+| Geplante Aufgabe anlegen: Text in `agent/geplante-aufgabe.md` | wartet auf Hugo |
 | Sweep in der Seite live prüfen (Freigabe, Anfragelimit, Dauer) | offen |
 | Gold-Spot-Reihe finden | offen |
 | Kurse im Seiten-Sweep nicht möglich: großer Lauf nötig | bekannt |

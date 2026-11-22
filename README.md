@@ -16,6 +16,7 @@ Privates Artefakt von Hugo: Aussagen, Positionen und Kursreaktionen aktiver Fond
 |---|---|---|
 | `AGENT.md` | Einstieg für den Sweep-Agenten: Gedächtnis laden, Lauf, Gedächtnis schreiben | Chat |
 | `agent/auftrag.md` | Ablauf, Regeln, Felder des großen Laufs (maßgeblich; Kopie liegt im Artefakt) | Chat |
+| `agent/geplante-aufgabe.md` | Auftragstext und Einstellungen der geplanten Aufgabe | Chat |
 | `agent/prices.py`, `agent/check.py` | Kurse ziehen, Daten prüfen (im Artefakt als `.py.txt`) | Chat |
 | `docs/architektur.md` | Aufbau, Dateien, Fähigkeiten, Datenfluss | Chat |
 | `docs/datenmodell.md` | Felder aller Dateien und der Datenbank | Chat |
