@@ -4,7 +4,8 @@
 
 | Punkt | Stand |
 |---|---|
-| Leitfiguren ohne Aussage: Musk, Warsh, Einhorn, Cohen, Chanos, Cuban | offen |
+| Lauf 4 aus der Datenbank in die Dateien übernehmen (72 Aussagen, 17 Ereignisse); 13F-Berichte (Griffin, Sundheim) dabei als Positionen statt als Aussagen führen | offen |
+| Leitfiguren ohne Aussage nach Lauf 4: Cohen, Cuban | offen |
 | Sharks Corcoran, Herjavec, John, Greiner; Kiyosaki, Paffrath, Jikh: je eigene Suche | offen |
 | Belegte Wirkung (`fx`) nachtragen | offen |
 | Rollen bestätigen (`v:1`) für rund 110 Köpfe | offen |

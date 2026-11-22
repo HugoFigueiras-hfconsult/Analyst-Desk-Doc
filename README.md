@@ -8,7 +8,7 @@ Privates Artefakt von Hugo: Aussagen, Positionen und Kursreaktionen aktiver Fond
 | slug | 444d01bc-c5b6-4549-b7d3-6b6600e6d4db |
 | Arbeitszweig | `main`; Agent und Chat committen, pushen und mergen selbst (Hugos Vorgabe vom 22.11.2026) |
 | Sprache | Deutsch, Oberfläche und Daten |
-| Stand der Doku | 22.11.2026, Artefakt-Version 1795371775-067e |
+| Stand der Doku | 22.11.2026, Artefakt-Version 1795374461-4d32 |
 
 ## Karte
 
