@@ -21,7 +21,7 @@ Schritte 0 bis 10 aus `agent/auftrag.md`. Zusätzlich:
 |---|---|
 | Suche | Zuerst Parallel Search (`mcp__Parallel_Search__web_search`): je Kopf ein eigener Aufruf mit 2–3 Suchanfragen, eine `session_id` je Lauf. `web_fetch` nur, wenn die Auszüge nicht reichen. Fehlt der Connector: WebSearch. |
 | Umfang ohne Angabe | montags Standard, sonst Kurz |
-| Ausgewogenheit | Höchstens 2 neue Aussagen je Kopf. Köpfe mit wenigen Aussagen zuerst. Sperrliste in `memory/backlog.md` beachten. |
+| Ausgewogenheit | Jeder Kopf gleich gründlich; alle neuen, belegten Aussagen aufnehmen. Kein Deckel je Kopf, keine Sperrliste. Der Desk zählt je Kopf nur die jüngste Aussage. |
 | Seiten-Sweeps | `db_list` der Sammlungen `stm` und `tl`: Einträge prüfen, in die Dateien übernehmen, danach in der Datenbank löschen |
 | Meinungswechsel | `chg.a` = genau der betroffene Wert |
 
@@ -35,7 +35,7 @@ Schritte 0 bis 10 aus `agent/auftrag.md`. Zusätzlich:
 | `memory/lessons.md` | nur dauerhafte Regel; Doppeltes zusammenführen | höchstens 60 Zeilen |
 | `memory/backlog.md` | Erledigtes streichen, Neues eintragen | getrennt nach „Agent“ und „Chat/Hugo“ |
 
-Danach `git add memory && git commit -m "sweep: Lauf <n>, <ein Satz>" && git push` auf dem Zweig `brain`. Scheitert der Push: Kurznotiz in `data/agent.json` (offen) und in der Abschlussmeldung.
+Danach `git add memory && git commit -m "sweep: Lauf <n>, <ein Satz>" && git push` auf `main`, ohne Rückfrage und ohne Pull Request (Hugos Vorgabe). Scheitert der Push: Kurznotiz in `data/agent.json` (offen) und in der Abschlussmeldung.
 
 ## 4 Besser werden
 

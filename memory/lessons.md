@@ -2,8 +2,9 @@
 
 | Bereich | Regel | Seit |
 |---|---|---|
-| Ausgewogenheit | Ein Kopf, den Hugo als Beispiel nennt, bekommt nicht mehr Suchen oder Einträge als andere. Höchstens 2 neue Aussagen je Kopf und Lauf. | 2026-11-22 |
-| Ausgewogenheit | Köpfe mit den wenigsten Aussagen zuerst; Sperrliste in `backlog.md` beachten. | 2026-11-22 |
+| Ausgewogenheit | Schieflage wird über die Zählung gelöst, nicht über Deckel: Je Kopf zählt nur die jüngste Aussage. Kein Deckel je Kopf, keine Reihenfolge nach Anzahl, keine Sperrliste (Hugo, 22.11.). | 2026-11-22 |
+| Ausgewogenheit | Jeder Kopf wird gleich gründlich gesucht, egal ob Hugo ihn als Beispiel genannt hat. | 2026-11-22 |
+| Git | Commit, Push und Merge erledigen Agent und Chat selbst, direkt auf `main`. | 2026-11-22 |
 | Zuordnung | Eine Kursreaktion gehört immer zu genau dem Wert, um den es in der Aussage geht. Bei Meinungswechseln `chg.a` setzen. Im Zweifel keinen Wert zeigen. | 2026-11-22 |
 | Datum | Datum der Aussage, nicht des Artikels. „On Wednesday“ im Text gegen das Artikeldatum rückrechnen. Unsicher: `da:1`. | 2026-11-20 |
 | Quelle | Aggregatoren und Videotitel sind Sekundärquellen: im Text kennzeichnen; ohne Inhalt kein Eintrag. | 2026-11-22 |

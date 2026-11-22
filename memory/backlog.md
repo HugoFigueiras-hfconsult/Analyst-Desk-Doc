@@ -1,12 +1,5 @@
 # Offene Punkte
 
-## Sperrliste (vorerst keine neuen Aussagen)
-
-| Kopf | Aussagen | Bis |
-|---|---|---|
-| Michael Burry | 6 | andere Leitfiguren mindestens 2 haben |
-| Cathie Wood | 5 | andere Leitfiguren mindestens 2 haben |
-
 ## Agent
 
 | Punkt | Stand |
@@ -23,8 +16,9 @@
 
 | Punkt | Stand |
 |---|---|
-| Geplante Aufgabe anlegen: Text in `agent/geplante-aufgabe.md` | wartet auf Hugo |
-| Sweep in der Seite live prüfen (Freigabe, Anfragelimit, Dauer) | offen |
+| Geplante Aufgabe: Zeitplan und „Automatisch genehmigen“ in den Einstellungen setzen | wartet auf Hugo |
+| Großen Lauf einmal mit „Umfang: Selbsttest“ starten und prüfen, ob die Sitzung Artefakt-Werkzeuge und Repo-Zugriff hat | offen |
+| Sweep in der Seite: läuft live (22.11., Standard, 78 Ziele, rund 5 Sekunden je Ziel); Qualität der Einträge nach dem ersten Lauf sichten | offen |
 | Gold-Spot-Reihe finden | offen |
 | Kurse im Seiten-Sweep nicht möglich: großer Lauf nötig | bekannt |
 | Deutsche Stimmen ergänzen? | Frage an Hugo |

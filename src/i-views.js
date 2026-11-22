@@ -351,7 +351,7 @@ Object.assign(VIEWS, {
         h("div", { class: "sub-h" }, "Regeln"), h("ul", { class: "ul" }, A.regeln.map(t => h("li", {}, t)))),
       panel("c7", "Ablauf", "So arbeitet ein Lauf", null, h("ol", { class: "ul" }, A.ablauf.map(t => h("li", {}, t))),
         h("div", { class: "sub-h" }, "Ausgewogenheit: wer wie oft zu Wort kommt"),
-        h("p", { class: "note", style: "margin-top:0" }, bal.L.length + " Köpfe mit Aussagen. Die drei häufigsten stellen " + nf(bal.L.slice(0, 3).reduce((s, x) => s + x[1], 0) / (bal.tot || 1) * 100) + " % der Personen-Aussagen. Stimmungsbilder zählen je Kopf nur die jüngste Aussage; ein Lauf nimmt höchstens zwei neue Aussagen je Kopf auf und beginnt bei den Köpfen mit den wenigsten."),
+        h("p", { class: "note", style: "margin-top:0" }, bal.L.length + " Köpfe mit Aussagen. Die drei häufigsten stellen " + nf(bal.L.slice(0, 3).reduce((s, x) => s + x[1], 0) / (bal.tot || 1) * 100) + " % der Personen-Aussagen. Stimmungsbilder und Salden zählen je Kopf nur die jüngste Aussage: Wer sich viermal positiv äußert, zählt einmal."),
         bal.L.slice(0, 8).map(([id, n]) => h("a", { class: "cn", href: href("p", id) }, h("span", { class: "rk-v", style: "text-align:left" }, n), h("span", { class: "cn-n", style: "color:var(--ink)" }, P[id] ? P[id].n : id), h("span", { class: "cn-t" }, h("i", { style: "width:" + (n / bal.L[0][1] * 100).toFixed(0) + "%;background:var(--prob)" })), h("span", { class: "rk-v dim" }, nf(n / bal.tot * 100) + " %")))))] };
   },
   suche() {
