@@ -16,7 +16,7 @@
 | Call-Tracker | Zwischenstand messbarer Aussagen | Person |
 | Sagen & Tun | Aussage gegen Position je Kopf und Wert | Person |
 | Wissensbank | Köpfe mit Profil, Kanälen, Thesen | Person |
-| Sweep & Agent | Start, Umfang, Fortschritt, Protokoll, Ausgewogenheit | – |
+| Sweep & Agent | Start, Fortsetzen, Umfang, Fortschritt, Protokoll, Ausgewogenheit | – |
 | CFD-Brücke | Kontext je CFD-Referenz zum Kopieren | Instrument |
 | Desk fragen | Fragen an die Daten über `sample` | – |
 | Suche | Treffer in Werten, Köpfen, Stories, Themen, Aussagen | alle |

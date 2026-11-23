@@ -1,19 +1,36 @@
 /* ---------- sweep in the page: Parallel Search + Claude + artifact database ---------- */
 const TODAY = (() => { const d = new Date(); return new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10); })();
 const SW = { db: null, mcp: null, st: null, live: false, tried: false, msg: null, arm: 0, paint: new Set(), keep: new Set() };
-const RUN = { on: false, stop: false, log: [], done: 0, total: 0, added: 0, n: 0, cur: "" };
+const RUN = { on: false, stop: false, log: [], done: 0, total: 0, added: 0, n: 0, cur: "", ph: "" };
+const STALE = 2, TMO = { s: 45000, a: 90000 }, MOB = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
 const fmtT = iso => { const d = new Date(iso); return isNaN(d) ? "" : d.toLocaleString("de-DE", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }) + " Uhr"; };
 const mins = iso => iso ? (Date.now() - Date.parse(iso)) / 6e4 : 1e9;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const swPaint = () => { if (!D.desk) return; [...SW.keep, ...SW.paint].forEach(f => { try { f(); } catch (e) { console.error(e); } }); };
 const srv = () => (D.desk.direkt || {}).server || "Parallel Search";
+const nNew = n => n === 1 ? "1 neuer Eintrag" : n + " neue Einträge";
+const prog = s => (s.done || 0) + " von " + s.total + " Zielen" + (s.added ? ", " + nNew(s.added) : "");
+const tKey = t => t.k === "st" ? "st:" + t.st.id : "p:" + t.p.id;
+const tOf = k => { if (typeof k !== "string") return null; const st = k.startsWith("st:") && D.stories.find(s => s.id === k.slice(3)), p = k.startsWith("p:") && P[k.slice(2)]; return st ? { k: "st", st, l: "Story: " + st.t } : p ? { k: "p", p, l: p.n } : null; };
+/* stop waiting after ms; the call itself is left alone (reads only) */
+function limit(ms, pr) { let id; return Promise.race([pr, new Promise((_, rej) => { id = setTimeout(() => rej({ code: "timeout", ph: RUN.ph }), ms); })]).finally(() => clearTimeout(id)); }
+/* a page run that stopped half way (page closed, phone locked, error, cancelled) can be continued */
+function swResume() {
+  const s = SW.st;
+  if (RUN.on || !s || s.by !== "Seite" || s.scope === "Selbsttest" || !(s.total > 0) || !(s.done > 0 && s.done < s.total) || mins(s.startedAt) > 720) return null;
+  if (s.state === "running" ? mins(s.beat || s.startedAt) < STALE : !(s.state === "error" || s.stopped)) return null;
+  return s;
+}
 
 function swState() {
   const s = SW.st;
-  if (RUN.on) return { k: "run", t: "Sweep läuft: " + RUN.done + " von " + RUN.total + " Zielen", sub: (RUN.cur ? "Gerade: " + RUN.cur + " · " : "") + RUN.added + " neue Einträge" };
-  if (s && s.state === "running") return mins(s.startedAt) < 120 ? { k: "run", other: true, t: "Ein Sweep läuft seit " + fmtT(s.startedAt), sub: (s.by ? s.by + " · " : "") + (s.step || "") }
-    : { k: "warn", t: "Der Lauf vom " + fmtT(s.startedAt) + " wurde nicht abgeschlossen", sub: "Vermutlich wurde die Seite geschlossen. Bereits gefundene Einträge bleiben erhalten, ein neuer Start ist möglich." };
-  if (s && s.state === "error") return { k: "warn", t: "Letzter Lauf mit Fehler beendet" + (s.finishedAt ? " (" + fmtT(s.finishedAt) + ")" : ""), sub: s.error || "" };
+  if (RUN.on) return { k: "run", t: "Sweep läuft: " + RUN.done + " von " + RUN.total + " Zielen", sub: (RUN.cur ? "Gerade: " + RUN.cur + (RUN.ph ? " (" + RUN.ph + ")" : "") + " · " : "") + nNew(RUN.added) };
+  if (s && s.state === "running") {
+    const page = s.by === "Seite";
+    if (page ? mins(s.beat || s.startedAt) < STALE : mins(s.startedAt) < 120) return { k: "run", other: true, t: "Ein Sweep läuft seit " + fmtT(s.startedAt), sub: (s.by ? s.by + (s.wo ? " (" + s.wo + ")" : "") + " · " : "") + (s.step || "") + (page && s.beat && mins(s.beat) > .7 ? " · letztes Lebenszeichen vor " + Math.round(mins(s.beat) * 60) + " Sekunden" : "") };
+    return { k: "warn", t: "Der Lauf vom " + fmtT(s.startedAt) + " wurde unterbrochen", sub: (s.total ? "Stand: " + prog(s) + ". " : "") + (page ? "Die Seite wurde geschlossen, gesperrt oder in den Hintergrund gelegt. " : "") + "Gefundene Einträge bleiben erhalten." };
+  }
+  if (s && s.state === "error") return { k: "warn", t: "Letzter Lauf mit Fehler beendet" + (s.finishedAt ? " (" + fmtT(s.finishedAt) + ")" : ""), sub: (s.error || "") + (s.total && (s.done || 0) < s.total ? " Stand: " + prog(s) + "." : "") };
   if (s && s.state === "done") { const m = s.summary || {}, fresh = !!s.version && s.by !== "Seite" && (s.run || 0) > D.desk.fileRun; return { k: fresh ? "new" : "ok", fresh, t: "Lauf " + (s.run || D.desk.sweep.n) + " abgeschlossen" + (s.finishedAt ? " am " + fmtT(s.finishedAt) : ""), sub: m.text || "" }; }
   return { k: "ok", t: "Letzter Lauf: Nr. " + D.desk.sweep.n + " am " + fmtD(D.desk.sweep.last), sub: D.desk.sweep.label || "" };
 }
@@ -27,6 +44,7 @@ function swErr(e) {
   if (c === "needs_reauth") return "»" + n + "« muss in den Claude-Einstellungen neu verbunden werden.";
   if (c === "blocked_by_policy") return "Die Richtlinien deiner Organisation blockieren »" + n + "« für diese Seite.";
   if (c === "rate_limited") return "Zu viele Anfragen in kurzer Zeit. Der Lauf wurde angehalten; später mit kleinerem Umfang erneut starten.";
+  if (c === "timeout") return "Keine Antwort innerhalb der Wartezeit (" + (e.ph || "Suche") + ").";
   if (c === "tool_error") return "Die Suche hat einen Fehler gemeldet" + (e.message ? ": " + short(String(e.message), 140) : ".");
   if (["server_unavailable", "upstream_error"].includes(c)) return "Die Suche ist gerade nicht erreichbar.";
   return "Fehler" + (c ? " (" + c + ")" : "") + (e && e.message && !c ? ": " + short(String(e.message), 120) : ".");
@@ -44,7 +62,7 @@ function sweepTargets(scope) {
 async function pSearch(objective, queries) {
   let r;
   for (let i = 0; ; i++) {
-    try { r = await SW.mcp.callTool(srv(), "web_search", { objective, search_queries: queries, session_id: RUN.sid }, { cache: false }); break; }
+    try { r = await limit(TMO.s, SW.mcp.callTool(srv(), "web_search", { objective, search_queries: queries, session_id: RUN.sid }, { cache: false })); break; }
     catch (e) { if (i < 1 && e && e.retryable) { await sleep(Math.min(e.retryAfterMs || 3000, 20000)); continue; } throw e; }
   }
   let pl = r && r.payload;
@@ -54,7 +72,7 @@ async function pSearch(objective, queries) {
 async function askJson(prompt) {
   if (!sample) throw { code: "no_sample" };
   for (let i = 0; ; i++) {
-    try { const r = await sample(prompt), m = String(r.text || "").match(/\{[\s\S]*\}/); const o = m ? JSON.parse(m[0]) : null; return o && Array.isArray(o.items) ? o.items : []; }
+    try { const r = await limit(TMO.a, sample(prompt)), m = String(r.text || "").match(/\{[\s\S]*\}/); const o = m ? JSON.parse(m[0]) : null; return o && Array.isArray(o.items) ? o.items : []; }
     catch (e) { if (e && e.code === "rate_limited" && i < 2) { RUN.cur = "Pause wegen Anfragelimit"; swPaint(); await sleep(35000); continue; } if (e instanceof SyntaxError) return []; throw e; }
   }
 }
@@ -77,12 +95,13 @@ function promptS(st, res, cut) {
 }
 const okDate = (d, cut) => typeof d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(d) && !isNaN(Date.parse(d)) && d >= cut && d <= TODAY;
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return "Quelle"; } };
-async function sweepOne(t, run, dry) {
-  const cut = addD(TODAY, -14), mon = new Date().toLocaleString("en-US", { month: "long", year: "numeric" }), fok = state.fokus.trim();
+async function sweepOne(t, run, dry, fok) {
+  const cut = addD(TODAY, -14), mon = new Date().toLocaleString("en-US", { month: "long", year: "numeric" }), uid = RUN.sid.slice(0, 3);
   const res = t.k === "p"
     ? await pSearch("Dated public statements from the last 14 days by " + t.p.n + " (" + t.p.f + ") about markets, stocks, AI, interest rates, gold, crypto, or what they are buying or selling. Need the date, what was said and the source." + (fok ? " Focus: " + fok : ""), [t.p.n + " " + mon, t.p.n + " market outlook", t.p.n + " " + (fok || "stocks")])
     : await pSearch("Latest dated developments from the last 10 days: " + (t.st.q || t.st.t) + ". Need dated events, figures, decisions and price levels.", [(t.st.q || t.st.tk) + " " + mon, t.st.tk + " news this week"]);
   if (!res.length) return 0;
+  RUN.ph = "Auswertung"; swPaint();
   const urls = new Map(res.map(r => [r.url, r])), items = await askJson(t.k === "p" ? promptP(t.p, res, cut) : promptS(t.st, res, cut)), out = [];
   for (const it of items.slice(0, t.k === "st" ? 3 : 12)) {
     if (it && out.some(o => o.doc.d === it.d && typeof it.t === "string" && o.doc.t.slice(0, 40) === it.t.trim().slice(0, 40))) continue;
@@ -90,7 +109,7 @@ async function sweepOne(t, run, dry) {
     const base = { d: it.d, t: it.t.trim(), srcU: it.url, srcN: host(it.url) + ", " + fmtS(urls.get(it.url).date || it.d), sw: run, at: new Date().toISOString() };
     if (t.k === "st") {
       if (t.st.tl.some(e => e.d === it.d && e.t.slice(0, 40) === base.t.slice(0, 40))) continue;
-      out.push({ col: "tl", id: "w" + run + "-" + t.st.id + "-" + out.length, doc: { ...base, st: t.st.id } });
+      out.push({ col: "tl", id: "w" + run + "-" + t.st.id + "-" + uid + out.length, doc: { ...base, st: t.st.id } });
     } else {
       if (!ST[it.s]) continue;
       const a = (Array.isArray(it.a) ? it.a : []).filter(x => D.desk.assets[x]).slice(0, 4);
@@ -99,12 +118,13 @@ async function sweepOne(t, run, dry) {
         st: (Array.isArray(it.st) ? it.st : []).filter(x => D.stories.some(s => s.id === x)).slice(0, 3), th: (Array.isArray(it.th) ? it.th : []).filter(x => typeof x === "string" && x.length < 40).slice(0, 2) };
       if (it.da) doc.da = 1;
       if (typeof it.lv === "string" && it.lv.trim() && it.lv.length < 120) doc.lv = it.lv.trim();
-      out.push({ col: "stm", id: "w" + run + "-" + t.p.id + "-" + out.length, doc });
+      out.push({ col: "stm", id: "w" + run + "-" + t.p.id + "-" + uid + out.length, doc });
     }
   }
   if (dry) return out.length;
+  RUN.ph = "Ablage";
   for (const o of out) {
-    if (SW.db) { try { await SW.db.doc(o.col + "/" + o.id).set(o.doc); } catch (e) { RUN.nodb = true; } } else RUN.nodb = true;
+    if (SW.db) { try { await limit(8000, SW.db.doc(o.col + "/" + o.id).set(o.doc)); } catch (e) { RUN.nodb = true; } } else RUN.nodb = true;
     applyDb(o.col === "stm" ? [{ id: o.id, ...o.doc }] : [], o.col === "tl" ? [{ id: o.id, ...o.doc }] : []);
   }
   return out.length;
@@ -112,6 +132,7 @@ async function sweepOne(t, run, dry) {
 /* db entries count only when they are newer than the published files (sw or run above fileRun) */
 function applyDb(stm, tl) {
   const fr = D.desk.fileRun || 0; let n = 0;
+  stm.concat(tl).forEach(x => { if (x.sw > (SW.top || 0)) SW.top = x.sw; });
   stm.forEach(x => {
     if (!((x.sw || 0) > fr) || (x.p && !P[x.p])) return;
     const i = D.statements.findIndex(s => s.id === x.id);
@@ -149,37 +170,87 @@ async function loadDb() {
   } catch (e) { /* ohne Datenbank-Einträge */ }
   return n;
 }
-async function runSweep() {
+let wl = null;
+function wake(on) {
+  try {
+    if (!on) { if (wl) { wl.release().catch(() => {}); wl = null; } return; }
+    if (navigator.wakeLock && !document.hidden) navigator.wakeLock.request("screen").then(l => { if (RUN.on) wl = l; else l.release().catch(() => {}); }).catch(() => {});
+  } catch (e) { /* ohne Wachhalten */ }
+}
+document.addEventListener("visibilitychange", () => { if (!document.hidden && RUN.on) { wake(true); if (RUN.beat) RUN.beat(true); } swPaint(); });
+async function runSweep(cont) {
   if (RUN.on) return;
-  const scope = state.scope, dry = scope === "Selbsttest", T = sweepTargets(scope), run = Math.max(D.desk.sweep.n, maxSw()) + (dry ? 0 : 1), startedAt = new Date().toISOString();
-  const setSt = o => { if (SW.db) return SW.db.doc("sweep/status").set(o).catch(() => {}); };
-  Object.assign(RUN, { on: true, stop: false, log: [], done: 0, total: T.length, added: 0, n: run, cur: "", nodb: false, sid: Array.from({ length: 32 }, () => Math.floor(Math.random() * 16).toString(16)).join("") });
+  const old = cont ? swResume() : null;
+  if (cont && !old) return;
+  const scope = old ? old.scope : state.scope, dry = scope === "Selbsttest", fok = old ? old.fokus || "" : state.fokus.trim(), startedAt = old ? old.startedAt : new Date().toISOString();
+  const run = old ? old.run : Math.max(D.desk.sweep.n, maxSw(), SW.top || 0, (SW.st && SW.st.by === "Seite" && SW.st.scope !== "Selbsttest" && SW.st.run) || 0) + (dry ? 0 : 1);
+  const sid = Array.from({ length: 32 }, () => Math.floor(Math.random() * 16).toString(16)).join("");
+  Object.assign(RUN, { on: true, stop: false, log: [], done: 0, total: 0, added: old ? old.added || 0 : 0, n: run, cur: "", ph: "", nodb: false, sid, beat: null });
   SW.msg = null; swPaint();
-  let fatal = null, errs = 0;
+  let T = sweepTargets(scope), skip = 0, fatal = null, errs = 0, lost = false, own = false, last = 0;
+  if (old) {
+    try { const g = await limit(8000, SW.db.doc("sweep/plan").get()), pd = g && (typeof g.data === "function" ? g.data() : g.data); if (pd && pd.startedAt === startedAt && Array.isArray(pd.keys)) T = pd.keys.map(tOf).filter(Boolean); } catch (e) { /* Zielliste neu bilden */ }
+    skip = Math.min(old.done || 0, T.length);
+  }
+  RUN.total = T.length; RUN.done = skip;
+  const base = () => ({ run, scope, fokus: fok, startedAt, by: "Seite", wo: MOB ? "Handy" : "Rechner", tok: sid, done: RUN.done, total: T.length, added: RUN.added });
+  const setSt = o => { if (SW.db) return limit(8000, SW.db.doc("sweep/status").set(o)).catch(() => {}); };
+  /* another view or the agent wrote the status after ours: this run gives way */
+  const taken = () => { const s = SW.st; if (lost) return true; if (!SW.live || !s) return false; if (s.tok === sid) { own = true; return false; } return own; };
+  /* heartbeat and progress; after a pause (page slept) read the status first, so a run that was continued elsewhere is not overwritten */
+  const beat = async force => {
+    try {
+      if (lost || !RUN.on || !SW.db || (!force && Date.now() - last < 15000)) return;
+      const gap = last && Date.now() - last > 45000; last = Date.now();
+      if (taken()) { lost = true; return; }
+      if (gap) { try { const g = await limit(8000, SW.db.doc("sweep/status").get()), d = g && (typeof g.data === "function" ? g.data() : g.data); if (d && d.tok !== sid) { lost = true; return; } } catch (e) { /* weiter */ } }
+      await setSt({ ...base(), state: "running", beat: new Date().toISOString(), step: RUN.done + " von " + T.length + (RUN.cur ? " · " + RUN.cur + (RUN.ph ? " (" + RUN.ph + ")" : "") : "") });
+    } catch (e) { /* ohne Status */ }
+  };
   if (!SW.mcp) fatal = { code: "no_mcp" }; else if (!sample) fatal = { code: "no_sample" };
-  if (!fatal) await setSt({ state: "running", run, scope, startedAt, step: "0 von " + T.length, by: "Seite" });
-  for (const t of fatal ? [] : T) {
+  if (!fatal) {
+    if (!old && !dry && SW.db) limit(8000, SW.db.doc("sweep/plan").set({ run, startedAt, keys: T.map(tKey) })).catch(() => {});
+    await beat(true);
+    RUN.beat = beat; wake(true);
+  }
+  const timer = setInterval(() => { beat(); swPaint(); }, 20000);
+  for (let i = skip; i < T.length && !fatal; i++) {
     if (RUN.stop) break;
-    const row = { l: t.l, s: "läuft" }; RUN.log.unshift(row); RUN.cur = t.l; swPaint();
-    try { const n = await sweepOne(t, run, dry); row.s = n ? n + (n === 1 ? " neuer Eintrag" : " neue Einträge") : "nichts Neues"; row.n = n; RUN.added += n; errs = 0; }
-    catch (e) { row.s = swErr(e); row.e = 1; if (FATAL.includes((e && e.code) || "") || ++errs >= 5) { fatal = e && e.code ? e : { code: "", message: "fünf Fehler in Folge" }; break; } }
-    RUN.done++;
-    if (RUN.done % 5 === 0) setSt({ state: "running", run, scope, startedAt, step: RUN.done + " von " + T.length + " · zuletzt " + t.l, by: "Seite" });
+    if (taken()) { lost = true; break; }
+    const t = T[i], row = { l: t.l, s: "läuft" }; RUN.log.unshift(row); RUN.cur = t.l; RUN.ph = "Suche"; swPaint(); beat();
+    try { const n = await sweepOne(t, run, dry, fok); row.s = n ? nNew(n) : "nichts Neues"; row.n = n; RUN.added += n; errs = 0; }
+    catch (e) {
+      const c = (e && e.code) || "";
+      /* no answer in time (often: phone locked, app in the background): try this target once more, then stop so the run can be continued here */
+      if (c === "timeout" && !t.again) { t.again = 1; RUN.log.shift(); i--; continue; }
+      row.s = swErr(e); row.e = 1;
+      if (FATAL.includes(c) || c === "timeout" || ++errs >= 5) { fatal = c ? e : { code: "", message: "fünf Fehler in Folge" }; break; }
+    }
+    RUN.done = i + 1; RUN.ph = "";
     swPaint();
     await sleep(400);
   }
-  const text = fatal ? "" : dry ? "Selbsttest bestanden: Suche und Auswertung antworten. Gefundene Einträge (nicht gespeichert): " + RUN.added + "." : RUN.added + " neue Einträge aus " + RUN.done + " von " + T.length + " Zielen" + (RUN.stop ? " (abgebrochen)" : "") + ".";
-  const fin = fatal ? { state: "error", run, scope, startedAt, finishedAt: new Date().toISOString(), error: swErr(fatal) + (RUN.added ? " Bis dahin " + RUN.added + " neue Einträge gespeichert." : ""), by: "Seite" }
-    : { state: "done", run: dry ? D.desk.sweep.n : run, scope, startedAt, finishedAt: new Date().toISOString(), by: "Seite", summary: { aussagen: RUN.added, text } };
+  clearInterval(timer); wake(false); RUN.beat = null; RUN.ph = "";
+  if (lost) { RUN.on = false; RUN.cur = ""; SW.msg = "Ein anderer Lauf hat übernommen. Dieser Lauf wurde hier beendet; gefundene Einträge bleiben erhalten."; swPaint(); return; }
+  const open = !dry && RUN.done < T.length, stopped = RUN.stop && open;
+  const text = fatal ? "" : dry ? "Selbsttest bestanden: Suche und Auswertung antworten. Gefundene Einträge (nicht gespeichert): " + RUN.added + "." : nNew(RUN.added) + " aus " + RUN.done + " von " + T.length + " Zielen" + (stopped ? " (abgebrochen)" : "") + ".";
+  const fin = fatal ? { ...base(), state: "error", finishedAt: new Date().toISOString(), code: fatal.code || "fehler", error: swErr(fatal) + (RUN.added ? " Bis dahin " + nNew(RUN.added) + " gespeichert." : "") + (open && RUN.done > 0 && SW.db ? " Der Lauf lässt sich fortsetzen." : "") }
+    : { ...base(), state: "done", run: dry ? D.desk.sweep.n : run, finishedAt: new Date().toISOString(), summary: { aussagen: RUN.added, text }, ...(stopped ? { stopped: true } : {}) };
   await setSt(fin);
   if (!SW.live) SW.st = fin;
-  SW.msg = (fatal ? swErr(fatal) : text) + (RUN.nodb && RUN.added ? " Die Datenbank war nicht erreichbar: Die Einträge gelten nur bis zum Neuladen." : "");
+  SW.msg = (fatal ? fin.error : text) + (RUN.nodb && RUN.added ? " Die Datenbank war nicht erreichbar: Die Einträge gelten nur bis zum Neuladen." : "");
   RUN.on = false; RUN.cur = "";
   if (RUN.added && !dry) { D.desk.sweep.last = TODAY; buildNav(); route(true); } else swPaint();
 }
+function swCont(small) {
+  const b = h("button", { class: "btn btn-p" + (small ? " btn-s" : ""), type: "button", onclick: () => runSweep(true) });
+  const paint = () => { const s = swResume(); b.hidden = !s; if (s) b.textContent = "Fortsetzen ab Ziel " + ((s.done || 0) + 1) + " von " + s.total; };
+  SW.paint.add(paint); paint();
+  return b;
+}
 function swButton(small, keep) {
   const b = h("button", { class: "btn btn-p" + (small ? " btn-s" : ""), type: "button" });
-  const paint = () => { const busy = swBusy(), armed = SW.arm > Date.now(); b.disabled = busy; b.textContent = busy ? "Sweep läuft" : armed ? "Bestätigen: " + state.scope + " starten" : "Sweep starten"; b.classList.toggle("armed", armed && !busy); };
+  const paint = () => { const busy = swBusy(), armed = SW.arm > Date.now(); b.disabled = busy; b.textContent = busy ? "Sweep läuft" : armed ? "Bestätigen: " + state.scope + " starten" : swResume() ? "Neu starten" : "Sweep starten"; b.classList.toggle("armed", armed && !busy); b.classList.toggle("btn-p", !swResume() || armed); };
   b.addEventListener("click", () => {
     if (swBusy()) return;
     if (SW.arm > Date.now()) { SW.arm = 0; runSweep(); }
@@ -206,7 +277,7 @@ function swLog() {
   return el;
 }
 function swBox(big) {
-  const el = h("div", { class: "sw" + (big ? " sw-big" : ""), role: "status", "aria-live": "polite" }), btn = big ? null : swButton(true), more = h("a", { class: "btn btn-s", href: "#sweep" }, "Verlauf");
+  const el = h("div", { class: "sw" + (big ? " sw-big" : ""), role: "status", "aria-live": "polite" }), btn = big ? null : swButton(true), cont = big ? null : swCont(true), more = h("a", { class: "btn btn-s", href: "#sweep" }, "Verlauf");
   const paint = () => {
     const s = swState(), stale = dayDiff(TODAY, D.desk.asOf);
     put(el, h("i", { class: "sw-dot " + s.k, "aria-hidden": "true" }),
@@ -215,7 +286,7 @@ function swBox(big) {
         s.k === "ok" && stale > 2 ? h("span", { class: "sw-m" }, "Die Daten sind " + stale + " Tage alt.") : null,
         big && !SW.live ? h("span", { class: "sw-m dim" }, SW.tried ? "Die Datenbank des Artefakts ist in dieser Ansicht nicht verfügbar." : "Verbindung zur Datenbank wird aufgebaut.") : null),
       s.fresh ? h("button", { class: "btn btn-s btn-p", type: "button", onclick: () => location.reload() }, "Neue Daten laden") : null,
-      big ? null : s.k === "run" ? more : btn);
+      big ? null : s.k === "run" ? more : [cont, btn]);
   };
   SW.paint.add(paint); paint();
   return el;

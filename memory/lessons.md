@@ -32,3 +32,4 @@
 | Laufnummer | Lauf = max(`desk.sweep.n` der Dateien, höchste `sw` in `stm` und `tl`, höchste `run` in `files`) + 1; Seiten-Sweep und Weg B zählen nur in der Datenbank. | 2026-11-23 |
 | Prüfen | Vor dem Schreiben die Seite lokal bauen (`src/build.py` in den Scratchpad) und alle Routen mit Playwright (Node) durchlaufen; Python-Playwright fehlt in der Sitzung. Nach jeder Änderung an einem Bau-Skript die Ausgabe lesen, bevor weitergebaut wird. | 2026-11-23 |
 | Wortwahl | Keine unbelegten Superlative („Rekord“), wenn die Daten nur sechs Monate zeigen. | 2026-11-21 |
+| Status | Ein Seiten-Sweep (`by:"Seite"`) läuft nur, wenn `beat` jünger als 5 Minuten ist; sonst ist er unterbrochen und der Agent darf beginnen. Der Agent schreibt `by:"Agent"`; ein noch laufender Seiten-Sweep gibt dann von selbst ab. `sweep/plan` gehört der Seite: nicht ändern. | 2026-11-23 |

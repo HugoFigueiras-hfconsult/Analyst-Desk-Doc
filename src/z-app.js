@@ -92,4 +92,5 @@ const booted = boot();
   await booted;
   if (D.desk && await loadDb()) { buildNav(); route(true); }
   swPaint();
+  setInterval(() => { if (!RUN.on) swPaint(); }, 15000);
 })();

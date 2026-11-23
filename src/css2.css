@@ -2,7 +2,7 @@
 /* gold-standard pass: back navigation, reactions, rotation, sweep */
 .back{border:0;color:var(--accent);font-weight:500}
 .back:hover{color:#ffa14f}
-#back[hidden]{display:none}
+[hidden]{display:none!important}
 .tab[aria-current="page"]{border-color:var(--accent);color:var(--ink);background:rgba(255,138,42,.10)}
 a.tab:hover{border-color:var(--accent);color:var(--ink)}
 .stm-o{margin-left:auto;font:500 10.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);border:0;white-space:nowrap}

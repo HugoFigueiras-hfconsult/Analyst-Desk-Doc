@@ -30,7 +30,6 @@
 | Bündel aus `memory/pending/data` (Lauf 6) als Dateien veröffentlichen, damit die Überlagerungen in der Datenbank klein bleiben: derzeit 9 Dokumente in `files` mit zusammen rund 180 KiB | bei Bedarf |
 | Netzfreigabe für `query1.finance.yahoo.com` in der Umgebung der geplanten Aufgabe, sonst keine neuen Kurse (zwei Läufe ohne Kurse) | wartet auf Hugo |
 | Geplante Aufgabe: Zeitplan läuft (Lauf 6 startete am 23.11. um 07:16 Uhr von selbst und lief ohne Rückfragen durch) | erledigt |
-| `agent/auftrag.md` Schritt 0 verlangt noch `mcp__claude-artifacts__*` und sagt »sonst Lauf beenden«; in der geplanten Sitzung gilt Weg B mit `Artifact` und `ArtifactData`. Schritt 0 und 2 daran anpassen | offen |
 | Befund zur Sitzung der geplanten Aufgabe (23.11.): Repo ja, Artefakt lesen ja, Datenbank ja (Stapel bis 50 Schreibvorgänge), Parallel Search ja, Forks ja; Dateien veröffentlichen nein, Yahoo nein | bekannt |
 | Idee für die Seite: Bei Weg B erscheinen korrigierte Bestandseinträge als »neu im letzten Sweep«, weil `stm`-Dokumente `sw` = Lauf brauchen (Lauf 6: 13 von 51). Vorschlag: Feld für Korrekturen auswerten | Idee |
 | Idee für die Seite: Nach einem Lauf über Weg B gibt es keinen Hinweis »Neue Daten laden« (Status ohne `version`); mit `version` bliebe der Knopf dauerhaft stehen | Idee |

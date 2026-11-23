@@ -36,8 +36,9 @@ Felder der Datendateien: Tabelle „Felder“ in `agent/auftrag.md`. Hier nur, w
 
 | Pfad | Inhalt | Schreibt |
 |---|---|---|
-| `sweep/status` | `{state: running/done/error, run, scope, startedAt, finishedAt, step, by, version?, summary{aussagen,text}, error}` | Seite, Agent |
-| `stm/<id>` | Aussage aus Seiten-Sweep: Felder wie statements plus `srcN`, `srcU`, `at`; `id` = `w<lauf>-<kopf>-<nr>` | Seite |
+| `sweep/status` | `{state: running/done/error, run, scope, startedAt, finishedAt, step, by, version?, summary{aussagen,text}, error}`; Seite zusätzlich `{fokus, beat, done, total, added, wo, tok, stopped?, code?}` (`tok` = Kennung der laufenden Ansicht) | Seite, Agent |
+| `sweep/plan` | Zielliste des letzten Seiten-Sweeps für „Fortsetzen“: `{run, startedAt, keys[]}`, Schlüssel `st:<story>` oder `p:<kopf>` | Seite |
+| `stm/<id>` | Aussage aus Seiten-Sweep: Felder wie statements plus `srcN`, `srcU`, `at`; `id` = `w<lauf>-<kopf>-<kennung><nr>` (Kennung: 3 Zeichen je Start, damit Fortsetzungen nichts überschreiben; bis Lauf 7 ohne Kennung) | Seite |
 | `tl/<id>` | Story-Ereignis: `{st, d, t, srcN, srcU, sw, at}` | Seite |
 
 | `files/<name>` | ganze Datei als Überlagerung: `{run, at, data}`; name = people, moves, stories, scenarios, desk, prices, kb, calls, calendar, agent; höchstens 250 KiB | Agent |

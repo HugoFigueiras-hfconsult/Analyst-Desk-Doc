@@ -331,7 +331,7 @@ Object.assign(VIEWS, {
         swBox(true),
         h("div", { class: "sub-h" }, "Umfang"), scopeEl,
         h("label", { style: "display:block;margin-top:10px" }, h("span", { class: "sr" }, "Fokus"), h("input", { class: "inp", type: "text", placeholder: "Optionaler Fokus, zum Beispiel: Nvidia-Zahlen, Fed-Sitzung", value: state.fokus, oninput: e => { state.fokus = e.target.value; paint(); } })),
-        h("div", { class: "row", style: "margin-top:12px" }, swButton(false), swStop(), h("span", { class: "srow-f" }, "Zwei Klicks: starten, dann bestätigen. Der Lauf arbeitet in dieser Seite: Tab offen lassen, im Desk weiterlesen ist möglich.")),
+        h("div", { class: "row", style: "margin-top:12px" }, swCont(false), swButton(false), swStop(), h("span", { class: "srow-f" }, "Zwei Klicks: starten, dann bestätigen. Der Lauf arbeitet in dieser Seite: Tab offen lassen, im Desk weiterlesen ist möglich. Am Handy die App offen und den Bildschirm an lassen; ein unterbrochener Lauf lässt sich fortsetzen.")),
         swLog(),
         h("details", { class: "det" }, h("summary", {}, "Großer Lauf im Chat: Kurse, 13F, Kalender"),
           h("p", { class: "note" }, "Der Sweep in der Seite holt neue Aussagen und Story-Ereignisse. Kurse, 13F-Positionen, Szenarien und Kalender aktualisiert der große Lauf: als geplante Aufgabe oder mit diesem Auftrag im Chat."), order,
