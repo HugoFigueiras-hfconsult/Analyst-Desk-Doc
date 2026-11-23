@@ -40,3 +40,14 @@
 | Gold-Spot-Reihe finden | offen |
 | Kurse im Seiten-Sweep nicht möglich: großer Lauf nötig | bekannt |
 | Deutsche Stimmen ergänzen? In Lauf 5 eine aufgenommen (Reinwand, Helaba, über dpa-AFX); in Lauf 6 keine weitere | Frage an Hugo |
+
+## Aus dem Chat-Sweep vom 23.11. (Lauf 8)
+
+| Punkt | Stand |
+|---|---|
+| Unbestätigte Spur: Jensen Huang soll am 23.11. als Nvidia-Chef zurückgekehrt sein (Gelonghui/Sina zu einer Hochstufung durch Reitzes; Randspalte einer Yahoo-Zweitverwertung). Im nächsten Lauf zuerst an Primärquellen prüfen; betrifft Story `nvda` und viele Aussagen | offen, hohe Priorität |
+| Einträge `c8-…` (122) und `w8-…` (128) wie Seiteneinträge prüfen; in `w8` viele 13F-Meldungen als Aussage (Kantesaria, Coleman, Halvorsen, Klarman, Englander) | offen |
+| Verworfen wegen schwacher Quelle, bei besserem Beleg nachtragen: Krishna (Barclays-Ziel 8.700, »Chips and Dips«), Niles (Yahoo-Finance-Gespräch um den 09.11.), Kuo (TPU-Bestellungen bis 2029), Reitzes 23.11., Mahaney (Tausch Netflix/Spotify), Mortier zu Anthropic, Chronert bei Fox Business 18.11. | offen |
+| Nicht zugeordnet: Deutsche Bank S&P-Ziel 9.000 für Ende 2027 (Reuters 23.11., Chadha nicht genannt); Subramanians Ziel 7.800 ungeprüft | offen |
+| Bessent: CNBC Squawk Box am 13.11. als `c8-bessent-0` eingetragen; `r6-33` (20.11.) ist ein späterer Auftritt mit ähnlicher Aussage, Datum gegenprüfen | offen |
+| Ohne belegten Fund am 23.11.: Greg Davis, Bert Flossbach, Ben Snider, Sharon Bell, Savita Subramanian, Venu Krishna, Gerry Fowler, Marko Kolanovic, Barry Bannister, Hans Mosesmann, Dan Niles, Mark Mahaney, Ming-Chi Kuo, Mike Mayo, Betsy Graseck, Geoff Kendrick, Christopher Waller, John Williams, Kristalina Georgieva, Fatih Birol, Ted Pick, Colette Kress, Satya Nadella, Sundar Pichai, Mark Zuckerberg, C.C. Wei, Barbara Corcoran, Robert Herjavec, Daymond John, Lori Greiner, Mike Novogratz, Andrei Jikh | nächster voller Lauf |

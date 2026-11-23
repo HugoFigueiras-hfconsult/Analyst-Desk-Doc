@@ -46,3 +46,13 @@ Ablauf: `AGENT.md` und `agent/auftrag.md`. Umfang über Zusatzzeile „Umfang: K
 | Keine Antwort innerhalb der Wartezeit | Suche oder Auswertung antwortet nicht, oft weil die Seite angehalten war | fortsetzen |
 | Ein anderer Lauf hat übernommen | Lauf wurde in anderer Ansicht fortgesetzt oder der Agent hat begonnen | nichts; Gefundenes bleibt |
 | Datenbank nicht erreichbar | `db` fehlt in der Ansicht | Einträge gelten bis zum Neuladen |
+
+## Chat-Sweep mit parallelen Agenten
+
+| Punkt | Inhalt |
+|---|---|
+| Wann | Auf Zuruf im Chat, wenn ein Lauf ohne Gerät und ohne das Limit des Seiten-Sweeps durchlaufen soll |
+| Ablauf | Köpfe in Pakete zu 14 bis 18 teilen → je Paket ein Agent nach `agent/chat-sweep/auftrag-suchagent.md` → JSON je Agent → `agent/chat-sweep/pruefen.py` (Schema, Fenster, 13F, Zitatlänge, Doppel) → Hauptlauf liest jede Zeile und streicht → `stm/c8-<kopf>-<n>` in die Datenbank → `sweep/status` done, by Chat |
+| Während des Laufs | `sweep/status` running, by Chat: Die Seite sperrt dann Start und Fortsetzen |
+| Suche | Parallel Search, 1 Suche je Kopf und eigene `session_id` je Agent; die eingebaute WebSearch taugt in Agenten nicht (nur Titel, Kontingent 200) |
+| Aufwand am 23.11. | 98 Köpfe, 11 Suchagenten und 1 Schreibagent, rund 110 Minuten, 122 Einträge |
