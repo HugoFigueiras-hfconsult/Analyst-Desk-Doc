@@ -33,3 +33,4 @@
 | Prüfen | Vor dem Schreiben die Seite lokal bauen (`src/build.py` in den Scratchpad) und alle Routen mit Playwright (Node) durchlaufen; Python-Playwright fehlt in der Sitzung. Nach jeder Änderung an einem Bau-Skript die Ausgabe lesen, bevor weitergebaut wird. | 2026-11-23 |
 | Wortwahl | Keine unbelegten Superlative („Rekord“), wenn die Daten nur sechs Monate zeigen. | 2026-11-21 |
 | Status | Ein Seiten-Sweep (`by:"Seite"`) läuft nur, wenn `beat` jünger als 5 Minuten ist; sonst ist er unterbrochen und der Agent darf beginnen. Der Agent schreibt `by:"Agent"`; ein noch laufender Seiten-Sweep gibt dann von selbst ab. `sweep/plan` gehört der Seite: nicht ändern. | 2026-11-23 |
+| Suche | Parallel Search ohne Konto ist gedrosselt: nach rund 80 Suchen in wenigen Minuten lehnt der Connector ab. Viele Suchen über die Zeit verteilen; bei Ablehnung warten und dieselbe Suche wiederholen, nicht überspringen. | 2026-11-23 |

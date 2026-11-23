@@ -7,7 +7,7 @@ MOCK = """
    onSnapshot: cb => { (subs.get(p) || subs.set(p, []).get(p)).push(cb); fire(p); return () => {}; } });
  const db = { doc: docRef, collection: p => ({ limit() { return this; }, get: async () => ({ docs: [...store.entries()].filter(([k]) => k.startsWith(p + '/')).map(([k, v]) => ({ id: k.split('/')[1], data: () => v })) }) }) };
  window.__n = 0; window.__mode = 'ok'; window.__hangFrom = 1e9;
- const mcp = { callTool: (s, t, i) => { const n = ++window.__n; if (window.__mode === 'hang' && n >= window.__hangFrom) return new Promise(() => {}); return Promise.resolve({ payload: { search_id: 'x', results: [{ url: 'https://example.com/' + n, title: 'Titel ' + n, publish_date: today, excerpts: ['Auszug eins', 'Auszug zwei'] }] } }); } };
+ const mcp = { callTool: (s, t, i) => { const n = ++window.__n; if (window.__mode === 'hang' && n >= window.__hangFrom) return new Promise(() => {}); if (window.__mode === 'thr' && n >= window.__thrFrom && n < window.__thrTo) return Promise.reject({ code: 'upstream_error', retryable: true, retryAfterMs: 20, message: 'HTTP 429' }); return Promise.resolve({ payload: { search_id: 'x', results: [{ url: 'https://example.com/' + n, title: 'Titel ' + n, publish_date: today, excerpts: ['Auszug eins', 'Auszug zwei'] }] } }); } };
  const sample = async p => { const u = (p.match(/https:\\/\\/example\\.com\\/\\d+/) || [''])[0]; if (/Zeitleiste der Markt-Story/.test(p.slice(0, 80))) return { text: JSON.stringify({ items: [{ d: today, t: 'Testereignis ' + u + ' zur Story mit einer Zahl von 123 Punkten im Probelauf.', url: u }] }) };
    return { text: JSON.stringify({ items: [{ d: today, da: 0, k: 'Interview', s: 'bull', a: ['NVDA'], ar: ['semis'], st: ['nvda'], th: ['Halbleiter'], lv: '', t: 'Testaussage ' + u + ' aus dem Probelauf mit ausreichender Länge für die Prüfung.', url: u }] }) }; };
  if (window.__seed) Object.entries(window.__seed).forEach(([k, v]) => store.set(k, v));
@@ -107,6 +107,40 @@ async def main():
         end = await pg.evaluate(ST); r = await pg.evaluate("[RUN.on, SW.msg]")
         chk("Status vom Handy trägt wo", a["wo"] == "Handy", a)
         chk("aufgewachte Seite überschreibt nichts und gibt ab", end["tok"] == "anderer" and end["done"] == 9 and not r[0] and "übernommen" in (r[1] or ""), (end, r))
+        # 6 the search refuses requests (free-tier limit): pause and retry the same head, nothing is skipped
+        pg, errs = await page(b)
+        total = await pg.evaluate("sweepTargets('Kurz').length")
+        await pg.evaluate("WAITS.splice(0, WAITS.length, 300, 300, 300); __mode = 'thr'; __thrFrom = 5; __thrTo = 9; state.scope = 'Kurz'; void runSweep()")
+        await pg.wait_for_timeout(2500)
+        mid = await pg.evaluate(ST); ui = await pg.evaluate("[swState().t, swState().sub, RUN.log[0].s]")
+        chk("Pause sichtbar in Status und Seite", mid["state"] == "running" and "Pause bis" in mid["step"] and mid["done"] == 4 and "Pause bis" in ui[1] and ui[2] == "Pause", (mid, ui))
+        chk("Lauf läuft nach der Pause durch", await wait(pg, 120))
+        s7 = await pg.evaluate(ST); r7 = await pg.evaluate("[RUN.done, RUN.total, RUN.log.filter(r => r.e).length, RUN.log.length, [...window.__store.keys()].filter(k => /^(stm|tl)\\//.test(k)).length]")
+        chk("kein Kopf übersprungen", s7["state"] == "done" and s7["done"] == total and r7[2] == 0 and r7[3] == total and r7[4] == total, (s7, r7))
+        chk("keine Seitenfehler (6a)", not errs, errs[:4]); await pg.close()
+        pg, errs = await page(b)
+        await pg.evaluate("WAITS.splice(0, WAITS.length, 300, 300); __mode = 'thr'; __thrFrom = 4; __thrTo = 1e9; state.scope = 'Kurz'; void runSweep()")
+        chk("Dauerhafte Sperre: Lauf stoppt nach den Pausen", await wait(pg, 60))
+        s8 = await pg.evaluate(ST); r8 = await pg.evaluate("[!!swResume(), SW.msg, RUN.log[0].s]")
+        chk("Stopp am gesperrten Ziel, fortsetzbar, klare Meldung", s8["state"] == "error" and s8["code"] == "upstream_error" and s8["done"] == 3 and r8[0] and "Anfragelimit" in r8[1] and "fortsetzen" in r8[1], (s8, r8))
+        await pg.evaluate("__mode = 'ok'; void runSweep(true)")
+        chk("Fortsetzung nach der Sperre läuft durch", await wait(pg, 90))
+        s9 = await pg.evaluate(ST)
+        chk("alle Ziele erledigt", s9["state"] == "done" and s9["done"] == total and s9["added"] == total, s9)
+        chk("keine Seitenfehler (6b)", not errs, errs[:4]); await pg.close()
+        pg, errs = await page(b)
+        await pg.evaluate("WAITS.splice(0, WAITS.length, 60000); __mode = 'thr'; __thrFrom = 3; __thrTo = 1e9; state.scope = 'Kurz'; void runSweep()")
+        await pg.wait_for_timeout(2500); await pg.evaluate("RUN.stop = true")
+        chk("Abbrechen während der Pause", await wait(pg, 10))
+        s10 = await pg.evaluate(ST)
+        chk("abgebrochen und fortsetzbar", s10["state"] == "done" and s10.get("stopped") and s10["done"] == 2, s10)
+        # five other failures in a row: stop and go back to the first of them
+        await pg.close(); pg, errs = await page(b)
+        await pg.evaluate("__thrFrom = 4; __thrTo = 1e9; __mode = 'thr'; const o = SW.mcp.callTool; SW.mcp = { callTool: (...a) => o(...a).catch(e => { throw { code: 'tool_error', message: 'kaputt' }; }) }; state.scope = 'Kurz'; void runSweep()")
+        chk("fünf Fehler in Folge beenden den Lauf", await wait(pg, 60))
+        s11 = await pg.evaluate(ST)
+        chk("zurück auf das erste gescheiterte Ziel", s11["state"] == "error" and s11["code"] == "tool_error" and s11["done"] == 3, s11)
+        chk("keine Seitenfehler (6c)", not errs, errs[:4]); await pg.close()
         await b.close()
     print("ALLE BESTANDEN" if ok else "FEHLER")
 asyncio.run(main())

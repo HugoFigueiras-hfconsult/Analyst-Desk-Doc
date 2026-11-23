@@ -2,6 +2,8 @@
 const TODAY = (() => { const d = new Date(); return new Date(d.getTime() - d.getTimezoneOffset() * 6e4).toISOString().slice(0, 10); })();
 const SW = { db: null, mcp: null, st: null, live: false, tried: false, msg: null, arm: 0, paint: new Set(), keep: new Set() };
 const RUN = { on: false, stop: false, log: [], done: 0, total: 0, added: 0, n: 0, cur: "", ph: "" };
+/* THR: the search refuses for now, as a rule the request limit of the free search tier; WAITS: pauses before the same target is tried again */
+const THR = ["upstream_error", "server_unavailable", "rate_limited"], WAITS = [60000, 120000, 300000, 600000, 900000];
 const STALE = 2, TMO = { s: 45000, a: 90000 }, MOB = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
 const fmtT = iso => { const d = new Date(iso); return isNaN(d) ? "" : d.toLocaleString("de-DE", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }) + " Uhr"; };
 const mins = iso => iso ? (Date.now() - Date.parse(iso)) / 6e4 : 1e9;
@@ -43,13 +45,13 @@ function swErr(e) {
   if (["not_in_manifest", "not_granted", "approval_required", "consent_required"].includes(c)) return "Der Start braucht deine Freigabe für »" + n + "« und für Claude. Noch einmal starten und die Abfrage erlauben.";
   if (c === "needs_reauth") return "»" + n + "« muss in den Claude-Einstellungen neu verbunden werden.";
   if (c === "blocked_by_policy") return "Die Richtlinien deiner Organisation blockieren »" + n + "« für diese Seite.";
-  if (c === "rate_limited") return "Zu viele Anfragen in kurzer Zeit. Der Lauf wurde angehalten; später mit kleinerem Umfang erneut starten.";
+  if (c === "rate_limited") return "Zu viele Anfragen in kurzer Zeit. Die Suche nimmt gerade keine weiteren an.";
   if (c === "timeout") return "Keine Antwort innerhalb der Wartezeit (" + (e.ph || "Suche") + ").";
   if (c === "tool_error") return "Die Suche hat einen Fehler gemeldet" + (e.message ? ": " + short(String(e.message), 140) : ".");
-  if (["server_unavailable", "upstream_error"].includes(c)) return "Die Suche ist gerade nicht erreichbar.";
+  if (["server_unavailable", "upstream_error"].includes(c)) return "Die Suche nimmt gerade keine Anfragen an. Meist ist nach vielen Suchen in kurzer Zeit das Anfragelimit der kostenlosen Suche erreicht.";
   return "Fehler" + (c ? " (" + c + ")" : "") + (e && e.message && !c ? ": " + short(String(e.message), 120) : ".");
 }
-const FATAL = ["no_mcp", "no_sample", "capability_disabled", "capability_removed", "server_not_connected", "selection_required", "server_not_found", "not_in_manifest", "not_granted", "approval_required", "consent_required", "needs_reauth", "blocked_by_policy", "rate_limited"];
+const FATAL = ["no_mcp", "no_sample", "capability_disabled", "capability_removed", "server_not_connected", "selection_required", "server_not_found", "not_in_manifest", "not_granted", "approval_required", "consent_required", "needs_reauth", "blocked_by_policy"];
 
 /* targets: stories first, then heads in roster order, Leitfiguren first */
 function sweepTargets(scope) {
@@ -187,7 +189,7 @@ async function runSweep(cont) {
   const sid = Array.from({ length: 32 }, () => Math.floor(Math.random() * 16).toString(16)).join("");
   Object.assign(RUN, { on: true, stop: false, log: [], done: 0, total: 0, added: old ? old.added || 0 : 0, n: run, cur: "", ph: "", nodb: false, sid, beat: null });
   SW.msg = null; swPaint();
-  let T = sweepTargets(scope), skip = 0, fatal = null, errs = 0, lost = false, own = false, last = 0;
+  let T = sweepTargets(scope), skip = 0, fatal = null, errs = 0, first = 0, lost = false, own = false, last = 0;
   if (old) {
     try { const g = await limit(8000, SW.db.doc("sweep/plan").get()), pd = g && (typeof g.data === "function" ? g.data() : g.data); if (pd && pd.startedAt === startedAt && Array.isArray(pd.keys)) T = pd.keys.map(tOf).filter(Boolean); } catch (e) { /* Zielliste neu bilden */ }
     skip = Math.min(old.done || 0, T.length);
@@ -223,8 +225,18 @@ async function runSweep(cont) {
       const c = (e && e.code) || "";
       /* no answer in time (often: phone locked, app in the background): try this target once more, then stop so the run can be continued here */
       if (c === "timeout" && !t.again) { t.again = 1; RUN.log.shift(); i--; continue; }
+      /* the search refuses for now: pause, then the same target again; the pauses grow, after the last one the run stops and can be continued */
+      if (THR.includes(c) && (t.wait = (t.wait || 0) + 1) <= WAITS.length) {
+        const ms = WAITS[t.wait - 1];
+        row.s = "Pause"; RUN.ph = "Pause bis " + new Date(Date.now() + ms).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) + " Uhr, die Suche nimmt gerade keine Anfragen an"; swPaint(); beat(true);
+        for (const end = Date.now() + ms; Date.now() < end && !RUN.stop && !taken();) await sleep(2000);
+        RUN.log.shift(); i--; continue;
+      }
       row.s = swErr(e); row.e = 1;
-      if (FATAL.includes(c) || c === "timeout" || ++errs >= 5) { fatal = c ? e : { code: "", message: "fünf Fehler in Folge" }; break; }
+      if (!errs++) first = i;
+      if (FATAL.includes(c) || c === "timeout" || THR.includes(c)) { fatal = e; break; }
+      /* five failures in a row: stop and go back to the first of them, so that continuing tries them again */
+      if (errs >= 5) { fatal = c ? e : { code: "", message: "fünf Fehler in Folge" }; RUN.done = first; break; }
     }
     RUN.done = i + 1; RUN.ph = "";
     swPaint();
