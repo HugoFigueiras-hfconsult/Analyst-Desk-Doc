@@ -1,0 +1,2 @@
+# Neue Instrumente für den Kurs-Workflow, eine Zeile je Instrument: KEY=YAHOO|Name|Basis|Einheit|TradingView-Symbol
+# Zeilen mit # und leere Zeilen zählen nicht. Schon vorhandene Schlüssel werden übersprungen.

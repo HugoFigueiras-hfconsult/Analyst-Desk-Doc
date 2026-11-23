@@ -26,7 +26,7 @@ Schritte 0 bis 10 aus `agent/auftrag.md`. Zusätzlich:
 | Meinungswechsel | `chg.a` = genau der betroffene Wert |
 | Veröffentlichen | Ohne `publish_files` (geplante Aufgabe): Weg B über die Datenbank, siehe `agent/auftrag.md` Schritt 8. Vollständigen Dateisatz zusätzlich nach `memory/pending/data`. |
 | Zeiten | `startedAt` und `finishedAt` mit `date -u` bestimmen, nicht schätzen |
-| Kurse | Ist Yahoo gesperrt: alte Kurse behalten und vermerken |
+| Kurse | Ist Yahoo gesperrt: Kurse aus dem Zweig `kurse` übernehmen (`agent/auftrag.md` Schritt 4) und mit `files/prices` und `desk.pxAsOf` veröffentlichen. Nur wenn auch der Zweig veraltet ist: alte Kurse behalten und vermerken |
 
 ## 3 Gedächtnis schreiben (Pflicht, auch bei Abbruch)
 

@@ -4,8 +4,6 @@
 
 | Punkt | Stand |
 |---|---|
-| Kurse neu ziehen: Yahoo war in Lauf 5 und 6 gesperrt; Stand Schluss 20.11., Bitcoin 21.11. | offen |
-| Brent-Reihe prüfen: 20.11. laut Yahoo 89,95 $, laut Reuters 92,57 $ | offen |
 | Montag, 23.11., nachziehen: Wochennotiz von Wilson, Siegel-Kommentar (WisdomTree), 8-K von Strategy, Rede von Williams (22:00 MEZ), ARK-Handel, Zahlen von HPE; vorläufige Einkaufsmanagerindizes | offen |
 | Nvidia: 10-Q (laut MLQ.ai Frist 4.12.) und Antworten an Bessent (fällig um den 25. bis 27.11.) | offen |
 | Mögliche Doppel im Bestand prüfen: `w4-williams-0` und `w4-williams-1` (Axios-Veranstaltung 17.11.), `w4-arcuri-0` und `w4-arcuri-1` (UBS-Notiz 18.11.), `r5-22` und `r6-35` (Rosenberg 20.11.) | offen |
@@ -28,7 +26,6 @@
 | Punkt | Stand |
 |---|---|
 | Bündel aus `memory/pending/data` (Lauf 6) als Dateien veröffentlichen, damit die Überlagerungen in der Datenbank klein bleiben: derzeit 9 Dokumente in `files` mit zusammen rund 180 KiB | bei Bedarf |
-| Netzfreigabe für `query1.finance.yahoo.com` in der Umgebung der geplanten Aufgabe, sonst keine neuen Kurse (zwei Läufe ohne Kurse) | wartet auf Hugo |
 | Geplante Aufgabe: Zeitplan läuft (Lauf 6 startete am 23.11. um 07:16 Uhr von selbst und lief ohne Rückfragen durch) | erledigt |
 | Befund zur Sitzung der geplanten Aufgabe (23.11.): Repo ja, Artefakt lesen ja, Datenbank ja (Stapel bis 50 Schreibvorgänge), Parallel Search ja, Forks ja; Dateien veröffentlichen nein, Yahoo nein | bekannt |
 | Idee für die Seite: Bei Weg B erscheinen korrigierte Bestandseinträge als »neu im letzten Sweep«, weil `stm`-Dokumente `sw` = Lauf brauchen (Lauf 6: 13 von 51). Vorschlag: Feld für Korrekturen auswerten | Idee |

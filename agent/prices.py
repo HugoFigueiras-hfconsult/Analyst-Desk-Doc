@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """Analyst Desk: Kursdaten neu ziehen (Yahoo Finance, Tagesschluss, 6 Monate).
 Aufruf: python3 prices.py <data-ordner> [--add KEY=YAHOO|Name|Basis|Einheit|TradingView ...]
+        python3 prices.py <data-ordner> --stand    (nur Stand der vorhandenen Datei ausgeben, kein Abruf)
 Liest <data-ordner>/prices.json (Serien mit Feld y = Yahoo-Symbol), zieht jede Serie neu,
-verwirft den laufenden, noch nicht geschlossenen Handelstag und schreibt prices.json zurueck.
+verwirft den laufenden Handelstag, solange weniger als 90 % der Sitzung vorbei sind, und schreibt
+prices.json zurueck. Fehlt nach Handelsschluss der Schluss im Tagesbalken, gilt der letzte Kurs aus meta.
 Schlaegt ein Abruf fehl, bleibt die alte Serie stehen. Exit 1, wenn mehr als ein Drittel fehlschlaegt."""
 import json, subprocess, sys, time, datetime as dt, os
 d = sys.argv[1]; path = os.path.join(d, "prices.json")
 old = json.load(open(path, encoding="utf-8"))
 ser = old["s"]
+if "--stand" in sys.argv:
+    ref = ser.get("SPX") or next(iter(ser.values()))
+    print("STAND fetched=%s pxAsOf=%s Serien=%d" % (old.get("fetchedAt") or old.get("fetched"), old["cal"][ref["cal"]][-1], len(ser))); sys.exit(0)
 def tail(s):  # Daten zur Serie
     cal = old["cal"][s["cal"]]; return cal[len(cal) - len(s["c"]):]
 for k, s in ser.items(): s["_t"] = tail(s)
@@ -25,7 +30,10 @@ for k, s in ser.items():
             res = json.loads(r.stdout)["chart"]["result"][0]; m = res["meta"]
             ts = res["timestamp"]; cl = res["indicators"]["quote"][0]["close"]; off = m.get("gmtoffset", 0)
             reg = (m.get("currentTradingPeriod") or {}).get("regular") or {}
-            if ts and reg and reg.get("start", 0) <= ts[-1] and now < reg.get("end", 0): ts, cl = ts[:-1], cl[:-1]  # laufender Tag
+            run = bool(ts and reg and reg.get("start", 0) <= ts[-1] and now < reg.get("end", 0))
+            if run and (now - reg["start"]) / max(1, reg["end"] - reg["start"]) < 0.9: ts, cl = ts[:-1], cl[:-1]  # laufender Tag
+            elif ts and cl[-1] is None and not run and m.get("regularMarketPrice") and (m.get("regularMarketTime", 0) + off) // 86400 == (ts[-1] + off) // 86400:
+                cl = cl[:-1] + [m["regularMarketPrice"]]  # Schluss steht noch nicht im Balken
             pts = [(dt.datetime.fromtimestamp(t + off, dt.timezone.utc).strftime("%Y-%m-%d"), c) for t, c in zip(ts, cl) if c is not None and c > 0]
             break
         except Exception:
