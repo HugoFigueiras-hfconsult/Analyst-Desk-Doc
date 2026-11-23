@@ -1,0 +1,44 @@
+# Zieht täglich die Kurse (Yahoo) und legt sie im Zweig "kurse" ab.
+# Die geplante Aufgabe "Analyst Desk Sweep" kann Yahoo nicht erreichen und übernimmt die Datei von dort.
+name: Kurse
+on:
+  schedule:
+    - cron: '30 4 * * *'   # 05:30 MEZ, 06:30 MESZ: vor dem Morgenlauf um 07:15
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: kurse
+jobs:
+  kurse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Kurse ziehen
+        run: |
+          set -e
+          mkdir -p /tmp/k
+          git fetch -q origin kurse
+          git show FETCH_HEAD:prices.json > /tmp/k/prices.json
+          ADD=()
+          if [ -f memory/kurse-add.txt ]; then
+            while IFS= read -r l; do case "$l" in ''|'#'*) ;; *) ADD+=(--add "$l");; esac; done < memory/kurse-add.txt
+          fi
+          cp agent/prices.py /tmp/prices.py
+          python3 /tmp/prices.py /tmp/k "${ADD[@]}" || { sleep 90; python3 /tmp/prices.py /tmp/k "${ADD[@]}"; }
+          python3 /tmp/prices.py /tmp/k --stand | tee /tmp/STAND.txt
+      - name: Zweig kurse ersetzen
+        run: |
+          set -e
+          git config user.name "kurse-bot"
+          git config user.email "kurse-bot@users.noreply.github.com"
+          git checkout -q --orphan kurse-neu
+          git rm -rfq .
+          git clean -fdxq
+          cp /tmp/k/prices.json prices.json
+          cp /tmp/STAND.txt STAND.txt
+          git add prices.json STAND.txt
+          git commit -qm "Kurse: $(cat STAND.txt)"
+          git push -f origin kurse-neu:kurse

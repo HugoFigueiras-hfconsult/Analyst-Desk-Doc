@@ -21,7 +21,7 @@
 | Eine Seite kann keine Claude-Sitzung starten | Knopf startet den Sweep in der Seite |
 | Seiten-Sweep läuft nur im geöffneten, wachen Tab; am Handy hält das System die Seite an | Lebenszeichen, Wartezeiten und „Fortsetzen“ (`docs/sweep.md`) |
 | `sample` hat kein Netz | Suche über Connector |
-| Geplante Aufgabe erreicht Yahoo nicht (Netzrichtlinie) | Der Lauf übernimmt `prices.json` aus dem Zweig `kurse` (`agent/auftrag.md` Schritt 4). Stand 24.11.: Zweig vom Chat gefüllt (Schluss 23.11.). Täglich nachfüllen soll ein GitHub-Workflow (04:30 UTC, ein Commit, wird jedes Mal ersetzt); er ist vorbereitet und wartet auf Hugos Freigabe. Alternative: Netzfreigabe für `query1.finance.yahoo.com` in der Umgebung der Aufgabe. Neue Instrumente: `memory/kurse-add.txt` |
+| Geplante Aufgabe erreicht Yahoo nicht (Netzrichtlinie) | Der Lauf übernimmt `prices.json` aus dem Zweig `kurse` (`agent/auftrag.md` Schritt 4). Der GitHub-Workflow `.github/workflows/kurse.yml` füllt den Zweig täglich um 04:30 UTC (05:30 MEZ, 06:30 MESZ; auch von Hand startbar): ein Commit, der jedes Mal ersetzt wird. Von Hugo am 24.11. freigegeben. Neue Instrumente: `memory/kurse-add.txt` |
 | Connector „Parallel Search“ läuft ohne Konto in der kostenlosen Stufe mit Anfragelimit | Seiten-Sweep pausiert und setzt fort; große Umfänge dauern entsprechend länger |
 | Yahoo: keine Spot-Reihe für Gold | Future `GC=F` als GOLDF, beschriftet |
 | stooq blockiert | Yahoo-Chart-API mit User-Agent |
