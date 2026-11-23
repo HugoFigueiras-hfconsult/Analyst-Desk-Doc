@@ -8,21 +8,27 @@
 | Zuordnung | Eine Kursreaktion gehört immer zu genau dem Wert, um den es in der Aussage geht. Bei Meinungswechseln `chg.a` setzen. Im Zweifel keinen Wert zeigen: Stellvertreter (ETF, Einzelaktie), die die Aussage nicht nennt, kommen nicht in `a`. | 2026-11-22 |
 | Zuordnung | 13F-Berichte sind Positionen (`moves.json`), keine Aussagen. | 2026-11-22 |
 | Datum | Datum der Aussage, nicht des Artikels und nie der Tag des Sweeps. „On Wednesday“ im Text gegen das Artikeldatum rückrechnen; bei PDF und Präsentationen das Datum im Dokument lesen (`web_fetch`). Unsicher: `da:1`. | 2026-11-20 |
-| Quelle | Aggregatoren und Videotitel sind Sekundärquellen: im Text kennzeichnen; ohne Inhalt kein Eintrag. | 2026-11-22 |
-| Doppel | Dieselbe Rede, derselbe Gastbeitrag oder dieselbe Konferenz ergibt je Kopf und Tag einen Eintrag, auch wenn mehrere Medien berichten. | 2026-11-22 |
+| Datum | Eine Aussage kann nicht nach ihrem ersten Bericht liegen. `publish_date` der Suche ist kein Aussagedatum (liegt oft einen Tag später). X-Beiträge über die Status-ID datieren: (ID >> 22) + 1288834974657 ms, UTC. | 2026-11-23 |
+| Quelle | Aggregatoren und Videotitel sind Sekundärquellen: im Text kennzeichnen; ohne Inhalt kein Eintrag. Maschinelle Übersichten (BigGo, teahose, hangingcontext) sind kein Beleg. | 2026-11-23 |
+| Quelle | Zahlen (Bestände, Durchschnittskurse, Kursziele) aus der Primärquelle nehmen, wenn sie frei zugänglich ist: 8-K, Form 4, IR-Meldung, Notiz. | 2026-11-23 |
+| Doppel | Dieselbe Rede, derselbe Gastbeitrag oder dieselbe Konferenz ergibt je Kopf und Tag einen Eintrag, auch wenn mehrere Medien berichten. Vor dem Anlegen alle Einträge des Kopfes im Abstand von einem Tag vergleichen (Quelle, Inhalt), auch die eigenen neuen. Rede und Interview am Rand derselben Konferenz: ein Eintrag, Zusatz nur in `kb`. | 2026-11-23 |
 | Suche | Sammelanfragen über mehrere Köpfe liefern nur den lautesten. Je Kopf eine eigene Suche. | 2026-11-22 |
 | Suche | Kurz-Lauf: rund 8 Suchen für Markt, Stories und Kalender, rund 10 für Köpfe und Einzelthemen; alle unabhängigen Suchen gleichzeitig absetzen. | 2026-11-22 |
-| Preise | Kassa, Spot und Future nie mischen. Gold-Marken sind Spot, der Chart ist Future. | 2026-11-21 |
+| Suche | Standard-Lauf: Markt, Stories und Kalender im Hauptlauf (rund 13 Suchen, je rund 6.000 Token Auszug); die Köpfe in drei parallelen Forks zu 15 bis 20 Suchen. Forks schreiben JSON mit `evid` (Originalbeleg) und `pub` nach `out/` und fassen nichts an; der Hauptlauf prüft jeden Eintrag, vergibt IDs und Quellenschlüssel. Dauer rund 27 Minuten. | 2026-11-23 |
+| Preise | Kassa, Spot und Future nie mischen. Gold-Marken sind Spot, der Chart ist Future; deshalb kein Call auf XAU, solange nur die Future-Reihe vorliegt. | 2026-11-23 |
 | Preise | Tagesschluss heißt abgeschlossener Tag. Den laufenden Tag verwirft `prices.py`. | 2026-11-22 |
 | Preise | Schlusskurse von Brent und Gold in Texten gegen eine Agenturmeldung prüfen; die Yahoo-Reihe kann einen anderen Kontraktmonat zeigen. | 2026-11-22 |
 | Preise | Ist der Kursabruf gesperrt (ABBRUCH): alte Kurse behalten, Sperre nicht umgehen, in `agent.offen` und im Lauf vermerken. | 2026-11-22 |
 | Marktpreise | Fed-Wahrscheinlichkeiten immer mit Quelle, Methode und Uhrzeit; Auswertungen desselben Tages weichen stark voneinander ab. | 2026-11-22 |
-| Stories | Bei `px` rechnet der Desk KPI und aktuellen Stand selbst: nicht von Hand pflegen. Level-Einträge vor dem Anhängen auf Doppel prüfen. | 2026-11-22 |
-| Kalender | Erwartete, vom Unternehmen nicht bestätigte Zahlentermine als „erwartet“ kennzeichnen. | 2026-11-22 |
+| Stories | Bei `px` rechnet der Desk KPI und aktuellen Stand selbst: nicht von Hand pflegen. Level-Einträge vor dem Anhängen auf Doppel prüfen; ein neues Kursziel derselben Quelle ersetzt das alte in Aussage, Level und Call (alter Call bekommt eine Notiz, neuer Call dazu). | 2026-11-23 |
+| Kalender | Erwartete, vom Unternehmen nicht bestätigte Zahlentermine als „erwartet“ kennzeichnen. Vorher die IR-Seite des Unternehmens suchen: Sammelkalender laufen den Pressemitteilungen hinterher. | 2026-11-23 |
 | Calls | Zwischenstand, keine Trefferquote, solange wenige Calls abgeschlossen sind. | 2026-11-21 |
 | Ursache | Kursbewegung nach Aussage ist zeitlicher Zusammenhang. Ursache nur mit Quelle im Feld `fx`. | 2026-11-22 |
 | Veröffentlichen | Nie ohne `check.py` mit 0 Fehlern. Nur `data/*` senden, nie `index.html`. | 2026-11-22 |
 | Werkzeuge | In der Sitzung der geplanten Aufgabe fehlen `mcp__claude-artifacts__*` und damit `publish_files`. Lesen geht mit `Artifact` (`action: read`, `paths`), die Datenbank mit `ArtifactData`. Veröffentlicht wird dort über die Datenbank (Weg B in `agent/auftrag.md`): `files/<name>` für ganze Dateien, `stm/<id>` für Aussagen. Nie die Seite senden. Alte Dokumente in `stm`, `tl`, `files` nicht löschen: Der Desk ignoriert alles mit Laufnummer bis `desk.sweep.n` der Dateien. | 2026-11-22 |
-| Laufnummer | Lauf = max(`desk.sweep.n`, höchste `sw` in der Datenbank) + 1; der Seiten-Sweep zählt nur in der Datenbank. | 2026-11-22 |
-| Prüfen | Vor dem Schreiben die Seite lokal bauen (`src/build.py` in den Scratchpad) und alle Routen mit Playwright (Node) durchlaufen; Python-Playwright fehlt in der Sitzung. | 2026-11-22 |
+| Veröffentlichen | Weg B konkret: erst `stm` schreiben (mit `srcN` und `srcU` als Rückfall, `if_version` für vorhandene Dokumente aus der Liste), dann `files/<name>`; `prices` nur, wenn geändert. Danach beide Sammlungen zurücklesen, mit dem Bündel vergleichen und den Routentest mit altem Dateistand plus Datenbank fahren. Status `done` ohne `version` (sonst bleibt der Knopf »Neue Daten laden« stehen). | 2026-11-23 |
+| Korrekturen | Bestand nur ändern, wenn eine Quelle ihn widerlegt oder eine Regel verletzt ist. Im Bündel bleibt die alte `sw`, in der Datenbank steht `stm/<id>` mit `sw` = Lauf; Löschen über `{del:1, sw}`. Jede Korrektur mit Beleg in `errors.md`. | 2026-11-23 |
+| Handel | Bei ARK vor dem Datieren eines Drehs die Tagesübersichten mehrerer Tage prüfen (cathiesark.com, arktradetiming.com); Stückzahlen über alle ETF aus Investing.com. Ein angekündigter Kauf ist ein Call, keine Position. | 2026-11-23 |
+| Laufnummer | Lauf = max(`desk.sweep.n` der Dateien, höchste `sw` in `stm` und `tl`, höchste `run` in `files`) + 1; Seiten-Sweep und Weg B zählen nur in der Datenbank. | 2026-11-23 |
+| Prüfen | Vor dem Schreiben die Seite lokal bauen (`src/build.py` in den Scratchpad) und alle Routen mit Playwright (Node) durchlaufen; Python-Playwright fehlt in der Sitzung. Nach jeder Änderung an einem Bau-Skript die Ausgabe lesen, bevor weitergebaut wird. | 2026-11-23 |
 | Wortwahl | Keine unbelegten Superlative („Rekord“), wenn die Daten nur sechs Monate zeigen. | 2026-11-21 |
