@@ -1,8 +1,156 @@
 [
-{"id":"fed-dez","t":"Fed-Entscheid am 9. Dezember","type":"Marktpreis","basis":"CME FedWatch (Fed-Funds-Futures), Stand 23.11., 00:38 UTC, wiedergegeben von ChainCatcher","asOf":"2026-11-23","items":[{"l":"Erhöhung um 25 Basispunkte","p":93},{"l":"Erhöhung um 50 Basispunkte","p":0},{"l":"Pause oder Senkung","p":7}],"note":"Genau: 93,2 % zu 6,8 %. Weitere Auswertungen des Wochenendes: CME FedWatch laut Gate News (22.11., 22:02 UTC) 91,4 % zu 8,6 %; TreasuryBonds.com (23.11.) 89,7 % zu 10,3 %; Frenzy Capital zum Schluss am 20.11. 93 % zu 7 %. Alle teilen zwischen +25 bp und Pause; ein Schritt um 50 bp ist nicht mehr eingepreist. Für Januar sind zusammen 50 bp zu rund 58 bis 60 % eingepreist.","src":"cc_fed","st":"fed","aff":["UST10","TLT","SPX","NDX","XAU","DXY"]},
-{"id":"capex-cut","t":"Ein Hyperscaler kürzt binnen sechs Monaten seine KI-Investitionen","type":"Umfrage","basis":"BofA Global Fund Manager Survey, 6.–12.11.","asOf":"2026-11-17","items":[{"l":"Anteil, der das erwartet","p":52},{"l":"Vormonat","p":30}],"note":"Umfrageanteil, keine Marktwahrscheinlichkeit.","src":"fortune_fms","st":"capex","aff":["NVDA","AVGO","MU","CRWV","ORCL","SMH","MSFT","META","GOOGL","AMZN"]},
-{"id":"overinvest","t":"Unternehmen überinvestieren in KI","type":"Umfrage","basis":"BofA Global Fund Manager Survey","asOf":"2026-11-17","items":[{"l":"Anteil, der zustimmt (Rekord)","p":38}],"src":"hedgeco","st":"capex","aff":["SMH","MAGS","NVDA"]},
-{"id":"rezession","t":"US-Rezession 2027","type":"Umfrage","basis":"BofA Global Fund Manager Survey","asOf":"2026-11-17","items":[{"l":"Anteil, der sie erwartet","p":3}],"note":"Gegenstimme: Druckenmiller hält eine Konjunkturschwäche im 2. Halbjahr 2027 für möglich (17.11.).","src":"hedgeco","st":"fed","aff":["SPX","TLT","HYG","XLY","XLP"]},
-{"id":"nvda-ceo","t":"Nvidia benennt einen dauerhaften CEO","type":"Schätzung","basis":"Personalberater im Kiplinger-Live-Blog; Business Insider, 21.11.","asOf":"2026-11-21","items":[{"l":"Abschluss der Suche binnen rund 60 Tagen (Mooney, Marovi)"},{"l":"Üblich sind 6 bis 12 Monate; Benennung Anfang 2027 möglich (Hager)"},{"l":"Rückkehr von Huang: Der Verwaltungsratschef schloss sie am 17.11. aus; laut Semafor (18.11.) setzten sich drei Direktoren dafür ein, Trump sprach sich am 20.11. für eine zweite Chance aus"}],"note":"Einzelmeinungen ohne Wahrscheinlichkeitsangabe.","src":"bi_huang","st":"nvda","aff":["NVDA","SMH"]},
-{"id":"spx-ziel","t":"S&P 500 erreicht bis Ende 2027 das Durchschnittsziel von 8.638","type":"Schätzung","basis":"Umfrage unter acht Strategen","asOf":"2026-11-20","items":[{"l":"Nötiger Anstieg vom Schluss 6.910,39: rund 25 %"},{"l":"Spanne der Ziele: 8.000 bis 9.000"}],"note":"Für dieses Szenario liegt keine Wahrscheinlichkeit vor. Außerhalb der Umfrage: Federated Hermes mit 10.000 Punkten (18.11.).","src":"inv_tg","st":"spx27","aff":["SPX"]}
+{
+"id": "fed-dez",
+"t": "Fed-Entscheid am 9. Dezember",
+"type": "Marktpreis",
+"basis": "CME FedWatch (Fed-Funds-Futures), Stand 23.11., wiedergegeben von Gate (09:16 UTC)",
+"asOf": "2026-11-23",
+"items": [
+{
+"l": "Erhöhung um 25 Basispunkte",
+"p": 95
+},
+{
+"l": "Erhöhung um 50 Basispunkte",
+"p": 0
+},
+{
+"l": "Pause oder Senkung",
+"p": 5
+}
+],
+"note": "Weitere Auswertungen vom 23.11.: CNBC am Morgen rund 96 % für +25 bp (am 20.11. rund 92 %); TreasuryBonds.com 89,7 % zu 10,3 % Pause; ChainCatcher (00:38 UTC) 93,2 % zu 6,8 %. Ein Schritt um 50 bp ist nach CME-Lesart nicht mehr eingepreist. Für Januar sind zusammen 50 bp zu rund 58 % eingepreist.",
+"src": "gate_fed2311",
+"st": "fed",
+"aff": [
+"UST10",
+"TLT",
+"SPX",
+"NDX",
+"XAU",
+"DXY"
+]
+},
+{
+"id": "capex-cut",
+"t": "Ein Hyperscaler kürzt binnen sechs Monaten seine KI-Investitionen",
+"type": "Umfrage",
+"basis": "BofA Global Fund Manager Survey, 6.–12.11.",
+"asOf": "2026-11-17",
+"items": [
+{
+"l": "Anteil, der das erwartet",
+"p": 52
+},
+{
+"l": "Vormonat",
+"p": 30
+}
+],
+"note": "Umfrageanteil, keine Marktwahrscheinlichkeit.",
+"src": "fortune_fms",
+"st": "capex",
+"aff": [
+"NVDA",
+"AVGO",
+"MU",
+"CRWV",
+"ORCL",
+"SMH",
+"MSFT",
+"META",
+"GOOGL",
+"AMZN"
+]
+},
+{
+"id": "overinvest",
+"t": "Unternehmen überinvestieren in KI",
+"type": "Umfrage",
+"basis": "BofA Global Fund Manager Survey",
+"asOf": "2026-11-17",
+"items": [
+{
+"l": "Anteil, der zustimmt (Rekord)",
+"p": 38
+}
+],
+"src": "hedgeco",
+"st": "capex",
+"aff": [
+"SMH",
+"MAGS",
+"NVDA"
+]
+},
+{
+"id": "rezession",
+"t": "US-Rezession 2027",
+"type": "Umfrage",
+"basis": "BofA Global Fund Manager Survey",
+"asOf": "2026-11-17",
+"items": [
+{
+"l": "Anteil, der sie erwartet",
+"p": 3
+}
+],
+"note": "Gegenstimme: Druckenmiller hält eine Konjunkturschwäche im 2. Halbjahr 2027 für möglich (17.11.).",
+"src": "hedgeco",
+"st": "fed",
+"aff": [
+"SPX",
+"TLT",
+"HYG",
+"XLY",
+"XLP"
+]
+},
+{
+"id": "nvda-ceo",
+"t": "Nvidia benennt einen dauerhaften CEO",
+"type": "Schätzung",
+"basis": "8-K und Mitteilung von Nvidia vom 23.11.",
+"asOf": "2026-11-23",
+"items": [
+{
+"l": "Eingetreten am 22.11.: Der Verwaltungsrat setzt Jensen Huang einstimmig wieder als Präsident, CEO und Direktor ein",
+"p": 100
+},
+{
+"l": "Offen: Untersuchung des unabhängigen Ausschusses läuft bis zum Abschluss weiter"
+},
+{
+"l": "Offen: SEC-Prüfung der Bilanzierung, Verfahren zur Exportkontrolle, Quartalsbericht (10-Q); neuer Chief Compliance Officer gesucht"
+}
+],
+"note": "Die Frage ist entschieden; das Szenario bleibt als Merkposten für die offenen Verfahren. Noch am 17.11. hatte der Vorsitzende eine Wiedereinsetzung ausgeschlossen; Trump sagte am 23.11., er habe mit dem Verwaltungsrat gesprochen.",
+"src": "nvda_8k2311",
+"st": "nvda",
+"aff": [
+"NVDA",
+"SMH"
+]
+},
+{
+"id": "spx-ziel",
+"t": "S&P 500 erreicht bis Ende 2027 das Durchschnittsziel von 8.638",
+"type": "Schätzung",
+"basis": "Umfrage unter acht Strategen",
+"asOf": "2026-11-23",
+"items": [
+{
+"l": "Nötiger Anstieg vom Schluss 7.237,17 (23.11.): rund 19 %"
+},
+{
+"l": "Spanne der Ziele: 8.000 bis 9.000"
+}
+],
+"note": "Für dieses Szenario liegt keine Wahrscheinlichkeit vor. Außerhalb der Umfrage: Federated Hermes mit 10.000 Punkten (18.11.), Deutsche Bank mit 9.000 (23.11.), RBC mit 8.050 in zwölf Monaten (23.11.).",
+"src": "inv_tg",
+"st": "spx27",
+"aff": [
+"SPX"
+]
+}
 ]

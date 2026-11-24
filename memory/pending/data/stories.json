@@ -1,11 +1,1246 @@
 [
-{"id":"nvda","tk":"NVDA","t":"Nvidia nach Huang","kpi":"125,53 $","sub":"−14,0 % am 20.11. · 47,5 % unter Rekordschluss vom 06.10.","sum":"Starke Zahlen, aber CEO-Rücktritt und eine SEC-Prüfung der Bilanzierung drücken den Kurs: sieben Verlusttage in Folge, schwächste Woche seit Oktober 2008, rund 2,7 Bio. $ Börsenwert seit dem Hoch vom 6.10. verloren. Kalifornien hat das Unternehmen vorgeladen, der Quartalsbericht (10-Q) steht aus. Analysten heben Gewinnschätzungen an und senken zugleich Kursziele. Am Sonntagabend, 22.11., deutete der Nachthandel auf eine Erholung um rund 4 %.","tl":[{"d":"2026-10-29","t":"Der Skandal um Jensen Huang wird öffentlich."},{"d":"2026-11-08","t":"Huang räumt in einem Mitarbeiter-Memo Fehlverhalten ein; der Verwaltungsrat leitet eine unabhängige Untersuchung ein."},{"d":"2026-11-12","t":"Rücktritt als Präsident, CEO und Board-Mitglied. Finanzchefin Colette Kress wird Interims-CEO."},{"d":"2026-11-17","t":"Q3 GJ27: Umsatz 115,8 Mrd. $ (+103 % zum Vorjahr), bereinigter Gewinn 2,68 $ je Aktie, Bruttomarge 74,9 %. Ausblick Q4: 130 Mrd. $ ±3 %, Marge 71–72 %. Das WSJ berichtet über eine zivile SEC-Untersuchung."},{"d":"2026-11-17","t":"Kress kündigt an, den Quartalsbericht (10-Q) erst in den kommenden Wochen statt wie üblich am selben Tag einzureichen; einen Grund nennt sie nicht."},{"d":"2026-11-17","t":"Verwaltungsratschef Harvey Jones: Das Board hat Huangs Rücktritt einstimmig angenommen und plant keine Wiedereinsetzung. Finanzminister Bessent verlangt binnen zehn Tagen Antworten von Board und externen Anwälten."},{"d":"2026-11-18","t":"Schlusskurs 150,96 $; das durchschnittliche Kursziel fällt auf 251,74 $."},{"d":"2026-11-18","t":"Semafor: Drei Nvidia-Direktoren haben sich für Huangs Rückkehr eingesetzt."},{"d":"2026-11-19","t":"Schluss 145,98 $, damit unter der Unterstützungszone 146–149 $. ARK verkauft Nvidia und kauft Anthropic."},{"d":"2026-11-19","t":"Kaliforniens Generalstaatsanwalt Rob Bonta lädt Nvidia vor: Geprüft wird, ob Chips nach China gelangten und Anleger getäuscht wurden."},{"d":"2026-11-20","t":"Reuters: Die SEC prüft mögliche Bilanzierungsfragen. Schluss 125,53 $ (−14,0 %), mehr als 20 % Wochenverlust."},{"d":"2026-11-20","t":"Trump sagt, er sähe gern eine zweite Chance für Huang. Nvidia verliert am Tag rund 490 Mrd. $ Börsenwert, in der Woche fast 900 Mrd. $, und ist nur noch die viertgrößte US-Aktie; nachbörslich +3,6 % auf 130,01 $."},{"d":"2026-11-21","t":"New York Times: Die SEC-Untersuchung steht am Anfang; offen ist, ob sie die 2025 geänderte regionale Umsatzaufteilung betrifft, durch die Singapur aus dem Ausweis fiel."},{"d":"2026-11-21","t":"Yahoo Finance: Über die Einheit in Singapur liefen 2025 laut Financial Times rund 104 Mrd. $ Umsatz, etwa die Hälfte der Erlöse. Die Außenstände liegen bei 64 Umsatztagen, dem höchsten Wert seit 2022; welche dieser Fragen die SEC prüft, ist offen."},{"d":"2026-11-21","t":"AP: Finanzminister Bessent hält weitere Beschränkungen für den Export älterer Nvidia-Chips nach China nicht für nötig."},{"d":"2026-11-22","t":"Im außerbörslichen Nachthandel (Blue Ocean) steht die Aktie am Sonntagabend bei 130,76 $, 4,2 % über dem Freitagsschluss. Der Quartalsbericht (10-Q) war laut Capexwave bis zum 22.11. nicht eingereicht."},{"d":"2026-11-22","t":"Bessent bei CBS: Von Nvidia fehlen weiter Antworten zu Chip-Lieferungen nach China; das Unternehmen bleibe aber hochprofitabel. UBS hatte das Kursziel am 18.11. von 240 auf 220 $ gesenkt."}],"lv":{"u":"$","now":125.53,"nowL":"Schluss 20.11.","items":[{"v":300,"l":"Rosenblatt","d":"2026-11-19","k":"kz"},{"v":251.74,"l":"Ø-Kursziel LSEG","d":"2026-11-18","k":"ref"},{"v":246.67,"l":"Konsens S&P Global (62)","d":"2026-11-19","k":"ref"},{"v":243.67,"l":"Rekordhoch intraday","d":"2026-10-06","k":"ref"},{"v":230,"l":"Piper Sandler","d":"2026-11-19","k":"kz"},{"v":230,"l":"Freedom · Tolmachev","d":"2026-11-18","k":"kz"},{"v":220,"l":"Mizuho","d":"2026-11-16","k":"kz"},{"v":200,"l":"Bernstein · Rasgon","d":"2026-11-12","k":"kz"},{"v":200,"l":"Needham","d":"2026-11-19","k":"kz"},{"v":184,"l":"Evercore · Lipacis","d":"2026-11-18","k":"kz"},{"v":170,"l":"HSBC","d":"2026-11-19","k":"kz"},{"v":147.5,"l":"Unterstützung 146–149 · LPL","d":"2026-11-17","k":"sup"},{"v":239.24,"l":"Rekordschluss","d":"2026-10-06","k":"ref"},{"v":225,"l":"Yorkville Ives (Wert ohne Huang)","d":"2026-11-20","k":"kz"},{"v":124.5,"l":"Tagestief 20.11. (52-Wochen-Tief)","d":"2026-11-20","k":"sup"},{"v":220,"l":"UBS · Arcuri","d":"2026-11-18","k":"kz"}]},"src":["yahoo_px","kip","tc","rt_nvda","seek_sec","futu","w4t_nvda0","w4t_nvda1","yf_nvda21","bi_huang","afp_nvda","fool_nvda_2","w4_lipacis0","cw_nvda","r6_appbs","r6_bessent2","r6_arcuript"],"sym":"NVDA","px":"NVDA","q":"Nvidia CEO succession SEC probe stock"},
-{"id":"ant","tk":"ANT","t":"Anthropic-Börsengang","kpi":"88,91 $","sub":"−8,5 % am 20.11. · Ausgabepreis 83 $","sum":"Rekord-IPO mit 81,3 Mrd. $ Volumen, mit Mehrzuteilung rund 93,5 Mrd. $. Erstkurs 34 % über Ausgabepreis, danach Gewinnmitnahmen im fallenden Gesamtmarkt; das Tagestief vom 20.11. lag mit 83,05 $ knapp über dem Ausgabepreis von 83 $, die Stabilisierungsposition der Konsortialbank ist geschlossen. Seit dem 23.11. werden Optionen und gehebelte ETFs auf die Aktie gehandelt; die Aufnahme in den Nasdaq-100 steht nach dem 18.12. an.","tl":[{"d":"2026-11-19","t":"Debüt an der Nasdaq: Erstkurs 111,50 $, Tageshoch 115,10 $, Schluss 97,17 $ (+17 %). Börsenwert zum Schluss rund 1,28 Bio. $. ARK kauft 934.968 Aktien."},{"d":"2026-11-20","t":"Zweiter Handelstag: Schluss 88,91 $ (−8,5 %), im Tagesverlauf bis −13 %. ARK kauft weitere 705.982 Aktien."},{"d":"2026-11-20","t":"Anthropic meldet den Abschluss des Börsengangs: 1,127 Mrd. Aktien zu 83 $ einschließlich der voll ausgeübten Mehrzuteilung von 147 Mio. Stück, Bruttoerlös rund 93,5 Mrd. $. Dazu kommt eine Privatplatzierung von 313 Mio. Class-N-Aktien an sieben Konzerne, darunter Google, Microsoft und Nvidia."},{"d":"2026-11-20","t":"Die konsortialführende Bank hat ihre Stabilisierungsposition geschlossen; eine mögliche Kaufstütze entfällt (Reuters)."},{"d":"2026-11-20","t":"Intropic schätzt, dass Indexfonds bis Jahresende bis zu 30 % der Anthropic-Aktien kaufen könnten; die Bewertung liegt bei rund dem 40-fachen Jahresumsatz (Reuters)."},{"d":"2026-11-20","t":"Erste Analystenstimmen: William Blair startet mit Kaufen (fairer Wert 130–150 $), Seaport mit Halten; Ø-Kursziel laut TipRanks 133,33 $ bei sechs Kauf- und einer Halteempfehlung."},{"d":"2026-11-20","t":"Tagestief 83,05 $, fünf Cent über dem Ausgabepreis; Umsatz rund 400 Mio. Aktien nach 857 Mio. am ersten Tag. Als Belastung nennt die Presse neben dem KI-Ausverkauf einen Bloomberg-Bericht, wonach Apple einen eigenen KI-Agenten entwickelt (Wiedergabe nach Swing To Trade, Kursdaten Nasdaq)."},{"d":"2026-11-20","t":"Social Capital (Chamath Palihapitiya) rechnet vor: Das Quartalswachstum fiel von 144 % auf rund 47 %, die Ausgaben für Rechenleistung stiegen um 77 %; dem stehen Ausgabenzusagen von 900,9 Mrd. $ bis 2045 gegenüber."},{"d":"2026-11-23","t":"Start des Optionshandels: Laut Cboe listen voraussichtlich alle 20 US-Optionsbörsen die Kontrakte; Wochenoptionen folgen am 25.11. mit erstem Verfall am 27.11. Zugleich starten gehebelte ETFs auf die Aktie (GraniteShares AIL und ANS)."},{"d":"2026-12-18","t":"Nach diesem Termin nimmt der Nasdaq-100 die Aktie auf (CNBC); der Morningstar-Gesamtmarktindex folgt bereits nach fünf Handelstagen."}],"lv":{"u":"$","now":88.91,"nowL":"Schluss 20.11.","items":[{"v":115.1,"l":"Tageshoch Debüt","d":"2026-11-19","k":"ref"},{"v":111.5,"l":"Erstkurs","d":"2026-11-19","k":"ref"},{"v":97.17,"l":"Schluss Tag 1","d":"2026-11-19","k":"ref"},{"v":83,"l":"Ausgabepreis","d":"2026-11-19","k":"sup"},{"v":155,"l":"Melius Research","d":"2026-11-20","k":"kz"},{"v":150,"l":"Needham","d":"2026-11-20","k":"kz"},{"v":133.33,"l":"Ø-Kursziel TipRanks (7 Analysten)","d":"2026-11-20","k":"ref"},{"v":130,"l":"William Blair · Bhatia (Unterkante 130–150)","d":"2026-11-20","k":"kz"},{"v":92,"l":"Morningstar: fairer Wert","d":"2026-11-20","k":"ref"},{"v":83.05,"l":"Tagestief 20.11.","d":"2026-11-20","k":"sup"}]},"src":["yahoo_px","yh_ant","tip_ant","cnbc_wood","w4t_ant0","w4t_ant1","rt_ant","tip_ant2","inv_ant2","cnbc_ant","stt_ant","cboe_ant","wso_ant","cnbc_antipo","r6_chamath2"],"sym":"ANT","px":"ANT","q":"Anthropic stock after IPO"},
-{"id":"capex","tk":"KI-CAPEX","t":"KI-Investitionen unter Verdacht","kpi":"52 %","sub":"der Fondsmanager erwarten binnen 6 Monaten eine Capex-Kürzung","sum":"Die vier großen Hyperscaler planen 2026 zusammen rund 730 Mrd. $ Investitionen und finanzieren zunehmend über Anleihen. Die Debatte dreht sich darum, ob die Erträge das tragen. Hinzu kommt politischer Druck: Trump droht mit einer Steuer auf Rechenzentren im Ausland, ohne Satz und Rechtsgrundlage zu nennen, und in den USA wächst der lokale Widerstand gegen neue Standorte. In dieser Woche gelten die Zahlen von HPE (23.11.) und Dell (24.11.) als Test der Nachfrage.","tl":[{"d":"2026-10-28","t":"Microsoft senkt den Capex-Plan 2026 auf rund 170 Mrd. $ (zuvor 175), weil sich Kapazitäten nach 2027 verschieben. Alphabet bleibt bei 195–205, Amazon bei rund 220, Meta bei 135–145 Mrd. $."},{"d":"2026-11-04","t":"Anleihewelle: Microsoft 25 Mrd. $, Oracle 10 Mrd. $ plus neue Aktien, Meta 15 Mrd. $ (5.11.)."},{"d":"2026-11-11","t":"Howard Marks veröffentlicht sein Memo mit 100 Fragen an die KI-These."},{"d":"2026-11-17","t":"BofA-Umfrage: Rekordanteil von 38 % sieht Überinvestition, 52 % erwarten eine Kürzung."},{"d":"2026-11-17","t":"SemiAnalysis senkt die Prognose der weltweiten Ausgaben für KI-Beschleuniger für 2028 um 28 % auf 758 Mrd. $ und für 2030 um 40 % auf 923 Mrd. $; am stärksten trifft die Kürzung Nvidia (Bericht TokenPost)."},{"d":"2026-11-19","t":"WSJ: Wall-Street-Häuser sagten im August zu, 500 Mrd. $ für die Finanzierung von Chipkäufen der Nvidia-Kunden zu mobilisieren; bislang floss kein Kapital (zitiert nach Burry auf X)."},{"d":"2026-11-19","t":"IFM Investors: Die fünf größten Cloud-Plattformen dürften 2027 laut Goldman Sachs 1,2 Bio. $ investieren; laut MUFG finanzieren die Hyperscaler rund die Hälfte ihrer Rechenzentrumsausgaben über Kredite."},{"d":"2026-11-20","t":"Trump kündigt an, US-Unternehmen den Bau von Rechenzentren im Ausland zu verbieten oder ihn mit einer hohen Steuer zu belegen; Details fehlen."},{"d":"2026-11-20","t":"Oracle erklärt eine Minute nach Börsenschluss, der OpenAI-Vertrag sei nach der Kapitalaufnahme von 20 Mrd. $ (Aktien und Anleihen, 4.11.) vollständig finanziert. Die Aktie hatte zuvor 8,5 % tiefer bei rund 101 $ geschlossen, dem tiefsten Schluss seit Dezember 2023."},{"d":"2026-11-22","t":"Zu Trumps Ankündigung fehlen weiter Steuersatz, Starttermin und Rechtsgrundlage; er hatte sie nach eigenen Worten nicht mit seinem Stab abgestimmt. Laut Ballotpedia stimmten die Wähler bis zum 20.11. in 53 von 54 lokalen Abstimmungen für Grenzen beim Bau von Rechenzentren (IBTimes)."}],"src":["fortune_fms","capex_t","cnbc_nv","w4t_capex0","x_burry2","cnbc_dc","x_orcl","asw_orcl","ifm_dc","ibt_dc"],"sym":null,"q":"AI capex hyperscaler data center spending"},
-{"id":"fed","tk":"FED","t":"Fed im Erhöhungsmodus","kpi":"93 %","sub":"Marktpreis für +25 bp am 9.12. (CME FedWatch, 23.11., 00:38 UTC)","sum":"Unter Chair Kevin Warsh hat die Fed im September erhöht. Der Markt preist für Dezember einen weiteren Schritt um 25 Basispunkte zu rund 90 bis 93 % ein; ein großer Schritt um 50 Basispunkte ist seit dem Kurssturz vom 20.11. nicht mehr eingepreist, dafür eine kleine Chance auf eine Pause. Die zehnjährige US-Rendite fiel am 20.11. in der Flucht aus Aktien auf 4,91 %. Nächster Prüfstein ist der PCE-Preisindex am 25.11.","tl":[{"d":"2026-09-17","t":"Erhöhung der Leitzinsspanne auf 3,75–4,00 %."},{"d":"2026-10-28","t":"Pause; zwei der zwölf Stimmberechtigten wollten sofort erhöhen."},{"d":"2026-11-10","t":"US-Inflation im Oktober +0,4 % zum Vormonat (erwartet 0,3 %)."},{"d":"2026-11-16","t":"Oxford Economics schätzt die PCE-Inflation für Oktober auf 3,8 % zum Vorjahr (September: 3,6 %) und erwartet im Dezember +25 Basispunkte."},{"d":"2026-11-18","t":"Protokoll der Oktober-Sitzung: Mitglieder erwarten eine weitere Erhöhung."},{"d":"2026-11-18","t":"Protokoll im Detail: Fast alle Teilnehmer halten weitere Erhöhungen für angemessen; zwei erwägen im Dezember mehr als 25 Basispunkte, falls die Inflationsdaten enttäuschen. Abstimmung im Oktober: 10 zu 2."},{"d":"2026-11-19","t":"J.P. Morgan erwartet nun Erhöhungen um je 25 Basispunkte im Dezember, Januar und März."},{"d":"2026-11-20","t":"Gouverneurin Cook begründet ihre Gegenstimme mit zu lockeren Finanzierungsbedingungen. Nach dem Kurssturz preisen Futures 93 % für +25 Basispunkte und 7 % für eine Pause; ein Schritt um 50 Basispunkte ist kaum noch eingepreist."},{"d":"2026-11-21","t":"Stand 21.11.: Neben J.P. Morgan erwarten auch BofA Global Research und die Deutsche Bank je 25 Basispunkte auf den nächsten drei Sitzungen (TheStreet)."},{"d":"2026-11-22","t":"Widerspruch gegen die Straffung: Finanzminister Bessent warnt bei CBS vor einem geldpolitischen Fehler, Bill Ackman nennt eine Erhöhung am 9.12. einen Fehler und fordert ein Inflationsziel von 3 %."},{"d":"2026-11-23","t":"CME FedWatch am frühen Montag: 93,2 % für +25 Basispunkte, 6,8 % für eine Pause, 0 % für +50 (ChainCatcher, 00:38 UTC); andere Auswertungen des Wochenendes nennen 89,7 bis 91,4 %. Für Januar sind zusammen 50 Basispunkte zu knapp 60 % eingepreist. Um 22:00 MEZ spricht New-York-Fed-Präsident Williams."},{"d":"2026-12-09","t":"Zinsentscheid um 20:00 MEZ, Pressekonferenz Warsh um 20:30 MEZ."}],"src":["fed1","fed2","w4t_fed0","w4t_fed1","w4t_gold0","ts_jpm","fed_cook","fz_fed","wd_fed","cc_fed","gate_fed","dj_wk","r6_bessent2","r6_ackman"],"sym":"UST10","q":"Federal Reserve December rate decision"},
-{"id":"rot","tk":"ROTATION","t":"Rotation Tech → Defensiv","kpi":"37 % → 12 %","sub":"Tech-Übergewicht der Fondsmanager binnen eines Monats","sum":"In der Woche bis 20.11. fielen alle elf Sektoren; Basiskonsum und Versorger hielten sich am besten, Technologie verlor rund 12 %, der Halbleiter-ETF SMH fast 18 %. Die Presse spricht eher von einem Abbau über alle Branchen als von einer geordneten Umschichtung. Die 13F-Daten vom 30.09. zeigen bereits Verkäufe bei Internet-Plattformen und KI-Infrastruktur.","tl":[{"d":"2026-11-10","t":"Gesundheitswerte im S&P 500 liegen über 100 Tage mehr als 33 Prozentpunkte vor Tech, laut Dow Jones Market Data die größte Rotation dieser Art seit 25 Jahren."},{"d":"2026-11-16","t":"Frist für die 13F-Meldungen zum 3. Quartal."},{"d":"2026-11-17","t":"BofA-Umfrage: stärkster Abbau von Tech seit Juni 2006."},{"d":"2026-11-19","t":"Der Dow Jones verliert 1.101 Punkte (−2,2 %) auf 49.097, der S&P 500 2 %."},{"d":"2026-11-20","t":"Der Technologie-ETF XLK fällt um 7,3 %; zehn von elf S&P-Sektoren schließen im Minus, nur Basiskonsum legt zu (+0,7 %), Gesundheit gibt 0,1 % nach."},{"d":"2026-11-20","t":"BofA Flow Show: In der Woche bis 18.11. flossen trotz Kursrutsch 66,6 Mrd. $ in Aktienfonds und 5,4 Mrd. $ in Tech-Fonds (achte Woche mit Zuflüssen); Anleihefonds verzeichnen den ersten Abfluss seit April 2025."},{"d":"2026-11-20","t":"Wochenbilanz der Sektoren: alle elf im Minus. Basiskonsum −2,0 %, Versorger −3,0 %, Immobilien −4,3 %, Gesundheit rund −6,1 %; Kommunikation −9,4 %, Technologie −12,3 bis −12,5 % je nach Quelle, Halbleiter-ETF SMH −17,8 %. Lang laufende US-Staatsanleihen (TLT) +2,6 %."}],"src":["rot","fortune_fms","tr","w4t_rot0","w4t_rot1","w4_hartnett0","m365_wk","pmd_wk"],"sym":null,"q":"sector rotation defensive stocks tech selloff"},
-{"id":"spx27","tk":"SPX","t":"S&P-500-Ziele für 2027","kpi":"8.638","sub":"Durchschnittsziel Ende 2027 aus acht Strategenprognosen","sum":"Trotz Korrektur bleiben die Banken für 2027 einig bullisch. Die Spanne der Strategenumfrage reicht von 8.000 bis 9.000 Punkten; Federated Hermes nennt mit 10.000 das höchste Ziel. Yardeni hat am 21.11. sein Ziel für Ende 2026 auf 7.500 gesenkt. Nach der schwächsten Woche seit April 2025 deuten die Futures am 22.11. auf eine Erholung um rund 2 %.","tl":[{"d":"2026-11-10","t":"UBS: 8.900."},{"d":"2026-11-16","t":"Morgan Stanley: 8.700 · Wells Fargo: 8.200 · Barclays: 8.700."},{"d":"2026-11-17","t":"Goldman Sachs: 8.700."},{"d":"2026-11-17","t":"BofA-Umfrage: Die Fondsmanager erwarten den S&P 500 Ende 2027 bei 7.926 Punkten."},{"d":"2026-11-18","t":"Federated Hermes bestätigt mit 10.000 Punkten für Ende 2027 das höchste Ziel der Wall Street und erhöht den Aktienanteil im Modellportfolio."},{"d":"2026-11-20","t":"Der S&P 500 schließt bei 6.910,39 und damit in der Korrektur."},{"d":"2026-11-20","t":"Wochenbilanz: S&P 500 −8,6 %, schwächste Woche seit April 2025; sieben Verlusttage in Folge."},{"d":"2026-11-21","t":"Yardeni senkt das Ziel für Ende 2026 auf 7.500 (zuvor 7.900) und erwartet Ende 2027 8.500 bis 9.000."},{"d":"2026-11-22","t":"Die Futures auf den S&P 500 steigen am Sonntagabend um rund 2 %, die auf den Nasdaq 100 um rund 3 % (CNBC). Reuters zählt 11,6 % Abstand zum Hoch vom 6.10., die erste Korrektur seit März 2025; Strategen sind uneins, ob der Verkauf ausläuft."}],"lv":{"u":"Pkt","now":6910.39,"nowL":"Schluss 20.11. (Kassa-Index)","items":[{"v":9000,"l":"Yardeni Research (Spanne 8.500–9.000)","d":"2026-11-21","k":"kz"},{"v":8900,"l":"UBS","d":"2026-11-10","k":"kz"},{"v":8700,"l":"Morgan Stanley · Wilson","d":"2026-11-16","k":"kz"},{"v":8700,"l":"Goldman Sachs · Snider","d":"2026-11-17","k":"kz"},{"v":8700,"l":"Barclays","d":"2026-11-13","k":"kz"},{"v":8638,"l":"Durchschnitt (8 Strategen)","d":"2026-11-20","k":"ref"},{"v":8200,"l":"Wells Fargo · Kwon","d":"2026-11-16","k":"kz"},{"v":8000,"l":"Ned Davis Research","d":"2026-11-20","k":"kz"},{"v":8200,"l":"UBS Global Wealth Management","d":"2026-11-21","k":"kz"},{"v":7818.93,"l":"Rekordschluss","d":"2026-10-06","k":"ref"},{"v":8500,"l":"Société Générale","d":"2026-11-20","k":"kz"},{"v":7926,"l":"Erwartung der Fondsmanager (BofA-Umfrage)","d":"2026-11-17","k":"ref"},{"v":7500,"l":"Yardeni: Ziel Ende 2026","d":"2026-11-21","k":"kz"},{"v":7100,"l":"Einstiegszone 7.100–7.300 · Wilson","d":"2026-11-18","k":"sup"},{"v":6845,"l":"Hartnett: darunter droht ein Kredit- und Aktieneinbruch","d":"2026-11-20","k":"sup"},{"v":10000,"l":"Federated Hermes · Chiavarone","d":"2026-11-18","k":"kz"},{"v":6681.88,"l":"104-Wochen-Durchschnitt · FXEmpire","d":"2026-11-20","k":"sup"},{"v":5800,"l":"Goldman · Snider: unteres Ende der Szenariospanne","d":"2026-11-20","k":"sup"}]},"src":["yahoo_px","inv_tg","cnbc_ms","cnbc_gs","ts_wf","biggo_gs","fortune_27","fortune_fms","fsw_wk","ms_wk","yard_qt","roic_27","w4_wilson0","w4_hartnett0","fh_spx","cnbc_fut22","rt_corr","cal_fx","r6_lpl"],"sym":"SPX","q":"S&P 500 2027 target strategists"},
-{"id":"gold","tk":"XAU","t":"Gold, Öl und Hormus","kpi":"≈ 3.606 $","sub":"Gold Spot 23.11., 00:10 Uhr New York (Kitco) · Vorwoche rund −9,5 %","sum":"Steigende Realrenditen und Zwangsverkäufe im KI-Ausverkauf drückten Gold am 20.11. auf den tiefsten Stand seit September 2025; die Woche brachte mit rund −9,5 % den stärksten Verlust seit acht Monaten. Am frühen Montag, 23.11., erholt sich der Spotpreis auf rund 3.606 $. Brent schloss am 20.11. laut Reuters bei 92,57 $ und hält sich trotz der Lage in der Straße von Hormus unter 100 $, weil für 2027 ein Überschuss erwartet wird. Der Chart zeigt den COMEX-Future, nicht den Spotpreis.","tl":[{"d":"2026-10-30","t":"Gold bei 3.876 $."},{"d":"2026-11-05","t":"Goldman senkt das Goldziel für Ende 2026 auf 4.150 $."},{"d":"2026-11-19","t":"Iran meldet zwei Tanker, die in der Straße von Hormus auf Minen gelaufen sind; Brent bleibt nahe 92 $."},{"d":"2026-11-20","t":"Gold fällt im Tagestief auf 3.513,54 $; Brent um 92,60 $."},{"d":"2026-11-20","t":"Gold steuert auf die schwächste Woche seit acht Monaten zu: Spot um 11:13 GMT bei 3.585,92 $, belastet von Zinserwartungen, stärkerem Dollar und Zwangsverkäufen im KI-Ausverkauf. In Indien und China zieht die physische Nachfrage an."},{"d":"2026-11-20","t":"Am Nachmittag in New York notiert Gold-Spot bei 3.518,50 $ (−2,8 %), der Wochenverlust liegt bei rund 9,5 %; der Dezember-Future schließt 4,6 % tiefer bei 3.515,40 $."},{"d":"2026-11-20","t":"Brent schließt bei 92,57 $ (+0,6 %, Reuters). Ein Projektil trifft einen Tanker nördlich von Khasab; die saudisch geführte Koalition greift Hodeida an, die Huthi fordern Schiffe zum Verlassen saudischer Rotmeerhäfen auf."},{"d":"2026-11-21","t":"Erneut wird ein Tanker nahe Oman getroffen (UKMTO). Die Durchfahrten durch die Straße von Hormus liegen laut UKMTO rund 65 % unter dem Vorkriegsniveau."},{"d":"2026-11-23","t":"Gold-Spot erholt sich am frühen Montag um rund 1,9 % auf etwa 3.606 $ (Kitco, 00:10 Uhr New York; Tagesspanne 3.539,80 bis 3.630,20 $); Händler nehmen Wetten auf Fed-Erhöhungen leicht zurück. Brent notiert um 92 $ nach drei Verlustwochen in Folge. Iran griff am Wochenende Ziele in Bahrain an; Trump stellte neue Militärschläge nach dem Jahreswechsel in Aussicht, falls die Gespräche scheitern (Trading Economics)."}],"lv":{"u":"$","now":3606.3,"nowL":"Gold Spot 23.11. (00:10 Uhr New York, Kitco)","items":[{"v":5000,"l":"BofA: bis Q2/Q3 2027","d":"2026-10-12","k":"kz"},{"v":4495,"l":"Reuters-Umfrage Ende 2026 (Median)","d":"2026-11-16","k":"ref"},{"v":4150,"l":"Goldman: Ende 2026","d":"2026-11-05","k":"kz"},{"v":3876,"l":"Stand 30.10.","d":"2026-10-30","k":"ref"},{"v":3513.54,"l":"Tagestief","d":"2026-11-20","k":"sup"}]},"src":["gold1","gold2","oil1","oil3","kit_gold","nat_gold","rt_gold","rt_oil","str_2011","str_2111","hos_oil","kit_2311","te_gold","te_oil"],"sym":"GOLDF","q":"gold price outlook Fed"},
-{"id":"eu","tk":"DAX","t":"Europa und DAX","kpi":"24.802,78","sub":"DAX-Schluss 20.11. (−2,6 %) · Ziel der DZ Bank Ende 2027: 28.500","sum":"Der DAX schloss am 12.11. noch auf seinem Sechsmonatshoch; die Woche bis 20.11. brachte mit −7,3 % sechs Verlusttage in Folge und den tiefsten Schluss seit dem 8.10., das Jahresplus schrumpfte auf 1,3 %. Der Stoxx 600 verlor 5,8 %, so viel wie seit April 2025 nicht. Die Europa-Ausblicke für 2027 bleiben verhalten positiv; Goldman zieht den DAX dem Stoxx 600 vor und verweist auf die deutschen Staatsausgaben. Am 23.11. stehen die Einkaufsmanagerindizes an, am 24.11. das Ifo-Geschäftsklima.","tl":[{"d":"2026-11-10","t":"UBS: Stoxx 600 bei 750 Ende 2027."},{"d":"2026-11-12","t":"DAX-Schluss 26.771,88, Hoch der letzten sechs Monate. DZ Bank: 28.500 Ende 2027 · Goldman: Stoxx 600 bei 700 in zwölf Monaten."},{"d":"2026-11-17","t":"Der Stoxx 600 schließt 1,75 % tiefer bei 650,72 Punkten, der größte Tagesverlust seit dem 20. März; der DAX verliert mehr als 2 %, europäische Technologiewerte 3,9 %."},{"d":"2026-11-19","t":"Der DAX schließt 1,06 % tiefer bei 25.463,81 Punkten. Evonik bricht um mehr als 16 % ein, nachdem BASF seine Übernahmepläne fallen gelassen hat; SAP verliert 3,6 %."},{"d":"2026-11-20","t":"DAX schließt bei 24.802,78 (−2,6 %), Euro Stoxx 50 bei 5.941,95 (−2,8 %)."},{"d":"2026-11-20","t":"Wochenbilanz: Stoxx 600 −5,8 % auf 625,65, der größte Wochenverlust seit April 2025 (Dow Jones Market Data); DAX −7,3 % nach sechs Verlusttagen in Folge, tiefster Schluss seit dem 8.10."},{"d":"2026-11-20","t":"Nach dem Schluss vom 20.11. bleibt dem DAX ein Jahresplus von 1,3 %, dem Stoxx 600 von 5,8 %; der Euro notiert mit rund 1,097 $ auf dem tiefsten Stand seit April 2025."},{"d":"2026-11-23","t":"Vorläufige Einkaufsmanagerindizes: Frankreich 09:15, Deutschland 09:30 (Prognose Gesamtindex 53,2 nach 53,4), Euroraum 10:00 MEZ. Am 24.11. folgt das Ifo-Geschäftsklima (Prognose 90,5 nach 90,2)."}],"src":["yahoo_px","eu1","eu2","eu3","eu4","w4t_eu0","w4t_eu1","dj_sxxp","mlq_eu","dj_wk","rt_eu20","dj_de"],"sym":"DAX","lv":{"u":"Pkt","now":24802.78,"nowL":"Schluss 20.11. (Kassa-Index)","items":[{"v":28500,"l":"DZ Bank: Ende 2027","d":"2026-11-12","k":"kz"},{"v":26771.88,"l":"Sechsmonatshoch (Schluss)","d":"2026-11-12","k":"ref"}]},"px":"DAX","q":"DAX European stocks outlook"},
-{"id":"btc","tk":"BTC","t":"Bitcoin im Risk-off","kpi":"60.741 $","sub":"Stand 22.11. · 30 % unter dem Sechsmonatshoch vom 21.09.","sum":"Bitcoin fällt mit den Risikoanlagen: am 21.11. zeitweise rund 55.100 $, tiefster Stand seit September 2024, danach Erholung über 60.000 $; die Woche bis 22.11. endete bei 61.271 $ (Binance) und war die siebte Verlustwoche in Folge. US-Spot-ETFs verloren im November bis zum 20.11. rund 3,6 Mrd. $ (Farside, vorläufig). Strategy kauft weiter zu, zuletzt zu durchschnittlich 68.887 $, wird aber zum 30.11. aus den MSCI-Indizes genommen.","tl":[{"d":"2026-09-21","t":"Sechsmonatshoch bei 86.603 $."},{"d":"2026-11-01","t":"Rund 77.800 $; Standard Chartered hält laut Bericht an 100.000 $ zum Jahresende fest."},{"d":"2026-11-11","t":"MSCI kündigt an, Strategy und Metaplanet zum Handelsschluss am 30.11. aus seinen Indizes zu nehmen."},{"d":"2026-11-14","t":"Nach einer Kaskade von Long-Liquidationen fällt Bitcoin am späten Samstag auf bis zu 62.000 $, die sechste Verlustwoche in Folge; zuvor war der 200-Tage-Durchschnitt bei rund 73.000 $ gebrochen."},{"d":"2026-11-16","t":"Strategy meldet den Kauf von 485 BTC zu durchschnittlich 68.887 $."},{"d":"2026-11-19","t":"Rekordabfluss aus BlackRocks IBIT (541,1 Mio. $ an einem Tag); US-Spot-ETFs verlieren im November bis hierhin rund 3,47 Mrd. $."},{"d":"2026-11-20","t":"Bitcoin fällt unter 59.000 $ (Bitstamp: 58.701 $ zum Zeitpunkt des Berichts), niedrigster Stand seit Anfang Juli; Krypto-Liquidationen von 1,53 Mrd. $. Wintermute hält eine Rückeroberung von 68.000 $ mit neuen ETF-Zuflüssen für nötig."},{"d":"2026-11-20","t":"Farside (vorläufig, ohne IBIT): US-Spot-ETFs am 20.11. −124,5 Mio. $, im November bisher rund −3,59 Mrd. $. J.P. Morgan führt die Abflüsse vor allem auf Privatanleger zurück und schätzt die Produktionskosten auf 86.000 $."},{"d":"2026-11-21","t":"Schluss 60.094 $ nach 58.799 $ am Vortag."},{"d":"2026-11-21","t":"Am frühen Samstag Tief bei rund 55.100 bis 55.300 $ je nach Handelsplatz, tiefster Stand seit September 2024; danach Erholung über 60.000 $ nach Liquidationen von 1,8 Mrd. $."},{"d":"2026-11-21","t":"Auf Krakens Markt in kanadischen Dollar fällt Bitcoin kurzzeitig auf 24.250 kanadische Dollar, umgerechnet rund 16.900 US-Dollar und 71 % unter dem Dollar-Kurs derselben Börse. Kraken sieht keinen Sicherheitsvorfall und lässt die Abschlüsse gelten; am Gesamtmarkt lag das Tief bei rund 55.100 $."},{"d":"2026-11-22","t":"Wochenschluss 61.271 $ (Binance), −6,2 % zur Vorwoche; nach Zählung der Presse die siebte Verlustwoche in Folge, die längste Serie seit 2022. Saylor deutet auf X einen weiteren Kauf an; die Meldung von Strategy wird am 23.11. gegen 14:00 MEZ erwartet."},{"d":"2026-11-23","t":"Am frühen Montag 61.465 $ (Binance, 00:30 Uhr New York), 11,5 % über dem Tief vom Samstag."}],"src":["yahoo_px","btc","btc2","tb_saylor","fool_msci","w4t_btc0","tb_etf","w4t_btc1","cd_btc21","si_etf","tb_jpm_btc","cl_btc","r6_kraken","r6_mstr8k"],"sym":"BTC","px":"BTC","q":"Bitcoin price outlook"}
+{
+"id": "nvda",
+"tk": "NVDA",
+"t": "Nvidia: Huang kehrt zurück",
+"kpi": "125,53 $",
+"sub": "−14,0 % am 20.11. · 47,5 % unter Rekordschluss vom 06.10.",
+"sum": "Der Verwaltungsrat hat Jensen Huang am 22.11. einstimmig wieder als Präsident, CEO und Direktor eingesetzt, elf Tage nach dem Rücktritt; Colette Kress ist wieder nur Finanzchefin. Die Aktie stieg am 23.11. um 31,5 % auf 165,05 $, liegt aber weiter rund 31 % unter dem Rekordschluss vom 6.10. Offen bleiben die Untersuchung des unabhängigen Ausschusses, die SEC-Prüfung der Bilanzierung, die Verfahren zur Exportkontrolle und der ausstehende Quartalsbericht (10-Q); gesucht wird ein Chief Compliance Officer. Bernstein, Melius, Oppenheimer und StoneX stufen hoch, die Kursziele liegen zwischen 200 und 300 $.",
+"tl": [
+{
+"d": "2026-10-29",
+"t": "Der Skandal um Jensen Huang wird öffentlich."
+},
+{
+"d": "2026-11-08",
+"t": "Huang räumt in einem Mitarbeiter-Memo Fehlverhalten ein; der Verwaltungsrat leitet eine unabhängige Untersuchung ein."
+},
+{
+"d": "2026-11-12",
+"t": "Rücktritt als Präsident, CEO und Board-Mitglied. Finanzchefin Colette Kress wird Interims-CEO."
+},
+{
+"d": "2026-11-17",
+"t": "Q3 GJ27: Umsatz 115,8 Mrd. $ (+103 % zum Vorjahr), bereinigter Gewinn 2,68 $ je Aktie, Bruttomarge 74,9 %. Ausblick Q4: 130 Mrd. $ ±3 %, Marge 71–72 %. Das WSJ berichtet über eine zivile SEC-Untersuchung."
+},
+{
+"d": "2026-11-17",
+"t": "Kress kündigt an, den Quartalsbericht (10-Q) erst in den kommenden Wochen statt wie üblich am selben Tag einzureichen; einen Grund nennt sie nicht."
+},
+{
+"d": "2026-11-17",
+"t": "Verwaltungsratschef Harvey Jones: Das Board hat Huangs Rücktritt einstimmig angenommen und plant keine Wiedereinsetzung. Finanzminister Bessent verlangt binnen zehn Tagen Antworten von Board und externen Anwälten."
+},
+{
+"d": "2026-11-18",
+"t": "Schlusskurs 150,96 $; das durchschnittliche Kursziel fällt auf 251,74 $."
+},
+{
+"d": "2026-11-18",
+"t": "Semafor: Drei Nvidia-Direktoren haben sich für Huangs Rückkehr eingesetzt."
+},
+{
+"d": "2026-11-19",
+"t": "Schluss 145,98 $, damit unter der Unterstützungszone 146–149 $. ARK verkauft Nvidia und kauft Anthropic."
+},
+{
+"d": "2026-11-19",
+"t": "Kaliforniens Generalstaatsanwalt Rob Bonta lädt Nvidia vor: Geprüft wird, ob Chips nach China gelangten und Anleger getäuscht wurden."
+},
+{
+"d": "2026-11-20",
+"t": "Reuters: Die SEC prüft mögliche Bilanzierungsfragen. Schluss 125,53 $ (−14,0 %), mehr als 20 % Wochenverlust."
+},
+{
+"d": "2026-11-20",
+"t": "Trump sagt, er sähe gern eine zweite Chance für Huang. Nvidia verliert am Tag rund 490 Mrd. $ Börsenwert, in der Woche fast 900 Mrd. $, und ist nur noch die viertgrößte US-Aktie; nachbörslich +3,6 % auf 130,01 $."
+},
+{
+"d": "2026-11-21",
+"t": "New York Times: Die SEC-Untersuchung steht am Anfang; offen ist, ob sie die 2025 geänderte regionale Umsatzaufteilung betrifft, durch die Singapur aus dem Ausweis fiel."
+},
+{
+"d": "2026-11-21",
+"t": "Yahoo Finance: Über die Einheit in Singapur liefen 2025 laut Financial Times rund 104 Mrd. $ Umsatz, etwa die Hälfte der Erlöse. Die Außenstände liegen bei 64 Umsatztagen, dem höchsten Wert seit 2022; welche dieser Fragen die SEC prüft, ist offen."
+},
+{
+"d": "2026-11-21",
+"t": "AP: Finanzminister Bessent hält weitere Beschränkungen für den Export älterer Nvidia-Chips nach China nicht für nötig."
+},
+{
+"d": "2026-11-22",
+"t": "Im außerbörslichen Nachthandel (Blue Ocean) steht die Aktie am Sonntagabend bei 130,76 $, 4,2 % über dem Freitagsschluss. Der Quartalsbericht (10-Q) war laut Capexwave bis zum 22.11. nicht eingereicht."
+},
+{
+"d": "2026-11-22",
+"t": "Bessent bei CBS: Von Nvidia fehlen weiter Antworten zu Chip-Lieferungen nach China; das Unternehmen bleibe aber hochprofitabel. UBS hatte das Kursziel am 18.11. von 240 auf 220 $ gesenkt."
+},
+{
+"d": "2026-11-22",
+"t": "Der Verwaltungsrat setzt Jensen Huang einstimmig und mit sofortiger Wirkung wieder als Präsident, CEO und Direktor ein (8-K, Ereignisdatum 22.11.). Colette Kress bleibt Finanzchefin, Harvey Jones Vorsitzender."
+},
+{
+"d": "2026-11-23",
+"t": "Nvidia gibt die Wiedereinsetzung vor US-Börsenbeginn bekannt: Der Rat sei nach Gesprächen von Huangs Offenheit überzeugt und habe von hohen US-Regierungsstellen gehört, es bestehe kein Sicherheitsrisiko. Die Untersuchung des unabhängigen Ausschusses läuft weiter; gesucht wird ein Chief Compliance Officer."
+},
+{
+"d": "2026-11-23",
+"t": "Trump nennt die Entscheidung richtig und sagt bei CNBC, er habe direkt und indirekt mit dem Verwaltungsrat gesprochen; laut Justizminister lägen keine Belege für rechtswidriges Verhalten Huangs vor."
+},
+{
+"d": "2026-11-23",
+"t": "Schluss 165,05 $ (+31,5 %), der größte Tagesgewinn seit 2003; bis zum Rekordschluss vom 6.10. fehlen weiter 31 %. Bernstein, Melius, Oppenheimer und StoneX stufen hoch, Citi hebt das Ziel auf 240 $; die neuen Kursziele liegen zwischen 200 und 270 $."
+}
+],
+"lv": {
+"u": "$",
+"now": 125.53,
+"nowL": "Schluss 20.11.",
+"items": [
+{
+"v": 300,
+"l": "Rosenblatt",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 251.74,
+"l": "Ø-Kursziel LSEG",
+"d": "2026-11-18",
+"k": "ref"
+},
+{
+"v": 246.67,
+"l": "Konsens S&P Global (62)",
+"d": "2026-11-19",
+"k": "ref"
+},
+{
+"v": 243.67,
+"l": "Rekordhoch intraday",
+"d": "2026-10-06",
+"k": "ref"
+},
+{
+"v": 230,
+"l": "Piper Sandler",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 230,
+"l": "Freedom · Tolmachev",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 220,
+"l": "Mizuho · Rakesh",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 200,
+"l": "Bernstein · Rasgon (Outperform)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 200,
+"l": "Needham",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 184,
+"l": "Evercore · Lipacis",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 170,
+"l": "HSBC",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 147.5,
+"l": "Unterstützung 146–149 · LPL",
+"d": "2026-11-17",
+"k": "sup"
+},
+{
+"v": 239.24,
+"l": "Rekordschluss",
+"d": "2026-10-06",
+"k": "ref"
+},
+{
+"v": 225,
+"l": "Yorkville · Ives (Wert mit Huang: 300)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 124.5,
+"l": "Tagestief 20.11. (52-Wochen-Tief)",
+"d": "2026-11-20",
+"k": "sup"
+},
+{
+"v": 220,
+"l": "UBS · Arcuri",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 300,
+"l": "Morgan Stanley · Moore",
+"d": "2026-11-11",
+"k": "kz"
+},
+{
+"v": 280,
+"l": "BofA · Arya",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 270,
+"l": "StoneX · Acree (Buy)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 250,
+"l": "Oppenheimer · Schafer (Outperform)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 250,
+"l": "Cantor · Muse",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 240,
+"l": "Citi · Malik",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 230,
+"l": "J.P. Morgan · Sur",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 220,
+"l": "Melius · Reitzes (Buy)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 205,
+"l": "Stifel · Roy",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 200,
+"l": "Wedbush · Bryson",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 199,
+"l": "Cramer: 12-faches des Gewinns",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 186.64,
+"l": "Schluss vor Huangs Eingeständnis",
+"d": "2026-11-06",
+"k": "ref"
+}
+]
+},
+"src": [
+"yahoo_px",
+"kip",
+"tc",
+"rt_nvda",
+"seek_sec",
+"futu",
+"w4t_nvda0",
+"w4t_nvda1",
+"yf_nvda21",
+"bi_huang",
+"afp_nvda",
+"fool_nvda_2",
+"w4_lipacis0",
+"cw_nvda",
+"r6_appbs",
+"r6_bessent2",
+"r6_arcuript",
+"nvda_8k2311",
+"nvda_pr2311",
+"alar_trump2311",
+"cnbc_nvda2311",
+"yf_nvda_an2311",
+"spd_nvda2311",
+"pt_2311",
+"c8_moore_0",
+"c8_arya_4",
+"c8_muse_1",
+"c8_sur_3",
+"c8_rakesh_3",
+"oni_nvda2311",
+"nf_cramer2311",
+"fox_ives2311"
+],
+"sym": "NVDA",
+"px": "NVDA",
+"q": "Nvidia Jensen Huang reinstated investigation SEC probe stock"
+},
+{
+"id": "ant",
+"tk": "ANT",
+"t": "Anthropic-Börsengang",
+"kpi": "88,91 $",
+"sub": "−8,5 % am 20.11. · Ausgabepreis 83 $",
+"sum": "Rekord-IPO mit 81,3 Mrd. $ Volumen, mit Mehrzuteilung rund 93,5 Mrd. $. Nach dem Debüt (+17 %) gab die Aktie nach; am 23.11. schloss sie gegen den steigenden Markt bei 87,64 $ (−1,4 %), knapp 6 % über dem Ausgabepreis von 83 $. Seit dem 23.11. werden Optionen und gehebelte ETFs gehandelt; zwölf Analysten nennen im Schnitt 120,32 $ als Ziel. Die ersten Haltefristen enden laut Prospekt Mitte Dezember, die Aufnahme in den Nasdaq-100 steht nach dem 18.12. an.",
+"tl": [
+{
+"d": "2026-11-19",
+"t": "Debüt an der Nasdaq: Erstkurs 111,50 $, Tageshoch 115,10 $, Schluss 97,17 $ (+17 %). Börsenwert zum Schluss rund 1,28 Bio. $. ARK kauft 934.968 Aktien."
+},
+{
+"d": "2026-11-20",
+"t": "Zweiter Handelstag: Schluss 88,91 $ (−8,5 %), im Tagesverlauf bis −13 %. ARK kauft weitere 705.982 Aktien."
+},
+{
+"d": "2026-11-20",
+"t": "Anthropic meldet den Abschluss des Börsengangs: 1,127 Mrd. Aktien zu 83 $ einschließlich der voll ausgeübten Mehrzuteilung von 147 Mio. Stück, Bruttoerlös rund 93,5 Mrd. $. Dazu kommt eine Privatplatzierung von 313 Mio. Class-N-Aktien an sieben Konzerne, darunter Google, Microsoft und Nvidia."
+},
+{
+"d": "2026-11-20",
+"t": "Die konsortialführende Bank hat ihre Stabilisierungsposition geschlossen; eine mögliche Kaufstütze entfällt (Reuters)."
+},
+{
+"d": "2026-11-20",
+"t": "Intropic schätzt, dass Indexfonds bis Jahresende bis zu 30 % der Anthropic-Aktien kaufen könnten; die Bewertung liegt bei rund dem 40-fachen Jahresumsatz (Reuters)."
+},
+{
+"d": "2026-11-20",
+"t": "Erste Analystenstimmen: William Blair startet mit Kaufen (fairer Wert 130–150 $), Seaport mit Halten; Ø-Kursziel laut TipRanks 133,33 $ bei sechs Kauf- und einer Halteempfehlung."
+},
+{
+"d": "2026-11-20",
+"t": "Tagestief 83,05 $, fünf Cent über dem Ausgabepreis; Umsatz rund 400 Mio. Aktien nach 857 Mio. am ersten Tag. Als Belastung nennt die Presse neben dem KI-Ausverkauf einen Bloomberg-Bericht, wonach Apple einen eigenen KI-Agenten entwickelt (Wiedergabe nach Swing To Trade, Kursdaten Nasdaq)."
+},
+{
+"d": "2026-11-20",
+"t": "Social Capital (Chamath Palihapitiya) rechnet vor: Das Quartalswachstum fiel von 144 % auf rund 47 %, die Ausgaben für Rechenleistung stiegen um 77 %; dem stehen Ausgabenzusagen von 900,9 Mrd. $ bis 2045 gegenüber."
+},
+{
+"d": "2026-11-23",
+"t": "Start des Optionshandels: Laut Cboe listen voraussichtlich alle 20 US-Optionsbörsen die Kontrakte; Wochenoptionen folgen am 25.11. mit erstem Verfall am 27.11. Zugleich starten gehebelte ETFs auf die Aktie (GraniteShares AIL und ANS)."
+},
+{
+"d": "2026-11-23",
+"t": "Schluss 87,64 $ (−1,4 %) gegen den Markt: Beim größten Tagesgewinn des S&P 500 seit April 2025 gehört Anthropic zu den wenigen Verlierern. Der Optionshandel startet mit regem Umsatz, bleibt aber hinter dem Rekord von SpaceX (Reuters). Wedbush nimmt die Aktie mit Kaufen und einem Ziel von 120 $ auf; zwölf Analysten nennen im Schnitt 120,32 $."
+},
+{
+"d": "2026-12-18",
+"t": "Nach diesem Termin nimmt der Nasdaq-100 die Aktie auf (CNBC); der Morningstar-Gesamtmarktindex folgt bereits nach fünf Handelstagen."
+}
+],
+"lv": {
+"u": "$",
+"now": 88.91,
+"nowL": "Schluss 20.11.",
+"items": [
+{
+"v": 115.1,
+"l": "Tageshoch Debüt",
+"d": "2026-11-19",
+"k": "ref"
+},
+{
+"v": 111.5,
+"l": "Erstkurs",
+"d": "2026-11-19",
+"k": "ref"
+},
+{
+"v": 97.17,
+"l": "Schluss Tag 1",
+"d": "2026-11-19",
+"k": "ref"
+},
+{
+"v": 83,
+"l": "Ausgabepreis",
+"d": "2026-11-19",
+"k": "sup"
+},
+{
+"v": 155,
+"l": "Melius Research",
+"d": "2026-11-20",
+"k": "kz"
+},
+{
+"v": 150,
+"l": "Needham",
+"d": "2026-11-20",
+"k": "kz"
+},
+{
+"v": 133.33,
+"l": "Ø-Kursziel TipRanks (7 Analysten)",
+"d": "2026-11-20",
+"k": "ref"
+},
+{
+"v": 130,
+"l": "William Blair · Bhatia (Unterkante 130–150)",
+"d": "2026-11-20",
+"k": "kz"
+},
+{
+"v": 92,
+"l": "Morningstar: fairer Wert",
+"d": "2026-11-20",
+"k": "ref"
+},
+{
+"v": 83.05,
+"l": "Tagestief 20.11.",
+"d": "2026-11-20",
+"k": "sup"
+},
+{
+"v": 135,
+"l": "Wolfe Research · Zukin",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 120,
+"l": "Wedbush · Arounian",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 120.32,
+"l": "Ø-Kursziel S&P Global (12 Analysten)",
+"d": "2026-11-23",
+"k": "ref"
+}
+]
+},
+"src": [
+"yahoo_px",
+"yh_ant",
+"tip_ant",
+"cnbc_wood",
+"w4t_ant0",
+"w4t_ant1",
+"rt_ant",
+"tip_ant2",
+"inv_ant2",
+"cnbc_ant",
+"stt_ant",
+"cboe_ant",
+"wso_ant",
+"cnbc_antipo",
+"r6_chamath2",
+"rt_antopt",
+"sa_antfc",
+"cnbc_mkt2311",
+"cc_lockup"
+],
+"sym": "ANT",
+"px": "ANT",
+"q": "Anthropic stock after IPO"
+},
+{
+"id": "capex",
+"tk": "KI-CAPEX",
+"t": "KI-Investitionen unter Verdacht",
+"kpi": "52 %",
+"sub": "der Fondsmanager erwarten binnen 6 Monaten eine Capex-Kürzung",
+"sum": "Die vier großen Hyperscaler planen 2026 zusammen rund 730 Mrd. $ Investitionen und finanzieren zunehmend über Anleihen; J.P. Morgan erwartet für 2027 knapp 1,4 Bio. $ KI-Investitionen und ab 2028 deutlich weniger Zuwachs. Die Debatte dreht sich darum, ob die Erträge das tragen, dazu kommt politischer Druck: Trumps angekündigte Steuer auf Rechenzentren im Ausland und lokaler Widerstand in den USA. HPE meldete am 23.11. 50 % mehr Umsatz und hob den Ausblick an; Dell und HP folgen am 24.11. Mit Huangs Rückkehr erholten sich die Neo-Clouds am 23.11. um rund 20 %.",
+"tl": [
+{
+"d": "2026-10-28",
+"t": "Microsoft senkt den Capex-Plan 2026 auf rund 170 Mrd. $ (zuvor 175), weil sich Kapazitäten nach 2027 verschieben. Alphabet bleibt bei 195–205, Amazon bei rund 220, Meta bei 135–145 Mrd. $."
+},
+{
+"d": "2026-11-04",
+"t": "Anleihewelle: Microsoft 25 Mrd. $, Oracle 10 Mrd. $ plus neue Aktien, Meta 15 Mrd. $ (5.11.)."
+},
+{
+"d": "2026-11-11",
+"t": "Howard Marks veröffentlicht sein Memo mit 100 Fragen an die KI-These."
+},
+{
+"d": "2026-11-17",
+"t": "BofA-Umfrage: Rekordanteil von 38 % sieht Überinvestition, 52 % erwarten eine Kürzung."
+},
+{
+"d": "2026-11-17",
+"t": "SemiAnalysis senkt die Prognose der weltweiten Ausgaben für KI-Beschleuniger für 2028 um 28 % auf 758 Mrd. $ und für 2030 um 40 % auf 923 Mrd. $; am stärksten trifft die Kürzung Nvidia (Bericht TokenPost)."
+},
+{
+"d": "2026-11-17",
+"t": "Pimco hält es für möglich, dass sich die Spreads auf Anleihen zur Finanzierung des KI-Ausbaus verengen, weil der langsamere Rechenzentrumsbau die Emissionen dämpft und den Druck auf die Kreditmärkte mindert."
+},
+{
+"d": "2026-11-19",
+"t": "WSJ: Wall-Street-Häuser sagten im August zu, 500 Mrd. $ für die Finanzierung von Chipkäufen der Nvidia-Kunden zu mobilisieren; bislang floss kein Kapital (zitiert nach Burry auf X)."
+},
+{
+"d": "2026-11-19",
+"t": "IFM Investors: Die fünf größten Cloud-Plattformen dürften 2027 laut Goldman Sachs 1,2 Bio. $ investieren; laut MUFG finanzieren die Hyperscaler rund die Hälfte ihrer Rechenzentrumsausgaben über Kredite."
+},
+{
+"d": "2026-11-20",
+"t": "Trump kündigt an, US-Unternehmen den Bau von Rechenzentren im Ausland zu verbieten oder ihn mit einer hohen Steuer zu belegen; Details fehlen."
+},
+{
+"d": "2026-11-20",
+"t": "Oracle erklärt eine Minute nach Börsenschluss, der OpenAI-Vertrag sei nach der Kapitalaufnahme von 20 Mrd. $ (Aktien und Anleihen, 4.11.) vollständig finanziert. Die Aktie hatte zuvor 8,5 % tiefer bei rund 101 $ geschlossen, dem tiefsten Schluss seit Dezember 2023."
+},
+{
+"d": "2026-11-22",
+"t": "Zu Trumps Ankündigung fehlen weiter Steuersatz, Starttermin und Rechtsgrundlage; er hatte sie nach eigenen Worten nicht mit seinem Stab abgestimmt. Laut Ballotpedia stimmten die Wähler bis zum 20.11. in 53 von 54 lokalen Abstimmungen für Grenzen beim Bau von Rechenzentren (IBTimes)."
+},
+{
+"d": "2026-11-23",
+"t": "HPE meldet für das Quartal bis Ende Oktober 14,5 Mrd. $ Umsatz (+50 %), im Segment Cloud & KI 11,3 Mrd. $ (+68,6 %) und beim Serverumsatz +94,7 %; der Ausblick für das Geschäftsjahr 2027 steigt."
+},
+{
+"d": "2026-11-23",
+"t": "J.P. Morgan erwartet 2027 KI-Investitionen von knapp 1,4 Bio. $, fast doppelt so viel wie 2026, und ab 2028 deutlich geringere Zuwachsraten (Reuters). Dell und HP berichten am 24.11."
+},
+{
+"d": "2026-11-23",
+"t": "Mit Huangs Rückkehr erholen sich die Neo-Clouds: CoreWeave +22 %, Nebius +20 %; Micron +19 %, der Halbleiter-ETF SMH +15 %."
+}
+],
+"src": [
+"fortune_fms",
+"capex_t",
+"cnbc_nv",
+"w4t_capex0",
+"x_burry2",
+"cnbc_dc",
+"x_orcl",
+"asw_orcl",
+"ifm_dc",
+"ibt_dc",
+"w8t_capex2461",
+"hpe_q4",
+"rt_dellhpe",
+"fox_mkt2311",
+"x_musk2111"
+],
+"sym": null,
+"q": "AI capex hyperscaler data center spending"
+},
+{
+"id": "fed",
+"tk": "FED",
+"t": "Fed im Erhöhungsmodus",
+"kpi": "95 %",
+"sub": "Marktpreis für +25 bp am 9.12. (CME FedWatch laut Gate, 23.11.; andere Auswertungen 90 bis 96 %)",
+"sum": "Unter Chair Kevin Warsh hat die Fed im September erhöht. Der Markt preist für den 9.12. einen weiteren Schritt um 25 Basispunkte zu rund 90 bis 96 % ein; ein Schritt um 50 Basispunkte ist kaum noch eingepreist. New-York-Fed-Präsident Williams sagte am 23.11., es bleibe Arbeit zu tun; Bessent, Ackman und Siegel warnen vor zu starker Straffung. Die zehnjährige US-Rendite schloss am 23.11. unverändert bei 4,92 %. Nächster Prüfstein ist der PCE-Preisindex am 25.11.",
+"tl": [
+{
+"d": "2026-09-17",
+"t": "Erhöhung der Leitzinsspanne auf 3,75–4,00 %."
+},
+{
+"d": "2026-10-28",
+"t": "Pause; zwei der zwölf Stimmberechtigten wollten sofort erhöhen."
+},
+{
+"d": "2026-11-10",
+"t": "US-Inflation im Oktober +0,4 % zum Vormonat (erwartet 0,3 %)."
+},
+{
+"d": "2026-11-16",
+"t": "Oxford Economics schätzt die PCE-Inflation für Oktober auf 3,8 % zum Vorjahr (September: 3,6 %) und erwartet im Dezember +25 Basispunkte."
+},
+{
+"d": "2026-11-18",
+"t": "Protokoll der Oktober-Sitzung: Mitglieder erwarten eine weitere Erhöhung."
+},
+{
+"d": "2026-11-18",
+"t": "Protokoll im Detail: Fast alle Teilnehmer halten weitere Erhöhungen für angemessen; zwei erwägen im Dezember mehr als 25 Basispunkte, falls die Inflationsdaten enttäuschen. Abstimmung im Oktober: 10 zu 2."
+},
+{
+"d": "2026-11-18",
+"t": "Gouverneur Waller plädierte im CNBC-Interview für eine Erhöhung um 50 Basispunkte bei der Sitzung am 8./9. Dezember. Die Inflation entwickle sich in die falsche Richtung, die Fed müsse die Menschen „schocken“, um ihre Entschlossenheit zu zeigen."
+},
+{
+"d": "2026-11-19",
+"t": "J.P. Morgan erwartet nun Erhöhungen um je 25 Basispunkte im Dezember, Januar und März."
+},
+{
+"d": "2026-11-20",
+"t": "Gouverneurin Cook begründet ihre Gegenstimme mit zu lockeren Finanzierungsbedingungen. Nach dem Kurssturz preisen Futures 93 % für +25 Basispunkte und 7 % für eine Pause; ein Schritt um 50 Basispunkte ist kaum noch eingepreist."
+},
+{
+"d": "2026-11-21",
+"t": "Stand 21.11.: Neben J.P. Morgan erwarten auch BofA Global Research und die Deutsche Bank je 25 Basispunkte auf den nächsten drei Sitzungen (TheStreet)."
+},
+{
+"d": "2026-11-22",
+"t": "Widerspruch gegen die Straffung: Finanzminister Bessent warnt bei CBS vor einem geldpolitischen Fehler, Bill Ackman nennt eine Erhöhung am 9.12. einen Fehler und fordert ein Inflationsziel von 3 %."
+},
+{
+"d": "2026-11-23",
+"t": "CME FedWatch am frühen Montag: 93,2 % für +25 Basispunkte, 6,8 % für eine Pause, 0 % für +50 (ChainCatcher, 00:38 UTC); andere Auswertungen des Wochenendes nennen 89,7 bis 91,4 %. Für Januar sind zusammen 50 Basispunkte zu knapp 60 % eingepreist. Um 22:00 MEZ spricht New-York-Fed-Präsident Williams."
+},
+{
+"d": "2026-11-23",
+"t": "New-York-Fed-Präsident Williams: Die Rückkehr zu 2 % Inflation sei unverzichtbar, es bleibe Arbeit zu tun; er erwartet 2026 rund 3,5 % Inflation. CME FedWatch zeigt im Tagesverlauf je nach Auswertung 90 bis 96 % für +25 Basispunkte am 9.12.; die zehnjährige Rendite schließt unverändert bei 4,92 %, die zweijährige bei 4,63 %."
+},
+{
+"d": "2026-12-09",
+"t": "Zinsentscheid um 20:00 MEZ, Pressekonferenz Warsh um 20:30 MEZ."
+}
+],
+"src": [
+"fed1",
+"fed2",
+"w4t_fed0",
+"w4t_fed1",
+"w4t_gold0",
+"ts_jpm",
+"fed_cook",
+"fz_fed",
+"wd_fed",
+"cc_fed",
+"gate_fed",
+"dj_wk",
+"r6_bessent2",
+"r6_ackman",
+"w8t_fed2461",
+"nyfed_wil2311",
+"gate_fed2311",
+"tb_fed2311",
+"pterm_ust",
+"aa_siegel2311"
+],
+"sym": "UST10",
+"q": "Federal Reserve December rate decision"
+},
+{
+"id": "rot",
+"tk": "ROTATION",
+"t": "Rotation Tech → Defensiv",
+"kpi": "37 % → 12 %",
+"sub": "Tech-Übergewicht der Fondsmanager binnen eines Monats",
+"sum": "Nach der Woche bis 20.11., in der alle elf Sektoren fielen, drehte der Markt am 23.11.: Technologie +9,0 % und der Halbleiter-ETF SMH +15 %, während Basiskonsum und Energie leicht nachgaben. Die Verlierer der Vorwoche führten die Erholung an; der gleichgewichtete S&P 500 stieg mit 2,6 % deutlich weniger als der Index (4,7 %). Die 13F-Daten vom 30.09. zeigen bereits Verkäufe bei Internet-Plattformen und KI-Infrastruktur.",
+"tl": [
+{
+"d": "2026-11-10",
+"t": "Gesundheitswerte im S&P 500 liegen über 100 Tage mehr als 33 Prozentpunkte vor Tech, laut Dow Jones Market Data die größte Rotation dieser Art seit 25 Jahren."
+},
+{
+"d": "2026-11-16",
+"t": "Frist für die 13F-Meldungen zum 3. Quartal."
+},
+{
+"d": "2026-11-17",
+"t": "BofA-Umfrage: stärkster Abbau von Tech seit Juni 2006."
+},
+{
+"d": "2026-11-19",
+"t": "Der Dow Jones verliert 1.101 Punkte (−2,2 %) auf 49.097, der S&P 500 2 %."
+},
+{
+"d": "2026-11-20",
+"t": "Der Technologie-ETF XLK fällt um 7,3 %; zehn von elf S&P-Sektoren schließen im Minus, nur Basiskonsum legt zu (+0,7 %), Gesundheit gibt 0,1 % nach."
+},
+{
+"d": "2026-11-20",
+"t": "BofA Flow Show: In der Woche bis 18.11. flossen trotz Kursrutsch 66,6 Mrd. $ in Aktienfonds und 5,4 Mrd. $ in Tech-Fonds (achte Woche mit Zuflüssen); Anleihefonds verzeichnen den ersten Abfluss seit April 2025."
+},
+{
+"d": "2026-11-20",
+"t": "Wochenbilanz der Sektoren: alle elf im Minus. Basiskonsum −2,0 %, Versorger −3,0 %, Immobilien −4,3 %, Gesundheit rund −6,1 %; Kommunikation −9,4 %, Technologie −12,3 bis −12,5 % je nach Quelle, Halbleiter-ETF SMH −17,8 %. Lang laufende US-Staatsanleihen (TLT) +2,6 %."
+},
+{
+"d": "2026-11-23",
+"t": "Gegenbewegung: Technologie +9,0 %, zyklischer Konsum +4,0 %, Industrie +3,9 %; nur Basiskonsum (−0,1 %) und Energie (−1,1 %) schließen im Minus. 417 der 500 Werte im S&P 500 steigen; der gleichgewichtete Index (RSP) gewinnt 2,6 %, der S&P 500 4,7 %."
+}
+],
+"src": [
+"rot",
+"fortune_fms",
+"tr",
+"w4t_rot0",
+"w4t_rot1",
+"w4_hartnett0",
+"m365_wk",
+"pmd_wk",
+"capp_2311"
+],
+"sym": null,
+"q": "sector rotation defensive stocks tech selloff"
+},
+{
+"id": "spx27",
+"tk": "SPX",
+"t": "S&P-500-Ziele für 2027",
+"kpi": "8.638",
+"sub": "Durchschnittsziel Ende 2027 aus acht Strategenprognosen",
+"sum": "Trotz Korrektur bleiben die Banken für 2027 bullisch: Die Spanne der Strategenumfrage reicht von 8.000 bis 9.000 Punkten, die Deutsche Bank nennt seit dem 23.11. ebenfalls 9.000, Federated Hermes mit 10.000 das höchste Ziel. Am 23.11. stieg der S&P 500 um 4,7 % auf 7.237 und holte gut die Hälfte des Vorwochenverlusts auf; bis zum Rekord vom 6.10. fehlen 7,4 %. Morgan Stanley spricht von der großen Kaufgelegenheit, andere Strategen zweifeln, ob der Boden erreicht ist.",
+"tl": [
+{
+"d": "2026-11-10",
+"t": "UBS: 8.900."
+},
+{
+"d": "2026-11-16",
+"t": "Morgan Stanley: 8.700 · Wells Fargo: 8.200 · Barclays: 8.700."
+},
+{
+"d": "2026-11-17",
+"t": "Goldman Sachs: 8.700."
+},
+{
+"d": "2026-11-17",
+"t": "BofA-Umfrage: Die Fondsmanager erwarten den S&P 500 Ende 2027 bei 7.926 Punkten."
+},
+{
+"d": "2026-11-18",
+"t": "Federated Hermes bestätigt mit 10.000 Punkten für Ende 2027 das höchste Ziel der Wall Street und erhöht den Aktienanteil im Modellportfolio."
+},
+{
+"d": "2026-11-18",
+"t": "UBS Global Wealth Management erwartet den S&P 500 Ende 2027 bei 8.200 Punkten, gestützt auf robuste Konjunktur und starke Unternehmensgewinne. Hohe Gewinnerwartungen und KI-Unsicherheiten könnten das weitere Aufwärtspotenzial jedoch begrenzen."
+},
+{
+"d": "2026-11-20",
+"t": "Der S&P 500 schließt bei 6.910,39 und damit in der Korrektur."
+},
+{
+"d": "2026-11-20",
+"t": "Wochenbilanz: S&P 500 −8,6 %, schwächste Woche seit April 2025; sieben Verlusttage in Folge."
+},
+{
+"d": "2026-11-21",
+"t": "Yardeni senkt das Ziel für Ende 2026 auf 7.500 (zuvor 7.900) und erwartet Ende 2027 8.500 bis 9.000."
+},
+{
+"d": "2026-11-22",
+"t": "Die Futures auf den S&P 500 steigen am Sonntagabend um rund 2 %, die auf den Nasdaq 100 um rund 3 % (CNBC). Reuters zählt 11,6 % Abstand zum Hoch vom 6.10., die erste Korrektur seit März 2025; Strategen sind uneins, ob der Verkauf ausläuft."
+},
+{
+"d": "2026-11-23",
+"t": "Der S&P 500 steigt um 4,73 % auf 7.237,17, der größte Tagesgewinn seit dem 9.4.2025 und der 33.-größte seit 1957; bis zum Rekordschluss vom 6.10. fehlen 7,4 %. Der VIX fällt von 35,89 auf 26,62."
+},
+{
+"d": "2026-11-23",
+"t": "Die Deutsche Bank nennt im World Outlook 2027 ein Ziel von 9.000 Punkten für Ende 2027; RBC erwartet 8.050 in zwölf Monaten. Morgan Stanley nennt den Kursrutsch die große Kaufgelegenheit."
+}
+],
+"lv": {
+"u": "Pkt",
+"now": 6910.39,
+"nowL": "Schluss 20.11. (Kassa-Index)",
+"items": [
+{
+"v": 9000,
+"l": "Yardeni Research (Spanne 8.500–9.000)",
+"d": "2026-11-21",
+"k": "kz"
+},
+{
+"v": 8900,
+"l": "UBS",
+"d": "2026-11-10",
+"k": "kz"
+},
+{
+"v": 8700,
+"l": "Morgan Stanley · Wilson",
+"d": "2026-11-16",
+"k": "kz"
+},
+{
+"v": 8700,
+"l": "Goldman Sachs · Snider",
+"d": "2026-11-17",
+"k": "kz"
+},
+{
+"v": 8700,
+"l": "Barclays",
+"d": "2026-11-13",
+"k": "kz"
+},
+{
+"v": 8638,
+"l": "Durchschnitt (8 Strategen)",
+"d": "2026-11-20",
+"k": "ref"
+},
+{
+"v": 8200,
+"l": "Wells Fargo · Kwon",
+"d": "2026-11-16",
+"k": "kz"
+},
+{
+"v": 8000,
+"l": "Ned Davis Research",
+"d": "2026-11-20",
+"k": "kz"
+},
+{
+"v": 8200,
+"l": "UBS Global Wealth Management · Haefele",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 7818.93,
+"l": "Rekordschluss",
+"d": "2026-10-06",
+"k": "ref"
+},
+{
+"v": 8500,
+"l": "Société Générale",
+"d": "2026-11-20",
+"k": "kz"
+},
+{
+"v": 7926,
+"l": "Erwartung der Fondsmanager (BofA-Umfrage)",
+"d": "2026-11-17",
+"k": "ref"
+},
+{
+"v": 7500,
+"l": "Yardeni: Ziel Ende 2026",
+"d": "2026-11-21",
+"k": "kz"
+},
+{
+"v": 7100,
+"l": "Einstiegszone 7.100–7.300 · Wilson",
+"d": "2026-11-18",
+"k": "sup"
+},
+{
+"v": 6845,
+"l": "Hartnett: darunter droht ein Kredit- und Aktieneinbruch",
+"d": "2026-11-20",
+"k": "sup"
+},
+{
+"v": 10000,
+"l": "Federated Hermes · Chiavarone",
+"d": "2026-11-18",
+"k": "kz"
+},
+{
+"v": 6681.88,
+"l": "104-Wochen-Durchschnitt · FXEmpire",
+"d": "2026-11-20",
+"k": "sup"
+},
+{
+"v": 5800,
+"l": "Goldman · Snider: unteres Ende der Szenariospanne",
+"d": "2026-11-20",
+"k": "sup"
+},
+{
+"v": 9000,
+"l": "Deutsche Bank (World Outlook)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 8050,
+"l": "RBC · Calvasina (zwölf Monate)",
+"d": "2026-11-23",
+"k": "kz"
+},
+{
+"v": 7700,
+"l": "Seaport · Golub: Ziel Ende 2026",
+"d": "2026-11-19",
+"k": "kz"
+},
+{
+"v": 8000,
+"l": "J.P. Morgan · Lakos-Bujas: Ziel Ende 2026",
+"d": "2026-11-09",
+"k": "kz"
+}
+]
+},
+"src": [
+"yahoo_px",
+"inv_tg",
+"cnbc_ms",
+"cnbc_gs",
+"ts_wf",
+"biggo_gs",
+"fortune_27",
+"fortune_fms",
+"fsw_wk",
+"ms_wk",
+"yard_qt",
+"roic_27",
+"w4_wilson0",
+"w4_hartnett0",
+"fh_spx",
+"cnbc_fut22",
+"rt_corr",
+"cal_fx",
+"r6_lpl",
+"w8t_spx272461",
+"pterm_2311",
+"st_spx2311",
+"cnbc_mkt2311",
+"inv_db2311",
+"c8_calvasina_1",
+"fam_wilson2311",
+"c8_haefele_0",
+"c8_golub_0",
+"c8_lakos_0"
+],
+"sym": "SPX",
+"q": "S&P 500 2027 target strategists"
+},
+{
+"id": "gold",
+"tk": "XAU",
+"t": "Gold, Öl und Hormus",
+"kpi": "≈ 3.632 $",
+"sub": "Gold Spot 23.11., 22:58 Uhr New York (Kitco) · rund +2,6 % zum Freitag",
+"sum": "Gold fiel am 20.11. auf den tiefsten Stand seit September 2025 (Tagestief 3.513,54 $) und erholte sich am 23.11. mit den Aktienmärkten auf rund 3.632 $ (Spot, Kitco). Brent schloss am 23.11. bei 89,37 $ auf dem tiefsten Stand seit drei Monaten: Aus Nahost fließt wieder mehr Öl, in Libyen läuft die Sharara-Pipeline an, und für 2027 wird ein Überschuss erwartet. Angriffe auf Tanker und Anlagen am Golf halten an; am 29.11. tagt die OPEC+. Der Chart zeigt den COMEX-Future, nicht den Spotpreis.",
+"tl": [
+{
+"d": "2026-10-30",
+"t": "Gold bei 3.876 $."
+},
+{
+"d": "2026-11-05",
+"t": "Goldman senkt das Goldziel für Ende 2026 auf 4.150 $."
+},
+{
+"d": "2026-11-18",
+"t": "Das Protokoll der Fed-Sitzung vom Oktober zeigt, dass fast alle Mitglieder weitere Zinserhöhungen für nötig halten und die Eindämmung der hartnäckigen Inflation Priorität hat. Spot-Gold fällt dabei um 2,9 % auf rund 3.739 $ und erreicht den tiefsten Stand seit dem 26. September 2025."
+},
+{
+"d": "2026-11-19",
+"t": "Iran meldet zwei Tanker, die in der Straße von Hormus auf Minen gelaufen sind; Brent bleibt nahe 92 $."
+},
+{
+"d": "2026-11-19",
+"t": "Gold steht im Tief bei 3.693,13 $ und erreicht damit den tiefsten Wert seit September 2025. Der Markt preist laut Reuters für die Dezember-Sitzung der Fed bereits vollständig eine Zinserhöhung ein, der Dollar-Index liegt auf dem höchsten Stand seit dem 2. April 2025."
+},
+{
+"d": "2026-11-20",
+"t": "Gold fällt im Tagestief auf 3.513,54 $; Brent um 92,60 $."
+},
+{
+"d": "2026-11-20",
+"t": "Gold steuert auf die schwächste Woche seit acht Monaten zu: Spot um 11:13 GMT bei 3.585,92 $, belastet von Zinserwartungen, stärkerem Dollar und Zwangsverkäufen im KI-Ausverkauf. In Indien und China zieht die physische Nachfrage an."
+},
+{
+"d": "2026-11-20",
+"t": "Am Nachmittag in New York notiert Gold-Spot bei 3.518,50 $ (−2,8 %), der Wochenverlust liegt bei rund 9,5 %; der Dezember-Future schließt 4,6 % tiefer bei 3.515,40 $."
+},
+{
+"d": "2026-11-20",
+"t": "Brent schließt bei 92,57 $ (+0,6 %, Reuters). Ein Projektil trifft einen Tanker nördlich von Khasab; die saudisch geführte Koalition greift Hodeida an, die Huthi fordern Schiffe zum Verlassen saudischer Rotmeerhäfen auf."
+},
+{
+"d": "2026-11-21",
+"t": "Erneut wird ein Tanker nahe Oman getroffen (UKMTO). Die Durchfahrten durch die Straße von Hormus liegen laut UKMTO rund 65 % unter dem Vorkriegsniveau."
+},
+{
+"d": "2026-11-22",
+"t": "Iran meldet erneut Tanker, die östlich der Straße von Hormus auf Minen gelaufen seien. Trump strebt eine dauerhafte Vereinbarung an, spricht aber von neuen Angriffen nach Neujahr, falls die Gespräche scheitern."
+},
+{
+"d": "2026-11-23",
+"t": "Gold-Spot erholt sich am frühen Montag um rund 1,9 % auf etwa 3.606 $ (Kitco, 00:10 Uhr New York; Tagesspanne 3.539,80 bis 3.630,20 $); Händler nehmen Wetten auf Fed-Erhöhungen leicht zurück. Brent notiert um 92 $ nach drei Verlustwochen in Folge. Iran griff am Wochenende Ziele in Bahrain an; Trump stellte neue Militärschläge nach dem Jahreswechsel in Aussicht, falls die Gespräche scheitern (Trading Economics)."
+},
+{
+"d": "2026-11-23",
+"t": "Brent schließt 3,5 % tiefer bei 89,37 $, dem tiefsten Stand seit drei Monaten (Reuters): Aus Nahost fließt mehr Öl, in Libyen läuft die Sharara-Pipeline wieder an. Gold-Spot notiert am späten Abend in New York bei rund 3.632 $ (Kitco, Tagesspanne 3.539,80 bis 3.690,20 $), der Dezember-Future schließt bei 3.651,40 $."
+}
+],
+"lv": {
+"u": "$",
+"now": 3632.3,
+"nowL": "Gold Spot 23.11. (22:58 Uhr New York, Kitco)",
+"items": [
+{
+"v": 5000,
+"l": "BofA: bis Q2/Q3 2027",
+"d": "2026-10-12",
+"k": "kz"
+},
+{
+"v": 4495,
+"l": "Reuters-Umfrage Ende 2026 (Median)",
+"d": "2026-11-16",
+"k": "ref"
+},
+{
+"v": 4150,
+"l": "Goldman: Ende 2026",
+"d": "2026-11-05",
+"k": "kz"
+},
+{
+"v": 3876,
+"l": "Stand 30.10.",
+"d": "2026-10-30",
+"k": "ref"
+},
+{
+"v": 3513.54,
+"l": "Tagestief",
+"d": "2026-11-20",
+"k": "sup"
+}
+]
+},
+"src": [
+"gold1",
+"gold2",
+"oil1",
+"oil3",
+"kit_gold",
+"nat_gold",
+"rt_gold",
+"rt_oil",
+"str_2011",
+"str_2111",
+"hos_oil",
+"kit_2311",
+"te_gold",
+"te_oil",
+"w8t_gold2460",
+"w8t_gold2461",
+"helaba_2311",
+"tnfx_2311",
+"rt_oil2311",
+"kit_2311b",
+"te_oil2411"
+],
+"sym": "GOLDF",
+"q": "gold price outlook Fed"
+},
+{
+"id": "eu",
+"tk": "DAX",
+"t": "Europa und DAX",
+"kpi": "24.802,78",
+"sub": "DAX-Schluss 20.11. (−2,6 %) · Ziel der DZ Bank Ende 2027: 28.500",
+"sum": "Nach sechs Verlusttagen und einem Wochenminus von 7,3 % erholte sich der DAX am 23.11. um 2,15 % auf 25.337 Punkte, der Stoxx 600 um 1,8 %. Die vorläufigen Einkaufsmanagerindizes fielen in Deutschland mit 55,0 so stark aus wie seit März 2022 nicht, im Euroraum blieb der Gesamtindex bei 51,7, Frankreich schrumpft. Bundesbankpräsident Nagel stellt für den 17.12. eine weitere Zinserhöhung der EZB in Aussicht. Am 24.11. folgt das Ifo-Geschäftsklima; die Deutsche Bank sieht den Stoxx 600 Ende 2027 bei 640.",
+"tl": [
+{
+"d": "2026-11-10",
+"t": "UBS: Stoxx 600 bei 750 Ende 2027."
+},
+{
+"d": "2026-11-12",
+"t": "DAX-Schluss 26.771,88, Hoch der letzten sechs Monate. DZ Bank: 28.500 Ende 2027 · Goldman: Stoxx 600 bei 700 in zwölf Monaten."
+},
+{
+"d": "2026-11-17",
+"t": "Der Stoxx 600 schließt 1,75 % tiefer bei 650,72 Punkten, der größte Tagesverlust seit dem 20. März; der DAX verliert mehr als 2 %, europäische Technologiewerte 3,9 %."
+},
+{
+"d": "2026-11-19",
+"t": "Der DAX schließt 1,06 % tiefer bei 25.463,81 Punkten. Evonik bricht um mehr als 16 % ein, nachdem BASF seine Übernahmepläne fallen gelassen hat; SAP verliert 3,6 %."
+},
+{
+"d": "2026-11-19",
+"t": "Der Stoxx 600 schließt laut CNBC-Daten 0,88 % tiefer bei 638,41 Punkten, der CAC 40 verliert 0,81 % auf 8.080,74 und der FTSE 100 0,93 % auf 10.452,68. Eine chipgetriebene Erholung am Morgen verpuffte rund um Anthropics Börsendebüt."
+},
+{
+"d": "2026-11-20",
+"t": "DAX schließt bei 24.802,78 (−2,6 %), Euro Stoxx 50 bei 5.941,95 (−2,8 %)."
+},
+{
+"d": "2026-11-20",
+"t": "Wochenbilanz: Stoxx 600 −5,8 % auf 625,65, der größte Wochenverlust seit April 2025 (Dow Jones Market Data); DAX −7,3 % nach sechs Verlusttagen in Folge, tiefster Schluss seit dem 8.10."
+},
+{
+"d": "2026-11-20",
+"t": "Nach dem Schluss vom 20.11. bleibt dem DAX ein Jahresplus von 1,3 %, dem Stoxx 600 von 5,8 %; der Euro notiert mit rund 1,097 $ auf dem tiefsten Stand seit April 2025."
+},
+{
+"d": "2026-11-23",
+"t": "Vorläufige Einkaufsmanagerindizes: Frankreich 09:15, Deutschland 09:30 (Prognose Gesamtindex 53,2 nach 53,4), Euroraum 10:00 MEZ. Am 24.11. folgt das Ifo-Geschäftsklima (Prognose 90,5 nach 90,2)."
+},
+{
+"d": "2026-11-23",
+"t": "DAX schließt 2,15 % höher bei 25.337,27, Euro Stoxx 50 +2,23 % auf 6.074,47, Stoxx 600 +1,81 % auf 636,96. Vorläufige Einkaufsmanagerindizes: Deutschland 55,0 (höchster Wert seit März 2022), Euroraum unverändert 51,7, Frankreich 46,2."
+}
+],
+"src": [
+"yahoo_px",
+"eu1",
+"eu2",
+"eu3",
+"eu4",
+"w4t_eu0",
+"w4t_eu1",
+"dj_sxxp",
+"mlq_eu",
+"dj_wk",
+"rt_eu20",
+"dj_de",
+"w8t_eu2460",
+"adhoc_dax2311",
+"wt_sx5e2311",
+"inv_stoxx",
+"1t_pmi2311",
+"c8_nagel_3"
+],
+"sym": "DAX",
+"lv": {
+"u": "Pkt",
+"now": 24802.78,
+"nowL": "Schluss 20.11. (Kassa-Index)",
+"items": [
+{
+"v": 28500,
+"l": "DZ Bank: Ende 2027",
+"d": "2026-11-12",
+"k": "kz"
+},
+{
+"v": 26771.88,
+"l": "Sechsmonatshoch (Schluss)",
+"d": "2026-11-12",
+"k": "ref"
+}
+]
+},
+"px": "DAX",
+"q": "DAX European stocks outlook"
+},
+{
+"id": "btc",
+"tk": "BTC",
+"t": "Bitcoin im Risk-off",
+"kpi": "60.741 $",
+"sub": "Stand 22.11. · 30 % unter dem Sechsmonatshoch vom 21.09.",
+"sum": "Bitcoin fiel am 21.11. zeitweise auf rund 55.100 $, den tiefsten Stand seit September 2024, und hält sich seither um 61.000 $; die Erholung der Aktien am 23.11. machte er nicht mit. US-Spot-ETFs verloren in der Woche bis 20.11. rund 1,8 Mrd. $, am 20.11. allein 669 Mio. $ (Farside). Strategy kaufte zuletzt 457 BTC zu durchschnittlich 64.898 $ und liegt mit einem Einstand von 75.446 $ im Minus; zum 30.11. fällt die Aktie aus den MSCI-Indizes.",
+"tl": [
+{
+"d": "2026-09-21",
+"t": "Sechsmonatshoch bei 86.603 $."
+},
+{
+"d": "2026-11-01",
+"t": "Rund 77.800 $; Standard Chartered hält laut Bericht an 100.000 $ zum Jahresende fest."
+},
+{
+"d": "2026-11-11",
+"t": "MSCI kündigt an, Strategy und Metaplanet zum Handelsschluss am 30.11. aus seinen Indizes zu nehmen."
+},
+{
+"d": "2026-11-14",
+"t": "Nach einer Kaskade von Long-Liquidationen fällt Bitcoin am späten Samstag auf bis zu 62.000 $, die sechste Verlustwoche in Folge; zuvor war der 200-Tage-Durchschnitt bei rund 73.000 $ gebrochen."
+},
+{
+"d": "2026-11-16",
+"t": "Strategy meldet den Kauf von 485 BTC zu durchschnittlich 68.887 $."
+},
+{
+"d": "2026-11-18",
+"t": "Citi senkte sein 12-Monats-Kursziel für Bitcoin auf 99.532 $. Zugleich lag der Kurs unter 64.000 $, nachdem die US-Spot-ETFs am Dienstag rund 239,9 Mio. $ abgeflossen waren, angeführt von BlackRocks IBIT."
+},
+{
+"d": "2026-11-19",
+"t": "Rekordabfluss aus BlackRocks IBIT (541,1 Mio. $ an einem Tag); US-Spot-ETFs verlieren im November bis hierhin rund 3,47 Mrd. $."
+},
+{
+"d": "2026-11-20",
+"t": "Bitcoin fällt unter 59.000 $ (Bitstamp: 58.701 $ zum Zeitpunkt des Berichts), niedrigster Stand seit Anfang Juli; Krypto-Liquidationen von 1,53 Mrd. $. Wintermute hält eine Rückeroberung von 68.000 $ mit neuen ETF-Zuflüssen für nötig."
+},
+{
+"d": "2026-11-20",
+"t": "Farside (vorläufig, ohne IBIT): US-Spot-ETFs am 20.11. −124,5 Mio. $, im November bisher rund −3,59 Mrd. $. J.P. Morgan führt die Abflüsse vor allem auf Privatanleger zurück und schätzt die Produktionskosten auf 86.000 $."
+},
+{
+"d": "2026-11-21",
+"t": "Schluss 60.094 $ nach 58.799 $ am Vortag."
+},
+{
+"d": "2026-11-21",
+"t": "Am frühen Samstag Tief bei rund 55.100 bis 55.300 $ je nach Handelsplatz, tiefster Stand seit September 2024; danach Erholung über 60.000 $ nach Liquidationen von 1,8 Mrd. $."
+},
+{
+"d": "2026-11-21",
+"t": "Auf Krakens Markt in kanadischen Dollar fällt Bitcoin kurzzeitig auf 24.250 kanadische Dollar, umgerechnet rund 16.900 US-Dollar und 71 % unter dem Dollar-Kurs derselben Börse. Kraken sieht keinen Sicherheitsvorfall und lässt die Abschlüsse gelten; am Gesamtmarkt lag das Tief bei rund 55.100 $."
+},
+{
+"d": "2026-11-22",
+"t": "Wochenschluss 61.271 $ (Binance), −6,2 % zur Vorwoche; nach Zählung der Presse die siebte Verlustwoche in Folge, die längste Serie seit 2022. Saylor deutet auf X einen weiteren Kauf an; die Meldung von Strategy wird am 23.11. gegen 14:00 MEZ erwartet."
+},
+{
+"d": "2026-11-23",
+"t": "Am frühen Montag 61.465 $ (Binance, 00:30 Uhr New York), 11,5 % über dem Tief vom Samstag."
+},
+{
+"d": "2026-11-23",
+"t": "Strategy meldet den Kauf von 457 BTC zu durchschnittlich 64.898 $ in der Woche bis 22.11.; Bestand 851.305 BTC, Ø-Einstand 75.446 $ (8-K). Der größere Teil der Mittel aus Aktienverkäufen fließt in den Rückkauf der Vorzugsaktie STRC (211,8 Mio. $)."
+},
+{
+"d": "2026-11-23",
+"t": "Bitcoin bleibt hinter den Aktien zurück: Schluss rund 61.200 $ nach einem Tageshoch über 64.400 $. Farside: Abfluss aus den US-Spot-ETFs am 20.11. endgültig 669,2 Mio. $, davon IBIT 544,7 Mio. $ (neuer Tagesrekord); am 23.11. vorläufig −60,4 Mio. $."
+}
+],
+"src": [
+"yahoo_px",
+"btc",
+"btc2",
+"tb_saylor",
+"fool_msci",
+"w4t_btc0",
+"tb_etf",
+"w4t_btc1",
+"cd_btc21",
+"si_etf",
+"tb_jpm_btc",
+"cl_btc",
+"r6_kraken",
+"r6_mstr8k",
+"w8t_btc2461",
+"sec_mstr2311",
+"bm_mstr2311",
+"cg_btc",
+"farside_2311",
+"bm_btc2311"
+],
+"sym": "BTC",
+"px": "BTC",
+"q": "Bitcoin price outlook"
+}
 ]

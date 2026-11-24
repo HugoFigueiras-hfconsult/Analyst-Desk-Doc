@@ -1,158 +1,1761 @@
 [
-{"p":"abel","tk":"—","nm":"Bending Spoons","ac":"neu","det":"rund 689 Mio. $","sec":"soft"},
-{"p":"abel","tk":"LEN","nm":"Lennar","ac":"plus","det":"+98,6 % auf 26,0 Mio. Stück (rund 1,1 Mrd. $)","sec":"cons","src":"hfa"},
-{"p":"abel","tk":"DAL","nm":"Delta Air Lines","ac":"plus","det":"+12,4 % (rund 595 Mio. $)","sec":"ind","src":"hfa"},
-{"p":"abel","tk":"BAC","nm":"Bank of America","ac":"minus","det":"−5,7 % (rund 1,5 Mrd. $), weiter 8,2 % des Portfolios","sec":"fin","src":"hfa"},
-{"p":"abel","tk":"VRSN","nm":"VeriSign","ac":"minus","det":"−34 %","sec":"soft"},
-{"p":"abel","tk":"COF","nm":"Capital One","ac":"minus","det":"−62 %","sec":"fin"},
-{"p":"abel","tk":"KR","nm":"Kroger","ac":"minus","det":"−10 %","sec":"cons"},
-{"p":"abel","tk":"NUE","nm":"Nucor","ac":"minus","det":"−14,9 %","sec":"gold","src":"hfa"},
-{"p":"druckenmiller","tk":"NEM·B·AEM","nm":"Goldminen: Newmont, Barrick, Agnico Eagle","ac":"neu","det":"zusammen rund 129 Mio. $, 2,9 % des Depots","sec":"gold"},
-{"p":"druckenmiller","tk":"SPCX","nm":"SpaceX","ac":"neu","det":"kleine Position","sec":"space"},
-{"p":"druckenmiller","tk":"STX","nm":"Seagate","ac":"plus","det":"fast verdreifacht","sec":"semis"},
-{"p":"druckenmiller","tk":"PLTR","nm":"Palantir","ac":"plus","det":"aufgestockt","sec":"soft"},
-{"p":"druckenmiller","tk":"SGI","nm":"Somnigroup","ac":"plus","det":"aufgestockt","sec":"cons"},
-{"p":"druckenmiller","tk":"GOOGL","nm":"Alphabet","ac":"exit","det":"komplett verkauft","sec":"mega"},
-{"p":"druckenmiller","tk":"TSM","nm":"TSMC","ac":"minus","det":"−94,5 % (589.700 auf 32.700 Stück)","sec":"semis","src":"druck13f"},
-{"p":"druckenmiller","tk":"AMD","nm":"AMD","ac":"exit","det":"komplett verkauft (73 Tsd. Stück)","sec":"semis","src":"sa_amd"},
-{"p":"druckenmiller","tk":"SNDK","nm":"SanDisk","ac":"exit","det":"komplett verkauft","sec":"semis","src":"druck13f"},
-{"p":"tepper","tk":"ORCL","nm":"Oracle","ac":"neu","det":"172 Mio. $","sec":"soft"},
-{"p":"tepper","tk":"AMAT","nm":"Applied Materials","ac":"neu","det":"115 Mio. $","sec":"semis"},
-{"p":"tepper","tk":"MOD","nm":"Modine","ac":"neu","det":"53 Mio. $","sec":"aiinfra"},
-{"p":"tepper","tk":"PCG","nm":"PG&E","ac":"neu","det":"31 Mio. $","sec":"aiinfra"},
-{"p":"tepper","tk":"SPCX","nm":"SpaceX","ac":"plus","det":"rund 17-fach auf 3,88 Mio. Stück (rund 557 Mio. $)","sec":"space"},
-{"p":"tepper","tk":"LRCX","nm":"Lam Research","ac":"plus","det":"+63 %","sec":"semis"},
-{"p":"tepper","tk":"NVDA","nm":"Nvidia","ac":"plus","det":"+31 %","sec":"semis"},
-{"p":"tepper","tk":"ASML","nm":"ASML","ac":"plus","det":"+30 %","sec":"semis"},
-{"p":"tepper","tk":"MU","nm":"Micron","ac":"plus","det":"+28 %, größte Position (17,6 %)","sec":"semis"},
-{"p":"tepper","tk":"AMD","nm":"AMD","ac":"exit","det":"komplett verkauft (198 Tsd. Stück)","sec":"semis","src":"sa_amd"},
-{"p":"tepper","tk":"AVGO","nm":"Broadcom","ac":"exit","det":"komplett verkauft","sec":"semis"},
-{"p":"tepper","tk":"QCOM","nm":"Qualcomm","ac":"exit","det":"komplett verkauft","sec":"semis"},
-{"p":"tepper","tk":"WHR","nm":"Whirlpool","ac":"exit","det":"komplett verkauft","sec":"cons"},
-{"p":"tepper","tk":"GT","nm":"Goodyear","ac":"exit","det":"komplett verkauft","sec":"cons"},
-{"p":"tepper","tk":"AAL","nm":"American Airlines","ac":"minus","det":"−48 %","sec":"ind"},
-{"p":"tepper","tk":"GOOGL","nm":"Alphabet","ac":"minus","det":"−46 %","sec":"mega"},
-{"p":"tepper","tk":"META","nm":"Meta","ac":"minus","det":"−22 %","sec":"mega"},
-{"p":"tepper","tk":"NRG","nm":"NRG Energy","ac":"minus","det":"−19 %","sec":"aiinfra"},
-{"p":"tepper","tk":"AMZN","nm":"Amazon","ac":"minus","det":"−10 %","sec":"mega"},
-{"p":"ackman","tk":"ICE","nm":"Intercontinental Exchange","ac":"neu","det":"rund 1,01 Mrd. $","sec":"fin"},
-{"p":"ackman","tk":"ALC","nm":"Alcon","ac":"neu","det":"rund 954 Mio. $","sec":"health"},
-{"p":"ackman","tk":"NFLX","nm":"Netflix","ac":"plus","det":"+17,6 % (13,1 auf 15,4 Mio. Stück)","sec":"mega"},
-{"p":"ackman","tk":"HTZ","nm":"Hertz","ac":"exit","det":"komplett verkauft","sec":"cons"},
-{"p":"ackman","tk":"MSFT","nm":"Microsoft","ac":"minus","det":"−34,5 % auf rund 4,1 Mio. Stück","sec":"soft","src":"4w_ack"},
-{"p":"ackman","tk":"V·MA","nm":"Visa, Mastercard","ac":"minus","det":"kleinere Kürzungen","sec":"fin"},
-{"p":"ackman","tk":"META","nm":"Meta","ac":"minus","det":"kleinere Kürzung","sec":"mega"},
-{"p":"ackman","tk":"QSR","nm":"Restaurant Brands","ac":"minus","det":"kleinere Kürzung","sec":"cons"},
-{"p":"laffont","tk":"CRM","nm":"Salesforce","ac":"neu","det":"rund 1,84 Mrd. $","sec":"soft","src":"cnbc13f"},
-{"p":"laffont","tk":"SHOP","nm":"Shopify","ac":"neu","det":"neue Position","sec":"soft"},
-{"p":"laffont","tk":"ICE","nm":"Intercontinental Exchange","ac":"neu","det":"neue Position","sec":"fin"},
-{"p":"laffont","tk":"V","nm":"Visa","ac":"neu","det":"neue Position","sec":"fin"},
-{"p":"laffont","tk":"MSFT","nm":"Microsoft","ac":"plus","det":"+120 % auf 3,31 Mrd. $","sec":"soft","src":"cnbc13f"},
-{"p":"laffont","tk":"META","nm":"Meta","ac":"plus","det":"+78,7 %","sec":"mega","src":"4w_tiger"},
-{"p":"laffont","tk":"NVDA","nm":"Nvidia","ac":"plus","det":"aufgestockt","sec":"semis"},
-{"p":"laffont","tk":"INTC","nm":"Intel","ac":"plus","det":"aufgestockt","sec":"semis"},
-{"p":"laffont","tk":"TSM","nm":"TSMC","ac":"plus","det":"+5,9 %","sec":"semis","src":"4w_tiger"},
-{"p":"laffont","tk":"EQIX","nm":"Equinix","ac":"plus","det":"aufgestockt","sec":"aiinfra"},
-{"p":"laffont","tk":"SPCX","nm":"SpaceX","ac":"plus","det":"aufgestockt","sec":"space"},
-{"p":"laffont","tk":"AMD","nm":"AMD","ac":"exit","det":"komplett verkauft","sec":"semis"},
-{"p":"laffont","tk":"FIX","nm":"Comfort Systems","ac":"exit","det":"komplett verkauft","sec":"aiinfra"},
-{"p":"laffont","tk":"AGX","nm":"Argan","ac":"exit","det":"komplett verkauft","sec":"aiinfra"},
-{"p":"laffont","tk":"—","nm":"Forgent Power Solutions","ac":"exit","det":"komplett verkauft","sec":"aiinfra"},
-{"p":"laffont","tk":"CAI","nm":"Caris Life Sciences","ac":"exit","det":"komplett verkauft","sec":"health"},
-{"p":"laffont","tk":"CBRS","nm":"Cerebras","ac":"minus","det":"−53,6 %","sec":"semis","src":"4w_tiger"},
-{"p":"laffont","tk":"GEV","nm":"GE Vernova","ac":"minus","det":"reduziert","sec":"aiinfra"},
-{"p":"laffont","tk":"ETN","nm":"Eaton","ac":"minus","det":"reduziert","sec":"aiinfra"},
-{"p":"laffont","tk":"ASML","nm":"ASML","ac":"minus","det":"reduziert","sec":"semis"},
-{"p":"laffont","tk":"GOOGL","nm":"Alphabet","ac":"minus","det":"reduziert","sec":"mega"},
-{"p":"coleman","tk":"GOOGL","nm":"Alphabet","ac":"minus","det":"−42,3 % (5,81 auf 3,35 Mio. Stück)","sec":"mega","src":"4w_tiger"},
-{"p":"coleman","tk":"TSM","nm":"TSMC","ac":"minus","det":"−36 %","sec":"semis","src":"4w_tiger"},
-{"p":"coleman","tk":"META","nm":"Meta","ac":"minus","det":"reduziert","sec":"mega","src":"4w_tiger"},
-{"p":"coleman","tk":"SPOT","nm":"Spotify","ac":"exit","det":"verkauft","sec":"mega"},
-{"p":"coleman","tk":"CBRS","nm":"Cerebras","ac":"plus","det":"aufgestockt","sec":"semis","src":"4w_tiger"},
-{"p":"coleman","tk":"NVDA","nm":"Nvidia","ac":"plus","det":"aufgestockt","sec":"semis"},
-{"p":"klarman","tk":"—","nm":"Honeywell Aerospace","ac":"neu","det":"rund 175 Mio. $ (3,5 %)","sec":"ind"},
-{"p":"klarman","tk":"SITE","nm":"SiteOne Landscape Supply","ac":"neu","det":"neue Position","sec":"ind"},
-{"p":"klarman","tk":"AXTA","nm":"Axalta","ac":"plus","det":"fast verdoppelt","sec":"ind"},
-{"p":"klarman","tk":"FERG·WCC","nm":"Ferguson, WESCO","ac":"plus","det":"aufgestockt","sec":"ind"},
-{"p":"klarman","tk":"HLF·GPC","nm":"Herbalife, Genuine Parts","ac":"plus","det":"aufgestockt","sec":"cons"},
-{"p":"klarman","tk":"CME","nm":"CME Group","ac":"plus","det":"aufgestockt","sec":"fin"},
-{"p":"klarman","tk":"NCLH","nm":"Norwegian Cruise Line","ac":"exit","det":"komplett verkauft","sec":"cons"},
-{"p":"klarman","tk":"TFX","nm":"Teleflex","ac":"exit","det":"komplett verkauft","sec":"health"},
-{"p":"klarman","tk":"DNOW","nm":"DNOW","ac":"exit","det":"komplett verkauft","sec":"ind"},
-{"p":"klarman","tk":"GOOGL","nm":"Alphabet","ac":"minus","det":"rund −31 % (1,37 Mio. auf 950 Tsd. Stück)","sec":"mega"},
-{"p":"klarman","tk":"UNP","nm":"Union Pacific","ac":"minus","det":"rund −33 %","sec":"ind"},
-{"p":"klarman","tk":"MOH","nm":"Molina Healthcare","ac":"minus","det":"reduziert","sec":"health"},
-{"p":"klarman","tk":"AON","nm":"Aon","ac":"minus","det":"reduziert","sec":"fin"},
-{"p":"hohn","tk":"MLM","nm":"Martin Marietta","ac":"plus","det":"+37 %","sec":"ind"},
-{"p":"hohn","tk":"VMC","nm":"Vulcan Materials","ac":"plus","det":"+13 %","sec":"ind"},
-{"p":"hohn","tk":"CP","nm":"Canadian Pacific Kansas City","ac":"minus","det":"kleine Kürzung","sec":"ind"},
-{"p":"hohn","tk":"MCO","nm":"Moody's","ac":"minus","det":"kleine Kürzung","sec":"fin"},
-{"p":"terrysmith","tk":"VEEV","nm":"Veeva Systems","ac":"plus","det":"aufgestockt","sec":"health"},
-{"p":"terrysmith","tk":"YUM","nm":"Yum Brands","ac":"plus","det":"aufgestockt","sec":"cons"},
-{"p":"terrysmith","tk":"MAR","nm":"Marriott","ac":"minus","det":"erneut reduziert","sec":"cons"},
-{"p":"fitzpatrick","tk":"MSFT","nm":"Microsoft","ac":"minus","det":"−36 %","sec":"soft"},
-{"p":"fitzpatrick","tk":"BRK","nm":"Berkshire Hathaway","ac":"minus","det":"rund ein Viertel verkauft","sec":"fin"},
-{"p":"halvorsen","tk":"JPM","nm":"JPMorgan Chase","ac":"plus","det":"aufgestockt, 949 Mio. $ (2,71 % des Fonds)","sec":"fin","src":"tw_jpm"},
-{"p":"griffin","tk":"JPM","nm":"JPMorgan Chase","ac":"minus","det":"reduziert, Position 725 Mio. $","sec":"fin","src":"tw_jpm"},
-{"p":"marshall","tk":"JPM","nm":"JPMorgan Chase","ac":"minus","det":"reduziert, Position 325 Mio. $","sec":"fin","src":"tw_jpm"},
-{"p":"sundheim","tk":"LSCC","nm":"Lattice Semiconductor","ac":"plus","det":"aufgestockt","sec":"semis","src":"cnbc13f"},
-{"p":"sundheim","tk":"Q","nm":"Qnity Electronics","ac":"plus","det":"aufgestockt","sec":"semis","src":"cnbc13f"},
-{"p":"lilu","tk":"PDD","nm":"PDD Holdings","ac":"plus","det":"weiter aufgestockt","sec":"cons"},
-{"p":"armitage","tk":"ICE","nm":"Intercontinental Exchange","ac":"neu","det":"neue Position","sec":"fin"},
-{"p":"aschenbrenner","tk":"—","nm":"Gesamtportfolio","ac":"exit","det":"Großteil im Juli verkauft: rund 20,2 auf 1,58 Mrd. $","sec":"aiinfra"},
-{"p":"wood","tk":"CRWV","nm":"CoreWeave","ac":"plus","det":"rund 16,0 Mio. $ in der Woche des Huang-Rücktritts","sec":"aiinfra","per":"Tageshandel Nov. 2026","src":"ark2"},
-{"p":"wood","tk":"BYD","nm":"BYD","ac":"minus","det":"733.514 Stück an vier Handelstagen","sec":"cons","per":"Tageshandel Nov. 2026","src":"ark2"},
-{"p":"wood","tk":"PLTR","nm":"Palantir","ac":"minus","det":"reduziert","sec":"soft","per":"Tageshandel Nov. 2026","src":"ark2"},
-{"p":"wood","tk":"NVDA","nm":"Nvidia","ac":"plus","det":"5.11.: 252.592 Stück · 9.11.: 90.443 Stück","sec":"semis","per":"Tageshandel Nov. 2026","src":"ark1","d":"2026-11-09"},
-{"p":"wood","tk":"SPCX","nm":"SpaceX","ac":"plus","det":"4.11.: 348.406 Stück (rund 47,4 Mio. $)","sec":"space","per":"Tageshandel Nov. 2026","src":"ark3","d":"2026-11-04"},
-{"p":"wood","tk":"ANT","nm":"Anthropic","ac":"plus","det":"19.11.: 934.968 Stück (rund 90,8 Mio. $) · 20.11.: 705.982 Stück (68,6 Mio. $)","sec":"ailab","per":"Tageshandel Nov. 2026","src":"inv_ark","d":"2026-11-20"},
-{"p":"wood","tk":"NVDA","nm":"Nvidia","ac":"minus","det":"19.11.: 33.430 Stück (4,88 Mio. $) · 20.11.: 135.760 Stück (19,8 Mio. $)","sec":"semis","per":"Tageshandel Nov. 2026","src":"inv_ark","d":"2026-11-20"},
-{"p":"wood","tk":"SPCX","nm":"SpaceX","ac":"plus","det":"20.11.: 174.991 Stück","sec":"space","per":"Tageshandel Nov. 2026","src":"ct_ark","d":"2026-11-20"},
-{"p":"saylor","tk":"BTC","nm":"Bitcoin","ac":"plus","det":"Woche bis 15.11.: 485 BTC zu Ø 68.887 $ · Woche bis 8.11.: 1.036 BTC zu Ø 79.012 $","sec":"krypto","per":"8-K-Meldungen Nov. 2026","src":"tb_saylor","d":"2026-11-15"},
-{"p":"burry","tk":"NDX","nm":"Nasdaq 100","ac":"short","det":"Put-Optionen, Basis rund 20 % unter dem Index, Laufzeit bis Anfang 2027","sec":"us","per":"Substack 12.11.2026","src":"ts_burry","d":"2026-11-12"},
-{"p":"burry","tk":"NVDA","nm":"Nvidia","ac":"short","det":"seit 2026 short positioniert; rät am 12.11. zum Ausstieg","sec":"semis","per":"Substack Nov. 2026","src":"ts_burry2","d":"2026-11-12"},
-{"p":"druckenmiller","tk":"KUPFER","nm":"Kupfer","ac":"short","det":"neuer Short; Aktien netto flach","sec":"gold","per":"Aussage 17.11.2026","src":"druck2","d":"2026-11-17"},
-{"p":"novogratz","tk":"GLXY","nm":"Galaxy Digital","ac":"plus","det":"20.11.: 415.000 Stück zu durchschnittlich rund 11,73 $ (rund 4,87 Mio. $) laut Form 4; der Kurs verlor in der Woche mehr als 20 %","sec":"krypto","per":"Form 4, Kauf vom 20.11.2026","d":"2026-11-20","src":"r6_novogratzmv"},
-{"p":"griffin","tk":"AMZN","nm":"Amazon","ac":"minus","det":"−56 %","sec":"mega","src":"ibt_citadel"},
-{"p":"griffin","tk":"AAPL","nm":"Apple","ac":"minus","det":"−37 %","sec":"mega","src":"ibt_citadel"},
-{"p":"griffin","tk":"AMD","nm":"AMD","ac":"minus","det":"−61 %","sec":"semis","src":"ibt_citadel"},
-{"p":"griffin","tk":"SPCX","nm":"SpaceX","ac":"minus","det":"−94 %","sec":"space","src":"ibt_citadel"},
-{"p":"griffin","tk":"NVDA","nm":"Nvidia","ac":"minus","det":"leicht reduziert","sec":"semis","src":"ibt_citadel"},
-{"p":"griffin","tk":"MSFT","nm":"Microsoft","ac":"plus","det":"+55 %","sec":"soft","src":"ibt_citadel"},
-{"p":"griffin","tk":"TSLA","nm":"Tesla","ac":"plus","det":"+100 %","sec":"cons","src":"ibt_citadel"},
-{"p":"griffin","tk":"MA","nm":"Mastercard","ac":"plus","det":"+161 %","sec":"fin","src":"ibt_citadel"},
-{"p":"griffin","tk":"MRVL","nm":"Marvell","ac":"plus","det":"aufgestockt","sec":"semis","src":"ibt_citadel"},
-{"p":"griffin","tk":"ARKK","nm":"ARK Innovation ETF","ac":"plus","det":"aufgestockt","sec":"us","src":"ibt_citadel"},
-{"p":"sundheim","tk":"SPCX","nm":"SpaceX","ac":"minus","det":"rund −7 %, weiter 55,4 % der gemeldeten US-Positionen","sec":"space","src":"mlq_d1"},
-{"p":"sundheim","tk":"META","nm":"Meta","ac":"exit","det":"komplett verkauft","sec":"mega","src":"mlq_d1"},
-{"p":"sundheim","tk":"GOOGL","nm":"Alphabet","ac":"exit","det":"komplett verkauft","sec":"mega","src":"mlq_d1"},
-{"p":"sundheim","tk":"CRWV","nm":"CoreWeave","ac":"exit","det":"komplett verkauft","sec":"aiinfra","src":"mlq_d1"},
-{"p":"cohen","tk":"AMD","nm":"AMD","ac":"minus","det":"−99 % (1,33 Mio. auf 13.285 Stück)","sec":"semis","src":"ws_cohen"},
-{"p":"cohen","tk":"MSFT","nm":"Microsoft","ac":"plus","det":"von 31.522 auf 2,06 Mio. Stück (rund 1,05 Mrd. $)","sec":"soft","src":"ws_cohen"},
-{"p":"cohen","tk":"INTC","nm":"Intel","ac":"plus","det":"verdreifacht","sec":"semis","src":"ws_cohen"},
-{"p":"cohen","tk":"CLS","nm":"Celestica","ac":"neu","det":"neue Position","sec":"aiinfra","src":"ws_cohen"},
-{"p":"cohen","tk":"ASML","nm":"ASML","ac":"minus","det":"reduziert","sec":"semis","src":"ws_cohen"},
-{"p":"burry","tk":"ADBE","nm":"Adobe","ac":"plus","det":"bei rund 246 $ nachgekauft, nun volle Position; zugleich einige Puts geschlossen","sec":"soft","per":"Substack 16.11.2026","d":"2026-11-16","src":"sub_burry16"},
-{"p":"burry","tk":"NVDA","nm":"Nvidia","ac":"short","det":"Put-Position halbiert: 50 % der Puts mit Gewinn verkauft, Rest gehalten","sec":"semis","per":"Substack 20.11.2026","d":"2026-11-20","src":"inv_burry"},
-{"p":"burry","tk":"SMH","nm":"VanEck Semiconductor ETF","ac":"short","det":"Put-Position halbiert: 50 % der Puts mit Gewinn verkauft, Rest gehalten","sec":"semis","per":"Substack 20.11.2026","d":"2026-11-20","src":"inv_burry"},
-{"p":"burry","tk":"MELI","nm":"MercadoLibre","ac":"plus","det":"+20 %","sec":"cons","per":"Substack 20.11.2026","d":"2026-11-20","src":"inv_burry"},
-{"p":"burry","tk":"ZTS","nm":"Zoetis","ac":"minus","det":"rund ein Drittel der Call-Optionen verkauft","sec":"health","per":"Substack 20.11.2026","d":"2026-11-20","src":"inv_burry"},
-{"p":"wood","tk":"NVDA","nm":"Nvidia","ac":"minus","det":"16.11.: 543.092 Stück (rund 84,8 Mio. $), in ARKK gut ein Fünftel der Position","sec":"semis","per":"Tageshandel Nov. 2026","d":"2026-11-16","src":"r6_wood"},
-{"p":"wood","tk":"AMD","nm":"AMD","ac":"plus","det":"20.11.: 49.745 Stück (rund 24,3 Mio. $)","sec":"semis","per":"Tageshandel Nov. 2026","d":"2026-11-20","src":"inv_ark"},
-{"p":"wood","tk":"CRWV","nm":"CoreWeave","ac":"plus","det":"20.11.: 549.659 Stück (rund 24,7 Mio. $)","sec":"aiinfra","per":"Tageshandel Nov. 2026","d":"2026-11-20","src":"inv_ark"},
-{"p":"wood","tk":"CBRS","nm":"Cerebras","ac":"plus","det":"20.11.: ARKK 202,0 Tsd. Stück (rund 16,7 Mio. $), ARKW rund 4,5 Mio. $","sec":"semis","per":"Tageshandel Nov. 2026","d":"2026-11-20","src":"r6_woodmv"},
-{"p":"wood","tk":"AMZN","nm":"Amazon","ac":"minus","det":"20.11.: 37.002 Stück (rund 9,5 Mio. $)","sec":"mega","per":"Tageshandel Nov. 2026","d":"2026-11-20","src":"inv_ark"},
-{"p":"wood","tk":"AVGO","nm":"Broadcom","ac":"minus","det":"20.11.: ARKW verkauft 19,3 Tsd. Stück (rund 5,9 Mio. $)","sec":"semis","per":"Tageshandel Nov. 2026","d":"2026-11-20","src":"r6_woodmv"},
-{"p":"wood","tk":"TSM","nm":"TSMC","ac":"minus","det":"20.11.: ARKW verkauft 6,5 Tsd. Stück (rund 2,1 Mio. $)","sec":"semis","per":"Tageshandel Nov. 2026","d":"2026-11-20","src":"r6_woodmv"},
-{"p":"einhorn","tk":"PCG","nm":"PG&E","ac":"plus","det":"+51 % auf 10,0 Mio. Stück (rund 122 Mio. $), 3,4 % des 13F-Depots","sec":"aiinfra","src":"r6_einhornmv"},
-{"p":"einhorn","tk":"CENX","nm":"Century Aluminum","ac":"neu","det":"neue Position","sec":"gold","src":"r6_einhornmv"},
-{"p":"einhorn","tk":"PYPL","nm":"PayPal","ac":"exit","det":"komplett verkauft, laut Quartalsbrief mit Gewinn","sec":"fin","src":"r6_einhornmv"},
-{"p":"einhorn","tk":"STUB","nm":"StubHub","ac":"exit","det":"komplett verkauft","sec":"cons","src":"r6_einhornmv"},
-{"p":"einhorn","tk":"ADIG","nm":"ADI Global Distribution","ac":"neu","det":"neue Long-Position laut Quartalsbrief","sec":"ind","per":"Quartalsbrief 21.10.2026 (3. Quartal)","d":"2026-10-21","src":"r6_einhornmv2"},
-{"p":"einhorn","tk":"—","nm":"Canal+","ac":"neu","det":"neue Long-Position laut Quartalsbrief","sec":"cons","per":"Quartalsbrief 21.10.2026 (3. Quartal)","d":"2026-10-21","src":"r6_einhornmv2"},
-{"p":"einhorn","tk":"GPRO","nm":"GoPro","ac":"exit","det":"komplett verkauft, mit Verlust","sec":"cons","per":"Quartalsbrief 21.10.2026 (3. Quartal)","d":"2026-10-21","src":"r6_einhornmv2"},
-{"p":"einhorn","tk":"SPB","nm":"Spectrum Brands","ac":"exit","det":"verkauft, mit Gewinn","sec":"cons","per":"Quartalsbrief 21.10.2026 (3. Quartal)","d":"2026-10-21","src":"r6_einhornmv2"},
-{"p":"einhorn","tk":"—","nm":"Rohöl-Futures","ac":"exit","det":"im März wegen des Iran-Kriegs gekauft, nach fünf Monaten verkauft (65 % IRR im Makrobuch)","sec":"oil","per":"Quartalsbrief 21.10.2026 (3. Quartal)","d":"2026-10-21","src":"r6_einhorn"},
-{"p":"einhorn","tk":"—","nm":"Zinswette auf niedrigere Fed-Zinsen","ac":"minus","det":"im 3. Quartal aus Risikogründen um ein Drittel gekürzt; der Rest läuft bis Sommer 2027","sec":"zins","per":"Quartalsbrief 21.10.2026 (3. Quartal)","d":"2026-10-21","src":"r6_einhornmv3"},
-{"p":"djohn","tk":"—","nm":"Ultimate Longevity Center (Franchise, nicht börsennotiert)","ac":"neu","det":"steigt als Miteigentümer bei vier Zentren der Franchise-Kette ein; Betrag nicht genannt","sec":"health","per":"Mitteilung vom 16.11.2026","d":"2026-11-16","src":"r6_djohnmv"}
+{
+"p": "abel",
+"tk": "—",
+"nm": "Bending Spoons",
+"ac": "neu",
+"det": "rund 689 Mio. $",
+"sec": "soft"
+},
+{
+"p": "abel",
+"tk": "LEN",
+"nm": "Lennar",
+"ac": "plus",
+"det": "+98,6 % auf 26,0 Mio. Stück (rund 1,1 Mrd. $)",
+"sec": "cons",
+"src": "hfa"
+},
+{
+"p": "abel",
+"tk": "DAL",
+"nm": "Delta Air Lines",
+"ac": "plus",
+"det": "+12,4 % (rund 595 Mio. $)",
+"sec": "ind",
+"src": "hfa"
+},
+{
+"p": "abel",
+"tk": "BAC",
+"nm": "Bank of America",
+"ac": "minus",
+"det": "−5,7 % (rund 1,5 Mrd. $), weiter 8,2 % des Portfolios",
+"sec": "fin",
+"src": "hfa"
+},
+{
+"p": "abel",
+"tk": "VRSN",
+"nm": "VeriSign",
+"ac": "minus",
+"det": "−34 %",
+"sec": "soft"
+},
+{
+"p": "abel",
+"tk": "COF",
+"nm": "Capital One",
+"ac": "minus",
+"det": "−62 %",
+"sec": "fin"
+},
+{
+"p": "abel",
+"tk": "KR",
+"nm": "Kroger",
+"ac": "minus",
+"det": "−10 %",
+"sec": "cons"
+},
+{
+"p": "abel",
+"tk": "NUE",
+"nm": "Nucor",
+"ac": "minus",
+"det": "−14,9 %",
+"sec": "gold",
+"src": "hfa"
+},
+{
+"p": "druckenmiller",
+"tk": "NEM·B·AEM",
+"nm": "Goldminen: Newmont, Barrick, Agnico Eagle",
+"ac": "neu",
+"det": "zusammen rund 129 Mio. $, 2,9 % des Depots",
+"sec": "gold"
+},
+{
+"p": "druckenmiller",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "neu",
+"det": "kleine Position",
+"sec": "space"
+},
+{
+"p": "druckenmiller",
+"tk": "STX",
+"nm": "Seagate",
+"ac": "plus",
+"det": "fast verdreifacht",
+"sec": "semis"
+},
+{
+"p": "druckenmiller",
+"tk": "PLTR",
+"nm": "Palantir",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "soft"
+},
+{
+"p": "druckenmiller",
+"tk": "SGI",
+"nm": "Somnigroup",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "cons"
+},
+{
+"p": "druckenmiller",
+"tk": "GOOGL",
+"nm": "Alphabet",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "mega"
+},
+{
+"p": "druckenmiller",
+"tk": "TSM",
+"nm": "TSMC",
+"ac": "minus",
+"det": "−94,5 % (589.700 auf 32.700 Stück)",
+"sec": "semis",
+"src": "druck13f"
+},
+{
+"p": "druckenmiller",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "exit",
+"det": "komplett verkauft (73 Tsd. Stück)",
+"sec": "semis",
+"src": "sa_amd"
+},
+{
+"p": "druckenmiller",
+"tk": "SNDK",
+"nm": "SanDisk",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "semis",
+"src": "druck13f"
+},
+{
+"p": "tepper",
+"tk": "ORCL",
+"nm": "Oracle",
+"ac": "neu",
+"det": "172 Mio. $",
+"sec": "soft"
+},
+{
+"p": "tepper",
+"tk": "AMAT",
+"nm": "Applied Materials",
+"ac": "neu",
+"det": "115 Mio. $",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "MOD",
+"nm": "Modine",
+"ac": "neu",
+"det": "53 Mio. $",
+"sec": "aiinfra"
+},
+{
+"p": "tepper",
+"tk": "PCG",
+"nm": "PG&E",
+"ac": "neu",
+"det": "31 Mio. $",
+"sec": "aiinfra"
+},
+{
+"p": "tepper",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "rund 17-fach auf 3,88 Mio. Stück (rund 557 Mio. $)",
+"sec": "space"
+},
+{
+"p": "tepper",
+"tk": "LRCX",
+"nm": "Lam Research",
+"ac": "plus",
+"det": "+63 %",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "plus",
+"det": "+31 %",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "ASML",
+"nm": "ASML",
+"ac": "plus",
+"det": "+30 %",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "MU",
+"nm": "Micron",
+"ac": "plus",
+"det": "+28 %, größte Position (17,6 %)",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "exit",
+"det": "komplett verkauft (198 Tsd. Stück)",
+"sec": "semis",
+"src": "sa_amd"
+},
+{
+"p": "tepper",
+"tk": "AVGO",
+"nm": "Broadcom",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "QCOM",
+"nm": "Qualcomm",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "semis"
+},
+{
+"p": "tepper",
+"tk": "WHR",
+"nm": "Whirlpool",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "cons"
+},
+{
+"p": "tepper",
+"tk": "GT",
+"nm": "Goodyear",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "cons"
+},
+{
+"p": "tepper",
+"tk": "AAL",
+"nm": "American Airlines",
+"ac": "minus",
+"det": "−48 %",
+"sec": "ind"
+},
+{
+"p": "tepper",
+"tk": "GOOGL",
+"nm": "Alphabet",
+"ac": "minus",
+"det": "−46 %",
+"sec": "mega"
+},
+{
+"p": "tepper",
+"tk": "META",
+"nm": "Meta",
+"ac": "minus",
+"det": "−22 %",
+"sec": "mega"
+},
+{
+"p": "tepper",
+"tk": "NRG",
+"nm": "NRG Energy",
+"ac": "minus",
+"det": "−19 %",
+"sec": "aiinfra"
+},
+{
+"p": "tepper",
+"tk": "AMZN",
+"nm": "Amazon",
+"ac": "minus",
+"det": "−10 %",
+"sec": "mega"
+},
+{
+"p": "ackman",
+"tk": "ICE",
+"nm": "Intercontinental Exchange",
+"ac": "neu",
+"det": "rund 1,01 Mrd. $",
+"sec": "fin"
+},
+{
+"p": "ackman",
+"tk": "ALC",
+"nm": "Alcon",
+"ac": "neu",
+"det": "rund 954 Mio. $",
+"sec": "health"
+},
+{
+"p": "ackman",
+"tk": "NFLX",
+"nm": "Netflix",
+"ac": "plus",
+"det": "+17,6 % (13,1 auf 15,4 Mio. Stück)",
+"sec": "mega"
+},
+{
+"p": "ackman",
+"tk": "HTZ",
+"nm": "Hertz",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "cons"
+},
+{
+"p": "ackman",
+"tk": "MSFT",
+"nm": "Microsoft",
+"ac": "minus",
+"det": "−34,5 % auf rund 4,1 Mio. Stück",
+"sec": "soft",
+"src": "4w_ack"
+},
+{
+"p": "ackman",
+"tk": "V·MA",
+"nm": "Visa, Mastercard",
+"ac": "minus",
+"det": "kleinere Kürzungen",
+"sec": "fin"
+},
+{
+"p": "ackman",
+"tk": "META",
+"nm": "Meta",
+"ac": "minus",
+"det": "kleinere Kürzung",
+"sec": "mega"
+},
+{
+"p": "ackman",
+"tk": "QSR",
+"nm": "Restaurant Brands",
+"ac": "minus",
+"det": "kleinere Kürzung",
+"sec": "cons"
+},
+{
+"p": "laffont",
+"tk": "CRM",
+"nm": "Salesforce",
+"ac": "neu",
+"det": "rund 1,84 Mrd. $",
+"sec": "soft",
+"src": "cnbc13f"
+},
+{
+"p": "laffont",
+"tk": "SHOP",
+"nm": "Shopify",
+"ac": "neu",
+"det": "neue Position",
+"sec": "soft"
+},
+{
+"p": "laffont",
+"tk": "ICE",
+"nm": "Intercontinental Exchange",
+"ac": "neu",
+"det": "neue Position",
+"sec": "fin"
+},
+{
+"p": "laffont",
+"tk": "V",
+"nm": "Visa",
+"ac": "neu",
+"det": "neue Position",
+"sec": "fin"
+},
+{
+"p": "laffont",
+"tk": "MSFT",
+"nm": "Microsoft",
+"ac": "plus",
+"det": "+120 % auf 3,31 Mrd. $",
+"sec": "soft",
+"src": "cnbc13f"
+},
+{
+"p": "laffont",
+"tk": "META",
+"nm": "Meta",
+"ac": "plus",
+"det": "+78,7 %",
+"sec": "mega",
+"src": "4w_tiger"
+},
+{
+"p": "laffont",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "semis"
+},
+{
+"p": "laffont",
+"tk": "INTC",
+"nm": "Intel",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "semis"
+},
+{
+"p": "laffont",
+"tk": "TSM",
+"nm": "TSMC",
+"ac": "plus",
+"det": "+5,9 %",
+"sec": "semis",
+"src": "4w_tiger"
+},
+{
+"p": "laffont",
+"tk": "EQIX",
+"nm": "Equinix",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "aiinfra"
+},
+{
+"p": "laffont",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "space"
+},
+{
+"p": "laffont",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "semis"
+},
+{
+"p": "laffont",
+"tk": "FIX",
+"nm": "Comfort Systems",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "aiinfra"
+},
+{
+"p": "laffont",
+"tk": "AGX",
+"nm": "Argan",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "aiinfra"
+},
+{
+"p": "laffont",
+"tk": "—",
+"nm": "Forgent Power Solutions",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "aiinfra"
+},
+{
+"p": "laffont",
+"tk": "CAI",
+"nm": "Caris Life Sciences",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "health"
+},
+{
+"p": "laffont",
+"tk": "CBRS",
+"nm": "Cerebras",
+"ac": "minus",
+"det": "−53,6 %",
+"sec": "semis",
+"src": "4w_tiger"
+},
+{
+"p": "laffont",
+"tk": "GEV",
+"nm": "GE Vernova",
+"ac": "minus",
+"det": "reduziert",
+"sec": "aiinfra"
+},
+{
+"p": "laffont",
+"tk": "ETN",
+"nm": "Eaton",
+"ac": "minus",
+"det": "reduziert",
+"sec": "aiinfra"
+},
+{
+"p": "laffont",
+"tk": "ASML",
+"nm": "ASML",
+"ac": "minus",
+"det": "reduziert",
+"sec": "semis"
+},
+{
+"p": "laffont",
+"tk": "GOOGL",
+"nm": "Alphabet",
+"ac": "minus",
+"det": "reduziert",
+"sec": "mega"
+},
+{
+"p": "coleman",
+"tk": "GOOGL",
+"nm": "Alphabet",
+"ac": "minus",
+"det": "−42,3 % (5,81 auf 3,35 Mio. Stück)",
+"sec": "mega",
+"src": "4w_tiger"
+},
+{
+"p": "coleman",
+"tk": "TSM",
+"nm": "TSMC",
+"ac": "minus",
+"det": "−36 %",
+"sec": "semis",
+"src": "4w_tiger"
+},
+{
+"p": "coleman",
+"tk": "META",
+"nm": "Meta",
+"ac": "minus",
+"det": "reduziert",
+"sec": "mega",
+"src": "4w_tiger"
+},
+{
+"p": "coleman",
+"tk": "SPOT",
+"nm": "Spotify",
+"ac": "exit",
+"det": "verkauft",
+"sec": "mega"
+},
+{
+"p": "coleman",
+"tk": "CBRS",
+"nm": "Cerebras",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "semis",
+"src": "4w_tiger"
+},
+{
+"p": "coleman",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "plus",
+"det": "+7 % auf 12 Mio. Stück, größte Position (rund 13,6 %)",
+"sec": "semis",
+"src": "ws_tiger"
+},
+{
+"p": "klarman",
+"tk": "—",
+"nm": "Honeywell Aerospace",
+"ac": "neu",
+"det": "1,13 Mio. Stück, rund 175 Mio. $ (3,5 %)",
+"sec": "ind",
+"src": "tikr_baupost"
+},
+{
+"p": "klarman",
+"tk": "SITE",
+"nm": "SiteOne Landscape Supply",
+"ac": "neu",
+"det": "neue Position",
+"sec": "ind"
+},
+{
+"p": "klarman",
+"tk": "AXTA",
+"nm": "Axalta",
+"ac": "plus",
+"det": "fast verdoppelt",
+"sec": "ind"
+},
+{
+"p": "klarman",
+"tk": "FERG·WCC",
+"nm": "Ferguson, WESCO",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "ind"
+},
+{
+"p": "klarman",
+"tk": "HLF·GPC",
+"nm": "Herbalife, Genuine Parts",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "cons"
+},
+{
+"p": "klarman",
+"tk": "CME",
+"nm": "CME Group",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "fin"
+},
+{
+"p": "klarman",
+"tk": "NCLH",
+"nm": "Norwegian Cruise Line",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "cons"
+},
+{
+"p": "klarman",
+"tk": "TFX",
+"nm": "Teleflex",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "health"
+},
+{
+"p": "klarman",
+"tk": "DNOW",
+"nm": "DNOW",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "ind"
+},
+{
+"p": "klarman",
+"tk": "GOOGL",
+"nm": "Alphabet",
+"ac": "minus",
+"det": "rund −31 % (1,37 Mio. auf 950 Tsd. Stück)",
+"sec": "mega"
+},
+{
+"p": "klarman",
+"tk": "UNP",
+"nm": "Union Pacific",
+"ac": "minus",
+"det": "rund −33 %",
+"sec": "ind"
+},
+{
+"p": "klarman",
+"tk": "MOH",
+"nm": "Molina Healthcare",
+"ac": "minus",
+"det": "reduziert",
+"sec": "health"
+},
+{
+"p": "klarman",
+"tk": "AON",
+"nm": "Aon",
+"ac": "minus",
+"det": "reduziert",
+"sec": "fin"
+},
+{
+"p": "hohn",
+"tk": "MLM",
+"nm": "Martin Marietta",
+"ac": "plus",
+"det": "+37 %",
+"sec": "ind"
+},
+{
+"p": "hohn",
+"tk": "VMC",
+"nm": "Vulcan Materials",
+"ac": "plus",
+"det": "+13 %",
+"sec": "ind"
+},
+{
+"p": "hohn",
+"tk": "CP",
+"nm": "Canadian Pacific Kansas City",
+"ac": "minus",
+"det": "kleine Kürzung",
+"sec": "ind"
+},
+{
+"p": "hohn",
+"tk": "MCO",
+"nm": "Moody's",
+"ac": "minus",
+"det": "kleine Kürzung",
+"sec": "fin"
+},
+{
+"p": "terrysmith",
+"tk": "VEEV",
+"nm": "Veeva Systems",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "health"
+},
+{
+"p": "terrysmith",
+"tk": "YUM",
+"nm": "Yum Brands",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "cons"
+},
+{
+"p": "terrysmith",
+"tk": "MAR",
+"nm": "Marriott",
+"ac": "minus",
+"det": "erneut reduziert",
+"sec": "cons"
+},
+{
+"p": "fitzpatrick",
+"tk": "MSFT",
+"nm": "Microsoft",
+"ac": "minus",
+"det": "−36 %",
+"sec": "soft"
+},
+{
+"p": "fitzpatrick",
+"tk": "BRK",
+"nm": "Berkshire Hathaway",
+"ac": "minus",
+"det": "rund ein Viertel verkauft",
+"sec": "fin"
+},
+{
+"p": "halvorsen",
+"tk": "JPM",
+"nm": "JPMorgan Chase",
+"ac": "plus",
+"det": "um gut 18 % aufgestockt, 949 Mio. $ (2,71 % des Fonds)",
+"sec": "fin",
+"src": "tw_jpm"
+},
+{
+"p": "griffin",
+"tk": "JPM",
+"nm": "JPMorgan Chase",
+"ac": "minus",
+"det": "reduziert, Position 725 Mio. $",
+"sec": "fin",
+"src": "tw_jpm"
+},
+{
+"p": "marshall",
+"tk": "JPM",
+"nm": "JPMorgan Chase",
+"ac": "minus",
+"det": "reduziert, Position 325 Mio. $",
+"sec": "fin",
+"src": "tw_jpm"
+},
+{
+"p": "sundheim",
+"tk": "LSCC",
+"nm": "Lattice Semiconductor",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "semis",
+"src": "cnbc13f"
+},
+{
+"p": "sundheim",
+"tk": "Q",
+"nm": "Qnity Electronics",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "semis",
+"src": "cnbc13f"
+},
+{
+"p": "lilu",
+"tk": "PDD",
+"nm": "PDD Holdings",
+"ac": "plus",
+"det": "weiter aufgestockt",
+"sec": "cons"
+},
+{
+"p": "armitage",
+"tk": "ICE",
+"nm": "Intercontinental Exchange",
+"ac": "neu",
+"det": "neue Position",
+"sec": "fin"
+},
+{
+"p": "aschenbrenner",
+"tk": "—",
+"nm": "Gesamtportfolio",
+"ac": "exit",
+"det": "Großteil im Juli verkauft: rund 20,2 auf 1,58 Mrd. $",
+"sec": "aiinfra"
+},
+{
+"p": "wood",
+"tk": "CRWV",
+"nm": "CoreWeave",
+"ac": "plus",
+"det": "rund 16,0 Mio. $ in der Woche des Huang-Rücktritts",
+"sec": "aiinfra",
+"per": "Tageshandel Nov. 2026",
+"src": "ark2"
+},
+{
+"p": "wood",
+"tk": "BYD",
+"nm": "BYD",
+"ac": "minus",
+"det": "733.514 Stück an vier Handelstagen",
+"sec": "cons",
+"per": "Tageshandel Nov. 2026",
+"src": "ark2"
+},
+{
+"p": "wood",
+"tk": "PLTR",
+"nm": "Palantir",
+"ac": "minus",
+"det": "reduziert",
+"sec": "soft",
+"per": "Tageshandel Nov. 2026",
+"src": "ark2"
+},
+{
+"p": "wood",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "plus",
+"det": "5.11.: 252.592 Stück · 9.11.: 90.443 Stück",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"src": "ark1",
+"d": "2026-11-09"
+},
+{
+"p": "wood",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "4.11.: 348.406 Stück (rund 47,4 Mio. $)",
+"sec": "space",
+"per": "Tageshandel Nov. 2026",
+"src": "ark3",
+"d": "2026-11-04"
+},
+{
+"p": "wood",
+"tk": "ANT",
+"nm": "Anthropic",
+"ac": "plus",
+"det": "19.11.: 934.968 Stück (rund 90,8 Mio. $) · 20.11.: 705.982 Stück (68,6 Mio. $)",
+"sec": "ailab",
+"per": "Tageshandel Nov. 2026",
+"src": "inv_ark",
+"d": "2026-11-20"
+},
+{
+"p": "wood",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "minus",
+"det": "19.11.: 33.430 Stück (4,88 Mio. $) · 20.11.: 135.760 Stück (19,8 Mio. $)",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"src": "inv_ark",
+"d": "2026-11-20"
+},
+{
+"p": "wood",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "20.11.: 174.991 Stück",
+"sec": "space",
+"per": "Tageshandel Nov. 2026",
+"src": "ct_ark",
+"d": "2026-11-20"
+},
+{
+"p": "saylor",
+"tk": "BTC",
+"nm": "Bitcoin",
+"ac": "plus",
+"det": "Woche bis 15.11.: 485 BTC zu Ø 68.887 $ · Woche bis 8.11.: 1.036 BTC zu Ø 79.012 $",
+"sec": "krypto",
+"per": "8-K-Meldungen Nov. 2026",
+"src": "tb_saylor",
+"d": "2026-11-15"
+},
+{
+"p": "burry",
+"tk": "NDX",
+"nm": "Nasdaq 100",
+"ac": "short",
+"det": "Put-Optionen, Basis rund 20 % unter dem Index, Laufzeit bis Anfang 2027",
+"sec": "us",
+"per": "Substack 12.11.2026",
+"src": "ts_burry",
+"d": "2026-11-12"
+},
+{
+"p": "burry",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "short",
+"det": "seit 2026 short positioniert; rät am 12.11. zum Ausstieg",
+"sec": "semis",
+"per": "Substack Nov. 2026",
+"src": "ts_burry2",
+"d": "2026-11-12"
+},
+{
+"p": "druckenmiller",
+"tk": "KUPFER",
+"nm": "Kupfer",
+"ac": "short",
+"det": "neuer Short; Aktien netto flach",
+"sec": "gold",
+"per": "Aussage 17.11.2026",
+"src": "druck2",
+"d": "2026-11-17"
+},
+{
+"p": "novogratz",
+"tk": "GLXY",
+"nm": "Galaxy Digital",
+"ac": "plus",
+"det": "20.11.: 415.000 Stück zu durchschnittlich rund 11,73 $ (rund 4,87 Mio. $) laut Form 4; der Kurs verlor in der Woche mehr als 20 %",
+"sec": "krypto",
+"per": "Form 4, Kauf vom 20.11.2026",
+"d": "2026-11-20",
+"src": "r6_novogratzmv"
+},
+{
+"p": "griffin",
+"tk": "AMZN",
+"nm": "Amazon",
+"ac": "minus",
+"det": "−56 %",
+"sec": "mega",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "AAPL",
+"nm": "Apple",
+"ac": "minus",
+"det": "−37 %",
+"sec": "mega",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "minus",
+"det": "−61 %",
+"sec": "semis",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "minus",
+"det": "−94 %",
+"sec": "space",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "minus",
+"det": "leicht reduziert",
+"sec": "semis",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "MSFT",
+"nm": "Microsoft",
+"ac": "plus",
+"det": "+55 %",
+"sec": "soft",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "TSLA",
+"nm": "Tesla",
+"ac": "plus",
+"det": "+100 %",
+"sec": "cons",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "MA",
+"nm": "Mastercard",
+"ac": "plus",
+"det": "+161 %",
+"sec": "fin",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "MRVL",
+"nm": "Marvell",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "semis",
+"src": "ibt_citadel"
+},
+{
+"p": "griffin",
+"tk": "ARKK",
+"nm": "ARK Innovation ETF",
+"ac": "plus",
+"det": "aufgestockt",
+"sec": "us",
+"src": "ibt_citadel"
+},
+{
+"p": "sundheim",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "minus",
+"det": "rund −7 %, weiter 55,4 % der gemeldeten US-Positionen",
+"sec": "space",
+"src": "mlq_d1"
+},
+{
+"p": "sundheim",
+"tk": "META",
+"nm": "Meta",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "mega",
+"src": "mlq_d1"
+},
+{
+"p": "sundheim",
+"tk": "GOOGL",
+"nm": "Alphabet",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "mega",
+"src": "mlq_d1"
+},
+{
+"p": "sundheim",
+"tk": "CRWV",
+"nm": "CoreWeave",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "aiinfra",
+"src": "mlq_d1"
+},
+{
+"p": "cohen",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "minus",
+"det": "−99 % (1,33 Mio. auf 13.285 Stück)",
+"sec": "semis",
+"src": "ws_cohen"
+},
+{
+"p": "cohen",
+"tk": "MSFT",
+"nm": "Microsoft",
+"ac": "plus",
+"det": "von 31.522 auf 2,06 Mio. Stück (rund 1,05 Mrd. $)",
+"sec": "soft",
+"src": "ws_cohen"
+},
+{
+"p": "cohen",
+"tk": "INTC",
+"nm": "Intel",
+"ac": "plus",
+"det": "verdreifacht",
+"sec": "semis",
+"src": "ws_cohen"
+},
+{
+"p": "cohen",
+"tk": "CLS",
+"nm": "Celestica",
+"ac": "neu",
+"det": "neue Position",
+"sec": "aiinfra",
+"src": "ws_cohen"
+},
+{
+"p": "cohen",
+"tk": "ASML",
+"nm": "ASML",
+"ac": "minus",
+"det": "reduziert",
+"sec": "semis",
+"src": "ws_cohen"
+},
+{
+"p": "burry",
+"tk": "ADBE",
+"nm": "Adobe",
+"ac": "plus",
+"det": "bei rund 246 $ nachgekauft, nun volle Position; zugleich einige Puts geschlossen",
+"sec": "soft",
+"per": "Substack 16.11.2026",
+"d": "2026-11-16",
+"src": "sub_burry16"
+},
+{
+"p": "burry",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "short",
+"det": "20.11.: drei Viertel der Puts verkauft und Calls gekauft; mit den restlichen Puts laut Burry ein Straddle",
+"sec": "semis",
+"per": "Substack 20.11.2026, Nachtrag vom 23.11.",
+"d": "2026-11-20",
+"src": "st_burry2311"
+},
+{
+"p": "burry",
+"tk": "SMH",
+"nm": "VanEck Semiconductor ETF",
+"ac": "exit",
+"det": "20.11.: Put-Position vollständig geschlossen (alle Puts verkauft)",
+"sec": "semis",
+"per": "Substack 20.11.2026, Nachtrag vom 23.11.",
+"d": "2026-11-20",
+"src": "st_burry2311"
+},
+{
+"p": "burry",
+"tk": "MELI",
+"nm": "MercadoLibre",
+"ac": "plus",
+"det": "+20 %",
+"sec": "cons",
+"per": "Substack 20.11.2026",
+"d": "2026-11-20",
+"src": "inv_burry"
+},
+{
+"p": "burry",
+"tk": "ZTS",
+"nm": "Zoetis",
+"ac": "minus",
+"det": "rund ein Drittel der Call-Optionen verkauft",
+"sec": "health",
+"per": "Substack 20.11.2026",
+"d": "2026-11-20",
+"src": "inv_burry"
+},
+{
+"p": "wood",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "minus",
+"det": "16.11.: 543.092 Stück (rund 84,8 Mio. $), in ARKK gut ein Fünftel der Position",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-16",
+"src": "r6_wood"
+},
+{
+"p": "wood",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "plus",
+"det": "20.11.: 49.745 Stück (rund 24,3 Mio. $)",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20",
+"src": "inv_ark"
+},
+{
+"p": "wood",
+"tk": "CRWV",
+"nm": "CoreWeave",
+"ac": "plus",
+"det": "20.11.: 549.659 Stück (rund 24,7 Mio. $)",
+"sec": "aiinfra",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20",
+"src": "inv_ark"
+},
+{
+"p": "wood",
+"tk": "CBRS",
+"nm": "Cerebras",
+"ac": "plus",
+"det": "20.11.: ARKK 202,0 Tsd. Stück (rund 16,7 Mio. $), ARKW rund 4,5 Mio. $",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20",
+"src": "r6_woodmv"
+},
+{
+"p": "wood",
+"tk": "AMZN",
+"nm": "Amazon",
+"ac": "minus",
+"det": "20.11.: 37.002 Stück (rund 9,5 Mio. $)",
+"sec": "mega",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20",
+"src": "inv_ark"
+},
+{
+"p": "wood",
+"tk": "AVGO",
+"nm": "Broadcom",
+"ac": "minus",
+"det": "20.11.: ARKW verkauft 19,3 Tsd. Stück (rund 5,9 Mio. $)",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20",
+"src": "r6_woodmv"
+},
+{
+"p": "wood",
+"tk": "TSM",
+"nm": "TSMC",
+"ac": "minus",
+"det": "20.11.: ARKW verkauft 6,5 Tsd. Stück (rund 2,1 Mio. $)",
+"sec": "semis",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20",
+"src": "r6_woodmv"
+},
+{
+"p": "einhorn",
+"tk": "PCG",
+"nm": "PG&E",
+"ac": "plus",
+"det": "+51 % auf 10,0 Mio. Stück (rund 122 Mio. $), 3,4 % des 13F-Depots",
+"sec": "aiinfra",
+"src": "r6_einhornmv"
+},
+{
+"p": "einhorn",
+"tk": "CENX",
+"nm": "Century Aluminum",
+"ac": "neu",
+"det": "neue Position",
+"sec": "gold",
+"src": "r6_einhornmv"
+},
+{
+"p": "einhorn",
+"tk": "PYPL",
+"nm": "PayPal",
+"ac": "exit",
+"det": "komplett verkauft, laut Quartalsbrief mit Gewinn",
+"sec": "fin",
+"src": "r6_einhornmv"
+},
+{
+"p": "einhorn",
+"tk": "STUB",
+"nm": "StubHub",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "cons",
+"src": "r6_einhornmv"
+},
+{
+"p": "einhorn",
+"tk": "ADIG",
+"nm": "ADI Global Distribution",
+"ac": "neu",
+"det": "neue Long-Position laut Quartalsbrief",
+"sec": "ind",
+"per": "Quartalsbrief 21.10.2026 (3. Quartal)",
+"d": "2026-10-21",
+"src": "r6_einhornmv2"
+},
+{
+"p": "einhorn",
+"tk": "—",
+"nm": "Canal+",
+"ac": "neu",
+"det": "neue Long-Position laut Quartalsbrief",
+"sec": "cons",
+"per": "Quartalsbrief 21.10.2026 (3. Quartal)",
+"d": "2026-10-21",
+"src": "r6_einhornmv2"
+},
+{
+"p": "einhorn",
+"tk": "GPRO",
+"nm": "GoPro",
+"ac": "exit",
+"det": "komplett verkauft, mit Verlust",
+"sec": "cons",
+"per": "Quartalsbrief 21.10.2026 (3. Quartal)",
+"d": "2026-10-21",
+"src": "r6_einhornmv2"
+},
+{
+"p": "einhorn",
+"tk": "SPB",
+"nm": "Spectrum Brands",
+"ac": "exit",
+"det": "verkauft, mit Gewinn",
+"sec": "cons",
+"per": "Quartalsbrief 21.10.2026 (3. Quartal)",
+"d": "2026-10-21",
+"src": "r6_einhornmv2"
+},
+{
+"p": "einhorn",
+"tk": "—",
+"nm": "Rohöl-Futures",
+"ac": "exit",
+"det": "im März wegen des Iran-Kriegs gekauft, nach fünf Monaten verkauft (65 % IRR im Makrobuch)",
+"sec": "oil",
+"per": "Quartalsbrief 21.10.2026 (3. Quartal)",
+"d": "2026-10-21",
+"src": "r6_einhorn"
+},
+{
+"p": "einhorn",
+"tk": "—",
+"nm": "Zinswette auf niedrigere Fed-Zinsen",
+"ac": "minus",
+"det": "im 3. Quartal aus Risikogründen um ein Drittel gekürzt; der Rest läuft bis Sommer 2027",
+"sec": "zins",
+"per": "Quartalsbrief 21.10.2026 (3. Quartal)",
+"d": "2026-10-21",
+"src": "r6_einhornmv3"
+},
+{
+"p": "djohn",
+"tk": "—",
+"nm": "Ultimate Longevity Center (Franchise, nicht börsennotiert)",
+"ac": "neu",
+"det": "steigt als Miteigentümer bei vier Zentren der Franchise-Kette ein; Betrag nicht genannt",
+"sec": "health",
+"per": "Mitteilung vom 16.11.2026",
+"d": "2026-11-16",
+"src": "r6_djohnmv"
+},
+{
+"p": "coleman",
+"tk": "INTC",
+"nm": "Intel",
+"ac": "plus",
+"det": "+30 % (rund 155 Mio. $)",
+"sec": "semis",
+"src": "gs_tiger"
+},
+{
+"p": "coleman",
+"tk": "LRCX",
+"nm": "Lam Research",
+"ac": "minus",
+"det": "um rund 319 Mio. $ reduziert",
+"sec": "semis",
+"src": "gs_tiger"
+},
+{
+"p": "coleman",
+"tk": "AMAT",
+"nm": "Applied Materials",
+"ac": "minus",
+"det": "um rund 220 Mio. $ reduziert",
+"sec": "semis",
+"src": "gs_tiger"
+},
+{
+"p": "coleman",
+"tk": "RACE",
+"nm": "Ferrari",
+"ac": "neu",
+"det": "602.700 Stück (rund 237 Mio. $), größter Neuzugang",
+"sec": "cons",
+"src": "gf_tiger"
+},
+{
+"p": "englander",
+"tk": "SPY",
+"nm": "S&P-500-ETF",
+"ac": "minus",
+"det": "Anteile für rund 2,5 Mrd. $ verkauft",
+"sec": "us",
+"src": "gs_mill"
+},
+{
+"p": "englander",
+"tk": "QQQ",
+"nm": "Nasdaq-100-ETF",
+"ac": "short",
+"det": "Put-Optionen, Nominalwert rund 3,6 Mrd. $ (kein Anlagebetrag)",
+"sec": "us",
+"src": "gs_mill"
+},
+{
+"p": "englander",
+"tk": "IWM",
+"nm": "Russell-2000-ETF",
+"ac": "short",
+"det": "Put-Option, mit 3,4 % des gemeldeten Werts größte Position",
+"sec": "us",
+"src": "gs_mill"
+},
+{
+"p": "halvorsen",
+"tk": "TSM",
+"nm": "TSMC",
+"ac": "plus",
+"det": "rund +23 %, größte Position (5,45 %)",
+"sec": "semis",
+"src": "bmi_viking"
+},
+{
+"p": "halvorsen",
+"tk": "TSLA",
+"nm": "Tesla",
+"ac": "plus",
+"det": "+327 %",
+"sec": "cons",
+"src": "bz_viking"
+},
+{
+"p": "halvorsen",
+"tk": "MSFT",
+"nm": "Microsoft",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "soft",
+"src": "bz_viking"
+},
+{
+"p": "halvorsen",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "space",
+"src": "bz_viking"
+},
+{
+"p": "halvorsen",
+"tk": "QCOM",
+"nm": "Qualcomm",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "semis",
+"src": "bz_viking"
+},
+{
+"p": "halvorsen",
+"tk": "META",
+"nm": "Meta",
+"ac": "minus",
+"det": "rund −51 %",
+"sec": "mega",
+"src": "bmi_viking"
+},
+{
+"p": "halvorsen",
+"tk": "V",
+"nm": "Visa",
+"ac": "minus",
+"det": "rund −33 %",
+"sec": "fin",
+"src": "bmi_viking"
+},
+{
+"p": "kantesaria",
+"tk": "MA",
+"nm": "Mastercard",
+"ac": "minus",
+"det": "−84 % (rund 1,07 Mio. auf 170 Tsd. Stück); Anteil von 17,6 auf 3,7 %",
+"sec": "fin",
+"src": "vs_vf"
+},
+{
+"p": "kantesaria",
+"tk": "V",
+"nm": "Visa",
+"ac": "minus",
+"det": "−49 %",
+"sec": "fin",
+"src": "gg_vf"
+},
+{
+"p": "kantesaria",
+"tk": "MCO",
+"nm": "Moody's",
+"ac": "minus",
+"det": "−31 %",
+"sec": "fin",
+"src": "gg_vf"
+},
+{
+"p": "kantesaria",
+"tk": "INTU",
+"nm": "Intuit",
+"ac": "exit",
+"det": "komplett verkauft",
+"sec": "soft",
+"src": "gg_vf"
+},
+{
+"p": "kantesaria",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "neu",
+"det": "rund 646 Tsd. Stück (rund 148 Mio. $), 5,84 % des Portfolios",
+"sec": "semis",
+"src": "vs_vf"
+},
+{
+"p": "kantesaria",
+"tk": "AMZN",
+"nm": "Amazon",
+"ac": "neu",
+"det": "711.048 Stück (rund 177 Mio. $), 7,01 % des Portfolios; zuletzt Anfang 2023 gehalten",
+"sec": "mega",
+"src": "vs_vf"
+},
+{
+"p": "kantesaria",
+"tk": "TSM",
+"nm": "TSMC",
+"ac": "neu",
+"det": "rund 299 Tsd. Stück (rund 136 Mio. $), 5,4 % des Portfolios",
+"sec": "semis",
+"src": "vs_vf"
+},
+{
+"p": "kantesaria",
+"tk": "ASML",
+"nm": "ASML",
+"ac": "plus",
+"det": "+21,9 %, viertgrößte Position (knapp 15 %)",
+"sec": "semis",
+"src": "vs_vf"
+},
+{
+"p": "loeb",
+"tk": "AMZN",
+"nm": "Amazon",
+"ac": "exit",
+"det": "alle 1,75 Mio. Stück verkauft",
+"sec": "mega",
+"src": "w8_loeb_2460"
+},
+{
+"p": "loeb",
+"tk": "META·NVDA·MSFT",
+"nm": "Meta, Nvidia, Microsoft",
+"ac": "neu",
+"det": "neue Positionen, zusammen rund 1,05 Mrd. $; Meta mit 475 Mio. $ größte gemeldete Position",
+"sec": "mega",
+"src": "w8_loeb_2460"
+},
+{
+"p": "weinstein",
+"tk": "DXYZ",
+"nm": "Destiny Tech100",
+"ac": "neu",
+"det": "Anteil von 7,58 % gemeldet; Saba hält die Aktie für unterbewertet und kann auf Rückkäufe, Tender oder Liquidation drängen",
+"sec": "fin",
+"src": "an_saba",
+"per": "Schedule 13D, 20.11.2026",
+"d": "2026-11-20"
+},
+{
+"p": "block",
+"tk": "NVDA",
+"nm": "Nvidia",
+"ac": "short",
+"det": "Short am 17.11. vor den Zahlen offengelegt; will nach Veröffentlichung des Berichts den Großteil oder alles eindecken",
+"sec": "semis",
+"src": "w8_block_2460",
+"per": "Short-Bericht 17.11.2026",
+"d": "2026-11-17"
+},
+{
+"p": "burry",
+"tk": "JD",
+"nm": "JD.com",
+"ac": "plus",
+"det": "nach dem Kursrückgang im Anschluss an die Zahlen deutlich aufgestockt",
+"sec": "cons",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "TCEHY",
+"nm": "Tencent",
+"ac": "plus",
+"det": "nach dem Kursrückgang im Anschluss an die Zahlen aufgestockt",
+"sec": "mega",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "BYD",
+"nm": "BYD",
+"ac": "plus",
+"det": "Zukauf auf Fünfjahrestief; weiterer Rückgang laut Burry möglich",
+"sec": "cons",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "SFM",
+"nm": "Sprouts Farmers Market",
+"ac": "plus",
+"det": "weitere Call-Optionen, Laufzeit Januar 2028, Basis weit aus dem Geld",
+"sec": "cons",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "ERO",
+"nm": "Ero Copper",
+"ac": "plus",
+"det": "Position ausgebaut bei Kursen um 20 $",
+"sec": "gold",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "ADBE",
+"nm": "Adobe",
+"ac": "plus",
+"det": "Aktien bei rund 220 $ nachgekauft; hält Kurse unter 200 $ für möglich",
+"sec": "soft",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "TPW",
+"nm": "Temple & Webster",
+"ac": "plus",
+"det": "nachgekauft; eine seiner größten Positionen",
+"sec": "cons",
+"src": "w8_burry_2461",
+"per": "Substack 19.11.2026",
+"d": "2026-11-19"
+},
+{
+"p": "burry",
+"tk": "NDX",
+"nm": "Nasdaq 100",
+"ac": "short",
+"det": "20.11.: Hälfte der Put-Optionen verkauft, Rest gehalten",
+"sec": "us",
+"src": "st_burry2311",
+"per": "Substack 20.11.2026, Nachtrag vom 23.11.",
+"d": "2026-11-20"
+},
+{
+"p": "wood",
+"tk": "CRWV",
+"nm": "CoreWeave",
+"ac": "plus",
+"det": "20.11.: 549.659 Stück (rund 21,7 Mio. $), ARKK und ARKW",
+"sec": "aiinfra",
+"src": "folio_ark",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20"
+},
+{
+"p": "wood",
+"tk": "CBRS",
+"nm": "Cerebras",
+"ac": "plus",
+"det": "20.11.: 256.720 Stück (rund 21,2 Mio. $), ARKK und ARKW",
+"sec": "semis",
+"src": "folio_ark",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20"
+},
+{
+"p": "wood",
+"tk": "AMD",
+"nm": "AMD",
+"ac": "plus",
+"det": "20.11.: 49.745 Stück (rund 21,1 Mio. $), ARKK und ARKW",
+"sec": "semis",
+"src": "folio_ark",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-20"
+},
+{
+"p": "saylor",
+"tk": "BTC",
+"nm": "Bitcoin",
+"ac": "plus",
+"det": "Woche bis 22.11.: 457 BTC zu Ø 64.898 $ (29,6 Mio. $); Bestand 851.305 BTC, Ø-Einstand 75.446 $",
+"sec": "krypto",
+"src": "sec_mstr2311",
+"per": "8-K-Meldungen Nov. 2026",
+"d": "2026-11-22"
+}
 ]

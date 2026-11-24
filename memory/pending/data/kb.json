@@ -1,74 +1,1218 @@
 [
-{"id":"fink","sum":"Chef des größten Vermögensverwalters der Welt. Seine Aussagen zeigen, wohin institutionelles Geld und Infrastrukturkapital fließen.","fokus":"KI-Infrastruktur, Privatmärkte, Staatsverschuldung, Regulierung","kan":["Chairman's Letter (jährlich im Frühjahr)","CNBC und Bloomberg nach den BlackRock-Quartalszahlen","Konferenzen und Auslandsinterviews, zuletzt Nikkei","Wochenkommentar des BlackRock Investment Institute"],"th":[{"d":"2026-11-19","t":"Schärfere KI-Regulierung ist für ihn ein Rezessionsrisiko; Investitionsbedarf 7 bis 9 Billionen Dollar."},{"d":"2026-11-16","t":"Härtester Wettbewerb um Kapital in 50 Jahren."},{"d":"2026-10-14","t":"Ein Baustopp für Rechenzentren würde eine Rezession auslösen; die Staatsverschuldung ist das zweite große Risiko."}],"open":"Keine Äußerung zur Korrektur seit dem 20.11. gefunden. Der 2027 Global Outlook des BlackRock Investment Institute erscheint im Dezember; Wochenkommentar vom 23.11. auswerten."},
-{"id":"wood","sum":"Gründerin von ARK Invest. Setzt konzentriert auf disruptive Technologie und veröffentlicht an jedem Handelstag ihre Käufe und Verkäufe.","fokus":"KI-Labore, Tesla, Krypto, Genomik, SpaceX","kan":["ARK-Tageshandel (täglich nach US-Schluss); Übersichten: cathiesark.com, arktradetiming.com","CNBC Squawk Box und Bloomberg (ETF IQ Asia)","ARK Big Ideas (Januar) und Monatswebinare","X @CathieDWood"],"th":[{"d":"2026-11-20","t":"Begründung für den Nvidia-Abbau: interne Bewertung von Führung und Kultur herabgestuft, Geld fließt zu SpaceX (ETF IQ Asia, Sendetag unklar)."},{"d":"2026-11-20","t":"SpaceX werde zum günstigsten Cloud-Anbieter; Rechenleistung im Orbit binnen zwei Jahren billiger als am Boden (CNBC)."},{"d":"2026-11-20","t":"Baut Anthropic nach dem Börsengang in allen sechs aktiven ETFs auf; kauft am 20.11. auch AMD, CoreWeave und Cerebras."},{"d":"2026-11-16","t":"Dreht bei Nvidia: Käufe am 5. und 9.11., Verkäufe seit dem 16.11. (543.092 Stück am ersten Tag)."},{"d":"2026-11-12","t":"Der KI-Schub endet nicht mit Huangs Abgang."}],"open":"ARK-Handel vom 23.11.; folgen weitere Nvidia-Verkäufe? Sendetag des ETF-IQ-Asia-Interviews belegen. Gewicht von Anthropic in ARKK nach zwei Kauftagen (laut The Block rund 0,4 % nach Tag 1, laut CNBC 0,3 %)."},
-{"id":"burry","sum":"Bekannt durch die Wette gegen den US-Häusermarkt 2008. Hat Scion Ende 2025 geschlossen und schreibt seitdem den Substack Cassandra Unchained.","fokus":"Nvidia, KI-Finanzierung, Abschreibungen der Hyperscaler, Nasdaq-Puts","kan":["Substack Cassandra Unchained (teils hinter Bezahlschranke)","X @michaeljburry","Berichte von TheStreet, Benzinga und Stocktwits über seine Beiträge"],"note":"Keine 13F-Meldungen mehr seit der Schließung von Scion; Positionen nur aus eigenen Angaben.","th":[{"d":"2026-11-20","t":"Nimmt Gewinne auf die Hälfte der Nvidia- und SMH-Puts mit; die Nasdaq-Puts bis April 2027 bleiben."},{"d":"2026-11-18","t":"Zeichnet Anthropic nicht; will Erholungen bei KI-Aktien leerverkaufen, ohne Eile."},{"d":"2026-11-16","t":"Stockt Adobe bei rund 246 Dollar zur vollen Position auf."},{"d":"2026-11-13","t":"Überangebot an KI-Chips ist die eigentliche Geschichte, nicht der Skandal."},{"d":"2026-11-12","t":"Nasdaq-Erholung ist eine Bullenfalle; Puts bis Anfang 2027."}],"open":"Größe und Basis der Nasdaq-Puts (laut Berichten am 12.11. verdoppelt, Laufzeit April 2027) und der Nvidia-Puts (laut TipRanks Basis 140 Dollar, Februar 2027) aus Primärquelle belegen; Reaktion auf die SEC-Prüfung."},
-{"id":"dalio","sum":"Gründer von Bridgewater. Kommentiert Schuldenzyklen, Geopolitik und Blasen aus Makrosicht, führt den Fonds aber nicht mehr.","fokus":"Schuldenzyklus, Konzentrationsrisiko, Gold, Vermögensteuer","kan":["Beiträge auf LinkedIn und X @RayDalio","Konferenzen, zuletzt Singapur","Interviews und Bücher"],"th":[{"d":"2026-11-14","t":"USA anfällig für eine Finanzkrise; 10 bis 15 % Gold im Portfolio."},{"d":"2026-10-21","t":"Konzentrationsrisiko wiegt schwerer als die Blasenfrage; Anleihemarkt beobachten."},{"d":"2026-10-07","t":"KI trägt Züge einer klassischen Blase."}],"open":"Äußerung nach dem 20.11.? Suche am 23.11. ohne Fund."},
-{"id":"ackman","sum":"Aktivist mit wenigen, großen Positionen. Äußert sich häufig und ausführlich auf X.","fokus":"Uber, Amazon, Microsoft, Meta; neu ICE und Alcon","kan":["X @BillAckman","13F Pershing Square (quartalsweise)","CNBC Squawk Box","Quartalscalls von Pershing Square Holdings"],"th":[{"d":"2026-11-22","t":"Zinserhöhung am 9.12. wäre ein Fehler; 3 % statt 2 % als Inflationsziel, sonst drohe eine Rezession."},{"d":"2026-11-18","t":"Wirft dem Nvidia-Verwaltungsrat überstürztes Handeln vor; Microsoft-Position ist über Optionen größer als im 13F sichtbar."},{"d":"2026-11-03","t":"Markt wirkt durch Spekulation und Hebel zeitweise kaputt; für Langfristanleger eine Chance."}],"open":"Kauft Pershing Square im Ausverkauf zu? Reaktion auf PCE-Daten (25.11.) und Fed-Entscheid (9.12.)."},
-{"id":"druckenmiller","sum":"Früherer Chefstratege von Soros. Führt sein Family Office ohne Fremdgeld und wechselt Positionen schnell.","fokus":"Fed-Regime, Kupfer-Short, KI-Anwender, Goldminen","kan":["13F Duquesne Family Office","Konferenzen: TomorrowX, Sohn, Grant's","Interviews bei CNBC und Bloomberg"],"th":[{"d":"2026-11-17","t":"Aktien netto flach, Kapitalerhalt vor Rendite; short Kupfer."},{"d":"2026-11-17","t":"Sucht KI-Anwender statt Infrastruktur; Konjunkturschwäche im 2. Halbjahr 2027 möglich."}],"open":"Wann steigt er wieder ein, und womit? Die Pause kann nach eigener Aussage zwei Tage bis sechs Monate dauern (17.11.)."},
-{"id":"tepper","sum":"Gründer von Appaloosa. Bekannt für große, konzentrierte Wetten nach Markteinbrüchen.","fokus":"Umschichtung innerhalb der Halbleiter, Micron, SpaceX","kan":["13F Appaloosa","Seltene Anrufe bei CNBC"],"open":"Äußerung zur Korrektur seit November? Suche am 23.11. lieferte nur 13F-Berichte."},
-{"id":"griffin","sum":"Gründer von Citadel und Citadel Securities. Äußert sich zu Marktstruktur, Politik und Bewertungen.","kan":["Konferenzen (Milken, Bloomberg-Foren)","13F Citadel Advisors (sehr breit, wenig aussagekräftig)"],"th":[{"d":"2026-11-16","t":"13F: Amazon, Apple, AMD und SpaceX stark reduziert; Microsoft, Tesla und Mastercard aufgestockt."},{"d":"2026-10-20","t":"Fast sicher eine KI-Blase, aus der aber langfristige Marktführer hervorgehen."}]},
-{"id":"marks","sum":"Mitgründer von Oaktree. Seine Memos zu Zyklen und Risiko werden breit gelesen.","kan":["Oaktree-Memos","Podcast The Memo","Interviews"],"th":[{"d":"2026-11-11","t":"KI ist real; offen ist, wer die Gewinne behält."},{"d":"2026-11-11","t":"Der Vorsprung von OpenAI und Anthropic ist nicht gesichert."}]},
-{"id":"gundlach","sum":"Gründer von DoubleLine. Anleiheinvestor mit pointierten Makro-Aussagen.","fokus":"Kreditmärkte, Zinsen, Gold, Dollar","kan":["DoubleLine-Webcasts, Just Markets im Januar","CNBC nach Fed-Entscheiden","X @TruthGundlach"],"th":[{"d":"2026-11-20","t":"Nasdaq liegt seit Jahresbeginn hinter Treasury Bills."},{"d":"2026-11-12","t":"Meidet KI-lastige Indizes; würde Anthropic-Schulden nicht kaufen."},{"d":"2026-11-12","t":"Hält rund 30 % Aktien für angemessen; S&P 500 erst bei einem KGV unter 15 interessant (Shiller-KGV rund 42)."},{"d":"2026-10-09","t":"Aktienmarkt im Kern schwach; KI-Kreditmarkt als Warnsignal; mindestens 20 % liquide."}],"open":"Tag des Auftritts bei Yahoo Finance Invest prüfen (12. oder 13.11.: Video am 13.11. eingestellt, 24/7 Wall St. nennt den 12.11.). Äußerung zum Fed-Entscheid am 9.12."},
-{"id":"tudorjones","sum":"Macro-Trader und Gründer von Tudor Investment.","kan":["CNBC Squawk Box, meist im Herbst","Robin-Hood-Konferenz","13F Tudor"],"open":"Äußerung seit dem Ausverkauf im November?","th":[{"d":"2026-10-13","t":"2027 wird sehr schwierig: will das ganze Jahr short sein, weil KI-Börsengänge und auslaufende Haltefristen das Aktienangebot erhöhen; long Öl."}]},
-{"id":"abel","sum":"Seit Anfang 2026 CEO von Berkshire Hathaway und für das Aktienportfolio mitverantwortlich.","kan":["13F Berkshire Hathaway","Aktionärsbrief im Februar, Hauptversammlung im Mai","Quartalsbericht: Cash-Bestand und Rückkäufe"]},
-{"id":"einhorn","sum":"Value-Investor und Short-Seller bei Greenlight Capital.","kan":["Quartalsbriefe von Greenlight","13F Greenlight","Sohn- und Robin-Hood-Konferenz"],"open":"Brief zum 4. Quartal und Partner-Dinner am 19.1.2027; Sektor von Versigent (+41 % im 13F) und Dauch klären.","th":[{"d":"2026-10-21","t":"Brief Q3: KI-Anbieter behalten kaum den Nutzen; Zinswette um ein Drittel gekürzt, Markt preise zu viele Fed-Erhöhungen ein. Fonds −3,3 % im Quartal."},{"d":"2026-10-21","t":"Stellt Century Aluminum als Anlageidee vor: Zölle wirken wie eine Subvention."}]},
-{"id":"cohen","sum":"Gründer von Point72, einem der großen Multi-Manager-Fonds.","kan":["Seltene Interviews und Konferenzen","13F Point72 (sehr breit)"],"th":[{"d":"2026-11-16","t":"13F zum 30.9.: AMD fast vollständig verkauft, Microsoft auf gut 1 Mrd. Dollar aufgestockt."}],"open":"Weiter keine datierte Aussage aus 2026 gefunden (Suche 23.11.); Auftritt bei einer geschlossenen Konferenz im Oktober (Hedgeweek, 22.10.) ohne öffentlichen Inhalt."},
-{"id":"chanos","sum":"Der bekannteste Short-Seller. Kommentiert Bilanzierung und Bewertungsexzesse.","kan":["X @RealJimChanos","Podcasts und Interviews","TIKR-Blog und Yahoo Finance geben seine X-Beiträge laufend wieder"],"open":"Sicht auf die Nvidia-Bilanzierung (SEC-Prüfung) und auf KI-Abschreibungen: bisher keine datierte Aussage gefunden.","th":[{"d":"2026-11-20","t":"Fragt, wann SpaceX seine irdischen Rechenzentren abschreibt, wenn der Orbit billiger sein soll."},{"d":"2026-11-19","t":"Kein Neocloud dürfe höher bewertet sein als sein einziger zentraler Lieferant."},{"d":"2026-11-16","t":"Amazon-Blackstone-Geschäft zu 7 % Anfangsrendite: Digital Realty und Equinix wären danach deutlich weniger wert."},{"d":"2026-11-15","t":"Nebius-Ausblick 2027 entspricht nur 8 bis 9 Mio. Dollar Umsatz je Megawatt."},{"d":"2026-11-12","t":"CoreWeave: sinkender Umsatz je Megawatt, weitere Kapitalerhöhung möglich."}]},
-{"id":"lee","sum":"Research-Chef von Fundstrat. Tritt seit Jahren überwiegend bullisch auf, vor allem für Tech und Krypto.","kan":["CNBC, mehrmals pro Woche","X @fundstrat","Fundstrat-Notizen über die Presse"],"th":[{"d":"2026-11-19","t":"Tech-Ausverkauf ist eine gesunde Korrektur und Kaufgelegenheit; Vergleich mit Cisco 1997."},{"d":"2026-11-16","t":"Der 5. November war das strukturelle Tief im Technologiesektor."},{"d":"2026-11-14","t":"Krypto-Schwäche hat aus seiner Sicht technische Ursachen (Nachschusspflichten, Anthropic-Zeichnungen, Binance-Hack); die These eines Superzyklus bleibt."},{"d":"2026-11-12","t":"Tech hat den Boden gefunden; Nvidia-Rücksetzer kaufen."}],"open":"Seit dem Schluss vom 20.11. nur ein YouTube-Kurzvideo ohne Inhalt gefunden. Die zehnjährige Rendite fiel am 20.11. unter die von ihm genannte Marke von 5 %: Äußerung dazu suchen."},
-{"id":"ives","sum":"Tech-Analyst, inzwischen bei Yorkville Ives und zuvor bei Wedbush. Dauerhaft optimistisch für KI und Tesla.","kan":["X @DivesTech","CNBC und Bloomberg","Research-Notizen über die Presse"],"th":[{"d":"2026-11-20","t":"Ausverkauf kommt aus Politik, Führungskrise und Marktmechanik, nicht aus schwächerer Nachfrage."},{"d":"2026-11-19","t":"Bei CNBC: Der Kursrutsch sei Panik, der Anthropic-Börsengang belege die Nachfrage; KI-Ausbau zu weniger als 15 % abgeschlossen."},{"d":"2026-11-18","t":"Bestätigt Outperform für Nvidia; die Nachfrage ist mit Huang nicht verschwunden."}],"open":null},
-{"id":"wilson","sum":"Chefstratege für US-Aktien bei Morgan Stanley. War lange einer der bekanntesten Bären und ist seit 2025 konstruktiv.","kan":["Wochennotiz am Montag","Podcast Thoughts on the Market","Jahresausblick im November"],"th":[{"d":"2026-11-18","t":"Ein S&P 500 bei 7.100 bis 7.300 ist eine Kaufgelegenheit."},{"d":"2026-11-16","t":"Korrektur ist Kaufgelegenheit; S&P 500 bei 8.700 in zwölf Monaten."}],"open":"Wochennotiz vom Montag, 23.11., lag zur Laufzeit (07:30 MEZ) noch nicht vor; seit dem Schluss vom 20.11. keine neue Äußerung gefunden."},
-{"id":"hartnett","sum":"Chefstratege der Bank of America. Autor des Flow Show und der monatlichen Fondsmanager-Umfrage.","kan":["Flow Show (freitags)","Global Fund Manager Survey (monatlich, dienstags)"],"th":[{"d":"2026-11-20","t":"Flow Show: Die Kurse haben kapituliert, die Positionierung noch nicht (Rekordzufluss von 310 Mrd. Dollar in vier Wochen). 6.845 Punkte im S&P 500, der Schluss von 2025, gelten ihm als Schwelle, an der die Fed einlenken könnte."},{"d":"2026-11-20","t":"Technische Erholung nach Thanksgiving möglich; große Rally erst bei 10J unter 4,5 %, WTI unter 70 Dollar und Dollar-Hoch."},{"d":"2026-11-13","t":"Risk-off, bis Öl unter 70 Dollar und die zehnjährige Rendite unter 4,5 % liegen."}],"open":"Nächste Flow Show laut Wallstreetcn erst am 3.12.; die Primärquelle bleibt nicht frei zugänglich."},
-{"id":"elerian","sum":"Ökonom, Berater der Allianz und früherer Chef von PIMCO.","kan":["X @elerianm","Substack: The Weekly Look at the Global Economy and Markets (samstags)","Kolumnen bei Bloomberg Opinion, der FT und Project Syndicate","CNBC"],"th":[{"d":"2026-11-21","t":"Kursrutsch als Verdauungsproblem nach der Anthropic-Emission; Zinsrisiko geht in Kredit- und Aktienrisiko über, Staatsanleihen schützen wegen des großen Angebots nur begrenzt."},{"d":"2026-11-20","t":"Technische Faktoren verdrängen Fundamentaldaten; Sorge vor erzwungenem Schuldenabbau."},{"d":"2026-11-19","t":"Der Mega-Börsengang entzieht dem Markt Liquidität."}],"open":"Folgt nach der Erholung der Futures vom 22.11. eine neue Einschätzung zum technischen Schaden?"},
-{"id":"dimon","sum":"CEO von JPMorgan Chase. Seine Warnungen zu Bewertungen, Kredit und Geopolitik bewegen Schlagzeilen.","kan":["Aktionärsbrief im April","Quartalscalls","Interviews bei Bloomberg, BBC und Fox"],"open":"Keine Äußerung zur Korrektur seit dem 20.11. gefunden. Ein Bloomberg-Interview zu den Krediten hinter dem KI-Boom (zitiert bei briefs.co, 14.11.) ist nicht datiert.","th":[{"d":"2026-11-19","t":"Nennt den höheren britischen Bankenzuschlag unfair; J.P. Morgan will die Mehrbelastung ausgleichen."},{"d":"2026-11-13","t":"Inflation bleibt hartnäckig; die Fed muss womöglich weiter erhöhen."}]},
-{"id":"musk","sum":"CEO von Tesla und SpaceX, zwei großen Gewichten in den Indizes.","kan":["X @elonmusk","Earnings Calls von Tesla und SpaceX"],"open":"X-Beiträge vom 21.11. zu Betriebskapital und Anleihefinanzierung von SpaceX sind nur über einen Aggregator (BigGo Finance) belegt: Wortlaut und Tag aus besserer Quelle belegen. Weitere Aussagen zur Fusion von Tesla und SpaceX.","th":[{"d":"2026-11-18","t":"Anthropic dürfte bei SpaceX weitere 10 Gigawatt mieten; eine Fusion von Tesla und SpaceX hält er für sinnvoll."}]},
-{"id":"saylor","sum":"Executive Chairman von Strategy, dem größten börsennotierten Bitcoin-Halter.","kan":["8-K-Meldungen am Montag zu Bitcoin-Käufen","X @saylor"],"th":[{"d":"2026-11-22","t":"Deutet auf X einen weiteren Kauf an; der Bestand liegt rund 12,6 Mrd. Dollar unter dem Einstand."},{"d":"2026-11-19","t":"Investorenrunde: STRC darf von 7,7 auf bis zu 5 Mrd. Dollar schrumpfen, die Dividende bleibt bei 12 %; Bitcoin-Verkäufe zum Rückkauf unter Nennwert sind nicht ausgeschlossen."},{"d":"2026-11-18","t":"Verkauft nicht; Strategy lenkt Erlöse aus Aktienverkäufen überwiegend in STRC-Rückkäufe."}],"open":"8-K vom 23.11. (erwartet gegen 14:00 MEZ) stand zur Laufzeit aus: Kauf unter 60.000 Dollar? Folgen des MSCI-Ausschlusses zum 30.11."},
-{"id":"warsh","sum":"Chair der Federal Reserve.","kan":["Pressekonferenzen nach den Sitzungen","Reden und Anhörungen im Kongress","Sitzungsprotokolle, drei Wochen später"],"open":"Rede oder Interview vor dem 9.12.? Bis 23.11. keine Äußerung zur Zinspolitik gefunden; seit der Rede vom 16.11. vermeidet er Hinweise auf den Kurs.","th":[{"d":"2026-11-16","t":"Die Fed spielt KI-Szenarien durch, darunter eines mit fallenden Bewertungen und steigender Arbeitslosigkeit."}]},
-{"id":"yardeni","sum":"Unabhängiger Stratege. Vertritt seit Jahren die These der Roaring 2020s.","kan":["Morning Briefing (täglich)","Blog und LinkedIn","CNBC"],"th":[{"d":"2026-11-22","t":"Sektoren: Gesundheit, Energie und Industrie übergewichtet, Technologie und Kommunikation neutral, Basiskonsum untergewichtet; der Ausverkauf komme aus den Bewertungen, nicht aus den Gewinnschätzungen."},{"d":"2026-11-21","t":"Ziel Ende 2026 auf 7.500 gesenkt, Ende 2027 bei 8.500 bis 9.000; Korrektur im Bullenmarkt."},{"d":"2026-11-20","t":"Bei CNBC: Korrektur, kein Bärenmarkt, solange keine Rezession folgt; ein schneller Auslöser für die Erholung fehlt."},{"d":"2026-11-18","t":"Die Fed muss um weitere 50 Basispunkte erhöhen."}],"open":null},
-{"id":"laffont","kan":["13F Coatue Management"]},
-{"id":"coleman","kan":["13F Tiger Global"]},
-{"id":"klarman","kan":["13F Baupost Group","Jahresbrief, selten öffentlich"]},
-{"id":"hohn","kan":["13F TCI Fund Management"]},
-{"id":"terrysmith","kan":["13F Fundsmith","Jahresbrief im Januar"]},
-{"id":"fitzpatrick","kan":["13F Soros Fund Management"]},
-{"id":"halvorsen","kan":["13F Viking Global"]},
-{"id":"sundheim","kan":["13F D1 Capital"]},
-{"id":"lilu","kan":["13F Himalaya Capital"]},
-{"id":"armitage","kan":["13F Egerton Capital"]},
-{"id":"marshall","kan":["13F Marshall Wace"]},
-{"id":"aschenbrenner","kan":["13F Situational Awareness LP","Essayreihe Situational Awareness"],"open":"Wohin floss das Geld nach dem Abbau im Juli?"},
-{"id":"snider","kan":["Goldman US Weekly Kickstart","Jahresausblick im November"],"th":[{"d":"2026-11-20","t":"Ausverkauf hat sich zur Wachstumsabstufung ausgeweitet; für einen Boden fehlen KI-Vertrauen, Fed-Signal oder bereinigte Positionierung. Spanne 5.800 bis 8.100."},{"d":"2026-11-17","t":"S&P 500 bei 8.700 Ende 2027, Gewinnwachstum verlangsamt sich."}],"open":"Ist eine der drei Bedingungen für einen Boden seit dem 20.11. erfüllt? Nächster Weekly Kickstart."},
-{"id":"kwon","kan":["Strategienotizen von Wells Fargo"]},
-{"id":"subramanian","kan":["Strategienotizen der Bank of America, Sell-Side-Indikator"],"open":"S&P-Ziel 2027 der Bank of America bei der Suche am 23.11. noch nicht gefunden."},
-{"id":"bell","kan":["Goldman European Strategy"]},
-{"id":"fowler","kan":["UBS European Equity Strategy"]},
-{"id":"arcuri","kan":["Research-Notizen über die Presse"],"th":[{"d":"2026-11-18","t":"Kaufen, Kursziel Nvidia 220 Dollar (zuvor 240); Sorge gilt dem Wachstum im Kalenderjahr 2028 und dem verspäteten 10-Q."}],"open":"Inhalt des verspäteten 10-Q (Frist laut MLQ.ai: 4.12.)."},
-{"id":"rasgon","kan":["Research-Notizen über die Presse","CNBC"],"open":"Keine neue Notiz seit dem 18.11.; Einschätzung zur SEC-Prüfung bei Nvidia steht aus. Odd-Lots-Auftritt (um den 15.11.) nur als Zusammenfassung gefunden."},
-{"id":"lipacis","kan":["Research-Notizen über die Presse"]},
-{"id":"turnquist","kan":["Kommentare von LPL Research"],"th":[{"d":"2026-11-20","t":"Bruch der 200-Tage-Linie allein kein Bärenmarktsignal; die Unterstützung nahe 7.000 im S&P 500 sei entscheidend."}],"open":"Der S&P 500 schloss am 20.11. bei 6.910 unter der genannten Marke: Folgekommentar?"},
-{"id":"georgieva","kan":["IWF-Pressekonferenzen","World Economic Outlook im April und Oktober","Gipfelauftritte (APEC, G20) und Bloomberg-Interviews"],"th":[{"d":"2026-11-19","t":"KI-Nachfrage und Energiepreise treiben die Inflation; viele Länder müssten die Geldpolitik straffen. An den KI-Märkten erwartet sie noch etwas mehr Korrektur."}],"open":null},
-{"id":"pick","kan":["Quartalscalls von Morgan Stanley","Konferenzen"]},
-{"id":"waller","kan":["Reden auf federalreserve.gov","CNBC-Interviews"],"th":[{"d":"2026-11-18","t":"Hält im Dezember 50 Basispunkte für nötig, falls die Fed keinen weiteren Schritt im Januar glaubwürdig signalisiert."}],"open":"Keine neue geldpolitische Aussage seit dem 18.11.; Grußwort vom 20.11. (College Fed Challenge) ohne Signal. Schweigephase ab 28.11."},
-{"id":"williams","kan":["Reden auf newyorkfed.org"],"th":[{"d":"2026-11-17","t":"Weitere Erhöhung wahrscheinlich, aber kein Anlass für einen großen Schritt."},{"d":"2026-11-12","t":"Inflation sei viel zu hoch; die Fed müsse weiter handeln."}],"open":"Auftritt am 23.11. auswerten (laut UOB der einzige öffentliche Fed-Termin der Woche); Schweigephase ab 28.11."},
-{"id":"kress","kan":["Earnings Calls von Nvidia","8-K-Meldungen"],"open":"Reaktion auf die SEC-Prüfung."},
-{"id":"birol","kan":["IEA-Berichte","Interviews"]},
-{"id":"oleary","kan":["X (@kevinolearytv)","Yahoo Finance, Fox Business, CNBC","Benzinga fasst seine Beiträge laufend zusammen"],"sum":"Bekanntester »Shark«; äußert sich fast täglich zu KI, Krypto-Regulierung und Politik und investiert selbst in Rechenzentren.","fokus":"KI-Infrastruktur, Krypto-Regulierung, Börsengänge","note":"Eigene Interessen beachten: Rechenzentrumsprojekt Wonder Valley, Krypto-Beteiligungen.","th":[{"d":"2026-11-21","t":"Huang kehrt nicht zurück; die Nachfrage nach Nvidia-Chips bleibt stark."},{"d":"2026-11-20","t":"Nvidias Stärke sei die Chipnachfrage, nicht Huang; Kress sei die richtige Besetzung."},{"d":"2026-11-19","t":"Anthropics Fokus auf Sicherheit und Vertrauen für Unternehmenskunden nennt er genial."}],"open":null},
-{"id":"stephan","kan":["Graham's Newsletter (Substack), wöchentlich","YouTube: Graham Stephan und The Graham Stephan Show"],"sum":"Finanz-YouTuber mit Millionenpublikum und wöchentlichem Newsletter; prägt die Sicht vieler Privatanleger auf Aktien, Zinsen und Immobilien.","fokus":"US-Aktienmarkt, Immobilien, Zinsen, KI-Bewertung","note":"Videos nennen oft Sponsoren; Aussagen aus dem Newsletter sind besser belegbar als aus Videotiteln.","th":[{"d":"2026-11-13","t":"Den geplanten Zinsdeckel für Kreditkarten hält er für Show."},{"d":"2026-11-09","t":"Hauskauf könnte trotz Hypothekenzinsen um 7,4 % wieder lohnen: deutlich mehr Verkäufer als Käufer."}],"open":"Newsletter der Woche vom 23.11. lag noch nicht vor."},
-{"id":"cramer","kan":["CNBC »Mad Money«, werktäglich","CNBC Investing Club"],"sum":"Moderator von »Mad Money«; kommentiert werktäglich Einzelwerte und den KI-Handel vor großem Privatanleger-Publikum.","fokus":"Nvidia, KI-Handel, Einzelaktien","th":[{"d":"2026-11-19","t":"Nennt den Short-Bericht gegen AMD eine Attacke; sein Charitable Trust will kaufen."},{"d":"2026-11-19","t":"Die Nvidia-Krise überlagert den Anthropic-Börsengang; Alphabet sieht er reif für eine Erholung."},{"d":"2026-11-18","t":"Rocket Lab sei zu billig geworden, bleibe aber eine Spekulation."}],"open":"Aussage zur Marke 6.900 im S&P 500 (24/7 Wall St., 21.11.) und Wochenausblick vom 20.11. im Wortlaut belegen; die Auszüge reichten nicht."},
-{"id":"chamath","kan":["X (@chamath) und LinkedIn","»All-In«-Podcast, wöchentlich (Folgen über allinchamathjason.libsyn.com datiert)","Social Capital Research (research.socialcapital.com)"],"sum":"Wagniskapitalgeber und Mitgastgeber des »All-In«-Podcasts mit großer Reichweite im Tech-Umfeld.","fokus":"KI, Krypto, Makro","th":[{"d":"2026-11-21","t":"Unternehmenssoftware muss von KI-Modellen neu geschrieben werden."},{"d":"2026-11-20","t":"All-In: Huang sei herausragend, seine Rückkehr zu Nvidia aber ein Governance-Risiko; erwartet neun bis zehn vertikal integrierte KI-Großkonzerne."},{"d":"2026-11-20","t":"Social-Capital-Analyse zu Anthropic: Wachstum flacht ab, Rechenkosten und Zusagen von 900,9 Mrd. Dollar steigen."}],"open":null},
-{"id":"schiff","kan":["X (@PeterSchiff)","Schiff Radio / The Peter Schiff Show"],"sum":"Dauerkritiker von Fed und Bitcoin, verkauft selbst Gold; als Gegenstimme zu den Krypto-Bullen nützlich.","fokus":"Gold, Fed, Bitcoin","note":"Eigeninteresse: Goldhandel (SchiffGold).","th":[{"d":"2026-11-20","t":"Ruft zum Goldkauf auf und zieht die Parallele zu 2008: Gold falle zuerst, Aktien danach deutlich tiefer. Nennt Strategy einen Betrug und warnt vor Ether bei 1.000 Dollar."},{"d":"2026-11-19","t":"Gold unter 3.680 Dollar hat ihn überrascht; Schulden und Inflation bleiben für ihn Kaufgründe."}],"open":"Ether-Warnung (1.000 Dollar bis 23.11.) und Goldkaufaufruf vom 20.11. nachhalten."},
-{"id":"novogratz","kan":["X (@novogratz)","Konferenzen, CNBC, Bloomberg"],"sum":"Chef des Krypto- und Rechenzentrumshauses Galaxy Digital; verbindet Makro-Sicht mit Krypto.","fokus":"Bitcoin, Fed, KI-Rechenzentren","note":"Eigeninteresse: Galaxy-Aktie und Krypto-Bestände.","th":[{"d":"2026-11-20","t":"Sieht Bitcoin zunächst zwischen 60.000 und 75.000 Dollar; eine Erholung hänge am Aktienmarkt. Kauft laut Form 4 am selben Tag 415.000 Galaxy-Aktien."},{"d":"2026-11-20","t":"Kauft nach dem Kursrutsch Galaxy-Aktien nach."}],"open":null},
-{"id":"scaramucci","kan":["X (@Scaramucci)","Podcasts: All Things Markets, The Rest Is Politics US"],"sum":"Gründer von SkyBridge und einer der sichtbarsten Bitcoin-Befürworter.","fokus":"Bitcoin","th":[{"d":"2026-11-21","t":"Empfiehlt 1 bis 2 % des Vermögens in Bitcoin."}],"open":"Trifft der für den 25.11. genannte mögliche Bitcoin-Boden zu?"},
-{"id":"siegel","kan":["WisdomTree: Weekly Siegel Commentary, montags","CNBC"],"sum":"Wharton-Professor und Langfrist-Optimist für Aktien; sein Wochenkommentar wird breit zitiert.","fokus":"US-Aktien, Fed, Inflation","th":[{"d":"2026-11-20","t":"Eine Anpassung der überhöhten Erwartungen ist unvermeidlich."}],"open":"Wochenkommentar vom 23.11. lag am Morgen (07:30 MEZ) noch nicht vor; beim nächsten Lauf aufnehmen."},
-{"id":"loeb","kan":["Quartalsbriefe von Third Point","13F-Meldungen"],"open":"Brief zum 3. Quartal aus Primärquelle belegen (bisher nach GuruVoices)."},
-{"id":"cuban","kan":["X (@mcuban)","Podcasts und CNBC-Interviews"],"open":"Tag der Oktober-Aussage belegt: Podcast »The Diary Of A CEO«, Folge vom 26.10.2026 (IBTimes UK). Seit dem November-Ausverkauf keine neue Aussage gefunden.","th":[{"d":"2026-10-28","t":"Spricht von einer Blase; Effizienz könnte Rechenzentren überflüssig machen."}]},
-{"id":"corcoran","kan":["Interviews zu Immobilien (Fox Business, CNBC)","Podcasts (The Martha Stewart Podcast)"],"open":"Aktuelle Aussage zu Hypothekenzinsen über 7 % fehlt; viele Berichte (FinanceBuzz, AOL) verwerten Zitate von 2024. Auftritt bei Inman Connect New York, 26.–28.1.2027.","th":[{"d":"2026-11-04","t":"Rät jungen Käufern zum Einstieg, notfalls klein und renovierungsbedürftig: Wer nicht kauft, bleibt außen vor."}],"sum":"Gründerin der Corcoran Group und Investorin bei »Shark Tank«; äußert sich vor allem zum US-Wohnungsmarkt.","fokus":"Wohnimmobilien, Hypothekenzinsen"},
-{"id":"herjavec","kan":["Fox Business (Varney & Co.)","Magazin-Interviews und Podcasts"],"open":"Aussage zu Aktienmarkt oder KI-Bewertungen fehlt weiter; der Fox-Business-Auftritt vom 9.10. (Warnung vor KI-Agenten) liegt nur als Videobeschreibung vor.","th":[{"d":"2026-10-26","t":"Sehr optimistisch für Gründungen im KI-Zeitalter; plant ein neues Unternehmen für Verbraucher-Cybersicherheit."}],"sum":"Tech-Unternehmer und Investor bei »Shark Tank«; Gründer des Cybersicherheitsanbieters Cyderes (zuvor Herjavec Group).","fokus":"Cybersicherheit, KI in Unternehmen"},
-{"id":"djohn","kan":["Instagram @thesharkdaymond","Konferenzauftritte und Interviews"],"open":"Aussage zum Aktienmarkt fehlt; bisher nur zu KI, Kleinunternehmen und Zöllen.","th":[{"d":"2026-11-16","t":"Steigt als Miteigentümer bei vier Zentren der Franchise-Kette Ultimate Longevity Center ein."},{"d":"2026-10-29","t":"Kleinunternehmen unterschätzen KI; mit den Zöllen kehren schwierige Zeiten zurück."}],"sum":"FUBU-Gründer, Chef der Shark Group und Investor bei »Shark Tank«.","fokus":"Kleinunternehmen, KI-Werkzeuge, Konsummarken"},
-{"id":"greiner","kan":["Instagram @lorigreinershark","ABC »Shark Tank«"],"open":"Weiter keine datierte Aussage zu Märkten oder Wirtschaft. Gefunden nur Zusagen aus »Shark Tank«, Staffel 18 (Neat: 400.000 $ für 15 % plus Lizenzgebühr, ausgestrahlt 4.11.; Moonrise Bagels: 200.000 $ für 10 %, laut Bericht ihr 300. Deal); Abschluss jeweils offen."},
-{"id":"kiyosaki","kan":["X (@theRealKiyosaki)"],"th":[{"d":"2026-11-20","t":"Will weiter Bitcoin kaufen, aber erst nach dem Ende des Einbruchs."}],"open":"Meldet er nach dem Abwarten einen Bitcoin-Kauf? Tag des ersten Beitrags unsicher (19.11. abends US-Zeit oder 20.11.)."},
-{"id":"paffrath","kan":["YouTube: Meet Kevin, täglich","Instagram @meetkevin und Facebook-Reels"],"open":"Nur Videotitel gefunden (5.11. Aktienmarkt nach der Wahl, 8.11. Nvidia): kein Textbeleg, kein Eintrag."},
-{"id":"jikh","kan":["YouTube: Andrei Jikh"],"th":[{"d":"2026-11-10","t":"Warnt vor Stress an den globalen Anleihemärkten."}]},
-{"id":"oppenheimer","sum":"Chefstratege für globale Aktien bei Goldman Sachs und Leiter des Makro-Research in Europa; verantwortet den globalen Aktienausblick der Bank.","fokus":"Globale Aktienstrategie, Bewertung, Marktzyklen","kan":["Goldman Sachs: Global Strategy Paper und Jahresausblick im November","Interviews bei Bloomberg und CNBC"],"th":[{"d":"2026-11-12","t":"Aktien steigen 2027 weiter, aber mit hoher Schwankung; USA und Japan übergewichtet, Europa untergewichtet."}],"open":"Genaues Datum des Ausblicks 2027 (Bericht vom 12. oder 13.11.) aus Primärquelle belegen."},
-{"id":"bessent","sum":"US-Finanzminister; äußert sich regelmäßig zum Kurs der Fed und zur Aufarbeitung bei Nvidia.","fokus":"Fed und Zinsen, Nvidia und Exportkontrollen, KI-Investitionen","kan":["Sonntags-Talkshows (CBS »Face the Nation«, Fox News)","CNBC-Interviews"],"th":[{"d":"2026-11-22","t":"Die Fed riskiere mit zu starker Straffung einen Fehler; von Nvidia fehlen weiter Antworten zu China-Lieferungen."},{"d":"2026-11-20","t":"Rät der Fed von einem großen Zinsschritt ab; hält laut AP weitere Beschränkungen für ältere Nvidia-Chips nach China nicht für nötig."},{"d":"2026-11-17","t":"Verlangt binnen zehn Tagen Antworten vom Nvidia-Verwaltungsrat."}],"open":"Liegen die geforderten Antworten von Nvidia vor (Frist um den 25.–27.11.)? Tag der Zehn-Tage-Forderung klären: Yahoo nennt Dienstag, 17.11., Wall Street Observer (nach Investing.com) Fox News am 15.11."},
-{"id":"rosenberg","sum":"Gründer von Rosenberg Research; setzt auf Staatsanleihen und sieht den KI-Handel kritisch.","fokus":"US-Staatsanleihen, Konjunktur, KI-Finanzierung","kan":["Breakfast with Dave (täglich, Anriss auf rosenbergresearch.com)","Kundennotizen über die Presse (Business Insider, Barron's)"],"th":[{"d":"2026-11-20","t":"Ohne Huang als »Zentralbank der KI« werden Finanzierungen strenger geprüft; zugleich sieht er eine Anleiherally kommen."}],"open":"Stammen die Anleihe-These (Barron's) und die Nvidia-Notiz (Business Insider) vom 20.11. aus derselben Tagesnotiz? Dann zu einem Eintrag zusammenführen."}
+{
+"id": "fink",
+"sum": "Chef des größten Vermögensverwalters der Welt. Seine Aussagen zeigen, wohin institutionelles Geld und Infrastrukturkapital fließen.",
+"fokus": "KI-Infrastruktur, Privatmärkte, Staatsverschuldung, Regulierung",
+"kan": [
+"Chairman's Letter (jährlich im Frühjahr)",
+"CNBC und Bloomberg nach den BlackRock-Quartalszahlen",
+"Konferenzen und Auslandsinterviews, zuletzt Nikkei",
+"Wochenkommentar des BlackRock Investment Institute"
+],
+"th": [
+{
+"d": "2026-11-19",
+"t": "Schärfere KI-Regulierung ist für ihn ein Rezessionsrisiko; Investitionsbedarf 7 bis 9 Billionen Dollar."
+},
+{
+"d": "2026-11-16",
+"t": "Härtester Wettbewerb um Kapital in 50 Jahren."
+},
+{
+"d": "2026-10-14",
+"t": "Ein Baustopp für Rechenzentren würde eine Rezession auslösen; die Staatsverschuldung ist das zweite große Risiko."
+}
+],
+"open": "Keine Äußerung zur Korrektur seit dem 20.11. gefunden. Der 2027 Global Outlook des BlackRock Investment Institute erscheint im Dezember; Wochenkommentar vom 23.11. auswerten."
+},
+{
+"id": "wood",
+"sum": "Gründerin von ARK Invest. Setzt konzentriert auf disruptive Technologie und veröffentlicht an jedem Handelstag ihre Käufe und Verkäufe.",
+"fokus": "KI-Labore, Tesla, Krypto, Genomik, SpaceX",
+"kan": [
+"ARK-Tageshandel (täglich nach US-Schluss); Übersichten: cathiesark.com, arktradetiming.com",
+"CNBC Squawk Box und Bloomberg (ETF IQ Asia)",
+"ARK Big Ideas (Januar) und Monatswebinare",
+"X @CathieDWood"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Begründet den Nvidia-Abbau im Podcast mit dem Risiko, Huang könne zu Musk wechseln; SpaceX setze im Orbit allein auf Nvidia."
+},
+{
+"d": "2026-11-20",
+"t": "Begründung für den Nvidia-Abbau: interne Bewertung von Führung und Kultur herabgestuft, Geld fließt zu SpaceX (ETF IQ Asia, Sendetag unklar)."
+},
+{
+"d": "2026-11-20",
+"t": "SpaceX werde zum günstigsten Cloud-Anbieter; Rechenleistung im Orbit binnen zwei Jahren billiger als am Boden (CNBC)."
+},
+{
+"d": "2026-11-20",
+"t": "Baut Anthropic nach dem Börsengang in allen sechs aktiven ETFs auf; kauft am 20.11. auch AMD, CoreWeave und Cerebras."
+},
+{
+"d": "2026-11-16",
+"t": "Dreht bei Nvidia: Käufe am 5. und 9.11., Verkäufe seit dem 16.11. (543.092 Stück am ersten Tag)."
+}
+],
+"open": "ARK-Handel vom 23.11. lag am Morgen des 24.11. noch nicht vor: Kauft ARK Nvidia nach Huangs Rückkehr zurück? SpaceX-Kauf vom 16.11. (laut Cathiesark 46,8 Mio. $ in ARKK) mit Stückzahl belegen. Sendetag des ETF-IQ-Asia-Interviews belegen."
+},
+{
+"id": "burry",
+"sum": "Bekannt durch die Wette gegen den US-Häusermarkt 2008. Hat Scion Ende 2025 geschlossen und schreibt seitdem den Substack Cassandra Unchained.",
+"fokus": "Nvidia, KI-Finanzierung, Abschreibungen der Hyperscaler, Nasdaq-Puts",
+"kan": [
+"Substack Cassandra Unchained (teils hinter Bezahlschranke)",
+"X @michaeljburry",
+"Berichte von TheStreet, Benzinga und Stocktwits über seine Beiträge"
+],
+"note": "Keine 13F-Meldungen mehr seit der Schließung von Scion; Positionen nur aus eigenen Angaben.",
+"th": [
+{
+"d": "2026-11-23",
+"t": "Huangs Rückkehr sei ein Zeichen der Schwäche; hat am 20.11. drei Viertel der Nvidia-Puts und alle SMH-Puts verkauft, Nvidia-Calls gekauft."
+},
+{
+"d": "2026-11-20",
+"t": "Nimmt Gewinne auf die Hälfte der Nvidia- und SMH-Puts mit; die Nasdaq-Puts bis April 2027 bleiben."
+},
+{
+"d": "2026-11-18",
+"t": "Zeichnet Anthropic nicht; will Erholungen bei KI-Aktien leerverkaufen, ohne Eile."
+},
+{
+"d": "2026-11-16",
+"t": "Stockt Adobe bei rund 246 Dollar zur vollen Position auf."
+},
+{
+"d": "2026-11-13",
+"t": "Überangebot an KI-Chips ist die eigentliche Geschichte, nicht der Skandal."
+}
+],
+"open": "Größe und Basis der verbleibenden Nasdaq- und Nvidia-Puts aus Primärquelle belegen; laut Stocktwits nennt er eine Schwelle von 200 Dollar für neue Nvidia-Shorts (Wortlaut fehlt). Lululemon laut Benzinga im November zurückgekauft (ohne Datum)."
+},
+{
+"id": "dalio",
+"sum": "Gründer von Bridgewater. Kommentiert Schuldenzyklen, Geopolitik und Blasen aus Makrosicht, führt den Fonds aber nicht mehr.",
+"fokus": "Schuldenzyklus, Konzentrationsrisiko, Gold, Vermögensteuer",
+"kan": [
+"Beiträge auf LinkedIn und X @RayDalio",
+"Konferenzen, zuletzt Singapur",
+"Interviews und Bücher"
+],
+"th": [
+{
+"d": "2026-11-14",
+"t": "USA anfällig für eine Finanzkrise; 10 bis 15 % Gold im Portfolio."
+},
+{
+"d": "2026-10-21",
+"t": "Konzentrationsrisiko wiegt schwerer als die Blasenfrage; Anleihemarkt beobachten."
+},
+{
+"d": "2026-10-07",
+"t": "KI trägt Züge einer klassischen Blase."
+}
+],
+"open": "Äußerung nach dem 20.11.? Suche am 23.11. ohne Fund."
+},
+{
+"id": "ackman",
+"sum": "Aktivist mit wenigen, großen Positionen. Äußert sich häufig und ausführlich auf X.",
+"fokus": "Uber, Amazon, Microsoft, Meta; neu ICE und Alcon",
+"kan": [
+"X @BillAckman",
+"13F Pershing Square (quartalsweise)",
+"CNBC Squawk Box",
+"Quartalscalls von Pershing Square Holdings"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Begrüßt Huangs Wiedereinsetzung; am 13.11. hielt er Anthropic für kaum bewertbar."
+},
+{
+"d": "2026-11-22",
+"t": "Zinserhöhung am 9.12. wäre ein Fehler; 3 % statt 2 % als Inflationsziel, sonst drohe eine Rezession."
+},
+{
+"d": "2026-11-18",
+"t": "Wirft dem Nvidia-Verwaltungsrat überstürztes Handeln vor; Microsoft-Position ist über Optionen größer als im 13F sichtbar."
+},
+{
+"d": "2026-11-03",
+"t": "Markt wirkt durch Spekulation und Hebel zeitweise kaputt; für Langfristanleger eine Chance."
+}
+],
+"open": "Kauft Pershing Square im Ausverkauf zu? Reaktion auf PCE-Daten (25.11.) und Fed-Entscheid (9.12.)."
+},
+{
+"id": "druckenmiller",
+"sum": "Früherer Chefstratege von Soros. Führt sein Family Office ohne Fremdgeld und wechselt Positionen schnell.",
+"fokus": "Fed-Regime, Kupfer-Short, KI-Anwender, Goldminen",
+"kan": [
+"13F Duquesne Family Office",
+"Konferenzen: TomorrowX, Sohn, Grant's",
+"Interviews bei CNBC und Bloomberg"
+],
+"th": [
+{
+"d": "2026-11-17",
+"t": "Aktien netto flach, Kapitalerhalt vor Rendite; short Kupfer."
+},
+{
+"d": "2026-11-17",
+"t": "Sucht KI-Anwender statt Infrastruktur; Konjunkturschwäche im 2. Halbjahr 2027 möglich."
+}
+],
+"open": "Wann steigt er wieder ein, und womit? Die Pause kann nach eigener Aussage zwei Tage bis sechs Monate dauern (17.11.)."
+},
+{
+"id": "tepper",
+"sum": "Gründer von Appaloosa. Bekannt für große, konzentrierte Wetten nach Markteinbrüchen.",
+"fokus": "Umschichtung innerhalb der Halbleiter, Micron, SpaceX",
+"kan": [
+"13F Appaloosa",
+"Seltene Anrufe bei CNBC"
+],
+"open": "Äußerung zur Korrektur seit November? Suche am 23.11. lieferte nur 13F-Berichte."
+},
+{
+"id": "griffin",
+"sum": "Gründer von Citadel und Citadel Securities. Äußert sich zu Marktstruktur, Politik und Bewertungen.",
+"kan": [
+"Konferenzen (Milken, Bloomberg-Foren)",
+"13F Citadel Advisors (sehr breit, wenig aussagekräftig)"
+],
+"th": [
+{
+"d": "2026-11-16",
+"t": "13F: Amazon, Apple, AMD und SpaceX stark reduziert; Microsoft, Tesla und Mastercard aufgestockt."
+},
+{
+"d": "2026-10-20",
+"t": "Fast sicher eine KI-Blase, aus der aber langfristige Marktführer hervorgehen."
+}
+]
+},
+{
+"id": "marks",
+"sum": "Mitgründer von Oaktree. Seine Memos zu Zyklen und Risiko werden breit gelesen.",
+"kan": [
+"Oaktree-Memos",
+"Podcast The Memo",
+"Interviews"
+],
+"th": [
+{
+"d": "2026-11-11",
+"t": "KI ist real; offen ist, wer die Gewinne behält."
+},
+{
+"d": "2026-11-11",
+"t": "Der Vorsprung von OpenAI und Anthropic ist nicht gesichert."
+}
+]
+},
+{
+"id": "gundlach",
+"sum": "Gründer von DoubleLine. Anleiheinvestor mit pointierten Makro-Aussagen.",
+"fokus": "Kreditmärkte, Zinsen, Gold, Dollar",
+"kan": [
+"DoubleLine-Webcasts, Just Markets im Januar",
+"CNBC nach Fed-Entscheiden",
+"X @TruthGundlach"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Nasdaq liegt seit Jahresbeginn hinter Treasury Bills."
+},
+{
+"d": "2026-11-12",
+"t": "Meidet KI-lastige Indizes; würde Anthropic-Schulden nicht kaufen."
+},
+{
+"d": "2026-11-12",
+"t": "Hält rund 30 % Aktien für angemessen; S&P 500 erst bei einem KGV unter 15 interessant (Shiller-KGV rund 42)."
+},
+{
+"d": "2026-10-09",
+"t": "Aktienmarkt im Kern schwach; KI-Kreditmarkt als Warnsignal; mindestens 20 % liquide."
+}
+],
+"open": "Tag des Auftritts bei Yahoo Finance Invest prüfen (12. oder 13.11.: Video am 13.11. eingestellt, 24/7 Wall St. nennt den 12.11.). Äußerung zum Fed-Entscheid am 9.12."
+},
+{
+"id": "tudorjones",
+"sum": "Macro-Trader und Gründer von Tudor Investment.",
+"kan": [
+"CNBC Squawk Box, meist im Herbst",
+"Robin-Hood-Konferenz",
+"13F Tudor"
+],
+"open": "Äußerung seit dem Ausverkauf im November?",
+"th": [
+{
+"d": "2026-10-13",
+"t": "2027 wird sehr schwierig: will das ganze Jahr short sein, weil KI-Börsengänge und auslaufende Haltefristen das Aktienangebot erhöhen; long Öl."
+}
+]
+},
+{
+"id": "abel",
+"sum": "Seit Anfang 2026 CEO von Berkshire Hathaway und für das Aktienportfolio mitverantwortlich.",
+"kan": [
+"13F Berkshire Hathaway",
+"Aktionärsbrief im Februar, Hauptversammlung im Mai",
+"Quartalsbericht: Cash-Bestand und Rückkäufe"
+]
+},
+{
+"id": "einhorn",
+"sum": "Value-Investor und Short-Seller bei Greenlight Capital.",
+"kan": [
+"Quartalsbriefe von Greenlight",
+"13F Greenlight",
+"Sohn- und Robin-Hood-Konferenz"
+],
+"open": "Brief zum 4. Quartal und Partner-Dinner am 19.1.2027; Sektor von Versigent (+41 % im 13F) und Dauch klären.",
+"th": [
+{
+"d": "2026-10-21",
+"t": "Brief Q3: KI-Anbieter behalten kaum den Nutzen; Zinswette um ein Drittel gekürzt, Markt preise zu viele Fed-Erhöhungen ein. Fonds −3,3 % im Quartal."
+},
+{
+"d": "2026-10-21",
+"t": "Stellt Century Aluminum als Anlageidee vor: Zölle wirken wie eine Subvention."
+}
+]
+},
+{
+"id": "cohen",
+"sum": "Gründer von Point72, einem der großen Multi-Manager-Fonds.",
+"kan": [
+"Seltene Interviews und Konferenzen",
+"13F Point72 (sehr breit)"
+],
+"th": [
+{
+"d": "2026-11-16",
+"t": "13F zum 30.9.: AMD fast vollständig verkauft, Microsoft auf gut 1 Mrd. Dollar aufgestockt."
+}
+],
+"open": "Weiter keine datierte Aussage aus 2026 gefunden (Suche 23.11.); Auftritt bei einer geschlossenen Konferenz im Oktober (Hedgeweek, 22.10.) ohne öffentlichen Inhalt."
+},
+{
+"id": "chanos",
+"sum": "Der bekannteste Short-Seller. Kommentiert Bilanzierung und Bewertungsexzesse.",
+"kan": [
+"X @RealJimChanos",
+"Podcasts und Interviews",
+"TIKR-Blog und Yahoo Finance geben seine X-Beiträge laufend wieder"
+],
+"open": "Sicht auf die Nvidia-Bilanzierung (SEC-Prüfung) und auf KI-Abschreibungen: bisher keine datierte Aussage gefunden.",
+"th": [
+{
+"d": "2026-11-20",
+"t": "Fragt, wann SpaceX seine irdischen Rechenzentren abschreibt, wenn der Orbit billiger sein soll."
+},
+{
+"d": "2026-11-19",
+"t": "CoreWeave bindet Ende 2026 über 80 Mrd. Dollar Kapital, rund 4 Dollar je Dollar Umsatz."
+},
+{
+"d": "2026-11-19",
+"t": "Kein Neocloud dürfe höher bewertet sein als sein einziger zentraler Lieferant."
+},
+{
+"d": "2026-11-16",
+"t": "Amazon-Blackstone-Geschäft zu 7 % Anfangsrendite: Digital Realty und Equinix wären danach deutlich weniger wert."
+},
+{
+"d": "2026-11-15",
+"t": "Nebius-Ausblick 2027 entspricht nur 8 bis 9 Mio. Dollar Umsatz je Megawatt."
+}
+]
+},
+{
+"id": "lee",
+"sum": "Research-Chef von Fundstrat. Tritt seit Jahren überwiegend bullisch auf, vor allem für Tech und Krypto.",
+"kan": [
+"CNBC, mehrmals pro Woche",
+"X @fundstrat",
+"Fundstrat-Notizen über die Presse"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Als BitMine-Chairman: Ether und Bitcoin seien beide hartes Geld mit fast gleicher Inflationsrate."
+},
+{
+"d": "2026-11-19",
+"t": "Tech-Ausverkauf ist eine gesunde Korrektur und Kaufgelegenheit; Vergleich mit Cisco 1997."
+},
+{
+"d": "2026-11-16",
+"t": "Der 5. November war das strukturelle Tief im Technologiesektor."
+},
+{
+"d": "2026-11-14",
+"t": "Krypto-Schwäche hat aus seiner Sicht technische Ursachen (Nachschusspflichten, Anthropic-Zeichnungen, Binance-Hack); die These eines Superzyklus bleibt."
+},
+{
+"d": "2026-11-12",
+"t": "Tech hat den Boden gefunden; Nvidia-Rücksetzer kaufen."
+}
+],
+"open": "Seit dem Schluss vom 20.11. nur ein YouTube-Kurzvideo ohne Inhalt gefunden. Die zehnjährige Rendite fiel am 20.11. unter die von ihm genannte Marke von 5 %: Äußerung dazu suchen."
+},
+{
+"id": "ives",
+"sum": "Tech-Analyst, inzwischen bei Yorkville Ives und zuvor bei Wedbush. Dauerhaft optimistisch für KI und Tesla.",
+"kan": [
+"X @DivesTech",
+"CNBC und Bloomberg",
+"Research-Notizen über die Presse"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Bleibt bei 225 Dollar, bis die Untersuchungen abgeschlossen sind; Wert mit Huang 300 Dollar."
+},
+{
+"d": "2026-11-20",
+"t": "Ausverkauf kommt aus Politik, Führungskrise und Marktmechanik, nicht aus schwächerer Nachfrage."
+},
+{
+"d": "2026-11-19",
+"t": "Bei CNBC: Der Kursrutsch sei Panik, der Anthropic-Börsengang belege die Nachfrage; KI-Ausbau zu weniger als 15 % abgeschlossen."
+},
+{
+"d": "2026-11-18",
+"t": "Bestätigt Outperform für Nvidia; die Nachfrage ist mit Huang nicht verschwunden."
+}
+],
+"open": null
+},
+{
+"id": "wilson",
+"sum": "Chefstratege für US-Aktien bei Morgan Stanley. War lange einer der bekanntesten Bären und ist seit 2025 konstruktiv.",
+"kan": [
+"Wochennotiz am Montag",
+"Podcast Thoughts on the Market",
+"Jahresausblick im November"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Nennt den Kursrutsch die große Kaufgelegenheit; taktisch so optimistisch wie seit Anfang April nicht."
+},
+{
+"d": "2026-11-18",
+"t": "Ein S&P 500 bei 7.100 bis 7.300 ist eine Kaufgelegenheit."
+},
+{
+"d": "2026-11-16",
+"t": "Korrektur ist Kaufgelegenheit; S&P 500 bei 8.700 in zwölf Monaten."
+}
+],
+"open": "Wochennotiz vom Montag, 23.11., lag zur Laufzeit (07:30 MEZ) noch nicht vor; seit dem Schluss vom 20.11. keine neue Äußerung gefunden."
+},
+{
+"id": "hartnett",
+"sum": "Chefstratege der Bank of America. Autor des Flow Show und der monatlichen Fondsmanager-Umfrage.",
+"kan": [
+"Flow Show (freitags)",
+"Global Fund Manager Survey (monatlich, dienstags)"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Flow Show: Die Kurse haben kapituliert, die Positionierung noch nicht (Rekordzufluss von 310 Mrd. Dollar in vier Wochen). 6.845 Punkte im S&P 500, der Schluss von 2025, gelten ihm als Schwelle, an der die Fed einlenken könnte."
+},
+{
+"d": "2026-11-20",
+"t": "Technische Erholung nach Thanksgiving möglich; große Rally erst bei 10J unter 4,5 %, WTI unter 70 Dollar und Dollar-Hoch."
+},
+{
+"d": "2026-11-13",
+"t": "Risk-off, bis Öl unter 70 Dollar und die zehnjährige Rendite unter 4,5 % liegen."
+}
+],
+"open": "Nächste Flow Show laut Wallstreetcn erst am 3.12.; die Primärquelle bleibt nicht frei zugänglich."
+},
+{
+"id": "elerian",
+"sum": "Ökonom, Berater der Allianz und früherer Chef von PIMCO.",
+"kan": [
+"X @elerianm",
+"Substack: The Weekly Look at the Global Economy and Markets (samstags)",
+"Kolumnen bei Bloomberg Opinion, der FT und Project Syndicate",
+"CNBC"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Huangs Rückkehr werfe neue Fragen auf: Governance, »Präsidenten-Put«, staatliche Eingriffe."
+},
+{
+"d": "2026-11-21",
+"t": "Kursrutsch als Verdauungsproblem nach der Anthropic-Emission; Zinsrisiko geht in Kredit- und Aktienrisiko über, Staatsanleihen schützen wegen des großen Angebots nur begrenzt."
+},
+{
+"d": "2026-11-20",
+"t": "Technische Faktoren verdrängen Fundamentaldaten; Sorge vor erzwungenem Schuldenabbau."
+},
+{
+"d": "2026-11-19",
+"t": "Der Mega-Börsengang entzieht dem Markt Liquidität."
+}
+],
+"open": "Folgt nach der Erholung der Futures vom 22.11. eine neue Einschätzung zum technischen Schaden?"
+},
+{
+"id": "dimon",
+"sum": "CEO von JPMorgan Chase. Seine Warnungen zu Bewertungen, Kredit und Geopolitik bewegen Schlagzeilen.",
+"kan": [
+"Aktionärsbrief im April",
+"Quartalscalls",
+"Interviews bei Bloomberg, BBC und Fox"
+],
+"open": "Keine Äußerung zur Korrektur seit dem 20.11. gefunden. Ein Bloomberg-Interview zu den Krediten hinter dem KI-Boom (zitiert bei briefs.co, 14.11.) ist nicht datiert.",
+"th": [
+{
+"d": "2026-11-19",
+"t": "Nennt den höheren britischen Bankenzuschlag unfair; J.P. Morgan will die Mehrbelastung ausgleichen."
+},
+{
+"d": "2026-11-13",
+"t": "Inflation bleibt hartnäckig; die Fed muss womöglich weiter erhöhen."
+}
+]
+},
+{
+"id": "musk",
+"sum": "CEO von Tesla und SpaceX, zwei großen Gewichten in den Indizes.",
+"kan": [
+"X @elonmusk",
+"Earnings Calls von Tesla und SpaceX"
+],
+"open": "Weitere Aussagen zur Fusion von Tesla und SpaceX; Anleihefinanzierung der SpaceX-Rechenzentren (laut MLQ.ai rund 44 Mrd. $ über Apollo und Goldman Sachs am 20.11., Primärquelle fehlt).",
+"th": [
+{
+"d": "2026-11-23",
+"t": "Der Fehler sei korrigiert; alle bei Nvidia hätten Huang zurückgewollt."
+},
+{
+"d": "2026-11-21",
+"t": "Warnt vor Geldknappheit im KI-Ausbau 2027: hunderte Milliarden Dollar zusätzliches Betriebskapital."
+},
+{
+"d": "2026-11-18",
+"t": "Anthropic dürfte bei SpaceX weitere 10 Gigawatt mieten; eine Fusion von Tesla und SpaceX hält er für sinnvoll."
+}
+]
+},
+{
+"id": "saylor",
+"sum": "Executive Chairman von Strategy, dem größten börsennotierten Bitcoin-Halter.",
+"kan": [
+"8-K-Meldungen am Montag zu Bitcoin-Käufen",
+"X @saylor"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Strategy kauft 457 BTC zu Ø 64.898 Dollar; der größere Teil des Geldes fließt in den Rückkauf von STRC."
+},
+{
+"d": "2026-11-22",
+"t": "Deutet auf X einen weiteren Kauf an; der Bestand liegt rund 12,6 Mrd. Dollar unter dem Einstand."
+},
+{
+"d": "2026-11-19",
+"t": "Investorenrunde: STRC darf von 7,7 auf bis zu 5 Mrd. Dollar schrumpfen, die Dividende bleibt bei 12 %; Bitcoin-Verkäufe zum Rückkauf unter Nennwert sind nicht ausgeschlossen."
+},
+{
+"d": "2026-11-18",
+"t": "Verkauft nicht; Strategy lenkt Erlöse aus Aktienverkäufen überwiegend in STRC-Rückkäufe."
+}
+],
+"open": "8-K vom 23.11. (erwartet gegen 14:00 MEZ) stand zur Laufzeit aus: Kauf unter 60.000 Dollar? Folgen des MSCI-Ausschlusses zum 30.11."
+},
+{
+"id": "warsh",
+"sum": "Chair der Federal Reserve.",
+"kan": [
+"Pressekonferenzen nach den Sitzungen",
+"Reden und Anhörungen im Kongress",
+"Sitzungsprotokolle, drei Wochen später"
+],
+"open": "Rede oder Interview vor dem 9.12.? Bis 23.11. keine Äußerung zur Zinspolitik gefunden; seit der Rede vom 16.11. vermeidet er Hinweise auf den Kurs.",
+"th": [
+{
+"d": "2026-11-16",
+"t": "Die Fed spielt KI-Szenarien durch, darunter eines mit fallenden Bewertungen und steigender Arbeitslosigkeit."
+}
+]
+},
+{
+"id": "yardeni",
+"sum": "Unabhängiger Stratege. Vertritt seit Jahren die These der Roaring 2020s.",
+"kan": [
+"Morning Briefing (täglich)",
+"Blog und LinkedIn",
+"CNBC"
+],
+"th": [
+{
+"d": "2026-11-22",
+"t": "Sektoren: Gesundheit, Energie und Industrie übergewichtet, Technologie und Kommunikation neutral, Basiskonsum untergewichtet; der Ausverkauf komme aus den Bewertungen, nicht aus den Gewinnschätzungen."
+},
+{
+"d": "2026-11-21",
+"t": "Ziel Ende 2026 auf 7.500 gesenkt, Ende 2027 bei 8.500 bis 9.000; Korrektur im Bullenmarkt."
+},
+{
+"d": "2026-11-20",
+"t": "Bei CNBC: Korrektur, kein Bärenmarkt, solange keine Rezession folgt; ein schneller Auslöser für die Erholung fehlt."
+},
+{
+"d": "2026-11-18",
+"t": "Die Fed muss um weitere 50 Basispunkte erhöhen."
+}
+],
+"open": null
+},
+{
+"id": "laffont",
+"kan": [
+"13F Coatue Management"
+]
+},
+{
+"id": "coleman",
+"kan": [
+"13F Tiger Global"
+]
+},
+{
+"id": "klarman",
+"kan": [
+"13F Baupost Group",
+"Jahresbrief, selten öffentlich"
+]
+},
+{
+"id": "hohn",
+"kan": [
+"13F TCI Fund Management"
+]
+},
+{
+"id": "terrysmith",
+"kan": [
+"13F Fundsmith",
+"Jahresbrief im Januar"
+]
+},
+{
+"id": "fitzpatrick",
+"kan": [
+"13F Soros Fund Management"
+]
+},
+{
+"id": "halvorsen",
+"kan": [
+"13F Viking Global"
+]
+},
+{
+"id": "sundheim",
+"kan": [
+"13F D1 Capital"
+]
+},
+{
+"id": "lilu",
+"kan": [
+"13F Himalaya Capital"
+]
+},
+{
+"id": "armitage",
+"kan": [
+"13F Egerton Capital"
+]
+},
+{
+"id": "marshall",
+"kan": [
+"13F Marshall Wace"
+]
+},
+{
+"id": "aschenbrenner",
+"kan": [
+"13F Situational Awareness LP",
+"Essayreihe Situational Awareness"
+],
+"open": "Wohin floss das Geld nach dem Abbau im Juli?"
+},
+{
+"id": "snider",
+"kan": [
+"Goldman US Weekly Kickstart",
+"Jahresausblick im November"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Ausverkauf hat sich zur Wachstumsabstufung ausgeweitet; für einen Boden fehlen KI-Vertrauen, Fed-Signal oder bereinigte Positionierung. Spanne 5.800 bis 8.100."
+},
+{
+"d": "2026-11-17",
+"t": "S&P 500 bei 8.700 Ende 2027, Gewinnwachstum verlangsamt sich."
+}
+],
+"open": "Ist eine der drei Bedingungen für einen Boden seit dem 20.11. erfüllt? Nächster Weekly Kickstart."
+},
+{
+"id": "kwon",
+"kan": [
+"Strategienotizen von Wells Fargo"
+]
+},
+{
+"id": "subramanian",
+"kan": [
+"Strategienotizen der Bank of America, Sell-Side-Indikator"
+],
+"open": "S&P-Ziel 2027 der Bank of America bei der Suche am 23.11. noch nicht gefunden."
+},
+{
+"id": "bell",
+"kan": [
+"Goldman European Strategy"
+]
+},
+{
+"id": "fowler",
+"kan": [
+"UBS European Equity Strategy"
+]
+},
+{
+"id": "arcuri",
+"kan": [
+"Research-Notizen über die Presse"
+],
+"th": [
+{
+"d": "2026-11-18",
+"t": "Kaufen, Kursziel Nvidia 220 Dollar (zuvor 240); Sorge gilt dem Wachstum im Kalenderjahr 2028 und dem verspäteten 10-Q."
+}
+],
+"open": "Inhalt des verspäteten 10-Q (Frist laut MLQ.ai: 4.12.)."
+},
+{
+"id": "rasgon",
+"kan": [
+"Research-Notizen über die Presse",
+"CNBC"
+],
+"open": "Keine neue Notiz seit dem 18.11.; Einschätzung zur SEC-Prüfung bei Nvidia steht aus. Odd-Lots-Auftritt (um den 15.11.) nur als Zusammenfassung gefunden.",
+"th": [
+{
+"d": "2026-11-23",
+"t": "Zurück auf Outperform, Kursziel 200 Dollar; das Hin und Her des Verwaltungsrats nennt er clownesk."
+}
+]
+},
+{
+"id": "lipacis",
+"kan": [
+"Research-Notizen über die Presse"
+]
+},
+{
+"id": "turnquist",
+"kan": [
+"Kommentare von LPL Research"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Bruch der 200-Tage-Linie allein kein Bärenmarktsignal; die Unterstützung nahe 7.000 im S&P 500 sei entscheidend."
+}
+],
+"open": "Der S&P 500 schloss am 20.11. bei 6.910 unter der genannten Marke: Folgekommentar?"
+},
+{
+"id": "georgieva",
+"kan": [
+"IWF-Pressekonferenzen",
+"World Economic Outlook im April und Oktober",
+"Gipfelauftritte (APEC, G20) und Bloomberg-Interviews"
+],
+"th": [
+{
+"d": "2026-11-19",
+"t": "KI-Nachfrage und Energiepreise treiben die Inflation; viele Länder müssten die Geldpolitik straffen. An den KI-Märkten erwartet sie noch etwas mehr Korrektur."
+}
+],
+"open": null
+},
+{
+"id": "pick",
+"kan": [
+"Quartalscalls von Morgan Stanley",
+"Konferenzen"
+]
+},
+{
+"id": "waller",
+"kan": [
+"Reden auf federalreserve.gov",
+"CNBC-Interviews"
+],
+"th": [
+{
+"d": "2026-11-18",
+"t": "Hält im Dezember 50 Basispunkte für nötig, falls die Fed keinen weiteren Schritt im Januar glaubwürdig signalisiert."
+}
+],
+"open": "Keine neue geldpolitische Aussage seit dem 18.11.; Grußwort vom 20.11. (College Fed Challenge) ohne Signal. Schweigephase ab 28.11."
+},
+{
+"id": "williams",
+"kan": [
+"Reden auf newyorkfed.org"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Inflation von rund 3,5 % sei zu hoch, es bleibe Arbeit zu tun; 2027 knapp über 2 %."
+},
+{
+"d": "2026-11-17",
+"t": "Weitere Erhöhung wahrscheinlich, aber kein Anlass für einen großen Schritt."
+},
+{
+"d": "2026-11-12",
+"t": "Inflation sei viel zu hoch; die Fed müsse weiter handeln."
+}
+],
+"open": "Schweigephase der Fed ab 28.11.; nächster Auftritt nach dem Entscheid vom 9.12."
+},
+{
+"id": "kress",
+"kan": [
+"Earnings Calls von Nvidia",
+"8-K-Meldungen"
+],
+"open": "Eigene Aussage nach der Rückkehr Huangs; Termin des Quartalsberichts (10-Q); Reaktion auf die SEC-Prüfung.",
+"th": [
+{
+"d": "2026-11-22",
+"t": "Nach elf Tagen als Interimschefin wieder nur Finanzchefin (8-K vom 23.11.)."
+}
+]
+},
+{
+"id": "birol",
+"kan": [
+"IEA-Berichte",
+"Interviews"
+]
+},
+{
+"id": "oleary",
+"kan": [
+"X (@kevinolearytv)",
+"Yahoo Finance, Fox Business, CNBC",
+"Benzinga fasst seine Beiträge laufend zusammen"
+],
+"sum": "Bekanntester »Shark«; äußert sich fast täglich zu KI, Krypto-Regulierung und Politik und investiert selbst in Rechenzentren.",
+"fokus": "KI-Infrastruktur, Krypto-Regulierung, Börsengänge",
+"note": "Eigene Interessen beachten: Rechenzentrumsprojekt Wonder Valley, Krypto-Beteiligungen.",
+"th": [
+{
+"d": "2026-11-21",
+"t": "Huang kehrt nicht zurück; die Nachfrage nach Nvidia-Chips bleibt stark."
+},
+{
+"d": "2026-11-20",
+"t": "Nvidias Stärke sei die Chipnachfrage, nicht Huang; Kress sei die richtige Besetzung."
+},
+{
+"d": "2026-11-19",
+"t": "Anthropics Fokus auf Sicherheit und Vertrauen für Unternehmenskunden nennt er genial."
+}
+],
+"open": "Reaktion auf Huangs Rückkehr fehlt (er hatte sie am 21.11. ausgeschlossen). X-Beitrag vom 21.11. (»Bank von Nvidia geschlossen«) nur als Suchauszug belegt, Benzinga-Seite nicht abrufbar."
+},
+{
+"id": "stephan",
+"kan": [
+"Graham's Newsletter (Substack), wöchentlich",
+"YouTube: Graham Stephan und The Graham Stephan Show"
+],
+"sum": "Finanz-YouTuber mit Millionenpublikum und wöchentlichem Newsletter; prägt die Sicht vieler Privatanleger auf Aktien, Zinsen und Immobilien.",
+"fokus": "US-Aktienmarkt, Immobilien, Zinsen, KI-Bewertung",
+"note": "Videos nennen oft Sponsoren; Aussagen aus dem Newsletter sind besser belegbar als aus Videotiteln.",
+"th": [
+{
+"d": "2026-11-13",
+"t": "Den geplanten Zinsdeckel für Kreditkarten hält er für Show."
+},
+{
+"d": "2026-11-09",
+"t": "Hauskauf könnte trotz Hypothekenzinsen um 7,4 % wieder lohnen: deutlich mehr Verkäufer als Käufer."
+}
+],
+"open": "Newsletter der Woche vom 23.11. lag noch nicht vor."
+},
+{
+"id": "cramer",
+"kan": [
+"CNBC »Mad Money«, werktäglich",
+"CNBC Investing Club"
+],
+"sum": "Moderator von »Mad Money«; kommentiert werktäglich Einzelwerte und den KI-Handel vor großem Privatanleger-Publikum.",
+"fokus": "Nvidia, KI-Handel, Einzelaktien",
+"th": [
+{
+"d": "2026-11-23",
+"t": "Huangs Rückkehr sei ein Wunder; Ziel 199 Dollar. Fordert den Rücktritt des Verwaltungsrats, dessen Vorgehen er am 13.11. noch verteidigt hatte."
+},
+{
+"d": "2026-11-19",
+"t": "Nennt den Short-Bericht gegen AMD eine Attacke; sein Charitable Trust will kaufen."
+},
+{
+"d": "2026-11-19",
+"t": "Die Nvidia-Krise überlagert den Anthropic-Börsengang; Alphabet sieht er reif für eine Erholung."
+},
+{
+"d": "2026-11-18",
+"t": "Rocket Lab sei zu billig geworden, bleibe aber eine Spekulation."
+}
+],
+"open": "Aussage zur Marke 6.900 im S&P 500 (24/7 Wall St., 21.11.) und Wochenausblick vom 20.11. im Wortlaut belegen; die Auszüge reichten nicht."
+},
+{
+"id": "chamath",
+"kan": [
+"X (@chamath) und LinkedIn",
+"»All-In«-Podcast, wöchentlich (Folgen über allinchamathjason.libsyn.com datiert)",
+"Social Capital Research (research.socialcapital.com)"
+],
+"sum": "Wagniskapitalgeber und Mitgastgeber des »All-In«-Podcasts mit großer Reichweite im Tech-Umfeld.",
+"fokus": "KI, Krypto, Makro",
+"th": [
+{
+"d": "2026-11-23",
+"t": "Begrüßt Huangs Rückkehr als abgewendetes Eigentor, nachdem er am 20.11. davor gewarnt hatte."
+},
+{
+"d": "2026-11-21",
+"t": "Unternehmenssoftware muss von KI-Modellen neu geschrieben werden."
+},
+{
+"d": "2026-11-20",
+"t": "All-In: Huang sei herausragend, seine Rückkehr zu Nvidia aber ein Governance-Risiko; erwartet neun bis zehn vertikal integrierte KI-Großkonzerne."
+},
+{
+"d": "2026-11-20",
+"t": "Social-Capital-Analyse zu Anthropic: Wachstum flacht ab, Rechenkosten und Zusagen von 900,9 Mrd. Dollar steigen."
+}
+],
+"open": null
+},
+{
+"id": "schiff",
+"kan": [
+"X (@PeterSchiff)",
+"Schiff Radio / The Peter Schiff Show"
+],
+"sum": "Dauerkritiker von Fed und Bitcoin, verkauft selbst Gold; als Gegenstimme zu den Krypto-Bullen nützlich.",
+"fokus": "Gold, Fed, Bitcoin",
+"note": "Eigeninteresse: Goldhandel (SchiffGold).",
+"th": [
+{
+"d": "2026-11-20",
+"t": "Ruft zum Goldkauf auf und zieht die Parallele zu 2008: Gold falle zuerst, Aktien danach deutlich tiefer. Nennt Strategy einen Betrug und warnt vor Ether bei 1.000 Dollar."
+},
+{
+"d": "2026-11-19",
+"t": "Gold unter 3.680 Dollar hat ihn überrascht; Schulden und Inflation bleiben für ihn Kaufgründe."
+}
+],
+"open": "Ether-Warnung (1.000 Dollar bis 23.11.) und Goldkaufaufruf vom 20.11. nachhalten."
+},
+{
+"id": "novogratz",
+"kan": [
+"X (@novogratz)",
+"Konferenzen, CNBC, Bloomberg"
+],
+"sum": "Chef des Krypto- und Rechenzentrumshauses Galaxy Digital; verbindet Makro-Sicht mit Krypto.",
+"fokus": "Bitcoin, Fed, KI-Rechenzentren",
+"note": "Eigeninteresse: Galaxy-Aktie und Krypto-Bestände.",
+"th": [
+{
+"d": "2026-11-20",
+"t": "Sieht Bitcoin zunächst zwischen 60.000 und 75.000 Dollar; eine Erholung hänge am Aktienmarkt. Kauft laut Form 4 am selben Tag 415.000 Galaxy-Aktien."
+},
+{
+"d": "2026-11-20",
+"t": "Kauft nach dem Kursrutsch Galaxy-Aktien nach."
+}
+],
+"open": null
+},
+{
+"id": "scaramucci",
+"kan": [
+"X (@Scaramucci)",
+"Podcasts: All Things Markets, The Rest Is Politics US"
+],
+"sum": "Gründer von SkyBridge und einer der sichtbarsten Bitcoin-Befürworter.",
+"fokus": "Bitcoin",
+"th": [
+{
+"d": "2026-11-21",
+"t": "Empfiehlt 1 bis 2 % des Vermögens in Bitcoin."
+}
+],
+"open": "Trifft der für den 25.11. genannte mögliche Bitcoin-Boden zu?"
+},
+{
+"id": "siegel",
+"kan": [
+"WisdomTree: Weekly Siegel Commentary, montags",
+"CNBC"
+],
+"sum": "Wharton-Professor und Langfrist-Optimist für Aktien; sein Wochenkommentar wird breit zitiert.",
+"fokus": "US-Aktien, Fed, Inflation",
+"th": [
+{
+"d": "2026-11-23",
+"t": "Glaubt nicht an 50 Basispunkte im Dezember; erwartet einen Jahresschluss über dem Stand vom 20.11."
+},
+{
+"d": "2026-11-20",
+"t": "Eine Anpassung der überhöhten Erwartungen ist unvermeidlich."
+}
+],
+"open": "Wochenkommentar vom 23.11. lag am Morgen (07:30 MEZ) noch nicht vor; beim nächsten Lauf aufnehmen."
+},
+{
+"id": "loeb",
+"kan": [
+"Quartalsbriefe von Third Point",
+"13F-Meldungen"
+],
+"open": "Brief zum 3. Quartal aus Primärquelle belegen (bisher nach GuruVoices).",
+"th": [
+{
+"d": "2026-11-20",
+"t": "»Bear-Rechnung«: 5 bis 7 Billionen Dollar KI-Ausgaben verlangen 2 bis 3 Billionen Dollar zusätzlichen Umsatz im Jahr."
+}
+]
+},
+{
+"id": "cuban",
+"kan": [
+"X (@mcuban)",
+"Podcasts und CNBC-Interviews"
+],
+"open": "Tag der Oktober-Aussage belegt: Podcast »The Diary Of A CEO«, Folge vom 26.10.2026 (IBTimes UK). Seit dem November-Ausverkauf keine neue Aussage gefunden.",
+"th": [
+{
+"d": "2026-10-28",
+"t": "Spricht von einer Blase; Effizienz könnte Rechenzentren überflüssig machen."
+}
+]
+},
+{
+"id": "corcoran",
+"kan": [
+"Interviews zu Immobilien (Fox Business, CNBC)",
+"Podcasts (The Martha Stewart Podcast)"
+],
+"open": "Aktuelle Aussage zu Hypothekenzinsen über 7 % fehlt; viele Berichte (FinanceBuzz, AOL) verwerten Zitate von 2024. Auftritt bei Inman Connect New York, 26.–28.1.2027.",
+"th": [
+{
+"d": "2026-11-04",
+"t": "Rät jungen Käufern zum Einstieg, notfalls klein und renovierungsbedürftig: Wer nicht kauft, bleibt außen vor."
+}
+],
+"sum": "Gründerin der Corcoran Group und Investorin bei »Shark Tank«; äußert sich vor allem zum US-Wohnungsmarkt.",
+"fokus": "Wohnimmobilien, Hypothekenzinsen"
+},
+{
+"id": "herjavec",
+"kan": [
+"Fox Business (Varney & Co.)",
+"Magazin-Interviews und Podcasts"
+],
+"open": "Aussage zu Aktienmarkt oder KI-Bewertungen fehlt weiter; der Fox-Business-Auftritt vom 9.10. (Warnung vor KI-Agenten) liegt nur als Videobeschreibung vor.",
+"th": [
+{
+"d": "2026-10-26",
+"t": "Sehr optimistisch für Gründungen im KI-Zeitalter; plant ein neues Unternehmen für Verbraucher-Cybersicherheit."
+}
+],
+"sum": "Tech-Unternehmer und Investor bei »Shark Tank«; Gründer des Cybersicherheitsanbieters Cyderes (zuvor Herjavec Group).",
+"fokus": "Cybersicherheit, KI in Unternehmen"
+},
+{
+"id": "djohn",
+"kan": [
+"Instagram @thesharkdaymond",
+"Konferenzauftritte und Interviews"
+],
+"open": "Aussage zum Aktienmarkt fehlt; bisher nur zu KI, Kleinunternehmen und Zöllen.",
+"th": [
+{
+"d": "2026-11-16",
+"t": "Steigt als Miteigentümer bei vier Zentren der Franchise-Kette Ultimate Longevity Center ein."
+},
+{
+"d": "2026-10-29",
+"t": "Kleinunternehmen unterschätzen KI; mit den Zöllen kehren schwierige Zeiten zurück."
+}
+],
+"sum": "FUBU-Gründer, Chef der Shark Group und Investor bei »Shark Tank«.",
+"fokus": "Kleinunternehmen, KI-Werkzeuge, Konsummarken"
+},
+{
+"id": "greiner",
+"kan": [
+"Instagram @lorigreinershark",
+"ABC »Shark Tank«"
+],
+"open": "Weiter keine datierte Aussage zu Märkten oder Wirtschaft. Gefunden nur Zusagen aus »Shark Tank«, Staffel 18 (Neat: 400.000 $ für 15 % plus Lizenzgebühr, ausgestrahlt 4.11.; Moonrise Bagels: 200.000 $ für 10 %, laut Bericht ihr 300. Deal); Abschluss jeweils offen."
+},
+{
+"id": "kiyosaki",
+"kan": [
+"X (@theRealKiyosaki)"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Will weiter Bitcoin kaufen, aber erst nach dem Ende des Einbruchs."
+}
+],
+"open": "Meldet er nach dem Abwarten einen Bitcoin-Kauf? Tag des ersten Beitrags unsicher (19.11. abends US-Zeit oder 20.11.)."
+},
+{
+"id": "paffrath",
+"kan": [
+"YouTube: Meet Kevin, täglich",
+"Instagram @meetkevin und Facebook-Reels"
+],
+"open": "Nur Videotitel gefunden (5.11. Aktienmarkt nach der Wahl, 8.11. Nvidia): kein Textbeleg, kein Eintrag."
+},
+{
+"id": "jikh",
+"kan": [
+"YouTube: Andrei Jikh"
+],
+"th": [
+{
+"d": "2026-11-10",
+"t": "Warnt vor Stress an den globalen Anleihemärkten."
+}
+]
+},
+{
+"id": "oppenheimer",
+"sum": "Chefstratege für globale Aktien bei Goldman Sachs und Leiter des Makro-Research in Europa; verantwortet den globalen Aktienausblick der Bank.",
+"fokus": "Globale Aktienstrategie, Bewertung, Marktzyklen",
+"kan": [
+"Goldman Sachs: Global Strategy Paper und Jahresausblick im November",
+"Interviews bei Bloomberg und CNBC"
+],
+"th": [
+{
+"d": "2026-11-12",
+"t": "Aktien steigen 2027 weiter, aber mit hoher Schwankung; USA und Japan übergewichtet, Europa untergewichtet."
+}
+],
+"open": "Genaues Datum des Ausblicks 2027 (Bericht vom 12. oder 13.11.) aus Primärquelle belegen."
+},
+{
+"id": "bessent",
+"sum": "US-Finanzminister; äußert sich regelmäßig zum Kurs der Fed und zur Aufarbeitung bei Nvidia.",
+"fokus": "Fed und Zinsen, Nvidia und Exportkontrollen, KI-Investitionen",
+"kan": [
+"Sonntags-Talkshows (CBS »Face the Nation«, Fox News)",
+"CNBC-Interviews"
+],
+"th": [
+{
+"d": "2026-11-22",
+"t": "Die Fed riskiere mit zu starker Straffung einen Fehler; von Nvidia fehlen weiter Antworten zu China-Lieferungen."
+},
+{
+"d": "2026-11-20",
+"t": "Rät der Fed von einem großen Zinsschritt ab; hält laut AP weitere Beschränkungen für ältere Nvidia-Chips nach China nicht für nötig."
+},
+{
+"d": "2026-11-17",
+"t": "Verlangt binnen zehn Tagen Antworten vom Nvidia-Verwaltungsrat."
+}
+],
+"open": "Liegen die geforderten Antworten von Nvidia vor (Frist um den 25.–27.11.)? Tag der Zehn-Tage-Forderung klären: Yahoo nennt Dienstag, 17.11., Wall Street Observer (nach Investing.com) Fox News am 15.11."
+},
+{
+"id": "rosenberg",
+"sum": "Gründer von Rosenberg Research; setzt auf Staatsanleihen und sieht den KI-Handel kritisch.",
+"fokus": "US-Staatsanleihen, Konjunktur, KI-Finanzierung",
+"kan": [
+"Breakfast with Dave (täglich, Anriss auf rosenbergresearch.com)",
+"Kundennotizen über die Presse (Business Insider, Barron's)"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Ohne Huang als »Zentralbank der KI« werden Finanzierungen strenger geprüft; zugleich sieht er eine Anleiherally kommen."
+}
+],
+"open": "Stammen die Anleihe-These (Barron's) und die Nvidia-Notiz (Business Insider) vom 20.11. aus derselben Tagesnotiz? Dann zu einem Eintrag zusammenführen."
+},
+{
+"id": "huang",
+"sum": "Mitgründer und Chef von Nvidia. Am 12.11.2026 nach Enthüllungen über außereheliche Beziehungen zurückgetreten, am 22.11. vom Verwaltungsrat einstimmig wieder eingesetzt.",
+"fokus": "KI-Chips, Rechenzentren, Exportkontrollen",
+"kan": [
+"Nvidia Newsroom und 8-K-Meldungen",
+"Telefonkonferenzen zu den Quartalszahlen",
+"Anhörungen im Kongress"
+],
+"th": [
+{
+"d": "2026-11-23",
+"t": "Übernimmt die Führung wieder und unterstützt die laufende Untersuchung des unabhängigen Ausschusses."
+}
+],
+"open": "Laut Berichten soll er am 1.12. vor Ausschüssen des Repräsentantenhauses aussagen: Termin und Wortlaut aus Primärquelle belegen. Ergebnis der Ausschuss-Untersuchung, SEC-Prüfung, 10-Q."
+},
+{
+"id": "karniol",
+"kan": [
+"Bridgewater Research und Daily Observations",
+"Konferenzen und Interviews"
+],
+"th": [],
+"open": "Rollenwechsel: Kanadas Premier Carney ernannte sie laut WSJ über MarketWatch am 9.11. zur Chefin des neuen kanadischen Staatsfonds; Antrittstermin und Abschied bei Bridgewater sind nicht belegt, die Rolle im Roster bleibt bis dahin stehen. Datierte Aussage fehlt."
+}
 ]

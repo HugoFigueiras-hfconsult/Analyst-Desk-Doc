@@ -1,1 +1,74 @@
-{"zweck":"Gedächtnis des Sweep-Agenten. Vor jedem Lauf lesen, nach jedem Lauf fortschreiben.","ablauf":["Ziele bilden: aktive Stories, dann Köpfe in Roster-Reihenfolge, Leitfiguren zuerst.","Je Ziel eine Suche über Parallel Search nach datierten Aussagen der letzten zwei Wochen.","Claude wertet die Treffer aus: nur Aussagen der Person selbst, mit Datum und Quelle.","Die Seite prüft jeden Eintrag: Datum im Zeitraum, Quelle stammt aus den Suchtreffern, Werte und Gebiete sind bekannt, kein Doppel.","Neue Aussagen und Story-Ereignisse landen in der Datenbank des Artefakts und erscheinen sofort im Desk.","Großer Lauf im Chat (seltener): Kurse neu ziehen, 13F-Positionen, Szenarien, Kalender, Wissensbank; Prüfung mit agent/check.py vor dem Veröffentlichen."],"regeln":["Nur belegte Angaben mit Quelle und Datum. Sekundärquellen im Text kennzeichnen.","Aussagen sinngemäß auf Deutsch, kein wörtliches Zitat über 14 Wörter.","Ausgewogenheit: Stimmungsbilder und Salden zählen je Kopf nur die jüngste Aussage. Jeder Kopf wird gleich gründlich gesucht, egal ob Hugo ihn als Beispiel genannt hat; alle neuen, belegten Aussagen werden aufgenommen.","Meinungswechsel (chg) nennt im Feld a genau den Wert, um den es geht; Kursreaktionen werden nur für diesen Wert gezeigt.","Preise: Kassa, Spot und Future nie mischen; Basis, Quelle und Zeitstempel angeben. CFD-Referenzen: US30 = Dow Kassa, NAS100 = NDX Kassa, SPX500 = S&P 500 Kassa, XAUUSD = Gold Spot, EU50 = Euro Stoxx 50, GER40 = DAX.","Kursreaktionen berechnet der Desk selbst aus den Schlusskursen. Eine Ursache wird nur genannt, wenn eine Quelle sie belegt (Feld fx).","Keine Anlageempfehlung, keine Order. Keine Fotos von Personen.","Aktive Köpfe bevorzugen; wer nur noch historisch zitiert wird, fliegt aus dem Roster."],"log":[{"n":1,"d":"2026-11-20","t":"Erstbefüllung: 152 Köpfe, 59 Aussagen, 13F-Meldungen zum 3. Quartal von 17 Managern, neun Hot Stories."},{"n":2,"d":"2026-11-22","t":"Leitfiguren vertieft: Wood (Anthropic-Käufe, Dreh bei Nvidia), Burry (Nasdaq-Puts, vier Beiträge), Fink, Dimon, El-Erian, Saylor, Ives (jetzt Yorkville Ives). Kursverläufe für 46 Instrumente, Kalender, Call-Tracker. Im Gold-Standard-Durchgang ergänzt: 30 Sektor-, Themen- und Regionen-ETFs für die Money Rotation."},{"n":3,"d":"2026-11-22","t":"Roster um 16 Publikumsinvestoren und Medienstimmen erweitert, 14 Aussagen und eine Handelsmeldung eingetragen. Zählweise auf je Kopf umgestellt, damit Vielredner die Stimmung nicht verzerren. Sweep läuft jetzt in der Seite über Parallel Search."},{"n":4,"d":"2026-11-22","t":"Sweep in der Seite (Standard, 78 Ziele): 72 Aussagen und 17 Story-Ereignisse in der Datenbank."},{"n":5,"d":"2026-11-22","t":"Großer Lauf (Kurz): Einträge des Seiten-Sweeps geprüft und in die Dateien übernommen (66 von 72 Aussagen, 15 von 17 Ereignissen; 13F-Berichte von Griffin und Sundheim als Positionen), 23 weitere Aussagen und 24 Positionen ergänzt, Fed-Szenario, Gold-Spot und Kalender aktualisiert. Der Kursabruf war gesperrt; die Kurse stehen auf dem Schluss vom 20.11."},{"n":6,"d":"2026-11-23","t":"Großer Lauf (Standard): 30 Leitfiguren und 20 weitere Köpfe einzeln gesucht. 38 neue Aussagen (darunter erste belegte Aussagen von Corcoran, Herjavec, John und Oppenheimer), 18 Positionen (ARK-Handel, Greenlight, Novogratz), 3 Calls. Am Bestand 13 Einträge korrigiert (unter anderem Tudor Jones auf den 13.10., Arcuris Kursziel 220 $, Cuban auf den 26.10.) und 2 Doppel gelöscht. Fed-Szenario mit CME FedWatch abgeglichen, Kalender bis 18.12. ergänzt, Broadcom (9.12.) und Micron (17.12.) bestätigt. Der Kursabruf war erneut gesperrt; die Kurse stehen auf dem Schluss vom 20.11."}],"offen":["Kurse: Der Abruf bei Yahoo ist in der Sitzung der geplanten Aufgabe weiter gesperrt (Netzrichtlinie). Stand ist der Schluss vom 20.11., Bitcoin 21.11.","Brent am 20.11.: Die Kursreihe zeigt 89,95 $, Reuters meldet 92,57 $ als Schluss. Beim nächsten Kursabruf prüfen, welcher Kontraktmonat geliefert wird.","Montag, 23.11.: 8-K von Strategy (gegen 14:00 MEZ), Rede von Williams (22:00 MEZ), Zahlen von HPE, ARK-Handel; die Wochennotiz von Wilson und der Kommentar von Siegel lagen am Morgen noch nicht vor.","Mittwoch, 25.11.: PCE-Preisindex und Beige Book; Scaramucci nannte den Tag als möglichen Wendepunkt für Bitcoin.","Nvidia: Der Quartalsbericht (10-Q) steht aus; die von Bessent geforderten Antworten sind um den 25. bis 27.11. fällig.","Oracle: Der Zahlentermin (7. oder 9.12.) ist vom Unternehmen noch nicht bestätigt.","Leitfiguren ohne eigene Aussage: Cohen (nur 13F). Abel und Tepper sind nur über 13F-Berichte erfasst. Seit dem 20.11. ohne neue Äußerung: Druckenmiller, Dalio, Fink, Dimon (zur Korrektur), Warsh, Burry, Marks, Hartnett.","Greiner und Paffrath: weiter keine belegte Aussage (nur TV-Zusagen und Videotitel).","Musk: Die X-Beiträge vom 21.11. zu Betriebskapital und SpaceX-Schulden sind nur über einen Aggregator belegt und deshalb nicht aufgenommen.","Mögliche Doppel im Bestand prüfen: Williams am 17.11. (zwei Einträge aus derselben Veranstaltung), Arcuri am 18.11. (zwei Einträge, vermutlich dieselbe UBS-Notiz), Rosenberg am 20.11.","Belegte Wirkung (fx) nachtragen.","Gold: Spot-Reihe fehlt in der Kursquelle; der Hinweis bei der CFD-Referenz XAUUSD nennt noch rund 3.540 $ (letzter belegter Spot: rund 3.606 $ am 23.11., 00:10 Uhr New York).","Rollen von rund 100 Personen noch nicht durch aktuelle Quellen bestätigt."]}
+{
+"zweck": "Gedächtnis des Sweep-Agenten. Vor jedem Lauf lesen, nach jedem Lauf fortschreiben.",
+"ablauf": [
+"Ziele bilden: aktive Stories, dann Köpfe in Roster-Reihenfolge, Leitfiguren zuerst.",
+"Je Ziel eine Suche über Parallel Search nach datierten Aussagen der letzten zwei Wochen.",
+"Claude wertet die Treffer aus: nur Aussagen der Person selbst, mit Datum und Quelle.",
+"Die Seite prüft jeden Eintrag: Datum im Zeitraum, Quelle stammt aus den Suchtreffern, Werte und Gebiete sind bekannt, kein Doppel.",
+"Neue Aussagen und Story-Ereignisse landen in der Datenbank des Artefakts und erscheinen sofort im Desk.",
+"Großer Lauf im Chat (seltener): Kurse neu ziehen, 13F-Positionen, Szenarien, Kalender, Wissensbank; Prüfung mit agent/check.py vor dem Veröffentlichen."
+],
+"regeln": [
+"Nur belegte Angaben mit Quelle und Datum. Sekundärquellen im Text kennzeichnen.",
+"Aussagen sinngemäß auf Deutsch, kein wörtliches Zitat über 14 Wörter.",
+"Ausgewogenheit: Stimmungsbilder und Salden zählen je Kopf nur die jüngste Aussage. Jeder Kopf wird gleich gründlich gesucht, egal ob Hugo ihn als Beispiel genannt hat; alle neuen, belegten Aussagen werden aufgenommen.",
+"Meinungswechsel (chg) nennt im Feld a genau den Wert, um den es geht; Kursreaktionen werden nur für diesen Wert gezeigt.",
+"Preise: Kassa, Spot und Future nie mischen; Basis, Quelle und Zeitstempel angeben. CFD-Referenzen: US30 = Dow Kassa, NAS100 = NDX Kassa, SPX500 = S&P 500 Kassa, XAUUSD = Gold Spot, EU50 = Euro Stoxx 50, GER40 = DAX.",
+"Kursreaktionen berechnet der Desk selbst aus den Schlusskursen. Eine Ursache wird nur genannt, wenn eine Quelle sie belegt (Feld fx).",
+"Keine Anlageempfehlung, keine Order. Keine Fotos von Personen.",
+"Aktive Köpfe bevorzugen; wer nur noch historisch zitiert wird, fliegt aus dem Roster."
+],
+"log": [
+{
+"n": 1,
+"d": "2026-11-20",
+"t": "Erstbefüllung: 152 Köpfe, 59 Aussagen, 13F-Meldungen zum 3. Quartal von 17 Managern, neun Hot Stories."
+},
+{
+"n": 2,
+"d": "2026-11-22",
+"t": "Leitfiguren vertieft: Wood (Anthropic-Käufe, Dreh bei Nvidia), Burry (Nasdaq-Puts, vier Beiträge), Fink, Dimon, El-Erian, Saylor, Ives (jetzt Yorkville Ives). Kursverläufe für 46 Instrumente, Kalender, Call-Tracker. Im Gold-Standard-Durchgang ergänzt: 30 Sektor-, Themen- und Regionen-ETFs für die Money Rotation."
+},
+{
+"n": 3,
+"d": "2026-11-22",
+"t": "Roster um 16 Publikumsinvestoren und Medienstimmen erweitert, 14 Aussagen und eine Handelsmeldung eingetragen. Zählweise auf je Kopf umgestellt, damit Vielredner die Stimmung nicht verzerren. Sweep läuft jetzt in der Seite über Parallel Search."
+},
+{
+"n": 4,
+"d": "2026-11-22",
+"t": "Sweep in der Seite (Standard, 78 Ziele): 72 Aussagen und 17 Story-Ereignisse in der Datenbank."
+},
+{
+"n": 5,
+"d": "2026-11-22",
+"t": "Großer Lauf (Kurz): Einträge des Seiten-Sweeps geprüft und in die Dateien übernommen (66 von 72 Aussagen, 15 von 17 Ereignissen; 13F-Berichte von Griffin und Sundheim als Positionen), 23 weitere Aussagen und 24 Positionen ergänzt, Fed-Szenario, Gold-Spot und Kalender aktualisiert. Der Kursabruf war gesperrt; die Kurse stehen auf dem Schluss vom 20.11."
+},
+{
+"n": 6,
+"d": "2026-11-23",
+"t": "Großer Lauf (Standard): 30 Leitfiguren und 20 weitere Köpfe einzeln gesucht. 38 neue Aussagen (darunter erste belegte Aussagen von Corcoran, Herjavec, John und Oppenheimer), 18 Positionen (ARK-Handel, Greenlight, Novogratz), 3 Calls. Am Bestand 13 Einträge korrigiert (unter anderem Tudor Jones auf den 13.10., Arcuris Kursziel 220 $, Cuban auf den 26.10.) und 2 Doppel gelöscht. Fed-Szenario mit CME FedWatch abgeglichen, Kalender bis 18.12. ergänzt, Broadcom (9.12.) und Micron (17.12.) bestätigt. Der Kursabruf war erneut gesperrt; die Kurse stehen auf dem Schluss vom 20.11."
+},
+{
+"n": 9,
+"d": "2026-11-24",
+"t": "Großer Lauf (Kurz): Die Spur aus Lauf 8 ist bestätigt, Nvidia hat Jensen Huang am 22.11. wieder eingesetzt (8-K und Mitteilung vom 23.11.); Story, Szenario, Rollen von Huang und Kress angepasst. 21 neue Aussagen (darunter Hochstufungen von Rasgon und Reitzes, Meinungswechsel von Cramer und Chamath), 38 Positionen, 13 Calls. Die 250 Einträge aus Lauf 8 geprüft: Von 110 Aussagen der Seite bleiben 35 (32 waren 13F-Meldungen und stehen jetzt als Positionen, 17 Doppel, 15 zusammengeführt, 11 ohne Beleg oder undatiert); von 19 Story-Ereignissen bleiben 7. Kurse stammen erstmals aus dem Zweig kurse: Schluss vom 23.11., Bitcoin 22.11."
+}
+],
+"offen": [
+"Kurse: Der Abruf bei Yahoo ist in der Sitzung der geplanten Aufgabe weiter gesperrt; die Kurse kommen aus dem Zweig kurse (Stand 24.11., 05:30 UTC: Schluss 23.11.). Die Bitcoin-Reihe endet am 22.11.",
+"ARK-Handel vom 23.11. lag am Morgen noch nicht vor: Kauft ARK Nvidia nach Huangs Rückkehr zurück?",
+"Dienstag, 24.11.: Ifo-Geschäftsklima (10:00 MEZ), US-Verbrauchervertrauen (16:00 MEZ), Zahlen von Dell und HP nach Börsenschluss.",
+"Mittwoch, 25.11.: PCE-Preisindex und Beige Book; Scaramucci nannte den Tag als möglichen Wendepunkt für Bitcoin.",
+"Nvidia: Quartalsbericht (10-Q) steht aus; laut Berichten soll Huang am 1.12. vor Ausschüssen des Repräsentantenhauses aussagen (Termin nicht aus Primärquelle belegt). Die von Bessent geforderten Antworten sind um den 25. bis 27.11. fällig.",
+"Karniol-Tambour: laut WSJ am 9.11. zur Chefin des kanadischen Staatsfonds ernannt; Antrittstermin fehlt, Rolle im Roster noch unverändert.",
+"Einträge aus dem Chat-Sweep (c8) sind übernommen; mehrere Aussagen am selben Tag je Kopf (Munster, Arya, Jassy) bei Gelegenheit auf Doppel prüfen.",
+"Schwach belegt und nicht aufgenommen: O’Leary am 21.11. (»Bank von Nvidia geschlossen«), Burrys Schwelle von 200 Dollar für neue Nvidia-Shorts, Gerstners Auftritt beim TomorrowX Summit (17.11.).",
+"Leitfiguren ohne eigene Aussage: Cohen (nur 13F). Abel und Tepper sind nur über 13F-Berichte erfasst. Seit dem 20.11. ohne neue Äußerung: Druckenmiller, Dalio, Fink, Dimon, Warsh, Marks, Hartnett (nächste Flow Show laut Berichten am 3.12.).",
+"Greiner und Paffrath: weiter keine belegte Aussage außerhalb von Videos.",
+"Mögliche Doppel im Bestand prüfen: Williams am 17.11., Arcuri am 18.11., Rosenberg am 20.11.; Bessent am 13.11. und 20.11. (zwei CNBC-Auftritte?).",
+"Belegte Wirkung (fx) nachtragen.",
+"Gold: Spot-Reihe fehlt in der Kursquelle; der Hinweis bei der CFD-Referenz XAUUSD nennt noch rund 3.540 $ (letzter belegter Spot: rund 3.632 $ am 23.11., 22:58 Uhr New York).",
+"Rollen von rund 100 Personen noch nicht durch aktuelle Quellen bestätigt; für die 66 Köpfe aus dem Chat-Sweep fehlen Einträge in der Wissensbank."
+]
+}
