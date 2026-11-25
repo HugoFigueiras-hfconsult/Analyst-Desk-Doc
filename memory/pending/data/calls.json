@@ -128,7 +128,7 @@
 "tgt": 225,
 "ref": 136,
 "t": "Wert 225 $ ohne Huang",
-"note": "Kurs laut Bericht bei rund 136 $. Am 23.11. bleibt das Ziel bei 225 $; den Wert mit Huang nennt Ives weiter 300 $.",
+"note": "Kurs laut Bericht bei rund 136 $. Am 23.11. bleibt das Ziel bei 225 $; den Wert mit Huang nennt Ives weiter 300 $. Am 24.11. hebt Ives das Ziel auf 250 $ an (neuer Call c42).",
 "stm": "n11"
 },
 {
@@ -260,7 +260,8 @@
 "ref": 489.19,
 "t": "AMD nach dem Short-Bericht kaufen (Charitable Trust will zugreifen)",
 "stm": "r6-23",
-"id": "c26"
+"id": "c26",
+"note": "Am 24.11. nennt Cramer AMD erneut eine Kaufgelegenheit (Schluss 413,27 $)."
 },
 {
 "p": "arcuri",
@@ -425,5 +426,28 @@
 "stm": "c8-jonas-0",
 "tgt": 300,
 "by": "2027-11-13"
+},
+{
+"id": "c42",
+"p": "ives",
+"d": "2026-11-24",
+"a": "NVDA",
+"dir": "ziel",
+"tgt": 250,
+"ref": 165.05,
+"t": "Kursziel 250 $ (zuvor 225 $), Bull-Case 300 $",
+"note": "Beitrag vor Handelsbeginn; Bezug ist der Schluss vom 23.11.",
+"stm": "r10-09"
+},
+{
+"id": "c43",
+"p": "cramer",
+"d": "2026-11-24",
+"a": "SPX",
+"dir": "long",
+"ref": 7201.09,
+"t": "Zeit, zurückgehaltenes Geld anzulegen; Markt überverkauft",
+"note": "Bezug ist der Schluss vom 24.11.; die Aussage fiel am Vormittag bei tieferen Kursen.",
+"stm": "r10-11"
 }
 ]

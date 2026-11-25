@@ -209,14 +209,36 @@
 ]
 },
 {
-"d": "2026-12-02",
-"t": "Quartalszahlen (erwartet, nicht bestätigt): Salesforce, Snowflake, Synopsys; am 1.12. CrowdStrike und Marvell",
+"d": "2026-12-01",
+"t": "Quartalszahlen nach US-Börsenschluss: Marvell (Telefonkonferenz 22:30 MEZ) und CrowdStrike, beide vom Unternehmen bestätigt",
 "k": "Zahlen",
-"src": "cal_macro",
+"st": "capex",
+"src": "mrvl_ir",
+"aff": [
+"SMH",
+"IGV"
+]
+},
+{
+"d": "2026-12-01",
+"e": "2026-12-02",
+"t": "Nvidia: Ausschüsse des Repräsentantenhauses befragen Jensen Huang hinter verschlossenen Türen (1.12.) und Chefjurist Tim Teter (2.12.)",
+"k": "Markt",
+"st": "nvda",
+"src": "cnbc_nvda6q",
+"aff": [
+"NVDA",
+"SMH"
+]
+},
+{
+"d": "2026-12-02",
+"t": "Quartalszahlen nach US-Börsenschluss: Salesforce und Snowflake (beide vom Unternehmen bestätigt)",
+"k": "Zahlen",
+"src": "crm_ir",
 "aff": [
 "CRM",
-"IGV",
-"SMH"
+"IGV"
 ]
 },
 {
@@ -228,6 +250,18 @@
 "aff": [
 "SPX",
 "UST10"
+]
+},
+{
+"d": "2026-12-03",
+"t": "Nvidia: Jensen Huang sagt öffentlich vor dem Bankenausschuss des US-Senats zu den Exportkontrollen aus",
+"k": "Markt",
+"tm": "16:00 MEZ",
+"st": "nvda",
+"src": "sen_bank0312",
+"aff": [
+"NVDA",
+"SMH"
 ]
 },
 {

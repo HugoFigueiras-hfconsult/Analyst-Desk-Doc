@@ -5,7 +5,7 @@
 "t": "Nvidia: Huang kehrt zurück",
 "kpi": "125,53 $",
 "sub": "−14,0 % am 20.11. · 47,5 % unter Rekordschluss vom 06.10.",
-"sum": "Der Verwaltungsrat hat Jensen Huang am 22.11. einstimmig wieder als Präsident, CEO und Direktor eingesetzt, elf Tage nach dem Rücktritt; Colette Kress ist wieder nur Finanzchefin. Die Aktie stieg am 23.11. um 31,5 % auf 165,05 $, liegt aber weiter rund 31 % unter dem Rekordschluss vom 6.10. Offen bleiben die Untersuchung des unabhängigen Ausschusses, die SEC-Prüfung der Bilanzierung, die Verfahren zur Exportkontrolle und der ausstehende Quartalsbericht (10-Q); gesucht wird ein Chief Compliance Officer. Bernstein, Melius, Oppenheimer und StoneX stufen hoch, die Kursziele liegen zwischen 200 und 300 $.",
+"sum": "Der Verwaltungsrat hat Jensen Huang am 22.11. einstimmig wieder als Präsident, CEO und Direktor eingesetzt, elf Tage nach dem Rücktritt. Dem Kurssprung vom 23.11. (+31,5 % auf 165,05 $) folgte am 24.11. ein Rückgang um 5,9 % auf 155,38 $; bis zum Rekordschluss vom 6.10. fehlen rund 35 %. Huang entschuldigte sich am 24.11. vor der Belegschaft für Verstöße gegen den Verhaltenskodex. Offen bleiben die Untersuchung des unabhängigen Ausschusses, die SEC-Prüfung der Bilanzierung, die Verfahren zur Exportkontrolle und der ausstehende Quartalsbericht (10-Q); das Handelsministerium hat den früheren Kunden Megaspeed am 23.11. auf die Entity List gesetzt. Am 1.12. befragen drei Ausschüsse des Repräsentantenhauses Huang hinter verschlossenen Türen, am 3.12. sagt er öffentlich vor dem Bankenausschuss des Senats aus.",
 "tl": [
 {
 "d": "2026-10-29",
@@ -90,6 +90,22 @@
 {
 "d": "2026-11-23",
 "t": "Schluss 165,05 $ (+31,5 %), der größte Tagesgewinn seit 2003; bis zum Rekordschluss vom 6.10. fehlen weiter 31 %. Bernstein, Melius, Oppenheimer und StoneX stufen hoch, Citi hebt das Ziel auf 240 $; die neuen Kursziele liegen zwischen 200 und 270 $."
+},
+{
+"d": "2026-11-23",
+"t": "Das US-Handelsministerium setzt Megaspeed und verbundene Firmen aus Singapur, Malaysia und Thailand sowie die Alibaba-Tochter Apex Enterprise Solutions auf die Entity List: Lieferungen mit US-Technik brauchen eine Genehmigung, die laut Reuters voraussichtlich verweigert wird. Alibaba nennt die Listung fehlerhaft und kündigt rechtliche Schritte an."
+},
+{
+"d": "2026-11-24",
+"t": "Schluss 155,38 $ (−5,9 %) bei rund 379 Mio. gehandelten Aktien, Tagesspanne 150,50 bis 159,92 $; der Halbleiter-ETF SMH verliert 7,3 %, Micron 11,0 %, AMD 8,9 %. Huang entschuldigt sich in einer einstündigen Mitarbeiterversammlung für Verstöße gegen den Verhaltenskodex. Dan Ives hebt sein Kursziel von 225 auf 250 $ an."
+},
+{
+"d": "2026-12-01",
+"t": "Die Ausschüsse des Repräsentantenhauses für Auswärtiges, Geheimdienste und China befragen Huang hinter verschlossenen Türen, am 2.12. Chefjurist Tim Teter (CNBC)."
+},
+{
+"d": "2026-12-03",
+"t": "Öffentliche Anhörung des Bankenausschusses im Senat zu den US-Exportkontrollen (16:00 MEZ); Huang sagt aus."
 }
 ],
 "lv": {
@@ -176,9 +192,9 @@
 "k": "ref"
 },
 {
-"v": 225,
-"l": "Yorkville · Ives (Wert mit Huang: 300)",
-"d": "2026-11-23",
+"v": 250,
+"l": "Yorkville · Ives (Bull-Case 300)",
+"d": "2026-11-24",
 "k": "kz"
 },
 {
@@ -299,7 +315,15 @@
 "c8_rakesh_3",
 "oni_nvda2311",
 "nf_cramer2311",
-"fox_ives2311"
+"fox_ives2311",
+"rt_megaspeed",
+"cnbc_nvda2411",
+"cnbc_nvda6q",
+"sen_bank0312",
+"nyt_huang2411",
+"fool_nvda2411",
+"x_ives2411",
+"stw_burry2411"
 ],
 "sym": "NVDA",
 "px": "NVDA",
@@ -311,7 +335,7 @@
 "t": "Anthropic-Börsengang",
 "kpi": "88,91 $",
 "sub": "−8,5 % am 20.11. · Ausgabepreis 83 $",
-"sum": "Rekord-IPO mit 81,3 Mrd. $ Volumen, mit Mehrzuteilung rund 93,5 Mrd. $. Nach dem Debüt (+17 %) gab die Aktie nach; am 23.11. schloss sie gegen den steigenden Markt bei 87,64 $ (−1,4 %), knapp 6 % über dem Ausgabepreis von 83 $. Seit dem 23.11. werden Optionen und gehebelte ETFs gehandelt; zwölf Analysten nennen im Schnitt 120,32 $ als Ziel. Die ersten Haltefristen enden laut Prospekt Mitte Dezember, die Aufnahme in den Nasdaq-100 steht nach dem 18.12. an.",
+"sum": "Rekord-IPO mit 81,3 Mrd. $ Volumen, mit Mehrzuteilung rund 93,5 Mrd. $. Nach dem Debüt (+17 %) gab die Aktie drei Handelstage in Folge nach und schloss am 24.11. mit 81,91 $ (−6,5 %) erstmals unter dem Ausgabepreis von 83 $; das Tagestief lag bei 75,61 $. Als Gründe nennen Analysten den Kapitalbedarf, das noch fehlende Kreditrating und das Angebot aus auslaufenden Haltefristen: bis zu 303 Mio. Aktien am 15.12., weitere 303 Mio. am 5.1. und über 700 Mio. bis Anfang Februar (Barron's nach dem Prospekt). Dario und Daniela Amodei verkauften im Rahmen des Börsengangs je 3,38 Mio. Aktien zu 83 $. Canaccord startet mit Kaufen und Ziel 135 $; die Aufnahme in den Nasdaq-100 steht nach dem 18.12. an.",
 "tl": [
 {
 "d": "2026-11-19",
@@ -352,6 +376,14 @@
 {
 "d": "2026-11-23",
 "t": "Schluss 87,64 $ (−1,4 %) gegen den Markt: Beim größten Tagesgewinn des S&P 500 seit April 2025 gehört Anthropic zu den wenigen Verlierern. Der Optionshandel startet mit regem Umsatz, bleibt aber hinter dem Rekord von SpaceX (Reuters). Wedbush nimmt die Aktie mit Kaufen und einem Ziel von 120 $ auf; zwölf Analysten nennen im Schnitt 120,32 $."
+},
+{
+"d": "2026-11-23",
+"t": "Pflichtmeldungen (Form 4) zeigen: Vorstandschef Dario Amodei und Präsidentin Daniela Amodei haben am 20.11. je 3.378.378 Aktien zu 83 $ an die Konsortialbanken verkauft, je rund 280 Mio. $; laut Prospekt verkaufen alle sieben Mitgründer gleich viel. Dario Amodei hält danach rund 238,7 Mio. Aktien direkt und über Trusts."
+},
+{
+"d": "2026-11-24",
+"t": "Schluss 81,91 $ (−6,5 %), erstmals unter dem Ausgabepreis von 83 $; Tagestief 75,61 $ bei rund 312 Mio. gehandelten Aktien. Needham nennt als Gründe den Kapitalbedarf, das fehlende Kreditrating und Verkäufe aus auslaufenden Haltefristen; Canaccord Genuity nimmt die Bewertung mit Kaufen und Kursziel 135 $ auf."
 },
 {
 "d": "2026-12-18",
@@ -440,6 +472,18 @@
 "l": "Ø-Kursziel S&P Global (12 Analysten)",
 "d": "2026-11-23",
 "k": "ref"
+},
+{
+"v": 135,
+"l": "Canaccord Genuity",
+"d": "2026-11-24",
+"k": "kz"
+},
+{
+"v": 75.61,
+"l": "Tagestief 24.11.",
+"d": "2026-11-24",
+"k": "sup"
 }
 ]
 },
@@ -462,7 +506,13 @@
 "rt_antopt",
 "sa_antfc",
 "cnbc_mkt2311",
-"cc_lockup"
+"cc_lockup",
+"cnbc_ant2411",
+"fool_ant2411",
+"sec_amodei_f4",
+"kal_ant",
+"yf_mkt2411",
+"x_cramer2411"
 ],
 "sym": "ANT",
 "px": "ANT",
@@ -474,7 +524,7 @@
 "t": "KI-Investitionen unter Verdacht",
 "kpi": "52 %",
 "sub": "der Fondsmanager erwarten binnen 6 Monaten eine Capex-Kürzung",
-"sum": "Die vier großen Hyperscaler planen 2026 zusammen rund 730 Mrd. $ Investitionen und finanzieren zunehmend über Anleihen; J.P. Morgan erwartet für 2027 knapp 1,4 Bio. $ KI-Investitionen und ab 2028 deutlich weniger Zuwachs. Die Debatte dreht sich darum, ob die Erträge das tragen, dazu kommt politischer Druck: Trumps angekündigte Steuer auf Rechenzentren im Ausland und lokaler Widerstand in den USA. HPE meldete am 23.11. 50 % mehr Umsatz und hob den Ausblick an; Dell und HP folgen am 24.11. Mit Huangs Rückkehr erholten sich die Neo-Clouds am 23.11. um rund 20 %.",
+"sum": "Die vier großen Hyperscaler planen 2026 zusammen rund 730 Mrd. $ Investitionen und finanzieren zunehmend über Anleihen; J.P. Morgan erwartet für 2027 knapp 1,4 Bio. $ KI-Investitionen und ab 2028 deutlich weniger Zuwachs. Die Debatte dreht sich darum, ob die Erträge das tragen, dazu kommt politischer Druck: Trumps angekündigte Steuer auf Rechenzentren im Ausland und lokaler Widerstand in den USA. Dell meldete am 24.11. nach Börsenschluss einen Rekordumsatz von 54,9 Mrd. $ (+103 %), einen KI-Auftragsbestand von 132,3 Mrd. $ und hob die Jahresprognose auf 202 Mrd. $ an. Im Handel davor gaben die Ausrüster einen Teil der Erholung wieder ab: HPE verlor 16,3 % nach einer Margenwarnung, Dell 11,8 %, die Neo-Clouds CoreWeave 11,9 % und Nebius 10,7 %.",
 "tl": [
 {
 "d": "2026-10-28",
@@ -531,6 +581,14 @@
 {
 "d": "2026-11-23",
 "t": "Mit Huangs Rückkehr erholen sich die Neo-Clouds: CoreWeave +22 %, Nebius +20 %; Micron +19 %, der Halbleiter-ETF SMH +15 %."
+},
+{
+"d": "2026-11-24",
+"t": "Dell meldet für das Quartal bis Ende Oktober 54,9 Mrd. $ Umsatz (+103 %), KI-Aufträge von 60,2 Mrd. $ und einen KI-Auftragsbestand von 132,3 Mrd. $; die Jahresprognose steigt von 192 auf 202 Mrd. $, das Ziel für KI-Server von 74 auf 78 Mrd. $. Nach eigenen Angaben prüft Dell jeden Auftrag auf Finanzierung, Fläche und Strom."
+},
+{
+"d": "2026-11-24",
+"t": "Die Ausrüster geben einen Teil der Erholung ab: HPE −16,3 % nach einer Warnung vor sinkenden Margen durch KI-Server, Dell im regulären Handel −11,8 %, Analog Devices rund −17 % nach verhaltenem Ausblick; CoreWeave −11,9 %, Nebius −10,7 %, Micron −11,0 %."
 }
 ],
 "src": [
@@ -548,7 +606,10 @@
 "hpe_q4",
 "rt_dellhpe",
 "fox_mkt2311",
-"x_musk2111"
+"x_musk2111",
+"dell_q3",
+"asw_dell",
+"yf_mkt2411"
 ],
 "sym": null,
 "q": "AI capex hyperscaler data center spending"
@@ -557,9 +618,9 @@
 "id": "fed",
 "tk": "FED",
 "t": "Fed im Erhöhungsmodus",
-"kpi": "95 %",
-"sub": "Marktpreis für +25 bp am 9.12. (CME FedWatch laut Gate, 23.11.; andere Auswertungen 90 bis 96 %)",
-"sum": "Unter Chair Kevin Warsh hat die Fed im September erhöht. Der Markt preist für den 9.12. einen weiteren Schritt um 25 Basispunkte zu rund 90 bis 96 % ein; ein Schritt um 50 Basispunkte ist kaum noch eingepreist. New-York-Fed-Präsident Williams sagte am 23.11., es bleibe Arbeit zu tun; Bessent, Ackman und Siegel warnen vor zu starker Straffung. Die zehnjährige US-Rendite schloss am 23.11. unverändert bei 4,92 %. Nächster Prüfstein ist der PCE-Preisindex am 25.11.",
+"kpi": "98 %",
+"sub": "Marktpreis für +25 bp am 9.12., dazu 2 % für +50 bp (CME FedWatch laut Reuters, 24.11., 14:11 Uhr New York)",
+"sum": "Unter Chair Kevin Warsh hat die Fed im September erhöht. Der Markt preist für den 9.12. einen weiteren Schritt um mindestens 25 Basispunkte vollständig ein; für 50 Basispunkte sind es je nach Uhrzeit 2 bis 4 % (CME FedWatch, 24.11.). New-York-Fed-Präsident Williams sagte am 23.11., es bleibe Arbeit zu tun; Bessent, Ackman und Siegel warnen vor zu starker Straffung, Yardeni hielte 50 Basispunkte für richtig. Das US-Verbrauchervertrauen stieg im November überraschend stark auf 103,3 Punkte. Die zehnjährige US-Rendite schloss am 24.11. bei 4,90 %. Am 25.11. folgen der PCE-Preisindex und das Beige Book, die letzten großen Daten vor der Sitzung.",
 "tl": [
 {
 "d": "2026-09-17",
@@ -614,6 +675,14 @@
 "t": "New-York-Fed-Präsident Williams: Die Rückkehr zu 2 % Inflation sei unverzichtbar, es bleibe Arbeit zu tun; er erwartet 2026 rund 3,5 % Inflation. CME FedWatch zeigt im Tagesverlauf je nach Auswertung 90 bis 96 % für +25 Basispunkte am 9.12.; die zehnjährige Rendite schließt unverändert bei 4,92 %, die zweijährige bei 4,63 %."
 },
 {
+"d": "2026-11-24",
+"t": "Das Verbrauchervertrauen des Conference Board steigt im November um 11,4 auf 103,3 Punkte, den höchsten Stand seit Januar 2025 (erwartet: rund 92); die Inflationserwartung auf zwölf Monate sinkt auf 5,7 %. CME FedWatch laut Reuters: +25 Basispunkte am 9.12. vollständig eingepreist, 2 % für +50; am Abend nennt Stocktwits 96,4 % zu 3,6 %. Die zehnjährige Rendite schließt bei 4,90 %."
+},
+{
+"d": "2026-11-24",
+"t": "Laut Reuters steht die Regierung Trump kurz davor, das Ergebnis ihrer Untersuchung zu industriellen Überkapazitäten bei 16 Handelspartnern vorzulegen; erwartet werden neue Zölle auf viele Waren, die zu den bestehenden hinzukommen. Bloomberg nennt die Pläne als zweite Belastung für die Aktienmärkte neben dem Rückgang der Chipwerte."
+},
+{
 "d": "2026-12-09",
 "t": "Zinsentscheid um 20:00 MEZ, Pressekonferenz Warsh um 20:30 MEZ."
 }
@@ -638,7 +707,11 @@
 "gate_fed2311",
 "tb_fed2311",
 "pterm_ust",
-"aa_siegel2311"
+"aa_siegel2311",
+"cb_cci2411",
+"rt_gold2411",
+"stw_fed2411",
+"rt_tariff2411"
 ],
 "sym": "UST10",
 "q": "Federal Reserve December rate decision"
@@ -649,7 +722,7 @@
 "t": "Rotation Tech → Defensiv",
 "kpi": "37 % → 12 %",
 "sub": "Tech-Übergewicht der Fondsmanager binnen eines Monats",
-"sum": "Nach der Woche bis 20.11., in der alle elf Sektoren fielen, drehte der Markt am 23.11.: Technologie +9,0 % und der Halbleiter-ETF SMH +15 %, während Basiskonsum und Energie leicht nachgaben. Die Verlierer der Vorwoche führten die Erholung an; der gleichgewichtete S&P 500 stieg mit 2,6 % deutlich weniger als der Index (4,7 %). Die 13F-Daten vom 30.09. zeigen bereits Verkäufe bei Internet-Plattformen und KI-Infrastruktur.",
+"sum": "Der Markt dreht im Tagestakt: Nach dem Sprung der Technologiewerte am 23.11. (+9,0 %) führten am 24.11. wieder die Defensiven. Gesundheit (XLV) +3,0 %, Basiskonsum +1,7 %, Biotech (XBI) +6,6 %; Technologie (XLK) −3,3 %, der Halbleiter-ETF SMH −7,3 %. Der Dow Jones schloss mit 50.018,70 wieder über 50.000 Punkten, der gleichgewichtete S&P 500 stieg um 0,5 %, während der Index 0,5 % verlor. Die 13F-Daten vom 30.09. zeigen bereits Verkäufe bei Internet-Plattformen und KI-Infrastruktur.",
 "tl": [
 {
 "d": "2026-11-10",
@@ -682,6 +755,10 @@
 {
 "d": "2026-11-23",
 "t": "Gegenbewegung: Technologie +9,0 %, zyklischer Konsum +4,0 %, Industrie +3,9 %; nur Basiskonsum (−0,1 %) und Energie (−1,1 %) schließen im Minus. 417 der 500 Werte im S&P 500 steigen; der gleichgewichtete Index (RSP) gewinnt 2,6 %, der S&P 500 4,7 %."
+},
+{
+"d": "2026-11-24",
+"t": "Die Rotation kehrt zurück: Gesundheit (XLV) +3,0 %, Basiskonsum (XLP) +1,7 %, Immobilien +1,3 %, Biotech (XBI) +6,6 %; Technologie (XLK) −3,3 %, Halbleiter (SMH) −7,3 %. Der Dow Jones schließt 0,85 % höher bei 50.018,70, der Nasdaq 100 fällt um 2,0 %; der gleichgewichtete S&P 500 (RSP) gewinnt 0,5 %. Einzelhändler legen nach Zahlen zweistellig zu (Abercrombie +19,7 %, Dick's +14,6 %)."
 }
 ],
 "src": [
@@ -693,7 +770,10 @@
 "w4_hartnett0",
 "m365_wk",
 "pmd_wk",
-"capp_2311"
+"capp_2311",
+"yahoo_px",
+"yf_mkt2411",
+"hngn_mkt2411"
 ],
 "sym": null,
 "q": "sector rotation defensive stocks tech selloff"
@@ -704,7 +784,7 @@
 "t": "S&P-500-Ziele für 2027",
 "kpi": "8.638",
 "sub": "Durchschnittsziel Ende 2027 aus acht Strategenprognosen",
-"sum": "Trotz Korrektur bleiben die Banken für 2027 bullisch: Die Spanne der Strategenumfrage reicht von 8.000 bis 9.000 Punkten, die Deutsche Bank nennt seit dem 23.11. ebenfalls 9.000, Federated Hermes mit 10.000 das höchste Ziel. Am 23.11. stieg der S&P 500 um 4,7 % auf 7.237 und holte gut die Hälfte des Vorwochenverlusts auf; bis zum Rekord vom 6.10. fehlen 7,4 %. Morgan Stanley spricht von der großen Kaufgelegenheit, andere Strategen zweifeln, ob der Boden erreicht ist.",
+"sum": "Trotz Korrektur bleiben die Banken für 2027 bullisch: Die Spanne der Strategenumfrage reicht von 8.000 bis 9.000 Punkten, die Deutsche Bank nennt seit dem 23.11. ebenfalls 9.000, Federated Hermes mit 10.000 das höchste Ziel. Nach dem Sprung vom 23.11. (+4,7 %) gab der S&P 500 am 24.11. um 0,5 % auf 7.201 nach; bis zum Rekord vom 6.10. fehlen 7,9 %. Morgan Stanley spricht von der großen Kaufgelegenheit, Yardeni sieht bei 7.000 Punkten eine Unterstützung, nennt die Wende aber womöglich eine Eintagsfliege.",
 "tl": [
 {
 "d": "2026-11-10",
@@ -753,6 +833,10 @@
 {
 "d": "2026-11-23",
 "t": "Die Deutsche Bank nennt im World Outlook 2027 ein Ziel von 9.000 Punkten für Ende 2027; RBC erwartet 8.050 in zwölf Monaten. Morgan Stanley nennt den Kursrutsch die große Kaufgelegenheit."
+},
+{
+"d": "2026-11-24",
+"t": "Der S&P 500 schließt 0,50 % tiefer bei 7.201,09, nachdem er zur Eröffnung 1,3 % verloren hatte; der Dow Jones steigt um 0,85 % auf 50.018,70 und schließt wieder über der Marke von 50.000 Punkten, unter die er am 19.11. gefallen war. Der VIX schließt bei 26,36. Belastet haben der Rückgang der Chipwerte und Berichte über neue US-Zölle."
 }
 ],
 "lv": {
@@ -891,6 +975,18 @@
 "l": "J.P. Morgan · Lakos-Bujas: Ziel Ende 2026",
 "d": "2026-11-09",
 "k": "kz"
+},
+{
+"v": 7000,
+"l": "Unterstützung · Yardeni",
+"d": "2026-11-23",
+"k": "sup"
+},
+{
+"v": 6343.72,
+"l": "Tief vom 30.3.2026 · Yardeni: nächste Marke unter 7.000",
+"d": "2026-11-23",
+"k": "sup"
 }
 ]
 },
@@ -923,7 +1019,11 @@
 "fam_wilson2311",
 "c8_haefele_0",
 "c8_golub_0",
-"c8_lakos_0"
+"c8_lakos_0",
+"yf_mkt2411",
+"hngn_mkt2411",
+"yqt_2311",
+"rt_tariff2411"
 ],
 "sym": "SPX",
 "q": "S&P 500 2027 target strategists"
@@ -932,9 +1032,9 @@
 "id": "gold",
 "tk": "XAU",
 "t": "Gold, Öl und Hormus",
-"kpi": "≈ 3.632 $",
-"sub": "Gold Spot 23.11., 22:58 Uhr New York (Kitco) · rund +2,6 % zum Freitag",
-"sum": "Gold fiel am 20.11. auf den tiefsten Stand seit September 2025 (Tagestief 3.513,54 $) und erholte sich am 23.11. mit den Aktienmärkten auf rund 3.632 $ (Spot, Kitco). Brent schloss am 23.11. bei 89,37 $ auf dem tiefsten Stand seit drei Monaten: Aus Nahost fließt wieder mehr Öl, in Libyen läuft die Sharara-Pipeline an, und für 2027 wird ein Überschuss erwartet. Angriffe auf Tanker und Anlagen am Golf halten an; am 29.11. tagt die OPEC+. Der Chart zeigt den COMEX-Future, nicht den Spotpreis.",
+"kpi": "≈ 3.553 $",
+"sub": "Gold Spot 24.11., 16:50 Uhr New York (Kitco) · −2,25 % zum Vortag",
+"sum": "Gold fiel am 20.11. auf den tiefsten Stand seit September 2025 (Tagestief 3.513,54 $), erholte sich am 23.11. auf rund 3.632 $ und gab am 24.11. wieder 2,25 % auf rund 3.553 $ nach (Spot, Kitco): Die Fed-Erhöhung im Dezember ist voll eingepreist, und Anleger lösten Positionen auf, um Verluste bei Aktien zu decken. Brent stieg am 24.11. nach neuen Angriffen auf Tanker um 2,3 % auf 91,40 $, nachdem es am Vortag auf den tiefsten Stand seit drei Monaten gefallen war; für 2027 wird weiter ein Überschuss erwartet. Am 29.11. tagt die OPEC+. Der Chart zeigt den COMEX-Future, nicht den Spotpreis.",
 "tl": [
 {
 "d": "2026-10-30",
@@ -987,12 +1087,16 @@
 {
 "d": "2026-11-23",
 "t": "Brent schließt 3,5 % tiefer bei 89,37 $, dem tiefsten Stand seit drei Monaten (Reuters): Aus Nahost fließt mehr Öl, in Libyen läuft die Sharara-Pipeline wieder an. Gold-Spot notiert am späten Abend in New York bei rund 3.632 $ (Kitco, Tagesspanne 3.539,80 bis 3.690,20 $), der Dezember-Future schließt bei 3.651,40 $."
+},
+{
+"d": "2026-11-24",
+"t": "Gold-Spot fällt um 2,25 % auf rund 3.552,50 $ (Kitco, 16:50 Uhr New York; Tagestief 3.546,00 $), Silber um 5,2 %. Reuters nennt die fest eingepreiste Fed-Erhöhung und Verkäufe zur Deckung von Aktienverlusten; J.P. Morgan erwartet Ende 2027 dennoch 4.500 $, die Commerzbank 4.100 $. Brent schließt nach neuen Angriffen auf Tanker 2,3 % höher bei 91,40 $."
 }
 ],
 "lv": {
 "u": "$",
-"now": 3632.3,
-"nowL": "Gold Spot 23.11. (22:58 Uhr New York, Kitco)",
+"now": 3552.5,
+"nowL": "Gold Spot 24.11. (16:50 Uhr New York, Kitco)",
 "items": [
 {
 "v": 5000,
@@ -1023,6 +1127,18 @@
 "l": "Tagestief",
 "d": "2026-11-20",
 "k": "sup"
+},
+{
+"v": 4500,
+"l": "J.P. Morgan: Ende 2027 (Reuters-Bericht)",
+"d": "2026-11-24",
+"k": "kz"
+},
+{
+"v": 4100,
+"l": "Commerzbank: Ende 2027 (Reuters-Bericht)",
+"d": "2026-11-24",
+"k": "kz"
 }
 ]
 },
@@ -1047,7 +1163,9 @@
 "tnfx_2311",
 "rt_oil2311",
 "kit_2311b",
-"te_oil2411"
+"te_oil2411",
+"kit_2411",
+"rt_gold2411"
 ],
 "sym": "GOLDF",
 "q": "gold price outlook Fed"
@@ -1058,7 +1176,7 @@
 "t": "Europa und DAX",
 "kpi": "24.802,78",
 "sub": "DAX-Schluss 20.11. (−2,6 %) · Ziel der DZ Bank Ende 2027: 28.500",
-"sum": "Nach sechs Verlusttagen und einem Wochenminus von 7,3 % erholte sich der DAX am 23.11. um 2,15 % auf 25.337 Punkte, der Stoxx 600 um 1,8 %. Die vorläufigen Einkaufsmanagerindizes fielen in Deutschland mit 55,0 so stark aus wie seit März 2022 nicht, im Euroraum blieb der Gesamtindex bei 51,7, Frankreich schrumpft. Bundesbankpräsident Nagel stellt für den 17.12. eine weitere Zinserhöhung der EZB in Aussicht. Am 24.11. folgt das Ifo-Geschäftsklima; die Deutsche Bank sieht den Stoxx 600 Ende 2027 bei 640.",
+"sum": "Der DAX gab am 24.11. nach der Erholung vom Vortag (+2,15 %) wieder 1,26 % auf 25.017,81 Punkte nach, der Euro Stoxx 50 1,16 %, der Stoxx 600 0,66 %; Chipwerte fielen mit Nvidia. Die Konjunkturdaten stützen: Das Ifo-Geschäftsklima stieg im November zum siebten Mal in Folge auf 90,6 Punkte, den höchsten Stand seit Mai 2023, und der vorläufige Einkaufsmanagerindex für Deutschland lag bei 55,0. Bundesbankpräsident Nagel stellt für den 17.12. eine weitere Zinserhöhung der EZB in Aussicht; die Deutsche Bank sieht den Stoxx 600 Ende 2027 bei 640.",
 "tl": [
 {
 "d": "2026-11-10",
@@ -1099,6 +1217,10 @@
 {
 "d": "2026-11-23",
 "t": "DAX schließt 2,15 % höher bei 25.337,27, Euro Stoxx 50 +2,23 % auf 6.074,47, Stoxx 600 +1,81 % auf 636,96. Vorläufige Einkaufsmanagerindizes: Deutschland 55,0 (höchster Wert seit März 2022), Euroraum unverändert 51,7, Frankreich 46,2."
+},
+{
+"d": "2026-11-24",
+"t": "DAX schließt 1,26 % tiefer bei 25.017,81, Euro Stoxx 50 −1,16 % auf 6.003,76, Stoxx 600 −0,66 % auf 632,74. Das Ifo-Geschäftsklima steigt im November auf 90,6 Punkte nach revidiert 90,1 (erwartet 90,5), der siebte Anstieg in Folge und der höchste Stand seit Mai 2023; in der Industrie trübt sich die Stimmung nach sechs Anstiegen ein."
 }
 ],
 "src": [
@@ -1119,7 +1241,8 @@
 "wt_sx5e2311",
 "inv_stoxx",
 "1t_pmi2311",
-"c8_nagel_3"
+"c8_nagel_3",
+"ifo_2411"
 ],
 "sym": "DAX",
 "lv": {
@@ -1150,7 +1273,7 @@
 "t": "Bitcoin im Risk-off",
 "kpi": "60.741 $",
 "sub": "Stand 22.11. · 30 % unter dem Sechsmonatshoch vom 21.09.",
-"sum": "Bitcoin fiel am 21.11. zeitweise auf rund 55.100 $, den tiefsten Stand seit September 2024, und hält sich seither um 61.000 $; die Erholung der Aktien am 23.11. machte er nicht mit. US-Spot-ETFs verloren in der Woche bis 20.11. rund 1,8 Mrd. $, am 20.11. allein 669 Mio. $ (Farside). Strategy kaufte zuletzt 457 BTC zu durchschnittlich 64.898 $ und liegt mit einem Einstand von 75.446 $ im Minus; zum 30.11. fällt die Aktie aus den MSCI-Indizes.",
+"sum": "Bitcoin fiel am 21.11. zeitweise auf rund 55.100 $, den tiefsten Stand seit September 2024; die Erholung der Aktien am 23.11. machte er nur kurz mit und rutschte am 24.11. wieder unter 60.000 $. Aus den US-Spot-ETFs flossen am 23.11. weitere 569,7 Mio. $ ab; mit 4,71 Mrd. $ ist der November schon jetzt der schwächste Monat seit dem Start der Fonds (Farside laut CoinDesk). Strategy kaufte zuletzt 457 BTC zu durchschnittlich 64.898 $ und liegt mit einem Einstand von 75.446 $ im Minus; zum 30.11. fällt die Aktie aus den MSCI-Indizes.",
 "tl": [
 {
 "d": "2026-09-21",
@@ -1215,6 +1338,10 @@
 {
 "d": "2026-11-23",
 "t": "Bitcoin bleibt hinter den Aktien zurück: Schluss rund 61.200 $ nach einem Tageshoch über 64.400 $. Farside: Abfluss aus den US-Spot-ETFs am 20.11. endgültig 669,2 Mio. $, davon IBIT 544,7 Mio. $ (neuer Tagesrekord); am 23.11. vorläufig −60,4 Mio. $."
+},
+{
+"d": "2026-11-24",
+"t": "Bitcoin fällt wieder unter 60.000 $ (Tagestief rund 59.400 $) und notiert am Abend in New York bei rund 59.700 $. Farside: Der Abfluss aus den US-Spot-ETFs am 23.11. beträgt endgültig 569,7 Mio. $ (IBIT 509,3 Mio. $), der fünfte Abflusstag in Folge; der November kommt auf 4,71 Mrd. $ und übertrifft den bisherigen Rekordmonat Juni (4,5 Mrd. $). Monness senkt das Kursziel für Strategy auf 59 $, das niedrigste an der Wall Street."
 }
 ],
 "src": [
@@ -1237,7 +1364,11 @@
 "bm_mstr2311",
 "cg_btc",
 "farside_2311",
-"bm_btc2311"
+"bm_btc2311",
+"tb_etf2411",
+"bm_btc2411",
+"si_etf2411",
+"cmc_saylor"
 ],
 "sym": "BTC",
 "px": "BTC",

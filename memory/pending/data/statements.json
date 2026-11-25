@@ -839,9 +839,9 @@
 },
 {
 "id": "s33",
-"d": "2026-11-20",
+"d": "2026-11-22",
 "p": "ives",
-"k": "Kommentar",
+"k": "Research",
 "s": "neut",
 "a": [
 "NDX"
@@ -850,8 +850,8 @@
 "Stimmung"
 ],
 "st": [],
-"t": "Beschreibt die Angst hinter dem Ausverkauf als vergleichbar mit dem Niveau der Corona-Pandemie.",
-"src": "biggo_mkt",
+"t": "In einer Notiz vom Sonntag vergleicht Ives Angst und Unruhe hinter dem Tech-Ausverkauf mit den Corona-Tagen im März 2020 und dem Zollschock vom April 2025.",
+"src": "cnbc_live2311",
 "sw": 1,
 "ar": [
 "us"
@@ -9486,5 +9486,402 @@
 "sw": 9,
 "t": "Chanos hält den Neocloud-Anbietern CoreWeave, Nebius und IREN auf X vor, die Amortisation ihrer Investitionen anhand der Bruttoumsätze zu berechnen. Wiedergabe nach TIKR.",
 "src": "tikr_chanos2311"
+},
+{
+"id": "r10-01",
+"d": "2026-11-24",
+"p": "huang",
+"k": "Rede",
+"s": "neut",
+"a": [
+"NVDA"
+],
+"th": [
+"Governance"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "In seiner ersten Mitarbeiterversammlung nach der Rückkehr entschuldigt sich Huang für Verstöße gegen den Verhaltenskodex des Unternehmens: Er habe schwere persönliche Fehler gemacht und gehe täglich zur Therapie. Den Eindruck, Trump habe ihn zurückgeholt oder er stehe über den Regeln, weist er zurück; der Verwaltungsrat habe die Lage geprüft und von der Regierung die Zusicherung erhalten, dass kein Sicherheitsrisiko bestehe. Berichte von New York Times und Wired nach Teilnehmern.",
+"src": "nyt_huang2411",
+"sw": 10
+},
+{
+"id": "r10-02",
+"d": "2026-11-24",
+"who": "Canaccord Genuity",
+"org": "Canaccord Genuity",
+"k": "Research",
+"s": "bull",
+"a": [
+"ANT"
+],
+"th": [
+"KI-Labore",
+"Börsengang",
+"Bewertung"
+],
+"st": [
+"ant"
+],
+"ar": [
+"ailab"
+],
+"lv": "Kursziel 135 $, Buy",
+"t": "Canaccord Genuity nimmt Anthropic am Tag des Rückfalls unter den Ausgabepreis mit Kaufen und einem Kursziel von 135 Dollar auf. Die Analysten stellen das langfristige Potenzial in den Vordergrund: Anthropic baue eine der wichtigsten Technologieplattformen für Unternehmen im KI-Zeitalter, und der Markt sei deutlich größer als die bisherigen Softwareausgaben.",
+"src": "cnbc_ant2411",
+"sw": 10
+},
+{
+"id": "r10-03",
+"d": "2026-11-23",
+"da": 1,
+"who": "Scott Berg",
+"org": "Needham",
+"k": "Research",
+"s": "neut",
+"a": [
+"ANT"
+],
+"th": [
+"Börsengang",
+"Aktienangebot",
+"KI-Labore"
+],
+"st": [
+"ant"
+],
+"ar": [
+"ailab"
+],
+"lv": "Haltefristen: bis zu 303 Mio. Aktien am 15.12., 303 Mio. am 5.1., über 700 Mio. bis Anfang Februar",
+"t": "Der Needham-Analyst erklärt die Schwäche der Anthropic-Aktie mit zwei Punkten: In den nächsten 90 bis 120 Tagen kommen mit dem Ende der Haltefristen viele Aktien an den Markt, ein Teil davon müsse erst aufgenommen werden, bevor der Kurs deutlich steigen könne. Zudem sei offen, ob das Wachstum von 2026 zu halten ist; den Neuumsatz 2027 schätzt er auf 50 bis 125 Mrd. Dollar. Wiedergabe von Barron's nach Kalshi News; der Tag der Aussage ist nicht genannt.",
+"src": "kal_ant",
+"sw": 10
+},
+{
+"id": "r10-04",
+"d": "2026-11-24",
+"who": "Clemens Fuest",
+"org": "ifo Institut",
+"k": "Umfrage",
+"s": "neut",
+"a": [],
+"th": [
+"Europa",
+"Makro"
+],
+"st": [
+"eu"
+],
+"ar": [
+"eu"
+],
+"lv": "Ifo-Geschäftsklima 90,6 (Oktober revidiert 90,1)",
+"t": "Zum Ifo-Geschäftsklima für November (90,6 Punkte nach 90,1) sagt Ifo-Präsident Fuest, die Erholung der deutschen Wirtschaft komme voran, es fehle ihr aber an Breite. Die Unternehmen bewerten Lage und Erwartungen besser, vor allem Dienstleister; in der Industrie trübte sich die Stimmung nach sechs Anstiegen in Folge ein, die Erwartungen dort sind wieder negativ.",
+"src": "ifo_2411",
+"sw": 10
+},
+{
+"id": "r10-05",
+"d": "2026-11-24",
+"who": "Jeff Clarke",
+"org": "Dell Technologies, Vice Chairman & COO",
+"k": "Quartalszahlen",
+"s": "bull",
+"a": [],
+"th": [
+"KI-Capex"
+],
+"st": [
+"capex"
+],
+"ar": [
+"aiinfra"
+],
+"lv": "KI-Auftragsbestand 132,3 Mrd. $; KI-Aufträge im Quartal 60,2 Mrd. $",
+"t": "Zu den Quartalszahlen sagt Dells Vizechef Clarke, die Nachfrage beschleunige sich weiter und verbreitere sich weltweit: Mehr als 7.500 Kunden setzen Dells KI-Systeme ein, der KI-Auftragsbestand erreicht 132,3 Mrd. Dollar nach neuen Aufträgen über 60,2 Mrd. Dollar. Jeden Auftrag prüfe Dell auf die Qualität des Kunden und dessen Zugang zu Kapital, Fläche und Strom; für das Geschäftsjahr erwartet das Unternehmen 202 Mrd. Dollar Umsatz.",
+"src": "dell_q3",
+"sw": 10
+},
+{
+"id": "r10-06",
+"d": "2026-11-21",
+"p": "saylor",
+"k": "Konferenz",
+"s": "bull",
+"a": [
+"BTC"
+],
+"th": [
+"Krypto"
+],
+"st": [
+"btc"
+],
+"ar": [
+"krypto"
+],
+"lv": "Ziel 10 Mio. $ je Bitcoin, ohne Zeitangabe",
+"t": "In der Schlussrede der ITC-Konferenz in Miami sagt Saylor, er wolle alle bis 2140 noch entstehenden rund 900.000 Bitcoin kaufen und den Kurs auf 10 Mio. Dollar je Stück treiben; was in den nächsten Wochen oder Monaten geschehe, könne er nicht sagen. Strategy beschreibt er als entstehende Zentralbank der Kryptoökonomie. Wiedergabe nach CoinMarketCap, das die Rede auf Montag legt; laut Programm und Veranstalter fand sie am 21.11. statt.",
+"src": "cmc_saylor",
+"sw": 10
+},
+{
+"id": "r10-07",
+"d": "2026-11-23",
+"p": "wood",
+"k": "Handel",
+"s": "neut",
+"a": [
+"NVDA",
+"SPCX"
+],
+"th": [
+"Positionierung",
+"Halbleiter"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis",
+"space"
+],
+"t": "Am Tag von Huangs Rückkehr kauft ARK Nvidia nicht zurück: Die Tagesübersicht von Cathie's Ark für den 23.11. zeigt nur kleinere Biotech-Käufe im ARKK (CRISPR, Recursion, Beam, GeneDx, zusammen rund 14 Mio. Dollar) und den Verkauf der restlichen Ether- und Solana-Staking-ETFs. In der Vorwoche hatte ARK laut Invezz 712.282 Nvidia-Aktien für rund 107 Mio. Dollar verkauft und für rund 74 Mio. Dollar SpaceX gekauft. Stückzahlen für den 23.11. liegen noch nicht vor.",
+"src": "ca_ark2311",
+"sw": 10
+},
+{
+"id": "r10-08",
+"d": "2026-11-24",
+"p": "burry",
+"k": "Substack",
+"s": "bear",
+"a": [
+"NVDA"
+],
+"th": [
+"Halbleiter",
+"Governance",
+"Positionierung"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "Im Trading Post vom 24.11. schreibt Burry, mit Huangs Rückkehr sei bei Nvidia nicht alles geklärt: Das gewohnte Geschäft kehre zwar bald zurück, bleibe aber ein prekärer Normalzustand, und seine Short-These gelte in voller Stärke weiter, weil sie Huangs Abgang nie vorausgesetzt habe. Den Kursrutsch in Hongkong nutzt er, um JD.com, Tencent und BYD aufzustocken. Wiedergabe nach Stocktwits.",
+"src": "stw_burry2411",
+"sw": 10
+},
+{
+"id": "r10-09",
+"d": "2026-11-24",
+"p": "ives",
+"k": "Post",
+"s": "bull",
+"a": [
+"NVDA"
+],
+"th": [
+"Halbleiter",
+"Bewertung",
+"Governance"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"lv": "Kursziel 250 $ (zuvor 225 $), Bull-Case 300 $",
+"chg": {
+"w": "Kursziel Nvidia",
+"a": "NVDA",
+"f": "225 $",
+"t": "250 $",
+"dir": 1
+},
+"t": "Ives hebt sein Kursziel für Nvidia von 225 auf 250 Dollar an und nennt 300 Dollar als Bull-Case: Mit Huang an der Spitze sei die Ordnung wiederhergestellt, Nvidia liege zwei bis drei Jahre vor jeder Konkurrenz, auch aus China. Bei CNBC ergänzt er laut Benzinga, Huang sei für Nvidia rund eine Billion Dollar wert; die vollen 300 Dollar setze er wegen der China-Schlupflöcher und der Anhörungen im Kongress in der kommenden Woche noch nicht an.",
+"src": "x_ives2411",
+"sw": 10
+},
+{
+"id": "r10-10",
+"d": "2026-11-24",
+"p": "cramer",
+"k": "Post",
+"s": "warn",
+"a": [
+"ANT",
+"NVDA"
+],
+"th": [
+"Börsengang",
+"KI-Labore",
+"Stimmung"
+],
+"st": [
+"ant",
+"nvda"
+],
+"ar": [
+"ailab",
+"semis"
+],
+"t": "Auf X macht Cramer die Erholung des KI-Sektors an Anthropic fest: Die Aktie müsse steigen, sonst komme OpenAI nicht an die Börse, und erst dieses Geld stabilisiere die Welt, die Huang gebaut habe. Leerverkäufer hätten den Kurs im dünnen Nachthandel unter den Ausgabepreis von 83 Dollar gedrückt; weil große Käufer fehlten, nennt er die Aktie den stillen Killer des Marktes. Bei Nvidia hätten die Shorts eingedeckt, eine solche Rally müsse sich erst setzen. Wortlaut nach Benzinga und Finbold.",
+"src": "x_cramer2411",
+"sw": 10
+},
+{
+"id": "r10-11",
+"d": "2026-11-24",
+"p": "cramer",
+"k": "Kommentar",
+"s": "bull",
+"a": [
+"SPX",
+"AMD",
+"NVDA"
+],
+"th": [
+"Stimmung",
+"Positionierung",
+"Halbleiter"
+],
+"st": [],
+"ar": [
+"us",
+"semis"
+],
+"lv": "S&P-Oszillator −8,75 % (überverkauft; Freitag −8,61 %)",
+"t": "Im Morning Meeting seines Investing Club sagt Cramer, jetzt sei die Zeit, zurückgehaltenes Geld anzulegen: Den Rückgang von S&P 500 und Nasdaq nach der Montagsrally sieht er als Gelegenheit, der S&P-Oszillator zeige mit −8,75 % einen überverkauften Markt. AMD nennt er eine Kaufgelegenheit, Nvidia bleibt im Club auf Stufe 2 (Halten). Einzelheiten nach der Wiedergabe von Binance News; die CNBC-Seite zeigt frei nur die Überschrift.",
+"src": "cnbc_cramer2411",
+"sw": 10
+},
+{
+"id": "r10-12",
+"d": "2026-11-23",
+"p": "lee",
+"k": "Research",
+"s": "bull",
+"a": [
+"NVDA"
+],
+"th": [
+"Halbleiter",
+"Stimmung",
+"Fed & Zinsen"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis",
+"us"
+],
+"t": "Im Video »Macro Minute« vom Montagabend nennt Lee die Wiedereinsetzung von Huang einen positiven fundamentalen Wendepunkt: An den Märkten zähle vor allem die Wahrnehmung, und die Summe der wahrgenommenen Risiken (Fed-Sitzung im Dezember, Sorge vor einem geldpolitischen Fehler, Washingtons Vorgehen gegen Nvidia) habe den KI-Handel ins Wanken gebracht. Frei zugänglich sind nur Titel und Anriss.",
+"src": "fs_lee2311",
+"sw": 10
+},
+{
+"id": "r10-13",
+"d": "2026-11-23",
+"p": "yardeni",
+"k": "Research",
+"s": "bull",
+"a": [
+"SPX"
+],
+"th": [
+"Bewertung",
+"Charttechnik"
+],
+"st": [
+"spx27"
+],
+"ar": [
+"us"
+],
+"lv": "Unterstützung um 7.000; darunter 6.343,72 (Tief vom 30.3.2026)",
+"t": "In den QuickTakes vom 23.11. hält Yardeni es für möglich, dass der S&P 500 am Freitag bei 6.910 den Boden gefunden hat: Um 7.000 Punkte, das Rekordhoch vor Beginn des Nahostkriegs, sieht er eine Unterstützung; hält sie nicht, nennt er 6.343,72 als nächste Marke. Das gesenkte Jahresendziel von 7.500 beruht auf 425 Dollar erwartetem Gewinn je Aktie und einem KGV von 17,6 statt 18,6. Wachstumswerte nennt er sehr billig: Ihr KGV liegt nur noch beim 1,03-Fachen der Substanzwerte.",
+"src": "yqt_2311",
+"sw": 10
+},
+{
+"id": "r10-14",
+"d": "2026-11-24",
+"da": 1,
+"p": "yardeni",
+"k": "Interview",
+"s": "warn",
+"a": [],
+"th": [
+"Fed & Zinsen",
+"Stimmung",
+"Makro"
+],
+"st": [
+"fed"
+],
+"ar": [
+"zins",
+"us"
+],
+"t": "Bei CNBC nennt Yardeni die Kurswende nach Huangs Rückkehr womöglich eine Eintagsfliege und erwartet 2027 noch stärkere Ausschläge, vor allem durch die Politik. Eine Erhöhung um 25 Basispunkte im Dezember hält er für sicher, die Fed sollte aus seiner Sicht aber um 50 Basispunkte anheben: Die Inflation liege beharrlich bei 3 %, und der Schritt wäre schon im Oktober fällig gewesen. Wiedergabe nach Stocktwits; der Sendetag ist nicht ausdrücklich genannt.",
+"src": "stw_fed2411",
+"sw": 10
+},
+{
+"id": "r10-15",
+"d": "2026-11-23",
+"p": "elerian",
+"k": "Post",
+"s": "neut",
+"a": [],
+"th": [
+"Fed & Zinsen"
+],
+"st": [
+"fed"
+],
+"ar": [
+"zins"
+],
+"t": "El-Erian hält es für kaum möglich, dass die Fed am 9.12. auf eine Zinserhöhung verzichtet: Markt und Prognosemärkte preisen 25 Basispunkte zu über 90 % ein, und ohne die bessere, fiskalische Antwort stehe die Notenbank wieder allein im Mittelpunkt. Einen Schritt um 50 Basispunkte nennt er wirtschaftlich wie finanziell unklug; für die Zeit nach Dezember sei das Bild wegen der offenen Fragen zum KI-Ausgabenboom und der Anfälligkeit zinsempfindlicher Sektoren komplizierter.",
+"src": "x_elerian2311",
+"sw": 10
+},
+{
+"id": "r10-16",
+"d": "2026-11-24",
+"p": "elerian",
+"k": "Post",
+"s": "warn",
+"a": [
+"NVDA",
+"ANT"
+],
+"th": [
+"Stimmung",
+"Positionierung",
+"Börsengang"
+],
+"st": [
+"nvda",
+"ant"
+],
+"ar": [
+"us",
+"ailab"
+],
+"t": "Nach dem Rücksetzer vom Dienstag schreibt El-Erian, der Markt erinnere daran, dass die Warnsignale der Vorwoche, vor allem die markttechnischen, weit über Nvidia hinausreichten; entscheidend sei nun, ob aus schlechter Markttechnik schlechte Fundamentaldaten werden. Zugleich verweist er darauf, dass Anthropic unter dem Ausgabepreis notiert: Die Aktie folge dem Verlauf von SpaceX nach dem Börsengang, nur im Zeitraffer.",
+"src": "x_elerian2411",
+"sw": 10
 }
 ]

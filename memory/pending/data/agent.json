@@ -53,22 +53,26 @@
 "n": 9,
 "d": "2026-11-24",
 "t": "Großer Lauf (Kurz): Die Spur aus Lauf 8 ist bestätigt, Nvidia hat Jensen Huang am 22.11. wieder eingesetzt (8-K und Mitteilung vom 23.11.); Story, Szenario, Rollen von Huang und Kress angepasst. 21 neue Aussagen (darunter Hochstufungen von Rasgon und Reitzes, Meinungswechsel von Cramer und Chamath), 38 Positionen, 13 Calls. Die 250 Einträge aus Lauf 8 geprüft: Von 110 Aussagen der Seite bleiben 35 (32 waren 13F-Meldungen und stehen jetzt als Positionen, 17 Doppel, 15 zusammengeführt, 11 ohne Beleg oder undatiert); von 19 Story-Ereignissen bleiben 7. Kurse stammen erstmals aus dem Zweig kurse: Schluss vom 23.11., Bitcoin 22.11."
+},
+{
+"n": 10,
+"d": "2026-11-25",
+"t": "Großer Lauf (Kurz): Markt, Stories und Kalender im Hauptlauf, 16 Leitfiguren einzeln in zwei Forks gesucht. 16 neue Aussagen (Huang, Ives, Burry, Cramer, Yardeni, El-Erian, Lee, Wood, Saylor; dazu Canaccord, Needham, Dell und Ifo), 6 Positionen (ARK, Burry, Verkauf von Dario Amodei laut Form 4), 2 Calls. Stories und Fed-Szenario auf dem Stand vom 24.11.; Huangs Termine im Kongress (1. und 3.12.) und bestätigte Zahlentermine im Kalender. Im Bestand die Quelle zweier Druckenmiller-Einträge ersetzt und einen Ives-Eintrag auf den 22.11. umdatiert. Kurse aus dem Zweig kurse: Schluss vom 24.11., Bitcoin 23.11."
 }
 ],
 "offen": [
-"Kurse: Der Abruf bei Yahoo ist in der Sitzung der geplanten Aufgabe weiter gesperrt; die Kurse kommen aus dem Zweig kurse (Stand 24.11., 05:30 UTC: Schluss 23.11.). Die Bitcoin-Reihe endet am 22.11.",
-"ARK-Handel vom 23.11. lag am Morgen noch nicht vor: Kauft ARK Nvidia nach Huangs Rückkehr zurück?",
-"Dienstag, 24.11.: Ifo-Geschäftsklima (10:00 MEZ), US-Verbrauchervertrauen (16:00 MEZ), Zahlen von Dell und HP nach Börsenschluss.",
-"Mittwoch, 25.11.: PCE-Preisindex und Beige Book; Scaramucci nannte den Tag als möglichen Wendepunkt für Bitcoin.",
-"Nvidia: Quartalsbericht (10-Q) steht aus; laut Berichten soll Huang am 1.12. vor Ausschüssen des Repräsentantenhauses aussagen (Termin nicht aus Primärquelle belegt). Die von Bessent geforderten Antworten sind um den 25. bis 27.11. fällig.",
+"Kurse: Der Abruf bei Yahoo ist in der Sitzung der geplanten Aufgabe weiter gesperrt; die Kurse kommen aus dem Zweig kurse (Stand 25.11., 05:30 UTC: Schluss 24.11.). Die Bitcoin-Reihe endet zum zweiten Mal einen Tag früher (23.11.).",
+"Mittwoch, 25.11.: PCE-Preisindex und zweite BIP-Schätzung (14:30 MEZ), Beige Book (20:00 MEZ), deutsche BIP-Details; Ergebnis und Marktreaktion nachziehen. Dells Kursreaktion auf die Zahlen vom 24.11.",
+"Neue US-Zölle: Das Ergebnis der Untersuchung zu Überkapazitäten bei 16 Handelspartnern wird laut Reuters am 24. oder 25.11. erwartet; Sätze und Ausnahmen sind offen.",
+"ARK-Handel vom 24.11. und Stückzahlen vom 23.11. lagen am Morgen noch nicht vor.",
+"Nvidia: Befragung Huangs im Repräsentantenhaus am 1.12. (nicht öffentlich), Anhörung im Bankenausschuss des Senats am 3.12.; Quartalsbericht (10-Q), Ausschuss-Untersuchung und SEC-Prüfung stehen aus.",
+"Anthropic notiert unter dem Ausgabepreis: Kreditrating, Haltefristen (15.12., 5.1.) und weitere Form-4-Meldungen beobachten; die Aufnahme in MSCI-Indizes nach dem 30.11. ist nur über Finbold belegt.",
 "Karniol-Tambour: laut WSJ am 9.11. zur Chefin des kanadischen Staatsfonds ernannt; Antrittstermin fehlt, Rolle im Roster noch unverändert.",
-"Einträge aus dem Chat-Sweep (c8) sind übernommen; mehrere Aussagen am selben Tag je Kopf (Munster, Arya, Jassy) bei Gelegenheit auf Doppel prüfen.",
-"Schwach belegt und nicht aufgenommen: O’Leary am 21.11. (»Bank von Nvidia geschlossen«), Burrys Schwelle von 200 Dollar für neue Nvidia-Shorts, Gerstners Auftritt beim TomorrowX Summit (17.11.).",
-"Leitfiguren ohne eigene Aussage: Cohen (nur 13F). Abel und Tepper sind nur über 13F-Berichte erfasst. Seit dem 20.11. ohne neue Äußerung: Druckenmiller, Dalio, Fink, Dimon, Warsh, Marks, Hartnett (nächste Flow Show laut Berichten am 3.12.).",
-"Greiner und Paffrath: weiter keine belegte Aussage außerhalb von Videos.",
-"Mögliche Doppel im Bestand prüfen: Williams am 17.11., Arcuri am 18.11., Rosenberg am 20.11.; Bessent am 13.11. und 20.11. (zwei CNBC-Auftritte?).",
+"Einträge aus dem Chat-Sweep (c8): mehrere Aussagen am selben Tag je Kopf (Munster, Arya, Jassy) bei Gelegenheit auf Doppel prüfen; ebenso Williams am 17.11., Arcuri am 18.11., Rosenberg am 20.11., Bessent am 13.11. und 20.11.",
+"Schwach belegt und nicht aufgenommen: Dalio im Podcast »Sourcery« (23.11., nur Beschreibung der Folge), Musk zu Starlink in Tesla-Modellen (Produktplan), O’Leary am 21.11., Gerstners Auftritt beim TomorrowX Summit (17.11.).",
+"Leitfiguren ohne eigene Aussage: Cohen (nur 13F). Seit dem 20.11. ohne neue Äußerung: Druckenmiller, Dalio, Fink, Dimon, Warsh, Marks, Hartnett (nächste Flow Show laut Berichten am 3.12.); in diesem Lauf nicht gesucht: Tepper, Griffin, Tudor Jones, Einhorn, Chanos, Abel, Fink, Gundlach, Hartnett, O’Leary, Cuban, Stephan.",
 "Belegte Wirkung (fx) nachtragen.",
-"Gold: Spot-Reihe fehlt in der Kursquelle; der Hinweis bei der CFD-Referenz XAUUSD nennt noch rund 3.540 $ (letzter belegter Spot: rund 3.632 $ am 23.11., 22:58 Uhr New York).",
+"Gold: Spot-Reihe fehlt in der Kursquelle; der Hinweis bei der CFD-Referenz XAUUSD nennt noch rund 3.540 $ (letzter belegter Spot: rund 3.553 $ am 24.11., 16:50 Uhr New York).",
 "Rollen von rund 100 Personen noch nicht durch aktuelle Quellen bestätigt; für die 66 Köpfe aus dem Chat-Sweep fehlen Einträge in der Wissensbank."
 ]
 }

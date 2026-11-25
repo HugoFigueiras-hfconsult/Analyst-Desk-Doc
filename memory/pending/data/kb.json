@@ -38,6 +38,14 @@
 "th": [
 {
 "d": "2026-11-23",
+"t": "Kauft Nvidia am Tag von Huangs Rückkehr nicht zurück; am 23.11. nur kleine Biotech-Käufe und Verkauf der Krypto-Staking-ETFs."
+},
+{
+"d": "2026-11-23",
+"t": "Wochenmeldung: 16.–20.11. 712.282 Nvidia-Aktien verkauft (rund 107 Mio. $), SpaceX für rund 74 Mio. $ gekauft (Invezz)."
+},
+{
+"d": "2026-11-23",
 "t": "Begründet den Nvidia-Abbau im Podcast mit dem Risiko, Huang könne zu Musk wechseln; SpaceX setze im Orbit allein auf Nvidia."
 },
 {
@@ -47,17 +55,9 @@
 {
 "d": "2026-11-20",
 "t": "SpaceX werde zum günstigsten Cloud-Anbieter; Rechenleistung im Orbit binnen zwei Jahren billiger als am Boden (CNBC)."
-},
-{
-"d": "2026-11-20",
-"t": "Baut Anthropic nach dem Börsengang in allen sechs aktiven ETFs auf; kauft am 20.11. auch AMD, CoreWeave und Cerebras."
-},
-{
-"d": "2026-11-16",
-"t": "Dreht bei Nvidia: Käufe am 5. und 9.11., Verkäufe seit dem 16.11. (543.092 Stück am ersten Tag)."
 }
 ],
-"open": "ARK-Handel vom 23.11. lag am Morgen des 24.11. noch nicht vor: Kauft ARK Nvidia nach Huangs Rückkehr zurück? SpaceX-Kauf vom 16.11. (laut Cathiesark 46,8 Mio. $ in ARKK) mit Stückzahl belegen. Sendetag des ETF-IQ-Asia-Interviews belegen."
+"open": "ARK-Handel vom 24.11. lag am Morgen des 25.11. noch nicht vor; Stückzahlen für den 23.11. fehlen. SpaceX-Kauf vom 16.11. ist belegt: 378.515 Stück, rund 52 Mio. $. FolioObs führt am 5.11. einen SpaceX-Kauf über 393.774 Stück (Bestand: 4.11., 348.406 Stück): prüfen. Sendetag von »Money Rehab« und ETF IQ Asia weiter offen."
 },
 {
 "id": "burry",
@@ -71,6 +71,14 @@
 "note": "Keine 13F-Meldungen mehr seit der Schließung von Scion; Positionen nur aus eigenen Angaben.",
 "th": [
 {
+"d": "2026-11-24",
+"t": "Trading Post: Short-These zu Nvidia gilt unverändert, Huangs Rückkehr bringe nur einen prekären Normalzustand; stockt JD.com, Tencent und BYD erneut auf."
+},
+{
+"d": "2026-11-23",
+"t": "Will Nvidia erst wieder leerverkaufen, wenn die Aktie sich 200 Dollar nähert oder sie überspringt (Substack-Chat, Wortlaut über Stocktwits)."
+},
+{
 "d": "2026-11-23",
 "t": "Huangs Rückkehr sei ein Zeichen der Schwäche; hat am 20.11. drei Viertel der Nvidia-Puts und alle SMH-Puts verkauft, Nvidia-Calls gekauft."
 },
@@ -81,17 +89,9 @@
 {
 "d": "2026-11-18",
 "t": "Zeichnet Anthropic nicht; will Erholungen bei KI-Aktien leerverkaufen, ohne Eile."
-},
-{
-"d": "2026-11-16",
-"t": "Stockt Adobe bei rund 246 Dollar zur vollen Position auf."
-},
-{
-"d": "2026-11-13",
-"t": "Überangebot an KI-Chips ist die eigentliche Geschichte, nicht der Skandal."
 }
 ],
-"open": "Größe und Basis der verbleibenden Nasdaq- und Nvidia-Puts aus Primärquelle belegen; laut Stocktwits nennt er eine Schwelle von 200 Dollar für neue Nvidia-Shorts (Wortlaut fehlt). Lululemon laut Benzinga im November zurückgekauft (ohne Datum)."
+"open": "Größe der verbleibenden Puts weiter offen. Belegt sind: Nasdaq-Puts mit Verfall April 2027, Nvidia-Puts mit Basis 140 $, lang laufende Nvidia-Calls als Absicherung. Handelstag der Zukäufe aus dem Trading Post vom 24.11. nicht genannt. Lululemon weiter ohne Datum."
 },
 {
 "id": "dalio",
@@ -103,6 +103,14 @@
 "Interviews und Bücher"
 ],
 "th": [
+{
+"d": "2026-11-23",
+"t": "Podcast »Sourcery«: große Technik sei nicht automatisch eine gute Anlage; unterscheidet Vermögen und Geld (nur Beschreibung der Folge, Aufnahmetag unbelegt; kein eigener Eintrag)."
+},
+{
+"d": "2026-11-14",
+"t": "»Money Rehab« (gleiche Folge wie w4-dalio-1): Krypto reize ihn weniger als Gold; er hält etwas Bitcoin, weniger als Gold, und bezweifelt, dass Notenbanken Bitcoin halten (BeInCrypto, 25.11.)."
+},
 {
 "d": "2026-11-14",
 "t": "USA anfällig für eine Finanzkrise; 10 bis 15 % Gold im Portfolio."
@@ -116,7 +124,7 @@
 "t": "KI trägt Züge einer klassischen Blase."
 }
 ],
-"open": "Äußerung nach dem 20.11.? Suche am 23.11. ohne Fund."
+"open": "Inhalt der »Sourcery«-Folge vom 23.11. aus Transkript oder Bericht belegen (bisher nur Beschreibung; Zitate nur bei teahose und BigGo). Bloomberg (23.11.): vermittelte ein Gespräch zwischen MSCI und Indonesiens Präsident, keine Marktaussage."
 },
 {
 "id": "ackman",
@@ -146,7 +154,7 @@
 "t": "Markt wirkt durch Spekulation und Hebel zeitweise kaputt; für Langfristanleger eine Chance."
 }
 ],
-"open": "Kauft Pershing Square im Ausverkauf zu? Reaktion auf PCE-Daten (25.11.) und Fed-Entscheid (9.12.)."
+"open": "Seit dem 23.11. (r9-06) kein neuer Beitrag; die Berichte vom 23.11. geben den Fed-Beitrag vom 22.11. wieder (r6-05). Reaktion auf PCE-Daten (25.11.) und Fed-Entscheid (9.12.) offen."
 },
 {
 "id": "druckenmiller",
@@ -167,7 +175,7 @@
 "t": "Sucht KI-Anwender statt Infrastruktur; Konjunkturschwäche im 2. Halbjahr 2027 möglich."
 }
 ],
-"open": "Wann steigt er wieder ein, und womit? Die Pause kann nach eigener Aussage zwei Tage bis sechs Monate dauern (17.11.)."
+"open": "Keine Äußerung seit dem TomorrowX Summit am 17.11.; Morgan Stanley hat das Gespräch am 23.11. als Video veröffentlicht. Quelle der Einträge s02 und n17 seit Lauf 10: Institutional Investor vom 19.11. statt BigGo; der Satz, er shorte KI-Aktien nicht, ist dort nicht wörtlich belegt."
 },
 {
 "id": "tepper",
@@ -348,6 +356,10 @@
 "th": [
 {
 "d": "2026-11-23",
+"t": "Macro Minute: Huangs Wiedereinsetzung sei ein positiver fundamentaler Wendepunkt; die Summe der wahrgenommenen Risiken hatte den KI-Handel ins Wanken gebracht."
+},
+{
+"d": "2026-11-23",
 "t": "Als BitMine-Chairman: Ether und Bitcoin seien beide hartes Geld mit fast gleicher Inflationsrate."
 },
 {
@@ -361,13 +373,9 @@
 {
 "d": "2026-11-14",
 "t": "Krypto-Schwäche hat aus seiner Sicht technische Ursachen (Nachschusspflichten, Anthropic-Zeichnungen, Binance-Hack); die These eines Superzyklus bleibt."
-},
-{
-"d": "2026-11-12",
-"t": "Tech hat den Boden gefunden; Nvidia-Rücksetzer kaufen."
 }
 ],
-"open": "Seit dem Schluss vom 20.11. nur ein YouTube-Kurzvideo ohne Inhalt gefunden. Die zehnjährige Rendite fiel am 20.11. unter die von ihm genannte Marke von 5 %: Äußerung dazu suchen."
+"open": "Am 24.11. keine eigene Äußerung gefunden. Call c24 (S&P 500 eine Woche nach sechs Verlusttagen höher) läuft am 27.11. ab. Äußerung zur zehnjährigen Rendite unter 5 % weiter offen."
 },
 {
 "id": "ives",
@@ -378,6 +386,10 @@
 "Research-Notizen über die Presse"
 ],
 "th": [
+{
+"d": "2026-11-24",
+"t": "Hebt das Nvidia-Kursziel von 225 auf 250 $, Bull-Case 300 $; Huang sei rund eine Billion Dollar wert, die China-Schlupflöcher und die Anhörungen im Kongress verhinderten vorerst mehr."
+},
 {
 "d": "2026-11-23",
 "t": "Bleibt bei 225 Dollar, bis die Untersuchungen abgeschlossen sind; Wert mit Huang 300 Dollar."
@@ -395,7 +407,7 @@
 "t": "Bestätigt Outperform für Nvidia; die Nachfrage ist mit Huang nicht verschwunden."
 }
 ],
-"open": null
+"open": "Wortlaut des CNBC-Auftritts vom 24.11. nur über Benzinga. Der Vergleich mit März 2020 (s33) stammt aus der Notiz vom 22.11. (CNBC), in Lauf 10 umdatiert."
 },
 {
 "id": "wilson",
@@ -419,7 +431,7 @@
 "t": "Korrektur ist Kaufgelegenheit; S&P 500 bei 8.700 in zwölf Monaten."
 }
 ],
-"open": "Wochennotiz vom Montag, 23.11., lag zur Laufzeit (07:30 MEZ) noch nicht vor; seit dem Schluss vom 20.11. keine neue Äußerung gefunden."
+"open": "Seit der Wochennotiz vom 23.11. (r9-13) keine neue Äußerung. Zusätze aus MarketWatch und Business Insider zur selben Notiz: Stimmungsindikator −1,6 (wie Dezember 2018), Netto-Hebel der Hedgefonds 41 %."
 },
 {
 "id": "hartnett",
@@ -455,6 +467,14 @@
 ],
 "th": [
 {
+"d": "2026-11-24",
+"t": "Warnsignale der Vorwoche reichten weit über Nvidia hinaus; offen sei, ob schlechte Markttechnik zu schlechten Fundamentaldaten wird. Anthropic unter Ausgabepreis, Verlauf wie SpaceX im Zeitraffer."
+},
+{
+"d": "2026-11-23",
+"t": "Fed-Erhöhung am 9.12. kaum vermeidbar, 50 Basispunkte wären unklug; nach Dezember sei das Bild komplizierter."
+},
+{
 "d": "2026-11-23",
 "t": "Huangs Rückkehr werfe neue Fragen auf: Governance, »Präsidenten-Put«, staatliche Eingriffe."
 },
@@ -465,13 +485,9 @@
 {
 "d": "2026-11-20",
 "t": "Technische Faktoren verdrängen Fundamentaldaten; Sorge vor erzwungenem Schuldenabbau."
-},
-{
-"d": "2026-11-19",
-"t": "Der Mega-Börsengang entzieht dem Markt Liquidität."
 }
 ],
-"open": "Folgt nach der Erholung der Futures vom 22.11. eine neue Einschätzung zum technischen Schaden?"
+"open": "Weiterer Beitrag vom 23.11. (über Benzinga): Huangs Rückkehr als Schritt einer technologiebezogenen Industriepolitik; gleicher Anlass wie r9-10, deshalb nur hier. Wochenrückblick vom 28.11. (Substack) abwarten."
 },
 {
 "id": "dimon",
@@ -481,7 +497,7 @@
 "Quartalscalls",
 "Interviews bei Bloomberg, BBC und Fox"
 ],
-"open": "Keine Äußerung zur Korrektur seit dem 20.11. gefunden. Ein Bloomberg-Interview zu den Krediten hinter dem KI-Boom (zitiert bei briefs.co, 14.11.) ist nicht datiert.",
+"open": "Seit dem Londoner Termin vom 19.11. (r6-18) keine neue Äußerung; keine Aussage zur Korrektur.",
 "th": [
 {
 "d": "2026-11-19",
@@ -500,8 +516,12 @@
 "X @elonmusk",
 "Earnings Calls von Tesla und SpaceX"
 ],
-"open": "Weitere Aussagen zur Fusion von Tesla und SpaceX; Anleihefinanzierung der SpaceX-Rechenzentren (laut MLQ.ai rund 44 Mrd. $ über Apollo und Goldman Sachs am 20.11., Primärquelle fehlt).",
+"open": "NYT vom 23.11.: Musk habe Mitarbeitern gesagt, SpaceX falle in der KI-Entwicklung zurück (drei Personen, undatiert, Bezahlschranke): nur Spur. Auftritt beim TomorrowX Summit in Austin (17. oder 18.11.): Tag nicht belegt. Anleihen über rund 44 Mrd. $ für SpaceX-GPUs: Primärquelle (Apollo) fehlt.",
 "th": [
+{
+"d": "2026-11-23",
+"t": "Starlink soll gegen Ende 2027 in alle Tesla-Modelle kommen, als Baustein für unbeaufsichtigtes autonomes Fahren (X; kein eigener Eintrag, Produktplan ohne Marktaussage)."
+},
 {
 "d": "2026-11-23",
 "t": "Der Fehler sei korrigiert; alle bei Nvidia hätten Huang zurückgewollt."
@@ -526,6 +546,10 @@
 "th": [
 {
 "d": "2026-11-23",
+"t": "»Wir brauchen keine Rettung«: Kreditpapiere um 2,9 Mrd. $ verringert, Dividendenlast um 353 Mio. $ im Jahr gesenkt, Dollar-Mittel für 3,4 Jahre (X, 23.11.; gleicher Anlass wie die Wochenmeldung)."
+},
+{
+"d": "2026-11-23",
 "t": "Strategy kauft 457 BTC zu Ø 64.898 Dollar; der größere Teil des Geldes fließt in den Rückkauf von STRC."
 },
 {
@@ -533,15 +557,15 @@
 "t": "Deutet auf X einen weiteren Kauf an; der Bestand liegt rund 12,6 Mrd. Dollar unter dem Einstand."
 },
 {
-"d": "2026-11-19",
-"t": "Investorenrunde: STRC darf von 7,7 auf bis zu 5 Mrd. Dollar schrumpfen, die Dividende bleibt bei 12 %; Bitcoin-Verkäufe zum Rückkauf unter Nennwert sind nicht ausgeschlossen."
+"d": "2026-11-21",
+"t": "Schlussrede der ITC-Konferenz in Miami: will alle noch entstehenden rund 900.000 Bitcoin kaufen, Ziel 10 Mio. $ je Stück; Strategy als Zentralbank der Kryptoökonomie."
 },
 {
-"d": "2026-11-18",
-"t": "Verkauft nicht; Strategy lenkt Erlöse aus Aktienverkäufen überwiegend in STRC-Rückkäufe."
+"d": "2026-11-19",
+"t": "Investorenrunde: STRC darf von 7,7 auf bis zu 5 Mrd. Dollar schrumpfen, die Dividende bleibt bei 12 %; Bitcoin-Verkäufe zum Rückkauf unter Nennwert sind nicht ausgeschlossen."
 }
 ],
-"open": "8-K vom 23.11. (erwartet gegen 14:00 MEZ) stand zur Laufzeit aus: Kauf unter 60.000 Dollar? Folgen des MSCI-Ausschlusses zum 30.11."
+"open": "Folgen des MSCI-Ausschlusses zum 30.11.; nächste Wochenmeldung (8-K) am 30.11. Monness senkte das Kursziel für Strategy am 24.11. auf 59 $."
 },
 {
 "id": "warsh",
@@ -551,7 +575,7 @@
 "Reden und Anhörungen im Kongress",
 "Sitzungsprotokolle, drei Wochen später"
 ],
-"open": "Rede oder Interview vor dem 9.12.? Bis 23.11. keine Äußerung zur Zinspolitik gefunden; seit der Rede vom 16.11. vermeidet er Hinweise auf den Kurs.",
+"open": "Keine Rede seit dem 16.11.; bis zur Sitzung am 8./9.12. ist kein Termin angekündigt. Laut CNBC (20.11.) und Bloomberg Opinion (23.11.) meidet er Hinweise auf den Zinskurs. Nächste Äußerung: Pressekonferenz am 9.12.",
 "th": [
 {
 "d": "2026-11-16",
@@ -569,6 +593,14 @@
 ],
 "th": [
 {
+"d": "2026-11-24",
+"t": "CNBC: Kurswende womöglich eine Eintagsfliege; die Fed sollte im Dezember um 50 statt 25 Basispunkte erhöhen."
+},
+{
+"d": "2026-11-23",
+"t": "QuickTakes: Boden bei 6.910 möglich, Unterstützung um 7.000, darunter 6.343,72; KGV-Annahme 17,6 statt 18,6, Wachstumswerte sehr billig."
+},
+{
 "d": "2026-11-22",
 "t": "Sektoren: Gesundheit, Energie und Industrie übergewichtet, Technologie und Kommunikation neutral, Basiskonsum untergewichtet; der Ausverkauf komme aus den Bewertungen, nicht aus den Gewinnschätzungen."
 },
@@ -579,13 +611,9 @@
 {
 "d": "2026-11-20",
 "t": "Bei CNBC: Korrektur, kein Bärenmarkt, solange keine Rezession folgt; ein schneller Auslöser für die Erholung fehlt."
-},
-{
-"d": "2026-11-18",
-"t": "Die Fed muss um weitere 50 Basispunkte erhöhen."
 }
 ],
-"open": null
+"open": "QuickTakes vom 24.11. frei nur als Marktbericht lesbar. Sendetag des CNBC-Interviews nicht ausdrücklich belegt (X-Beitrag 24.11., 22:13 UTC)."
 },
 {
 "id": "laffont",
@@ -887,6 +915,14 @@
 "fokus": "Nvidia, KI-Handel, Einzelaktien",
 "th": [
 {
+"d": "2026-11-24",
+"t": "Morning Meeting: Zeit, zurückgehaltenes Geld anzulegen; S&P-Oszillator −8,75 %, AMD eine Kaufgelegenheit, Nvidia im Club weiter Halten."
+},
+{
+"d": "2026-11-24",
+"t": "Auf X: Anthropic müsse steigen, sonst komme OpenAI nicht an die Börse; ohne große Käufer sei die Aktie der stille Killer des Marktes."
+},
+{
 "d": "2026-11-23",
 "t": "Huangs Rückkehr sei ein Wunder; Ziel 199 Dollar. Fordert den Rücktritt des Verwaltungsrats, dessen Vorgehen er am 13.11. noch verteidigt hatte."
 },
@@ -897,13 +933,9 @@
 {
 "d": "2026-11-19",
 "t": "Die Nvidia-Krise überlagert den Anthropic-Börsengang; Alphabet sieht er reif für eine Erholung."
-},
-{
-"d": "2026-11-18",
-"t": "Rocket Lab sei zu billig geworden, bleibe aber eine Spekulation."
 }
 ],
-"open": "Aussage zur Marke 6.900 im S&P 500 (24/7 Wall St., 21.11.) und Wochenausblick vom 20.11. im Wortlaut belegen; die Auszüge reichten nicht."
+"open": "»Mad Money« vom 24.11. nur über die Folgenbeschreibung: Eine Erholung in Stufen sei gesünder als ein gerader Anstieg (Wortlaut fehlt). Einzelheiten des Morning Meeting vom 24.11. nur über Binance News."
 },
 {
 "id": "chamath",
@@ -925,6 +957,10 @@
 },
 {
 "d": "2026-11-20",
+"t": "»All-In« vom 20.11.: Nvidias Phase überhöhter Gewinne könne vorbei sein, weil Käufer ihre Ausgaben auf AMD-Grafikchips und Spezialchips von Broadcom verteilen (TIKR über Yahoo Finance; gleiche Folge wie r6-25)."
+},
+{
+"d": "2026-11-20",
 "t": "All-In: Huang sei herausragend, seine Rückkehr zu Nvidia aber ein Governance-Risiko; erwartet neun bis zehn vertikal integrierte KI-Großkonzerne."
 },
 {
@@ -932,7 +968,7 @@
 "t": "Social-Capital-Analyse zu Anthropic: Wachstum flacht ab, Rechenkosten und Zusagen von 900,9 Mrd. Dollar steigen."
 }
 ],
-"open": null
+"open": "Seit den beiden X-Beiträgen vom 23.11. (r9-08) nichts Neues. »All-In«-Folge 448 vom 24.11. ist ein Gespräch mit dem CrowdStrike-Chef; eine Marktaussage daraus ist nicht belegt. Social-Capital-Newsletter vom 23.11. nur als Titel gefunden."
 },
 {
 "id": "schiff",
@@ -1200,11 +1236,15 @@
 ],
 "th": [
 {
+"d": "2026-11-24",
+"t": "Entschuldigt sich vor der Belegschaft für Verstöße gegen den Verhaltenskodex, ist nach eigenen Worten in Therapie und weist zurück, wegen Trump zurückgekehrt zu sein."
+},
+{
 "d": "2026-11-23",
 "t": "Übernimmt die Führung wieder und unterstützt die laufende Untersuchung des unabhängigen Ausschusses."
 }
 ],
-"open": "Laut Berichten soll er am 1.12. vor Ausschüssen des Repräsentantenhauses aussagen: Termin und Wortlaut aus Primärquelle belegen. Ergebnis der Ausschuss-Untersuchung, SEC-Prüfung, 10-Q."
+"open": "Befragung im Repräsentantenhaus am 1.12. (nicht öffentlich) und Anhörung im Bankenausschuss des Senats am 3.12., 16:00 MEZ: Wortlaut nachziehen. Ergebnis der Ausschuss-Untersuchung, SEC-Prüfung, 10-Q."
 },
 {
 "id": "karniol",
@@ -1214,5 +1254,25 @@
 ],
 "th": [],
 "open": "Rollenwechsel: Kanadas Premier Carney ernannte sie laut WSJ über MarketWatch am 9.11. zur Chefin des neuen kanadischen Staatsfonds; Antrittstermin und Abschied bei Bridgewater sind nicht belegt, die Rolle im Roster bleibt bis dahin stehen. Datierte Aussage fehlt."
+},
+{
+"id": "amodei",
+"sum": "Mitgründer und Chef von Anthropic, das seit dem 19.11.2026 an der Nasdaq notiert.",
+"fokus": "KI-Labore, Finanzierung von Rechenleistung",
+"kan": [
+"SEC-Meldungen (Form 4, 8-K)",
+"CNBC und Konferenzen"
+],
+"th": [
+{
+"d": "2026-11-20",
+"t": "Verkauft im Rahmen des Börsengangs 3,38 Mio. Aktien zu 83 $ an die Konsortialbanken (Form 4 vom 23.11.)."
+},
+{
+"d": "2026-11-19",
+"t": "Strebt ein Investment-Grade-Rating an und will später auch Schulden als Finanzierung nutzen (CNBC)."
+}
+],
+"open": "Erste Quartalszahlen als börsennotiertes Unternehmen; Kreditrating; Haltefristen ab 15.12.; weitere Form-4-Meldungen."
 }
 ]

@@ -1757,5 +1757,71 @@
 "src": "sec_mstr2311",
 "per": "8-K-Meldungen Nov. 2026",
 "d": "2026-11-22"
+},
+{
+"p": "amodei",
+"tk": "ANT",
+"nm": "Anthropic",
+"ac": "minus",
+"det": "20.11.: 3.378.378 Stück zu 83 $ an die Konsortialbanken des Börsengangs (rund 280,4 Mio. $); danach 202,8 Mio. Aktien direkt und 35,9 Mio. über Trusts",
+"sec": "ailab",
+"per": "Form 4 vom 23.11.2026",
+"d": "2026-11-20",
+"src": "sec_amodei_f4"
+},
+{
+"p": "wood",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "16.11.: 378.515 Stück (rund 52,0 Mio. $), ARKK und ARKW",
+"sec": "space",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-16",
+"src": "cb_ark1611"
+},
+{
+"p": "wood",
+"tk": "CRSP·RXRX·BEAM·WGS",
+"nm": "Biotech: CRISPR Therapeutics, Recursion, Beam, GeneDx",
+"ac": "plus",
+"det": "23.11.: zusammen rund 14,1 Mio. $ im ARKK (4,5 · 4,2 · 2,9 · 2,5 Mio. $); Stückzahlen fehlen",
+"sec": "health",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-23",
+"src": "ca_ark2311"
+},
+{
+"p": "burry",
+"tk": "JD",
+"nm": "JD.com",
+"ac": "plus",
+"det": "nach dem Kursrutsch in Hongkong erneut aufgestockt; innerer Wert laut Burry rund 45 $, Kurs-Umsatz-Verhältnis mit 0,17 auf Allzeittief",
+"sec": "cons",
+"per": "Substack 24.11.2026",
+"d": "2026-11-24",
+"src": "stw_burry2411"
+},
+{
+"p": "burry",
+"tk": "TCEHY",
+"nm": "Tencent",
+"ac": "plus",
+"det": "nach dem Kursrutsch in Hongkong erneut aufgestockt; nennt Tencent das beste Geschäft Chinas, senkt aber seine Wertschätzung wegen hoher KI-Investitionen",
+"sec": "mega",
+"per": "Substack 24.11.2026",
+"d": "2026-11-24",
+"src": "stw_burry2411"
+},
+{
+"p": "burry",
+"tk": "BYD",
+"nm": "BYD",
+"ac": "plus",
+"det": "erneut aufgestockt bei rund 60 HK-$; Kaufmarke auf rund 58 HK-$ gesenkt",
+"sec": "cons",
+"per": "Substack 24.11.2026",
+"d": "2026-11-24",
+"src": "stw_burry2411"
 }
 ]

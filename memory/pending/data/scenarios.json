@@ -3,24 +3,24 @@
 "id": "fed-dez",
 "t": "Fed-Entscheid am 9. Dezember",
 "type": "Marktpreis",
-"basis": "CME FedWatch (Fed-Funds-Futures), Stand 23.11., wiedergegeben von Gate (09:16 UTC)",
-"asOf": "2026-11-23",
+"basis": "CME FedWatch (Fed-Funds-Futures), Stand 24.11., wiedergegeben von Reuters (14:11 Uhr New York)",
+"asOf": "2026-11-24",
 "items": [
 {
 "l": "Erhöhung um 25 Basispunkte",
-"p": 95
+"p": 98
 },
 {
 "l": "Erhöhung um 50 Basispunkte",
-"p": 0
+"p": 2
 },
 {
 "l": "Pause oder Senkung",
-"p": 5
+"p": 0
 }
 ],
-"note": "Weitere Auswertungen vom 23.11.: CNBC am Morgen rund 96 % für +25 bp (am 20.11. rund 92 %); TreasuryBonds.com 89,7 % zu 10,3 % Pause; ChainCatcher (00:38 UTC) 93,2 % zu 6,8 %. Ein Schritt um 50 bp ist nach CME-Lesart nicht mehr eingepreist. Für Januar sind zusammen 50 bp zu rund 58 % eingepreist.",
-"src": "gate_fed2311",
+"note": "Reuters: Ein Schritt um mindestens 25 bp ist vollständig eingepreist, für 50 bp sind es 2 %. Am Abend des 24.11. nennt Stocktwits unter Berufung auf CME FedWatch 96,4 % zu 3,6 % (21:09 Uhr New York); Frenzy Capital rechnet aus den Futures 99 % zu 1 % (16:08 Uhr New York, eigene Methode). Am 23.11. lag die Verteilung laut Gate bei 95 % für 25 bp und 5 % für eine Pause.",
+"src": "rt_gold2411",
 "st": "fed",
 "aff": [
 "UST10",
@@ -137,10 +137,10 @@
 "t": "S&P 500 erreicht bis Ende 2027 das Durchschnittsziel von 8.638",
 "type": "Schätzung",
 "basis": "Umfrage unter acht Strategen",
-"asOf": "2026-11-23",
+"asOf": "2026-11-24",
 "items": [
 {
-"l": "Nötiger Anstieg vom Schluss 7.237,17 (23.11.): rund 19 %"
+"l": "Nötiger Anstieg vom Schluss 7.201,09 (24.11.): rund 20 %"
 },
 {
 "l": "Spanne der Ziele: 8.000 bis 9.000"
