@@ -33,7 +33,8 @@
 "a": "NDX",
 "dir": "short",
 "t": "Bullenfalle; Puts auf den Nasdaq 100",
-"stm": "n04"
+"stm": "n04",
+"note": "Am 20.11. halbierte Burry die Put-Position, am 24.11. verkaufte er den Rest (Substack vom 25.11.)."
 },
 {
 "id": "c05",
@@ -449,5 +450,30 @@
 "t": "Zeit, zurückgehaltenes Geld anzulegen; Markt überverkauft",
 "note": "Bezug ist der Schluss vom 24.11.; die Aussage fiel am Vormittag bei tieferen Kursen.",
 "stm": "r10-11"
+},
+{
+"id": "c44",
+"p": "lakos",
+"d": "2026-11-24",
+"a": "SPX",
+"dir": "ziel",
+"tgt": 8200,
+"by": "2027-12-31",
+"ref": 7201.09,
+"t": "S&P 500 bei 8.200 Ende 2027",
+"stm": "r11-01"
+},
+{
+"id": "c45",
+"p": "subramanian",
+"d": "2026-11-25",
+"a": "SPX",
+"dir": "ziel",
+"tgt": 7800,
+"by": "2027-12-31",
+"ref": 7201.09,
+"t": "S&P 500 bei 7.800 Ende 2027 (Spanne 6.600 bis 8.500)",
+"note": "Bezug ist der Schluss vom 24.11.",
+"stm": "r11-02"
 }
 ]

@@ -58,21 +58,27 @@
 "n": 10,
 "d": "2026-11-25",
 "t": "Großer Lauf (Kurz): Markt, Stories und Kalender im Hauptlauf, 16 Leitfiguren einzeln in zwei Forks gesucht. 16 neue Aussagen (Huang, Ives, Burry, Cramer, Yardeni, El-Erian, Lee, Wood, Saylor; dazu Canaccord, Needham, Dell und Ifo), 6 Positionen (ARK, Burry, Verkauf von Dario Amodei laut Form 4), 2 Calls. Stories und Fed-Szenario auf dem Stand vom 24.11.; Huangs Termine im Kongress (1. und 3.12.) und bestätigte Zahlentermine im Kalender. Im Bestand die Quelle zweier Druckenmiller-Einträge ersetzt und einen Ives-Eintrag auf den 22.11. umdatiert. Kurse aus dem Zweig kurse: Schluss vom 24.11., Bitcoin 23.11."
+},
+{
+"n": 11,
+"d": "2026-11-26",
+"t": "Großer Lauf (Kurz): Markt, Stories und Kalender im Hauptlauf (15 Suchen, 4 Abrufe), alle 30 Leitfiguren einzeln in drei Forks (31 Suchen, 9 Abrufe). 23 neue Aussagen, darunter S&P-Ziele von J.P. Morgan (8.200) und Bank of America (7.800), Burrys Ausstieg aus den Nasdaq-Puts, ARKs Anthropic-Käufe und El-Erians vorsichtige Rückkäufe; 15 Positionen, 2 Calls. Nachgezogen: PCE, BIP, Beige Book, die US-Zölle gegen 14 Handelspartner, Dells Kursreaktion und HP Inc. Im Bestand das Marks-Memo vom 11.11. zu einem Eintrag zusammengeführt, bei Druckenmiller die BigGo-Quelle ersetzt und Palantir als neue Position korrigiert. Kurse aus dem Zweig kurse: Schluss vom 25.11., Bitcoin 24.11.; ein offener Tagesbalken vom 26.11. bei Gold, Brent, Kupfer und Dollar-Index wurde entfernt."
 }
 ],
 "offen": [
-"Kurse: Der Abruf bei Yahoo ist in der Sitzung der geplanten Aufgabe weiter gesperrt; die Kurse kommen aus dem Zweig kurse (Stand 25.11., 05:30 UTC: Schluss 24.11.). Die Bitcoin-Reihe endet zum zweiten Mal einen Tag früher (23.11.).",
-"Mittwoch, 25.11.: PCE-Preisindex und zweite BIP-Schätzung (14:30 MEZ), Beige Book (20:00 MEZ), deutsche BIP-Details; Ergebnis und Marktreaktion nachziehen. Dells Kursreaktion auf die Zahlen vom 24.11.",
-"Neue US-Zölle: Das Ergebnis der Untersuchung zu Überkapazitäten bei 16 Handelspartnern wird laut Reuters am 24. oder 25.11. erwartet; Sätze und Ausnahmen sind offen.",
-"ARK-Handel vom 24.11. und Stückzahlen vom 23.11. lagen am Morgen noch nicht vor.",
-"Nvidia: Befragung Huangs im Repräsentantenhaus am 1.12. (nicht öffentlich), Anhörung im Bankenausschuss des Senats am 3.12.; Quartalsbericht (10-Q), Ausschuss-Untersuchung und SEC-Prüfung stehen aus.",
-"Anthropic notiert unter dem Ausgabepreis: Kreditrating, Haltefristen (15.12., 5.1.) und weitere Form-4-Meldungen beobachten; die Aufnahme in MSCI-Indizes nach dem 30.11. ist nur über Finbold belegt.",
+"Kurse: Der Abruf bei Yahoo ist in der Sitzung der geplanten Aufgabe weiter gesperrt; die Kurse kommen aus dem Zweig kurse (Stand 26.11., 05:31 UTC: Schluss 25.11.). Die Bitcoin-Reihe endet erneut einen Tag früher (24.11.). Am Feiertag enthielt der Abruf für Gold, Brent, Kupfer und den Dollar-Index einen laufenden Tagesbalken vom 26.11.; der Lauf hat ihn entfernt. Bei Gold und Brent wechselt der Kontraktmonat, die Reihen können springen. Die SanDisk-Reihe hat eine Lücke vom 20. bis 24.11.",
+"Donnerstag, 26.11.: US-Börsen geschlossen. Freitag, 27.11.: verkürzter Handel, Verfall der Bitcoin-Optionen, Lees Call c24 läuft ab (Bezug 7.175,83). Sonntag, 29.11.: OPEC+.",
+"US-Zölle nach Section 301: Reaktionen aus China und der EU, Ausnahmelisten und die strittige Obergrenze für die EU (Berichte nennen 20 und 25 %); Mexiko und Norwegen sind noch ohne Befund.",
+"Nvidia: Befragung Huangs im Repräsentantenhaus am 1.12. (nicht öffentlich), Anhörung im Bankenausschuss des Senats am 3.12., Frist für den Quartalsbericht (10-Q) am 4.12.; Ausschuss-Untersuchung und SEC-Prüfung stehen aus.",
+"Anthropic: Aufnahme in die MSCI-Indizes zum 30.11.; Kreditrating (Invezz nennt Zusagen für Rechenleistung von rund 900 Mrd. $ und das Risiko einer Einstufung unterhalb von Investment Grade, der zugrunde liegende FT-Bericht war nicht abrufbar); Haltefristen am 15.12. und 5.1.",
+"ARK: Stückzahlen vom 25.11. für Netflix, Roblox, Robinhood und Bullish unvollständig; ob Nvidia am 25.11. gehandelt wurde, ist ungeprüft.",
+"Bank of America: Der Jahresausblick von Subramanian (7.800) und die Warnung von Hartnett (6.666 im Rezessionsfall) sind nur über CNBC, Traders Union, TipRanks und MarketWatch belegt; Tag und Titel der Studien fehlen.",
+"Schwach belegt und nicht aufgenommen: Gundlach im Gespräch mit Neil Howe (nur DruckFin), Cramer am 25.11. zu OpenAI (Crypto Briefing ohne Ursprung), Chamaths X-Beitrag »CDS don’t lie« (Bezug nur laut Benzinga), Cuban bei »The Prof G Pod« (undatiert), Musks Fusionspläne für Tesla und SpaceX (nur Schlagzeile).",
 "Karniol-Tambour: laut WSJ am 9.11. zur Chefin des kanadischen Staatsfonds ernannt; Antrittstermin fehlt, Rolle im Roster noch unverändert.",
 "Einträge aus dem Chat-Sweep (c8): mehrere Aussagen am selben Tag je Kopf (Munster, Arya, Jassy) bei Gelegenheit auf Doppel prüfen; ebenso Williams am 17.11., Arcuri am 18.11., Rosenberg am 20.11., Bessent am 13.11. und 20.11.",
-"Schwach belegt und nicht aufgenommen: Dalio im Podcast »Sourcery« (23.11., nur Beschreibung der Folge), Musk zu Starlink in Tesla-Modellen (Produktplan), O’Leary am 21.11., Gerstners Auftritt beim TomorrowX Summit (17.11.).",
-"Leitfiguren ohne eigene Aussage: Cohen (nur 13F). Seit dem 20.11. ohne neue Äußerung: Druckenmiller, Dalio, Fink, Dimon, Warsh, Marks, Hartnett (nächste Flow Show laut Berichten am 3.12.); in diesem Lauf nicht gesucht: Tepper, Griffin, Tudor Jones, Einhorn, Chanos, Abel, Fink, Gundlach, Hartnett, O’Leary, Cuban, Stephan.",
+"Leitfiguren ohne neue Äußerung in diesem Lauf: Tepper, Griffin, Cohen (weiter nur 13F), Tudor Jones, Einhorn, Marks, Abel, Fink, Druckenmiller, Ackman, Wilson, Cuban, Warsh (Schweigephase ab 28.11.), Dimon, Musk.",
 "Belegte Wirkung (fx) nachtragen.",
-"Gold: Spot-Reihe fehlt in der Kursquelle; der Hinweis bei der CFD-Referenz XAUUSD nennt noch rund 3.540 $ (letzter belegter Spot: rund 3.553 $ am 24.11., 16:50 Uhr New York).",
+"Gold: Spot-Reihe fehlt in der Kursquelle; der Hinweis bei der CFD-Referenz XAUUSD nennt noch rund 3.540 $ (letzter belegter Spot: rund 3.576 $ am 25.11., später US-Handel).",
 "Rollen von rund 100 Personen noch nicht durch aktuelle Quellen bestätigt; für die 66 Köpfe aus dem Chat-Sweep fehlen Einträge in der Wissensbank."
 ]
 }

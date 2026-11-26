@@ -3,24 +3,24 @@
 "id": "fed-dez",
 "t": "Fed-Entscheid am 9. Dezember",
 "type": "Marktpreis",
-"basis": "CME FedWatch (Fed-Funds-Futures), Stand 24.11., wiedergegeben von Reuters (14:11 Uhr New York)",
-"asOf": "2026-11-24",
+"basis": "CME FedWatch (Fed-Funds-Futures), Stand 25.11. nach den PCE-Daten, wiedergegeben von PANews und Gate News (14:01 UTC, 09:01 Uhr New York)",
+"asOf": "2026-11-25",
 "items": [
 {
 "l": "Erhöhung um 25 Basispunkte",
-"p": 98
+"p": 97.8
 },
 {
 "l": "Erhöhung um 50 Basispunkte",
-"p": 2
+"p": 0
 },
 {
 "l": "Pause oder Senkung",
-"p": 0
+"p": 2.2
 }
 ],
-"note": "Reuters: Ein Schritt um mindestens 25 bp ist vollständig eingepreist, für 50 bp sind es 2 %. Am Abend des 24.11. nennt Stocktwits unter Berufung auf CME FedWatch 96,4 % zu 3,6 % (21:09 Uhr New York); Frenzy Capital rechnet aus den Futures 99 % zu 1 % (16:08 Uhr New York, eigene Methode). Am 23.11. lag die Verteilung laut Gate bei 95 % für 25 bp und 5 % für eine Pause.",
-"src": "rt_gold2411",
+"note": "Vor den Daten zeigte FedWatch 99,8 % (Gate News, 13:29 UTC), am Morgen 97,6 % (EC Markets). Am 24.11. hatte Reuters 98 % für 25 und 2 % für 50 Basispunkte genannt; der Rest liegt nun bei einer Pause, nicht mehr bei einem größeren Schritt. Für die Sitzung am 27.1.: 40,7 % für insgesamt einen Schritt, 58,4 % für zwei. Laut CNBC sind für 2027 zwei weitere Erhöhungen eingepreist, eine dritte zu rund einem Drittel (am Vortag 50 %).",
+"src": "gate_fed2511",
 "st": "fed",
 "aff": [
 "UST10",
@@ -134,20 +134,23 @@
 },
 {
 "id": "spx-ziel",
-"t": "S&P 500 erreicht bis Ende 2027 das Durchschnittsziel von 8.638",
+"t": "S&P 500 erreicht bis Ende 2027 den Median der Reuters-Umfrage von 8.150",
 "type": "Schätzung",
-"basis": "Umfrage unter acht Strategen",
-"asOf": "2026-11-24",
+"basis": "Reuters-Umfrage unter 42 Strategen, Analysten und Portfoliomanagern, 16. bis 24.11.",
+"asOf": "2026-11-25",
 "items": [
 {
-"l": "Nötiger Anstieg vom Schluss 7.201,09 (24.11.): rund 20 %"
+"l": "Nötiger Anstieg vom Schluss 7.182,78 (25.11.): rund 13,5 %"
 },
 {
-"l": "Spanne der Ziele: 8.000 bis 9.000"
+"l": "Spanne der Bankziele: 7.800 (Bank of America) bis 9.000 (Deutsche Bank)"
+},
+{
+"l": "Bloomberg-Konsens: 8.471"
 }
 ],
-"note": "Für dieses Szenario liegt keine Wahrscheinlichkeit vor. Außerhalb der Umfrage: Federated Hermes mit 10.000 Punkten (18.11.), Deutsche Bank mit 9.000 (23.11.), RBC mit 8.050 in zwölf Monaten (23.11.).",
-"src": "inv_tg",
+"note": "Für dieses Szenario liegt keine Wahrscheinlichkeit vor. Die frühere Umfrage unter acht Strategen ergab im Schnitt 8.638. Außerhalb der Spanne: Federated Hermes mit 10.000 Punkten (18.11.); Hartnett (Bank of America) nennt 6.666 Punkte für den Rezessionsfall.",
+"src": "rt_poll2411",
 "st": "spx27",
 "aff": [
 "SPX"

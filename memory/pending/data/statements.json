@@ -312,19 +312,24 @@
 "p": "marks",
 "k": "Memo",
 "s": "neut",
-"a": [],
+"a": [
+"ANT"
+],
 "th": [
 "KI-Blase",
-"Bewertung"
+"Bewertung",
+"KI-Labore"
 ],
 "st": [
-"capex"
+"capex",
+"ant"
 ],
-"t": "Memo mit 100 Fragen an die KI-These: Die Technologie sei real und schaffe Wert. Offen sei, ob die Effizienzgewinne als dauerhafte Überrenditen bei den heutigen Marktführern landen oder bei Kunden und Gesellschaft.",
-"src": "marks",
+"t": "Im Memo »A Layman Thinks About AI« hält Marks die Technologie für real und wertschaffend; offen sei, ob die Effizienzgewinne als dauerhafte Überrenditen bei den heutigen Marktführern landen oder bei Kunden und Gesellschaft. Den Vorsprung von OpenAI und Anthropic sieht er nicht als gesichert: Tempo der Entwicklung, Wettbewerb der Tech-Konzerne und Kapitalbedarf könnten ihn schnell aufzehren, die Aussichten der Frontier-Labore seien praktisch nicht vorhersehbar.",
+"src": "oak_memo1111",
 "sw": 1,
 "ar": [
-"aiinfra"
+"aiinfra",
+"ailab"
 ]
 },
 {
@@ -3103,30 +3108,6 @@
 "ar": [
 "semis",
 "aiinfra"
-]
-},
-{
-"id": "w4-marks-0",
-"d": "2026-11-11",
-"p": "marks",
-"k": "Brief",
-"s": "warn",
-"a": [
-"ANT"
-],
-"th": [
-"KI-Labore",
-"Konzentration"
-],
-"st": [
-"ant",
-"capex"
-],
-"t": "Marks sieht die Spitzenstellung von OpenAI und Anthropic als gefährdet an: Das rasante Tempo der KI-Entwicklung, der Wettbewerb der Tech-Konzerne und der enorme Kapitalbedarf könnten jeden aktuellen Vorsprung schnell aufzehren. Erster zu sein garantiere nicht, vorn zu bleiben. Wiedergabe nach Crypto Briefing.",
-"src": "w4_marks0",
-"sw": 4,
-"ar": [
-"ailab"
 ]
 },
 {
@@ -9816,7 +9797,6 @@
 {
 "id": "r10-14",
 "d": "2026-11-24",
-"da": 1,
 "p": "yardeni",
 "k": "Interview",
 "s": "warn",
@@ -9833,7 +9813,7 @@
 "zins",
 "us"
 ],
-"t": "Bei CNBC nennt Yardeni die Kurswende nach Huangs Rückkehr womöglich eine Eintagsfliege und erwartet 2027 noch stärkere Ausschläge, vor allem durch die Politik. Eine Erhöhung um 25 Basispunkte im Dezember hält er für sicher, die Fed sollte aus seiner Sicht aber um 50 Basispunkte anheben: Die Inflation liege beharrlich bei 3 %, und der Schritt wäre schon im Oktober fällig gewesen. Wiedergabe nach Stocktwits; der Sendetag ist nicht ausdrücklich genannt.",
+"t": "Bei CNBC nennt Yardeni die Kurswende nach Huangs Rückkehr womöglich eine Eintagsfliege und erwartet 2027 noch stärkere Ausschläge, vor allem durch die Politik. Eine Erhöhung um 25 Basispunkte im Dezember hält er für sicher, die Fed sollte aus seiner Sicht aber um 50 Basispunkte anheben: Die Inflation liege beharrlich bei 3 %, und der Schritt wäre schon im Oktober fällig gewesen. Wiedergabe nach Stocktwits; 24/7 Wall St. nennt als Sendezeit den Dienstagmorgen.",
 "src": "stw_fed2411",
 "sw": 10
 },
@@ -9883,5 +9863,591 @@
 "t": "Nach dem Rücksetzer vom Dienstag schreibt El-Erian, der Markt erinnere daran, dass die Warnsignale der Vorwoche, vor allem die markttechnischen, weit über Nvidia hinausreichten; entscheidend sei nun, ob aus schlechter Markttechnik schlechte Fundamentaldaten werden. Zugleich verweist er darauf, dass Anthropic unter dem Ausgabepreis notiert: Die Aktie folge dem Verlauf von SpaceX nach dem Börsengang, nur im Zeitraffer.",
 "src": "x_elerian2411",
 "sw": 10
+},
+{
+"id": "r11-01",
+"d": "2026-11-24",
+"p": "lakos",
+"k": "Research",
+"s": "bull",
+"a": [
+"SPX"
+],
+"th": [
+"S&P-Ziel 2027",
+"KI-Capex",
+"Fed & Zinsen"
+],
+"st": [
+"spx27",
+"capex"
+],
+"ar": [
+"us"
+],
+"lv": "8.200 Ende 2027",
+"t": "Das Strategieteam um Lakos-Bujas nennt für Ende 2027 ein S&P-500-Ziel von 8.200 Punkten, rund 14 % über dem Schluss vom 24.11. und unter dem von Bloomberg erhobenen Konsens von 8.471. Der KI-Superzyklus sei intakt, die Nachfrage nach Rechenleistung stark und beständig; der Abbau von Hebel im KI-Bereich verlängere den Zyklus eher. Als Gegenwind nennt das Team eine straffere Fed und langsameres Gewinnwachstum. Bericht von Bloomberg, Zitate nach TechEchelon.",
+"src": "bb_jpm2411",
+"sw": 11
+},
+{
+"id": "r11-02",
+"d": "2026-11-25",
+"da": 1,
+"p": "subramanian",
+"k": "Research",
+"s": "neut",
+"a": [
+"SPX"
+],
+"th": [
+"S&P-Ziel 2027",
+"Aktienangebot",
+"KI-Capex"
+],
+"st": [
+"spx27"
+],
+"ar": [
+"us"
+],
+"lv": "7.800 Ende 2027 (Spanne 6.600 bis 8.500)",
+"t": "Im Ausblick auf 2027 nennt Subramanian für das Jahresende ein S&P-500-Ziel von 7.800 Punkten, gut 8 % über dem Schluss vom 24.11. und damit nur zurück auf dem Rekordniveau vom Oktober; J.P. Morgan nennt 8.200, Goldman Sachs und Morgan Stanley 8.700. Sie verweist auf mehr Aktienangebot durch Emissionen und Börsengänge, nachlassende Rückkäufe und Zweifel an der Tragfähigkeit der KI-Investitionen; ihr Bullenszenario liegt bei 8.500, ihr Bärenszenario bei 6.600 Punkten. Bericht von CNBC, Einzelheiten nach Traders Union; der Tag der Studie ist nicht genannt.",
+"src": "cnbc_bofa2511",
+"sw": 11
+},
+{
+"id": "r11-03",
+"d": "2026-11-24",
+"da": 1,
+"p": "hartnett",
+"k": "Research",
+"s": "warn",
+"a": [
+"SPX"
+],
+"th": [
+"Makro",
+"Positionierung",
+"Fed & Zinsen"
+],
+"st": [
+"spx27",
+"fed"
+],
+"ar": [
+"us"
+],
+"lv": "S&P 500 bei 6.666 im Rezessionsfall",
+"t": "Hartnett warnt laut TipRanks, Anleger unterschätzten das Risiko einer Rezession 2027; in dem Fall könne der S&P 500 auf 6.666 Punkte fallen, obwohl nur 3 % der Fondsmanager einen schweren Abschwung erwarten. Er rät zu einer defensiven Aufstellung, die er »GRAB« nennt, bis die Zinsen im Frühjahr ihren Gipfel erreichen; danach sprächen laut MarketWatch moderates Gewinnwachstum und lockerere Finanzbedingungen im zweiten Halbjahr für Zykliker und mehr Risiko. Sekundärquellen; Titel und Tag der Studie sind nicht belegt.",
+"src": "tr_hartnett2411",
+"sw": 11
+},
+{
+"id": "r11-04",
+"d": "2026-11-24",
+"who": "Todd Blanche",
+"org": "US-Justizministerium, Attorney General",
+"k": "Kommentar",
+"s": "neut",
+"a": [
+"NVDA"
+],
+"th": [
+"Regulierung",
+"Governance"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "Auf einer Pressekonferenz nennt Justizminister Blanche Nvidia einen guten Unternehmensbürger und weicht der Frage aus, ob gegen Huang ermittelt wurde. Dass Huang kein Sicherheitsrisiko sei, beschreibt er als gemeinsamen Befund der Regierung. Zwölf Tage zuvor hatte er eine Untersuchung zu Exportkontrollen bei Nvidia-Chips noch als laufend bezeichnet; darauf angesprochen sagt er, er wisse nicht, wovon die Rede sei (ABC News).",
+"src": "abc_blanche2411",
+"sw": 11
+},
+{
+"id": "r11-05",
+"d": "2026-11-24",
+"who": "Oppenheimer",
+"org": "Oppenheimer",
+"k": "Research",
+"s": "bull",
+"a": [
+"ANT"
+],
+"th": [
+"KI-Labore",
+"Börsengang",
+"Bewertung"
+],
+"st": [
+"ant"
+],
+"ar": [
+"ailab"
+],
+"lv": "Kursziel 150 $, Outperform",
+"t": "Oppenheimer nimmt Anthropic am Tag des ersten Schlusses unter dem Ausgabepreis mit Outperform und einem Kursziel von 150 Dollar auf. Wettbewerb und die Zusagen für Rechenleistung blieben Risiken; das Haus traut Anthropic aber zu, die führende Stellung in dauerhaftes Wachstum und Skaleneffekte umzusetzen. Wiedergabe der Notiz nach Invezz.",
+"src": "inv_ant2511",
+"sw": 11
+},
+{
+"id": "r11-06",
+"d": "2026-11-25",
+"who": "Bradley Saunders",
+"org": "Capital Economics",
+"k": "Kommentar",
+"s": "warn",
+"a": [],
+"th": [
+"Fed & Zinsen",
+"Makro"
+],
+"st": [
+"fed"
+],
+"ar": [
+"zins"
+],
+"t": "Nach den PCE-Daten hält der Ökonom von Capital Economics eine Zinserhöhung im Dezember für sicher. 25 Basispunkte seien am wahrscheinlichsten; wegen der starken Daten könne aber schon im Januar ein weiterer Schritt nötig werden (Yahoo Finance).",
+"src": "yf_pce2511",
+"sw": 11
+},
+{
+"id": "r11-07",
+"d": "2026-11-25",
+"who": "Andreas Lipkow",
+"org": "CMC Markets",
+"k": "Kommentar",
+"s": "warn",
+"a": [
+"DAX"
+],
+"th": [
+"Europa",
+"Makro"
+],
+"st": [
+"eu"
+],
+"ar": [
+"eu"
+],
+"t": "Zum Rückfall des DAX unter 25.000 Punkte sagt der Chef-Marktanalyst von CMC Markets, dem Index falle es zunehmend schwer, sich gegen den Verkaufsdruck an den großen Börsen zu stemmen; den Anlegern gingen die Kaufargumente für deutsche Aktien aus. Neue US-Zölle kämen bei hohen Energiepreisen und wieder steigender Inflation zur Unzeit und könnten die Exporteure empfindlich treffen. Wiedergabe nach dts.",
+"src": "dts_dax2511",
+"sw": 11
+},
+{
+"id": "r11-08",
+"d": "2026-11-25",
+"who": "Ipek Ozkardeskaya",
+"org": "Swissquote Bank",
+"k": "Kommentar",
+"s": "warn",
+"a": [],
+"th": [
+"KI-Capex",
+"Stimmung"
+],
+"st": [
+"capex"
+],
+"ar": [
+"aiinfra"
+],
+"t": "Die Analystin von Swissquote erklärt, warum Dell trotz angehobener Prognose vorbörslich 7 % verlor: Anleger schauten auf die hohen und weiter steigenden Kosten des KI-Ausbaus, gute Zahlen und starke Ausblicke hellten die Stimmung deshalb nicht mehr auf. Reuters, wiedergegeben von Kitco.",
+"src": "rt_ai2511",
+"sw": 11
+},
+{
+"id": "r11-09",
+"d": "2026-11-24",
+"p": "lee",
+"k": "Post",
+"s": "bull",
+"a": [
+"SPX",
+"VIX"
+],
+"th": [
+"Stimmung",
+"Bewertung",
+"Fed & Zinsen"
+],
+"st": [
+"spx27"
+],
+"ar": [
+"us"
+],
+"t": "Lee widerspricht auf X und im Video »Macro Minute« dem Vergleich mit 2018: Straffende Fed, Zwischenwahljahr und ein Rückgang um 10 % passten, damals habe aber ein positiver Treiber gefehlt. Heute treffe ein Angebotsschock aus Politikrisiken, vorsichtigen Kreditmärkten und Fed-Sorgen auf starke KI-Nachfrage; er sieht bis Jahresende weniger Abwärtsrisiko und nennt den S&P 500 nach dem Ausverkauf recht günstig. Das Tief von 2018 fiel mit dem Hoch des VIX zusammen, nicht mit der Wende der Fed. Wiedergabe nach Stocktwits und Benzinga.",
+"src": "stw_lee2511",
+"sw": 11
+},
+{
+"id": "r11-10",
+"d": "2026-11-24",
+"p": "yardeni",
+"k": "Research",
+"s": "neut",
+"a": [
+"NVDA"
+],
+"th": [
+"KI-Capex",
+"Regulierung",
+"Governance"
+],
+"st": [
+"nvda",
+"capex"
+],
+"ar": [
+"semis",
+"aiinfra"
+],
+"t": "In den QuickTakes vom 24.11. schreiben Yardeni und Griepentrog, Huangs Rückkehr mildere die finanziellen Engpässe des KI-Ausbaus, weil Nvidia das Ökosystem mit Kapital, Garantien und Vertrauen stütze. Dafür könnten die politischen Hürden wachsen: China-Falken dürften schärfere Exportkontrollen anstreben, der Kongress die Finanzierungspraktiken genauer prüfen. Finanzielle, politische und physische Grenzen sieht er als Bremsschwellen, die den Ausbau verlangsamen, aber nicht stoppen. Wiedergabe nach Stocktwits.",
+"src": "stw_yardeni2511",
+"sw": 11
+},
+{
+"id": "r11-11",
+"d": "2026-11-25",
+"p": "yardeni",
+"k": "Research",
+"s": "bull",
+"a": [],
+"th": [
+"Bewertung",
+"Stimmung",
+"Fed & Zinsen",
+"Makro"
+],
+"st": [
+"spx27",
+"fed"
+],
+"ar": [
+"us",
+"zins"
+],
+"lv": "Bull/Bear-Verhältnis (Investors Intelligence) 1,13 nach 3,88 Mitte August",
+"t": "In den QuickTakes vor Thanksgiving nennt Yardeni die Sorge vor einer KI-bedingten Rezession nachvollziehbar, erwartet aber wie 2018 und 2020 keine: Die Korrektur werde kein Bärenmarkt, sondern die Kaufgelegenheit nach den Zwischenwahlen. Das Bull/Bear-Verhältnis von Investors Intelligence fiel von 3,88 auf 1,13, für ihn ein positives Gegensignal. Die Inflation bleibe über 3 % (PCE im Oktober 3,8 %, Kernrate 3,3 %); 50 Basispunkte im Dezember hält er weiter für richtig, räumt aber ein, dass das kaum noch realistisch ist.",
+"src": "yqt_2511",
+"sw": 11
+},
+{
+"id": "r11-12",
+"d": "2026-11-25",
+"p": "elerian",
+"k": "Interview",
+"s": "neut",
+"a": [],
+"th": [
+"Positionierung",
+"Spekulation & Hebel",
+"Fed & Zinsen"
+],
+"st": [
+"nvda",
+"fed"
+],
+"ar": [
+"us",
+"semis",
+"zins"
+],
+"chg": {
+"w": "Technologieaktien im eigenen Depot",
+"f": "vor dem Rücksetzer vollständig abgebaut",
+"t": "kauft in kleinen Schritten zurück",
+"dir": 1
+},
+"t": "Bei CNBC sagt El-Erian, er habe Technologiewerte vor dem Rücksetzer vollständig abgebaut und kaufe jetzt sehr langsam zurück: Langfristig sei das eine Gelegenheit, wegen der schlechten Markttechnik rechne er aber mit Nachschussforderungen auf breiter Front. Den Sprung von Nvidia um 31 % am Montag nennt er übertrieben, die Untersuchungen und die Kreisfinanzierungen blieben offen. Für den 9.12. erwartet er eine Erhöhung um 25 Basispunkte mit vorsichtigem Ausblick, eine »dovish hike«. Wiedergabe nach Stocktwits.",
+"src": "stw_elerian2511",
+"sw": 11
+},
+{
+"id": "r11-13",
+"d": "2026-11-25",
+"p": "ives",
+"k": "Interview",
+"s": "bull",
+"a": [
+"NVDA"
+],
+"th": [
+"Halbleiter",
+"KI-Capex",
+"Stimmung"
+],
+"st": [
+"nvda",
+"capex"
+],
+"ar": [
+"semis",
+"aiinfra"
+],
+"t": "Bei Yahoo Finance nennt Ives den erneuten Rückgang von Nvidia eine Wachstumsangst und kein Nachfrageproblem: Auch wenn 10 bis 20 % der geplanten Rechenzentren nicht gebaut würden, übersteige die Nachfrage das Angebot um das Acht- bis Zehnfache, und weniger als 5 % der Unternehmen hätten den Weg zur KI begonnen. Bis in die kommende Woche erwartet er weitere Schwankungen, weil die China-Falken Druck machten. Bei Bloomberg spricht er laut Stocktwits von einem »gut check moment« und rät, die Gewinner unter den Tech-Werten zu kaufen.",
+"src": "yf_ives2511",
+"sw": 11
+},
+{
+"id": "r11-14",
+"d": "2026-11-24",
+"p": "saylor",
+"k": "Post",
+"s": "bull",
+"a": [
+"BTC"
+],
+"th": [
+"Krypto",
+"Regulierung"
+],
+"st": [
+"btc"
+],
+"ar": [
+"krypto"
+],
+"t": "Saylor schreibt auf X, Bitcoin sei digitales Kapital: Die Mitarbeiter der Aufsicht CFTC erkennten nun an, dass US-Terminbörsen und Clearinghäuser Bitcoin mit Abschlägen auf ihre Betriebsreserven anrechnen können. Die nächste Phase der Verbreitung sei, Bitcoin arbeiten zu lassen. Laut DigitalToday sieht die Leitlinie vom 23.11. einen Abschlag von mindestens 20 % vor und ersetzt nicht die Pflicht zu barmittelnahen Reserven.",
+"src": "dt_saylor2511",
+"sw": 11
+},
+{
+"id": "r11-15",
+"d": "2026-11-24",
+"p": "cramer",
+"k": "Interview",
+"s": "bull",
+"a": [
+"NVDA",
+"MU"
+],
+"th": [
+"Stimmung",
+"Halbleiter",
+"Rotation",
+"KI-Kredit"
+],
+"st": [
+"nvda",
+"rot",
+"capex"
+],
+"ar": [
+"us",
+"semis",
+"aiinfra"
+],
+"t": "Bei »Mad Money« am Dienstagabend wertet Cramer es als ermutigend, dass der Markt die Montagsrally nicht fortsetzte: Eine Erholung in Treppenstufen sei gesünder als ein gerader Anstieg, Nvidias Minus von knapp 6 % nach dem Sprung um 31 % nur eine kleine Gewinnmitnahme. Er zieht kapitalstarke Hyperscaler den schuldenfinanzierten KI-Werten wie Oracle vor, würde SanDisk wegen des lockereren Flash-Angebots meiden und bleibt bei Micron; in der Schnellrunde rät er, statt TSMC gleich Nvidia zu kaufen. Wiedergabe nach 24/7 Wall St. und Benzinga.",
+"src": "w247_cramer2511",
+"sw": 11
+},
+{
+"id": "r11-16",
+"d": "2026-11-25",
+"p": "burry",
+"k": "Handel",
+"s": "neut",
+"a": [
+"NDX",
+"NVDA",
+"PLTR"
+],
+"th": [
+"Positionierung",
+"Halbleiter"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"us",
+"semis"
+],
+"lv": "Nvidia-Short erst wieder nahe 200 $",
+"chg": {
+"w": "Absicherung gegen den Nasdaq 100",
+"a": "NDX",
+"f": "Put-Optionen auf den Nasdaq 100 (seit 12.11., am 20.11. halbiert)",
+"t": "Put-Position vollständig verkauft; vorläufig fast nur long",
+"dir": 1
+},
+"t": "Im »Portpourri« vom 25.11. schreibt Burry, sein Depot sei so stark long und so wenig short wie lange nicht: Die zweite Hälfte der Put-Optionen auf den Nasdaq 100 hat er bei schwachen Tech-Kursen verkauft, übrig sind Puts auf Palantir und MetLife, rund 25 % liegen in bar. Das gelte vorläufig, er prüfe weiter Short-Gelegenheiten: Nvidia will er erst wieder leerverkaufen, wenn die Aktie sich in einer Phase des Optimismus 200 Dollar nähert; die am 20.11. gekauften Calls hätten sich verdoppelt. Frei lesbarer Teil des Substack, Rest nach Stocktwits.",
+"src": "stw_burry2511",
+"sw": 11
+},
+{
+"id": "r11-17",
+"d": "2026-11-24",
+"p": "wood",
+"k": "Handel",
+"s": "bull",
+"a": [
+"ANT",
+"GOOGL"
+],
+"th": [
+"Positionierung",
+"KI-Labore"
+],
+"st": [
+"ant"
+],
+"ar": [
+"ailab",
+"mega"
+],
+"t": "Am Tag, an dem Anthropic erstmals unter dem Ausgabepreis schließt, kauft ARK 751.710 Aktien über alle sechs aktiven ETF, rund 61,6 Mio. Dollar zum Schlusskurs von 81,91 Dollar und mehr als die Hälfte davon im ARKK. Dazu kommen rund 62.600 Alphabet-Aktien der Gattung C (rund 17,3 Mio. Dollar); verkauft werden Meta (23,4 Tsd. Stück, 13,8 Mio. Dollar), Palantir (rund 29.900 Stück) und im ARKW der gesamte Bestand am eigenen Bitcoin-ETF ARKB. Nvidia steht nicht in der Tagesliste. Angaben nach TIKR (Handelsmail von ARK) und ARK Trade Timing.",
+"src": "tikr_ark2411",
+"sw": 11
+},
+{
+"id": "r11-18",
+"d": "2026-11-25",
+"p": "wood",
+"k": "Handel",
+"s": "bull",
+"a": [
+"ANT",
+"SPCX"
+],
+"th": [
+"Positionierung",
+"KI-Labore"
+],
+"st": [
+"ant"
+],
+"ar": [
+"ailab",
+"space"
+],
+"t": "ARK kauft am 25.11. den zweiten Tag in Folge Anthropic unter dem Ausgabepreis: 317.053 Aktien über sechs ETF, rund 26,2 Mio. Dollar zum Schlusskurs von 82,79 Dollar, dazu im ARKK rund 37.800 SpaceX-Aktien für rund 4,8 Mio. Dollar. Größter Verkauf ist Illumina mit 151,4 Tsd. Stück (rund 30,3 Mio. Dollar, gut ein Drittel der Position im ARKK); kleinere Abgaben gibt es bei Netflix, Roblox, Robinhood und Bullish. Angaben nach Benzinga und ARK Trade Timing.",
+"src": "bz_ark2511",
+"sw": 11
+},
+{
+"id": "r11-19",
+"d": "2026-11-23",
+"p": "oleary",
+"k": "Interview",
+"s": "warn",
+"a": [
+"NVDA"
+],
+"th": [
+"Governance",
+"Halbleiter"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "In der Sendung »Rising« von The Hill TV schloss O’Leary am Montag eine Rückkehr von Jensen Huang zu Nvidia für die nächsten zwei Jahre aus; wenige Minuten später wurde in der Sendung die Wiedereinsetzung gemeldet. Seine Reaktion: Das Unternehmen gehe nun mit Huang an der Spitze in die Untersuchungen, man werde sehen, wie das ausgehe. Berichte von Business Insider und HuffPost.",
+"src": "bi_oleary2411",
+"sw": 11
+},
+{
+"id": "r11-20",
+"d": "2026-11-23",
+"p": "stephan",
+"k": "Brief",
+"s": "warn",
+"a": [
+"SPX",
+"BTC"
+],
+"th": [
+"Konzentration",
+"KI-Capex",
+"Positionierung"
+],
+"st": [
+"capex"
+],
+"ar": [
+"us",
+"krypto"
+],
+"t": "Im Newsletter vom 23.11. stellt Stephan seine Geldanlage um: Er spiele jetzt darauf, nicht zu verlieren, und schütze lieber das Erreichte, als jeden Prozentpunkt mitzunehmen. Die zehn größten Werte machten rund 39 % des S&P 500 aus; das Risiko sei nicht, dass KI scheitert, sondern dass die Gewinne die Ausgaben und die Kurse nicht rechtfertigen. Sein Depot: überwiegend Indexfonds auf die USA und das Ausland, 15 bis 20 % steuerfreie Kommunalanleihen, 10 bis 12 % Bitcoin-ETF, dessen Anteil er ohne Verkäufe sinken lässt; in einem Bärenmarkt will er zukaufen.",
+"src": "gs_nl2311",
+"sw": 11
+},
+{
+"id": "r11-21",
+"d": "2026-11-23",
+"da": 1,
+"p": "dalio",
+"k": "Interview",
+"s": "warn",
+"a": [],
+"th": [
+"KI-Blase",
+"Bewertung",
+"Makro"
+],
+"st": [
+"capex"
+],
+"ar": [
+"ailab",
+"us"
+],
+"t": "Im Podcast »Sourcery« (erschienen am 23.11.) trennt Dalio Vermögen von Geld: Hohe Bewertungen schaffen Papiervermögen, das erst durch Verkauf zu Geld wird, und Blasen platzen, wenn die Besitzer verkaufen müssen, oft weil sie auf Kredit gekauft haben. Entscheidend sei nicht die Bewertung gegen künftige Erträge, sondern dass eine großartige Technik mit einer großartigen Anlage verwechselt werde, wie in den 1920er-Jahren. Die Wahl tausche die Handelnden aus, nicht die Probleme: Schulden und Vermögensgefälle blieben, um den 11.12. beginne der Streit um die Schuldengrenze. Zitate nach dem Newsletter der Gastgeberin; der Aufnahmetag ist offen.",
+"src": "sourcery_dalio",
+"sw": 11
+},
+{
+"id": "r11-22",
+"d": "2026-11-20",
+"p": "chanos",
+"k": "Post",
+"s": "warn",
+"a": [
+"SPCX"
+],
+"th": [
+"Raumfahrt",
+"Bewertung"
+],
+"st": [],
+"ar": [
+"space"
+],
+"t": "Fragt auf X, warum SpaceX-Aktionäre eine Fusion mit Tesla mittragen sollten: Sie würde das Wachstum von SpaceX um mehr als 60 % und den für 2027 geschätzten Gewinn je Aktie um fast 40 % drücken. Synergien sieht er keine, weil Musk ohnehin beide Unternehmen führt. Wiedergabe seiner X-Beiträge nach TIKR.",
+"src": "tikr_chanos2411",
+"sw": 11
+},
+{
+"id": "r11-23",
+"d": "2026-11-22",
+"p": "chanos",
+"k": "Post",
+"s": "neut",
+"a": [
+"GOOGL"
+],
+"th": [
+"KI-Capex",
+"Bewertung"
+],
+"st": [
+"capex"
+],
+"ar": [
+"mega",
+"aiinfra"
+],
+"t": "Schreibt am Sonntagabend (New Yorker Zeit) in einer X-Diskussion darüber, ob sich der KI-Ausbau rechnet, Alphabet sei der einzige Hyperscaler, der solche Zahlen tatsächlich vorweise: 47 % Rendite auf das zusätzlich eingesetzte Kapital im dritten Quartal. Amazon, Meta, Microsoft und Oracle kämen im Schnitt auf weniger als die Hälfte (22 %). Wiedergabe nach TIKR.",
+"src": "tikr_chanos2511",
+"sw": 11
 }
 ]

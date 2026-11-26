@@ -95,9 +95,10 @@
 "p": "druckenmiller",
 "tk": "PLTR",
 "nm": "Palantir",
-"ac": "plus",
-"det": "aufgestockt",
-"sec": "soft"
+"ac": "neu",
+"det": "neue Position im 3. Quartal",
+"sec": "soft",
+"src": "fool_druck2311"
 },
 {
 "p": "druckenmiller",
@@ -120,7 +121,7 @@
 "tk": "TSM",
 "nm": "TSMC",
 "ac": "minus",
-"det": "−94,5 % (589.700 auf 32.700 Stück)",
+"det": "−94,5 % (589.680 auf 32.700 Stück)",
 "sec": "semis",
 "src": "druck13f"
 },
@@ -1785,11 +1786,11 @@
 "tk": "CRSP·RXRX·BEAM·WGS",
 "nm": "Biotech: CRISPR Therapeutics, Recursion, Beam, GeneDx",
 "ac": "plus",
-"det": "23.11.: zusammen rund 14,1 Mio. $ im ARKK (4,5 · 4,2 · 2,9 · 2,5 Mio. $); Stückzahlen fehlen",
+"det": "23.11.: CRISPR 102.828 Stück (4,02 Mio. $) · Recursion 1.586.642 (3,89 Mio. $) · Beam 127.648 (2,67 Mio. $) · GeneDx 50.006 (2,27 Mio. $), alle im ARKK",
 "sec": "health",
 "per": "Tageshandel Nov. 2026",
 "d": "2026-11-23",
-"src": "ca_ark2311"
+"src": "inv_ark2311"
 },
 {
 "p": "burry",
@@ -1823,5 +1824,160 @@
 "per": "Substack 24.11.2026",
 "d": "2026-11-24",
 "src": "stw_burry2411"
+},
+{
+"p": "wood",
+"tk": "ANT",
+"nm": "Anthropic",
+"ac": "plus",
+"det": "24.11.: 751.710 Stück (rund 61,6 Mio. $ zum Schluss von 81,91 $), sechs ETF, davon ARKK 423.504 · 25.11.: 317.053 Stück (rund 26,2 Mio. $ zum Schluss von 82,79 $), davon ARKK 214.603",
+"sec": "ailab",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "tikr_ark2411"
+},
+{
+"p": "wood",
+"tk": "GOOG",
+"nm": "Alphabet (C-Aktie)",
+"ac": "plus",
+"det": "24.11.: rund 62.600 Stück (rund 17,3 Mio. $), ARKK 50,3 Tsd. und ARKW 12,3 Tsd.",
+"sec": "mega",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-24",
+"src": "att_ark"
+},
+{
+"p": "wood",
+"tk": "META",
+"nm": "Meta",
+"ac": "minus",
+"det": "24.11.: ARKK verkauft 23,4 Tsd. Stück (rund 13,8 Mio. $), knapp 10 % der Position",
+"sec": "mega",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-24",
+"src": "att_ark"
+},
+{
+"p": "wood",
+"tk": "PLTR",
+"nm": "Palantir",
+"ac": "minus",
+"det": "24.11.: rund 29.900 Stück (rund 4,8 Mio. $), ARKQ 21,2 Tsd. und ARKX 8,7 Tsd.",
+"sec": "soft",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-24",
+"src": "att_ark"
+},
+{
+"p": "wood",
+"tk": "ARKB",
+"nm": "ARK 21Shares Bitcoin ETF",
+"ac": "exit",
+"det": "24.11.: ARKW verkauft den gesamten Bestand, 344,1 Tsd. Stück (rund 6,8 Mio. $)",
+"sec": "krypto",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-24",
+"src": "att_ark"
+},
+{
+"p": "wood",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "25.11.: ARKK kauft 37,8 Tsd. Stück (rund 4,8 Mio. $)",
+"sec": "space",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "bz_ark2511"
+},
+{
+"p": "wood",
+"tk": "ILMN",
+"nm": "Illumina",
+"ac": "minus",
+"det": "25.11.: ARKK verkauft 151,4 Tsd. Stück (rund 30,3 Mio. $), gut ein Drittel der Position",
+"sec": "health",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "att_ark"
+},
+{
+"p": "burry",
+"tk": "NDX",
+"nm": "Nasdaq 100",
+"ac": "exit",
+"det": "24.11.: restliche Hälfte der Put-Optionen verkauft, Position geschlossen (Beitrag vom 25.11., 07:28 UTC, nennt »heute« bei schwachen Tech-Werten)",
+"sec": "us",
+"per": "Substack 25.11.2026",
+"d": "2026-11-24",
+"src": "sub_burry2511"
+},
+{
+"p": "burry",
+"tk": "PLTR",
+"nm": "Palantir",
+"ac": "short",
+"det": "hält Put-Optionen; neben MetLife die einzige verbliebene Short-Position (Stand des Beitrags, Kaufzeitpunkt nicht genannt)",
+"sec": "soft",
+"per": "Substack 25.11.2026",
+"d": "2026-11-25",
+"src": "sub_burry2511"
+},
+{
+"p": "burry",
+"tk": "MET",
+"nm": "MetLife",
+"ac": "short",
+"det": "hält Put-Optionen; neben Palantir die einzige verbliebene Short-Position (Stand des Beitrags, Kaufzeitpunkt nicht genannt)",
+"sec": "fin",
+"per": "Substack 25.11.2026",
+"d": "2026-11-25",
+"src": "sub_burry2511"
+},
+{
+"p": "druckenmiller",
+"tk": "AMZN",
+"nm": "Amazon",
+"ac": "plus",
+"det": "+43 % auf 772.600 Stück (rund 192 Mio. $), von Rang neun auf Rang drei",
+"sec": "mega",
+"src": "ceo_druck"
+},
+{
+"p": "einhorn",
+"tk": "DCH",
+"nm": "Dauch",
+"ac": "plus",
+"det": "+49 % auf 18,41 Mio. Stück (rund 96 Mio. $), 2,7 % des 13F-Depots",
+"sec": "ind",
+"src": "tikr_einhorn1911"
+},
+{
+"p": "einhorn",
+"tk": "SLG",
+"nm": "SL Green Realty",
+"ac": "neu",
+"det": "1,06 Mio. Stück (rund 52 Mio. $), 1,5 % des 13F-Depots; Büro-REIT in Manhattan",
+"sec": "fin",
+"src": "tikr_einhorn2411"
+},
+{
+"p": "einhorn",
+"tk": "MGM",
+"nm": "MGM Resorts",
+"ac": "neu",
+"det": "neue Position, rund 34 Mio. $ (rund 1,1 Mio. Stück)",
+"sec": "cons",
+"src": "gsig_einhorn"
+},
+{
+"p": "einhorn",
+"tk": "BIO",
+"nm": "Bio-Rad Laboratories",
+"ac": "neu",
+"det": "neue Position, rund 39 Mio. $",
+"sec": "health",
+"src": "gsig_einhorn"
 }
 ]

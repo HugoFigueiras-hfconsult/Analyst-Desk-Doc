@@ -197,6 +197,16 @@
 ]
 },
 {
+"d": "2026-11-30",
+"t": "MSCI nimmt Anthropic zum Handelsschluss in seine globalen Standardindizes auf; Intropic schätzt, dass passive Fonds bis Jahresende bis zu 30 % der platzierten Aktien kaufen (Reuters)",
+"k": "Markt",
+"st": "ant",
+"src": "rt_ant2411",
+"aff": [
+"ANT"
+]
+},
+{
 "d": "2026-12-01",
 "t": "US-Daten: ISM-Einkaufsmanagerindex Industrie und offene Stellen (JOLTS) für Oktober",
 "k": "Daten",
@@ -242,6 +252,18 @@
 ]
 },
 {
+"d": "2026-12-02",
+"t": "ADP-Beschäftigungsbericht für November",
+"k": "Daten",
+"tm": "14:15 MEZ",
+"st": "fed",
+"src": "mw_cal",
+"aff": [
+"SPX",
+"UST10"
+]
+},
+{
 "d": "2026-12-03",
 "t": "ISM-Einkaufsmanagerindex Dienstleistungen (USA)",
 "k": "Daten",
@@ -278,6 +300,16 @@
 "UST10",
 "XAU",
 "DXY"
+]
+},
+{
+"d": "2026-12-04",
+"t": "Nvidia: Frist für den Quartalsbericht (10-Q) zum Quartal bis 25.10. (40 Tage nach Quartalsende, laut The Motley Fool)",
+"k": "Meldung",
+"st": "nvda",
+"src": "fool_nvda10q",
+"aff": [
+"NVDA"
 ]
 },
 {
@@ -437,6 +469,21 @@
 "SPX",
 "UST10",
 "XAU"
+]
+},
+{
+"d": "2027-01-05",
+"e": "2027-01-25",
+"t": "US-Zölle nach Section 301 gegen 14 Handelspartner: Frist für Stellungnahmen am 5.1., Anhörungen ab 25.1.; die vorgeschlagenen Zölle sind bis dahin nicht in Kraft",
+"k": "Meldung",
+"st": "fed",
+"src": "ustr_301",
+"aff": [
+"SPX",
+"DAX",
+"SX5E",
+"FXI",
+"EEM"
 ]
 },
 {
