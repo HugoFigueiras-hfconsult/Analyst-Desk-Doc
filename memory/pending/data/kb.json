@@ -11,6 +11,10 @@
 ],
 "th": [
 {
+"d": "2026-11-26",
+"t": "Sieht den Beginn eines der größten Investitionszyklen seiner Lebenszeit; die Kapitalmärkte müssten mehr davon tragen, Europa brauche integrierte Kapitalmärkte und günstigere Energie."
+},
+{
 "d": "2026-11-19",
 "t": "Schärfere KI-Regulierung ist für ihn ein Rezessionsrisiko; Investitionsbedarf 7 bis 9 Billionen Dollar."
 },
@@ -23,7 +27,7 @@
 "t": "Ein Baustopp für Rechenzentren würde eine Rezession auslösen; die Staatsverschuldung ist das zweite große Risiko."
 }
 ],
-"open": "Keine neue Aussage nach dem Nikkei-Interview vom 19.11. (s37). New York Post (19.11.): möglicher KI-Deal mit Partnern aus Nahost, Bericht ohne Aussage."
+"open": "Rede per Videoschalte beim CEDE-Kongress am 26.11. (r12-07); dort nannte er auch über 100 Mrd. Euro, die BlackRock in Spanien angelegt hat (Expansión). Der Bericht der New York Post über einen KI-Deal mit Partnern aus Nahost bleibt unbestätigt."
 },
 {
 "id": "wood",
@@ -36,6 +40,10 @@
 "X @CathieDWood"
 ],
 "th": [
+{
+"d": "2026-11-25",
+"t": "25.11.: Verkäufe von Netflix, Roblox, Robinhood und Bullish mit Stückzahlen belegt, kein Nvidia-Handel; der Palantir-Verkauf vom 24.11. umfasste 44.682 Stück."
+},
 {
 "d": "2026-11-25",
 "t": "ARK kauft am 24. und 25.11. zusammen 1.068.763 Anthropic-Aktien unter dem Ausgabepreis, dazu Alphabet und SpaceX; verkauft Meta, Palantir, Illumina und den eigenen Bitcoin-ETF im ARKW."
@@ -51,13 +59,9 @@
 {
 "d": "2026-11-23",
 "t": "Begründet den Nvidia-Abbau im Podcast mit dem Risiko, Huang könne zu Musk wechseln; SpaceX setze im Orbit allein auf Nvidia."
-},
-{
-"d": "2026-11-20",
-"t": "Begründung für den Nvidia-Abbau: interne Bewertung von Führung und Kultur herabgestuft, Geld fließt zu SpaceX (ETF IQ Asia, Sendetag unklar)."
 }
 ],
-"open": "Seit dem Börsengang hat ARK an vier Handelstagen (19., 20., 24., 25.11.) zusammen 2.709.713 Anthropic-Aktien gekauft, am 23.11. keine. Stückzahlen vom 25.11. für Netflix, Roblox, Robinhood und Bullish unvollständig; ob Nvidia am 25.11. gehandelt wurde, ist ungeprüft. »Money Rehab« (r9-12) erschien am 23.11. (TIKR, Oninvest), der Aufnahmetag fehlt. FolioObs führt am 5.11. einen SpaceX-Kauf über 393.774 Stück (Bestand: 4.11., 348.406 Stück): prüfen. Sendetag von ETF IQ Asia offen."
+"open": "ARK am 25.11. laut Tagestabelle ohne Nvidia-Handel; Anthropic je ETF: ARKK 214.603, ARKW 29.969, ARKG 26.569, ARKQ 23.823, ARKF 12.345, ARKX 9.744. Am 26.11. kein Handel. Der Palantir-Verkauf vom 24.11. ist auf 44.682 Stück korrigiert (GuruFocus, TipRanks, Investing.com); Investing.com nennt für den 24.11. außerdem Roblox mit 47.704 Stück. Benzinga (26.11.) gibt die Podcast-Folge »In The Know« vom 6.11. als neu aus: kein Eintrag. Offen: Aufnahmetag von »Money Rehab« (r9-12), Sendetag von ETF IQ Asia, SpaceX-Kauf vom 4. oder 5.11. (FolioObs: 393.774 Stück)."
 },
 {
 "id": "burry",
@@ -91,7 +95,7 @@
 "t": "Nimmt Gewinne auf die Hälfte der Nvidia- und SMH-Puts mit; die Nasdaq-Puts bis April 2027 bleiben."
 }
 ],
-"open": "Größte Positionen laut Stocktwits: MercadoLibre, Temple & Webster, JD.com. Nur über eine maschinelle Tracker-Seite: Großteil von Ero Copper verkauft, Hongkong-Aktien über 20 % des Depots, letztes Viertel der Nvidia-Puts läuft bis Februar 2027 (nicht übernommen). Lululemon weiter ohne Datum."
+"open": "Kein neuer Substack-Beitrag seit dem »Portpourri« vom 25.11. (Feed am 27.11. geprüft). X-Beitrag vom 25.11., 16:41 Uhr New York: Seine Depotübersicht sei bei CNBC besprochen worden, etwa als der Markt drehte; gleicher Anlass wie r11-16. Mögliche Kurswirkung (fx): Barron’s nennt nur den zeitlichen Zusammenfall, der CNBC-Liveblog zeigt den Beitrag ohne Zuschreibung; nicht gesetzt. Bestände laut Bloomberg (über FA-Mag): MercadoLibre, Temple & Webster, JD.com, dazu unter anderem Adobe, Lululemon und PayPal; Kaufdaten offen."
 },
 {
 "id": "dalio",
@@ -124,7 +128,7 @@
 "t": "KI trägt Züge einer klassischen Blase."
 }
 ],
-"open": "Aufnahmetag der »Sourcery«-Folge offen (vor dem Anthropic-Börsengang). Kitco (25.11.) verwertet die Aussage zu 10 bis 15 % Gold aus »Money Rehab« erneut: kein neuer Eintrag. Bloomberg (23.11.): vermittelte ein Gespräch zwischen MSCI und Indonesiens Präsident, keine Marktaussage."
+"open": "Kein neuer Anlass: Benzinga (25.11.) und andere geben die »Sourcery«-Folge vom 23.11. wieder (r11-21), der Aufnahmetag bleibt offen. TechFlow (26.11.) und Kitco (25.11.) verwerten ältere Gold-Aussagen ohne neuen Ursprung."
 },
 {
 "id": "ackman",
@@ -154,7 +158,7 @@
 "t": "Markt wirkt durch Spekulation und Hebel zeitweise kaputt; für Langfristanleger eine Chance."
 }
 ],
-"open": "Keine neue Aussage seit dem X-Beitrag vom 22.11. (r6-05); Berichte bis 25.11. geben ihn wieder."
+"open": "Keine neue Marktaussage seit dem X-Beitrag vom 22.11. (r6-05); Berichte bis 26.11. (Fortune, Yahoo, Invezz) geben ihn wieder, der X-Beitrag vom 24.11. hat keinen Marktbezug."
 },
 {
 "id": "druckenmiller",
@@ -175,7 +179,7 @@
 "t": "Sucht KI-Anwender statt Infrastruktur; Konjunkturschwäche im 2. Halbjahr 2027 möglich."
 }
 ],
-"open": "Keine Äußerung seit dem TomorrowX Summit am 17.11.; Berichte vom 23. bis 26.11. werten nur die 13F-Meldung aus. Quelle druck13f seit Lauf 11: CEOWORLD statt BigGo; Palantir als neue Position korrigiert, Amazon (+43 %) nachgetragen. Der Satz in s02, er shorte KI-Aktien nicht, ist bei Institutional Investor nicht wörtlich belegt."
+"open": "Keine Äußerung seit dem TomorrowX Summit am 17.11.; Berichte bis 26.11. (Motley Fool, TIKR, aktiencheck.de) werten nur die 13F-Meldung aus oder verwerten die Aussagen vom 17.11. Der YouTube-Kanal »Macro Tradecraft« ist KI-erzeugt und kein Beleg. Der Satz in s02, er shorte KI-Aktien nicht, ist bei Institutional Investor nicht wörtlich belegt."
 },
 {
 "id": "tepper",
@@ -185,7 +189,7 @@
 "13F Appaloosa",
 "Seltene Anrufe bei CNBC"
 ],
-"open": "Keine Aussage; nur Nachberichte zur 13F-Meldung. Dealroom nennt einen Komplettverkauf von Apple, der im Bestand fehlt und nur dort belegt ist: bei besserer Quelle nachtragen."
+"open": "Keine Aussage; CEOWORLD (26.11.) hält fest, dass er sich nicht geäußert hat, und nennt für SpaceX 3.883.329 Stück zum 30.9. (deckt sich mit dem Bestand). Dealroom nennt einen Komplettverkauf von Apple, der nur dort belegt ist: bei besserer Quelle nachtragen."
 },
 {
 "id": "griffin",
@@ -196,6 +200,10 @@
 ],
 "th": [
 {
+"d": "2026-11-24",
+"t": "Nennt die These vom gewaltigen Ausbau der Rechenzentren zutreffend, erinnert aber daran, dass Märkte länger irrational bleiben können, als Anleger zahlungsfähig sind (Risk.net)."
+},
+{
 "d": "2026-11-16",
 "t": "13F: Amazon, Apple, AMD und SpaceX stark reduziert; Microsoft, Tesla und Mastercard aufgestockt."
 },
@@ -204,7 +212,7 @@
 "t": "Fast sicher eine KI-Blase, aus der aber langfristige Marktführer hervorgehen."
 }
 ],
-"open": "Keine neue Aussage. Bloomberg (25.11., Insider): Citadel gibt rund 3,5 Mrd. $ der Jahresgewinne an Kunden zurück; Firmenhandlung, keine Marktaussage. TechShots datiert Citadels Übernahme des Portfolios von Situational Awareness auf den 25.11., der Reuters-Bericht stammt vom 31.07."
+"open": "Tag des Gesprächs mit Risk.net offen (erschienen am 24.11., r12-06). Citadels Zinschef Nohshad Shah warnt laut Sina (24.11.) in einer Notiz vom 21.11. vor unterschätzten politischen Risiken der KI: andere Person, nur Spur. Bloomberg (25.11.): Citadel gibt rund 3,5 Mrd. $ der Jahresgewinne an Kunden zurück; Firmenhandlung, keine Marktaussage."
 },
 {
 "id": "marks",
@@ -224,7 +232,7 @@
 "t": "Der Vorsprung von OpenAI und Anthropic ist nicht gesichert."
 }
 ],
-"open": "Nichts Neues seit dem Memo »A Layman Thinks About AI« vom 11.11. (Podcast-Fassung am 18.11.). s14 führt seit Lauf 11 beide Kernaussagen des Memos (Quelle Oaktree), der Zweitbericht w4-marks-0 ist gelöscht."
+"open": "Nichts Neues seit dem Memo »A Layman Thinks About AI« vom 11.11. (Podcast-Fassung am 18.11.); alle Treffer geben es wieder (s14)."
 },
 {
 "id": "gundlach",
@@ -253,7 +261,7 @@
 "t": "Aktienmarkt im Kern schwach; KI-Kreditmarkt als Warnsignal; mindestens 20 % liquide."
 }
 ],
-"open": "Gespräch mit Neil Howe (laut DruckFin am 24.11. von DoubleLine veröffentlicht: raus aus kapitalisierungsgewichteten Indexfonds, US-Staatsanleihen nicht mehr risikofrei, bevorzugt ältere Agency-Hypothekenpapiere und kurze Laufzeiten) nur über DruckFin belegt, Original nicht gefunden: kein Eintrag. Traders Union (25.11.) gibt einen gelöschten X-Beitrag zu Kursverlusten von Apollo, Ares, KKR und Blue Owl wieder. Nächster Webcast »Gundlach Unlocked« laut doubleline.com am 8.12., 22:15 MEZ; Äußerung zum Fed-Entscheid am 9.12."
+"open": "Primärquelle zum Gespräch mit Neil Howe gefunden: DoubleLine, »Two Roads to the Fourth Turning«, datiert auf den 10.11. (CFA Society Los Angeles), das Video erschien um den 23.11.; die Aussage liegt vor w4-gundlach-0 (12.11.), kein Eintrag. Die Angaben von DruckFin zur Aufstellung stehen nicht in der Zusammenfassung. Nächster Webcast »Gundlach Unlocked« laut doubleline.com am 8.12., 22:15 MEZ; Äußerung zum Fed-Entscheid am 9.12."
 },
 {
 "id": "tudorjones",
@@ -263,8 +271,12 @@
 "Robin-Hood-Konferenz",
 "13F Tudor"
 ],
-"open": "Keine neue Aussage seit dem CNBC-Interview vom 13.10. Die 13F-Positionen zum 30.9. fehlen im Bestand; Spuren: Mining.com (Kupferminen verkauft, Gold und Silber aufgestockt) und InnovestX vom 23.11. (Microsoft fast ganz verkauft, TSMC und AMD aufgestockt). Bessere Quelle im nächsten Standard-Lauf suchen.",
+"open": "Keine neue Aussage seit dem CNBC-Interview vom 13.10. (aktiencheck.de vom 26.11. verwertet es erneut). 13F: Die Aufstockung des Bitcoin-ETF IBIT steht seit Lauf 12 im Bestand; weitere Spuren nur über aktiencheck.de (Puts auf Russell 2000 und Nasdaq 100, TSMC, Nvidia, Meta, neu Iridium), Mining.com und InnovestX: an zweiter Quelle prüfen.",
 "th": [
+{
+"d": "2026-11-16",
+"t": "13F zum 30.9.: Anteil am Bitcoin-ETF IBIT fast verdoppelt auf 1,36 Mio. Stück (rund 64,6 Mio. $), unter 1 % des Depots."
+},
 {
 "d": "2026-10-13",
 "t": "2027 wird sehr schwierig: will das ganze Jahr short sein, weil KI-Börsengänge und auslaufende Haltefristen das Aktienangebot erhöhen; long Öl."
@@ -279,7 +291,7 @@
 "Aktionärsbrief im Februar, Hauptversammlung im Mai",
 "Quartalsbericht: Cash-Bestand und Rückkäufe"
 ],
-"open": "Keine Aussage seit dem CNBC-Interview vom 2.9. Reuters laut ad-hoc-news (19.11.): Berkshire hielt nach weiteren Käufen im Oktober 12,5 % an Lennar, investierte weitere 330 Mio. $ in Bending Spoons und stockte Macy's auf; Tage der Käufe offen."
+"open": "Keine Aussage seit dem CNBC-Interview vom 2.9. Käufe seit dem 1.10. laut Motley Fool (25.11.): Sirius XM 924.281 Stück, Lennar 2.403.636 A- und 15.028 B-Aktien, Bending Spoons 10 Mio. Stück über eine Privatplatzierung Mitte Oktober (Anteil knapp 9 %); Handelstage nicht genannt, deshalb nicht in den Positionen."
 },
 {
 "id": "einhorn",
@@ -289,7 +301,7 @@
 "13F Greenlight",
 "Sohn- und Robin-Hood-Konferenz"
 ],
-"open": "Brief zum 4. Quartal und Partner-Dinner am 19.1.2027. 13F: Angaben zu Teva widersprechen sich (TIKR: komplett verkauft; GetSignal: −37 %), deshalb nicht übernommen. aktiencheck.de (23.11.) zitiert eine Aussage von Anfang November (Positionen verhielten sich wie in einem Bärenmarkt), Anlass und Tag unbelegt.",
+"open": "Brief zum 4. Quartal und Partner-Dinner am 19.1.2027. Herkunft der »Bärenmarkt«-Aussage geklärt: Telefonkonferenz von Greenlight Re am 3.11. (Transkript bei The Motley Fool), dort auch neue Positionen in Century Aluminum, ADI Global Distribution und Canal+; liegt vor dem Suchfenster, kein Eintrag. 13F: Die Angaben zu Teva widersprechen sich weiter (TIKR und The Filings Report: verkauft; GetSignal: −37 %).",
 "th": [
 {
 "d": "2026-10-21",
@@ -314,7 +326,7 @@
 "t": "13F zum 30.9.: AMD fast vollständig verkauft, Microsoft auf gut 1 Mrd. Dollar aufgestockt."
 }
 ],
-"open": "Weiter keine datierte Aussage aus 2026. 24/7 Wall St. (20.11.): Cohen handelt seit 2025 kein eigenes Buch mehr, die 13F-Meldung summiert über 200 Teams."
+"open": "Weiter keine datierte Marktaussage aus 2026; nur Nachberichte zur 13F-Meldung. 24/7 Wall St. (20.11.): Cohen handelt seit 2025 kein eigenes Buch mehr, die 13F-Meldung summiert über 200 Teams."
 },
 {
 "id": "chanos",
@@ -324,7 +336,7 @@
 "Podcasts und Interviews",
 "TIKR-Blog und Yahoo Finance geben seine X-Beiträge laufend wieder"
 ],
-"open": "Sicht auf die Nvidia-Bilanzierung (SEC-Prüfung) und auf KI-Abschreibungen: bisher keine datierte Aussage gefunden.",
+"open": "Kein neuer X-Beitrag seit dem 22.11. gefunden (TIKR, Yahoo); aktiencheck.de (26.11.) stellt ältere Aussagen zusammen. Sicht auf die Nvidia-Bilanzierung und auf KI-Abschreibungen: weiter keine datierte Aussage.",
 "th": [
 {
 "d": "2026-11-22",
@@ -358,6 +370,10 @@
 ],
 "th": [
 {
+"d": "2026-11-25",
+"t": "Sieht Anzeichen einer Stabilisierung: Der Markt für Hochzinsanleihen reagiere gelassener als 2018 und 2025."
+},
+{
 "d": "2026-11-24",
 "t": "Vergleich mit 2018 trägt nur zum Teil: Heute stehe ein Angebotsschock gegen starke KI-Nachfrage; weniger Abwärtsrisiko bis Jahresende, auf den VIX achten."
 },
@@ -372,13 +388,9 @@
 {
 "d": "2026-11-19",
 "t": "Tech-Ausverkauf ist eine gesunde Korrektur und Kaufgelegenheit; Vergleich mit Cisco 1997."
-},
-{
-"d": "2026-11-16",
-"t": "Der 5. November war das strukturelle Tief im Technologiesektor."
 }
 ],
-"open": "Call c24 (S&P 500 eine Woche nach sechs Verlusttagen höher, Bezug 7.175,83) läuft am 27.11. ab; Schluss vom 25.11.: 7.182,78. Fundstrat »First Word« vom 25.11. ist die Textfassung der Macro Minute vom 24.11. Äußerung zur zehnjährigen Rendite unter 5 % weiter offen."
+"open": "Call c24 (S&P 500 eine Woche nach sechs Verlusttagen höher, Bezug 7.175,83) läuft am 27.11. ab; Schluss vom 25.11.: 7.182,78, der Schluss vom 27.11. entscheidet. Die Macro Minute vom 25.11. ist nur mit Titel und Anriss frei lesbar (r12-08)."
 },
 {
 "id": "ives",
@@ -410,7 +422,7 @@
 "t": "Bei CNBC: Der Kursrutsch sei Panik, der Anthropic-Börsengang belege die Nachfrage; KI-Ausbau zu weniger als 15 % abgeschlossen."
 }
 ],
-"open": "Wortlaut des CNBC-Auftritts vom 24.11. nur über Benzinga. Der Vergleich mit März 2020 (s33) stammt aus der Notiz vom 22.11. (CNBC), in Lauf 10 umdatiert."
+"open": "Kein Fund vom 26. oder 27.11. Bloomberg-Interview vom 25.11. (laut Stocktwits): Huang sei für Nvidia rund eine Billion Dollar wert; gleicher Tag und Anlass wie r11-13."
 },
 {
 "id": "wilson",
@@ -434,7 +446,7 @@
 "t": "Korrektur ist Kaufgelegenheit; S&P 500 bei 8.700 in zwölf Monaten."
 }
 ],
-"open": "Keine neue Aussage seit der Wochennotiz vom 23.11. (r9-13). Zusatz laut Business Insider (24.11.): Rücksetzer als »fat pitch«, vier Bereiche (Hyperscaler, Industrie, Qualitätszykliker, Nutznießer der KI-Einführung); erwartetes KGV 16,4 gegen fairen Wert 19 bis 19,6."
+"open": "Keine neue Aussage seit der Wochennotiz vom 23.11. (r9-13); TheStreet (24.11.) zitiert daraus, eine straffere Fed bleibe das Hauptrisiko. Nächste Wochennotiz am 30.11."
 },
 {
 "id": "hartnett",
@@ -461,7 +473,7 @@
 "t": "Risk-off, bis Öl unter 70 Dollar und die zehnjährige Rendite unter 4,5 % liegen."
 }
 ],
-"open": "Nächste Flow Show laut Wallstreetcn am 3.12. Unklar, ob die Berichte vom 24.11. (6.666, »GRAB«) aus dem Jahresausblick der Bank of America stammen oder die Flow Show vom 20.11. wiedergeben; Primärquelle nicht frei zugänglich."
+"open": "Die Marken 6.666 und 8.888 stammen aus dem Ausblick auf 2027, nicht aus der Flow Show (BBX, 24.11.; TheStreet über AOL, 26.11.: harte Landung sei das am stärksten unterschätzte Risiko, aber nicht das Basisszenario). Ein Basisfall von 7.777 steht nur bei Crypto Briefing. Keine Flow Show am 26. oder 27.11.; nächste laut Wallstreetcn am 3.12."
 },
 {
 "id": "elerian",
@@ -473,6 +485,10 @@
 "CNBC"
 ],
 "th": [
+{
+"d": "2026-11-26",
+"t": "Handelsblatt: Huangs Wiedereinsetzung zeige eine Wirtschaftsordnung, in der Politik und Sicherheit über Marktergebnisse bestimmen; US-Rezession unter 50 %, aber steigend."
+},
 {
 "d": "2026-11-25",
 "t": "CNBC: Tech vor dem Rücksetzer ganz abgebaut, kauft sehr langsam zurück; Nvidias Sprung um 31 % übertrieben; erwartet am 9.12. eine »dovish hike«. Auf X zu den Daten: Erhöhung am 9.12. praktisch beschlossen."
@@ -488,13 +504,9 @@
 {
 "d": "2026-11-23",
 "t": "Huangs Rückkehr werfe neue Fragen auf: Governance, »Präsidenten-Put«, staatliche Eingriffe."
-},
-{
-"d": "2026-11-21",
-"t": "Kursrutsch als Verdauungsproblem nach der Anthropic-Emission; Zinsrisiko geht in Kredit- und Aktienrisiko über, Staatsanleihen schützen wegen des großen Angebots nur begrenzt."
 }
 ],
-"open": "Weiterer Beitrag vom 23.11. (über Benzinga): Huangs Rückkehr als Schritt einer technologiebezogenen Industriepolitik; gleicher Anlass wie r9-10, deshalb nur hier. Wochenrückblick vom 28.11. (Substack) abwarten."
+"open": "Handelsblatt-Interview (online am 26.11., r12-10): Tag des Gesprächs offen; dts schreibt von einer »falkenhaften« Fed-Botschaft am 9.12., bei CNBC am 25.11. sprach er von einer »dovish hike«: am Volltext klären. Wochenrückblick vom 28.11. (Substack) abwarten."
 },
 {
 "id": "dimon",
@@ -504,7 +516,7 @@
 "Quartalscalls",
 "Interviews bei Bloomberg, BBC und Fox"
 ],
-"open": "WSJ (25.11.) und FT (20.11.) zum britischen Bankenzuschlag: gleicher Anlass wie r6-18, kein neuer Eintrag.",
+"open": "Kein neuer Fund: WSJ (25.11.) und Yahoo (23.11.) geben die Londoner Aussage vom 19.11. wieder (r6-18). Briefs.co stellt ein Bloomberg-Interview vom 6.10. als neu dar: kein Eintrag.",
 "th": [
 {
 "d": "2026-11-19",
@@ -523,8 +535,12 @@
 "X @elonmusk",
 "Earnings Calls von Tesla und SpaceX"
 ],
-"open": "25.11.: SpaceX will Millionen amerikanischer Kinder je eine Aktie übertragen (Zustimmungen stehen aus); die FCC genehmigt das Satellitennetz Starmind. Unternehmenspläne ohne Marktaussage. Musk bestätigt auf X mit einem Wort, vor Huangs Rückkehr mit Trump gesprochen zu haben (nur über ein Archiv gesehen). Laut Yahoo Finance prüft er eine Fusion von Tesla und SpaceX: Beleg suchen.",
+"open": "Fusion von Tesla und SpaceX: Laut FT (über Reuters, 24.11.) verhandeln fünf Direktoren mit dem Ziel einer Einigung bis Jahresende; keine neue Aussage von Musk. Seine Haltefrist bei SpaceX endet nach eigener Angabe im Juni 2027. Die Aktienschenkung an Kinder ist ein Unternehmensplan; aufgenommen ist die Halteempfehlung vom 26.11. (r12-11).",
 "th": [
+{
+"d": "2026-11-26",
+"t": "Rät den Empfängern der verschenkten SpaceX-Aktien zum Halten und stellt einen extremen Wertzuwachs in Aussicht, falls die Ziele gelingen."
+},
 {
 "d": "2026-11-23",
 "t": "Starlink soll gegen Ende 2027 in alle Tesla-Modelle kommen, als Baustein für unbeaufsichtigtes autonomes Fahren (X; kein eigener Eintrag, Produktplan ohne Marktaussage)."
@@ -572,7 +588,7 @@
 "t": "Schlussrede der ITC-Konferenz in Miami: will alle noch entstehenden rund 900.000 Bitcoin kaufen, Ziel 10 Mio. $ je Stück; Strategy als Zentralbank der Kryptoökonomie."
 }
 ],
-"open": "Folgen des MSCI-Ausschlusses zum 30.11.; nächste Wochenmeldung (8-K) am 30.11. Block Stream Media (24.11.): Börsenwert von Strategy rund 35,7 Mrd. $, Wert des Bitcoin-Bestands rund 51,4 Mrd. $. Berichte vom 24. und 25.11. legen die ITC-Rede (r10-06, 21.11.) erneut auf den 23.11."
+"open": "Nächste Wochenmeldung (8-K) und Ausschluss aus den MSCI-Indizes am 30.11. X-Beiträge vom 25.11. werben mit der Rendite der Vorzugsaktie STRC (nur über xholic.ai gesehen): kein Eintrag. Berichte vom 25.11. geben die ITC-Rede vom 21.11. wieder (r10-06)."
 },
 {
 "id": "warsh",
@@ -582,7 +598,7 @@
 "Reden und Anhörungen im Kongress",
 "Sitzungsprotokolle, drei Wochen später"
 ],
-"open": "Keine Äußerung seit der Rede vom 16.11.; Schweigephase vor der Sitzung vom 28.11. bis 10.12. Krishna Guha (Evercore ISI) nennt Warshs Schweigen während der Marktschwankungen ein Problem (Yahoo Finance, 24.11.).",
+"open": "Keine Äußerung seit der Rede vom 16.11. (Redenliste der Fed); Schweigephase vom 28.11. bis 10.12., nächste Äußerung in der Pressekonferenz am 9.12.",
 "th": [
 {
 "d": "2026-11-16",
@@ -605,6 +621,10 @@
 },
 {
 "d": "2026-11-24",
+"t": "CNBC-TV18: Der KI-Handel lebe, hinke aber; das Tief der Korrektur sei wohl am 20.11. erreicht, eine V-förmige Erholung bis Jahresende erwartet er nicht."
+},
+{
+"d": "2026-11-24",
 "t": "QuickTakes: Huangs Rückkehr mildert die finanziellen Engpässe des KI-Ausbaus, die politischen Hürden könnten wachsen."
 },
 {
@@ -614,13 +634,9 @@
 {
 "d": "2026-11-23",
 "t": "QuickTakes: Boden bei 6.910 möglich, Unterstützung um 7.000, darunter 6.343,72; KGV-Annahme 17,6 statt 18,6, Wachstumswerte sehr billig."
-},
-{
-"d": "2026-11-22",
-"t": "Sektoren: Gesundheit, Energie und Industrie übergewichtet, Technologie und Kommunikation neutral, Basiskonsum untergewichtet; der Ausverkauf komme aus den Bewertungen, nicht aus den Gewinnschätzungen."
 }
 ],
-"open": "Sendetag des CNBC-Interviews (r10-14) belegt: Dienstagmorgen, 24.11. (24/7 Wall St.). Auftritt bei Fox Business »Varney & Co.« am 25.11. nur als Videobeschreibung lesbar."
+"open": "Das Gespräch mit CNBC-TV18 fiel auf Dienstagabend New Yorker Zeit (24.11.), der Sender datiert es auf den 25.11. (r12-09); Wallstreetcn nennt daraus zusätzlich die Forderung nach 50 Basispunkten, nicht übernommen. Fox Business »Varney & Co.« vom 25.11. weiter nur als Videobeschreibung lesbar."
 },
 {
 "id": "laffont",
@@ -899,7 +915,7 @@
 "t": "Anthropics Fokus auf Sicherheit und Vertrauen für Unternehmenskunden nennt er genial."
 }
 ],
-"open": "X-Beitrag vom 21.11. (»The bank of NVIDIA is closed«) jetzt belegt (24/7 Wall St. über Yahoo Finance, 23.11.); Inhalt deckt sich mit r3-02 und w4-oleary-0, deshalb kein eigener Eintrag. X-Beitrag vom 22.11. ist ein Ausschnitt des NewsNation-Interviews."
+"open": "Kein neuer Anlass: Der X-Ausschnitt vom 24.11. (Sammelkarten schlagen den S&P 500) stammt aus dem The-Hill-Interview vom 23.11. (r11-19)."
 },
 {
 "id": "stephan",
@@ -924,7 +940,7 @@
 "t": "Hauskauf könnte trotz Hypothekenzinsen um 7,4 % wieder lohnen: deutlich mehr Verkäufer als Käufer."
 }
 ],
-"open": "Nächste Ausgabe des Newsletters in der Woche vom 30.11."
+"open": "Keine neue Ausgabe seit dem 23.11. (r11-20); nächste in der Woche vom 30.11."
 },
 {
 "id": "cramer",
@@ -956,7 +972,7 @@
 "t": "Nennt den Short-Bericht gegen AMD eine Attacke; sein Charitable Trust will kaufen."
 }
 ],
-"open": "Schwach belegt: Crypto Briefing (25.11.) schreibt ihm zu, OpenAI sei das größte Opfer des »gebrochenen« Anthropic-Börsengangs, verlinkt den Ursprung aber nicht (womöglich der X-Beitrag vom 24.11., r10-10). Belegt ist sein X-Beitrag vom 25.11., 13:26 UTC: Dell sei gut gewesen, die Lage bei SoftBank beunruhige ihn. Zusammenfassung der Sendung vom 25.11. fehlt."
+"open": "Ursprung der OpenAI-Zuschreibung gefunden: X-Beitrag vom 25.11., 8:36 Uhr New York, zum Rechenzentrumskomplex in Portsmouth, Ohio (Wortlaut bei 24/7 Wall St.); laut Traders Union hat er ihn gelöscht, deshalb kein Eintrag. Belegt bleibt der Beitrag von 8:26 Uhr: Dell sei gut gewesen, die Lage bei SoftBank beunruhige ihn. »Mad Money« am 25.11. war eine Sonderfolge mit Anlageregeln; am 26.11. keine Beiträge."
 },
 {
 "id": "chamath",
@@ -989,7 +1005,7 @@
 "t": "Social-Capital-Analyse zu Anthropic: Wachstum flacht ab, Rechenkosten und Zusagen von 900,9 Mrd. Dollar steigen."
 }
 ],
-"open": "X-Beitrag vom 25.11. (»CDS don’t lie«) besteht aus drei Worten; der Bezug zu den Rekordprämien bei KI-Schuldnern stammt nur aus Benzinga: kein Eintrag. Goldman Sachs »Exchanges« vom 24.11. ist die Primärquelle zu w8-chamath-2461 und könnte indiasnews.net ersetzen."
+"open": "Seit dem 20.11. keine neue Hauptfolge von »All-In« (libsyn). X am 25.11.: »CDS don’t lie«, Bezug nur laut Benzinga: kein Eintrag. Goldman Sachs »Exchanges« (erschienen am 24.11., mit Transkript) ist die Primärquelle zu w8-chamath-2461; ob das Gespräch vor dem 17.11. lag, ist offen."
 },
 {
 "id": "schiff",
@@ -1089,7 +1105,7 @@
 "X (@mcuban)",
 "Podcasts und CNBC-Interviews"
 ],
-"open": "Zwei undatierte Wiedergaben (Benzinga zu »The Prof G Pod«, Times of India über TechShots zu OpenAI): kein Eintrag.",
+"open": "Weiter keine neue datierte Aussage: FinanceBuzz (26.11.) verwertet »The Diary of a CEO« vom 26.10. (r5-08).",
 "th": [
 {
 "d": "2026-10-28",

@@ -1,6 +1,6 @@
 # Werkzeug des Sweep-Agenten
 
-Hilfsskripte aus Lauf 11 für Schritt 7 und 8 (Prüfen, Weg B). Sie gehören zum Gedächtnis, nicht zur Seite; der Agent kopiert sie in seinen Scratchpad und ändert dort nichts am Repo.
+Hilfsskripte aus Lauf 11 (angepasst in Lauf 12) für Schritt 7 und 8 (Prüfen, Weg B). Sie gehören zum Gedächtnis, nicht zur Seite; der Agent kopiert sie in seinen Scratchpad und ändert dort nichts am Repo.
 
 | Datei | Zweck | Erwartet im selben Ordner |
 |---|---|---|
@@ -17,4 +17,5 @@ Hilfsskripte aus Lauf 11 für Schritt 7 und 8 (Prüfen, Weg B). Sie gehören zum
 |---|---|
 | Themenrouten | `th-<slug>`: »&« wird zu »und« ohne Bindestrich (`S&P-Ziel 2027` → `sundp-ziel-2027`) |
 | Fehlalarm | Das deutsche Wort »null« in Aussagetexten wird gemeldet: Text umformulieren |
-| Laufnummer | In `mkdb.py` und in der Status-Attrappe von `routen.js` steht die Laufnummer 11 fest: vor dem nächsten Lauf anpassen |
+| Laufnummer | Seit Lauf 12 lesen `mkdb.py` und `routen.js` die Laufnummer aus `desk.sweep.n` des Bündels; nichts anzupassen |
+| Plan | `corr` nennt je Eintrag die `sw`, die das Dokument tragen soll: der Lauf für Einträge aus den Dateien, die bisherige `sw` für Einträge, die schon als Dokument in `stm` liegen |

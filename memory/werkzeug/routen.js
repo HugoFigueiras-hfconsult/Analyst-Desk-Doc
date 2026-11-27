@@ -15,14 +15,14 @@ const srv = http.createServer((q, r) => {
   const b = await chromium.launch({ args: ['--no-sandbox'] }); const ctx = await b.newContext({ viewport: { width: 1440, height: 900 } }); const pg = await ctx.newPage();
   if (simPath) {
     const sim = J(simPath);
-    await pg.addInitScript(sim => {
-      const status = { state: 'done', by: 'Agent', run: 11, scope: 'Kurz', startedAt: '2026-11-26T06:16:24Z', finishedAt: '2026-11-26T06:55:00Z', summary: { aussagen: 23, text: 'Test' } };
+    await pg.addInitScript(([sim, run]) => {
+      const status = { state: 'done', by: 'Agent', run, scope: 'Kurz', startedAt: '2026-01-01T06:00:00Z', finishedAt: '2026-01-01T06:30:00Z', summary: { aussagen: 1, text: 'Test' } };
       const db = {
         doc: p => ({ onSnapshot: (cb) => { setTimeout(() => cb({ exists: p === 'sweep/status', data: () => status }), 10); return () => {}; }, get: async () => ({ exists: p === 'sweep/status', data: () => status }), set: async () => {}, update: async () => {} }),
         collection: n => { const c = { limit: () => c, get: async () => ({ docs: Object.entries(sim[n] || {}).map(([id, d]) => ({ id, data: () => d })) }) }; return c; }
       };
       window.claude = { use: async n => n === 'db' ? db : null };
-    }, sim);
+    }, [sim, desk.sweep.n]);
   }
   const errs = []; pg.on('pageerror', e => errs.push('PAGEERR ' + String(e).slice(0, 300))); pg.on('console', m => { if (m.type() === 'error') errs.push('CONSOLE ' + m.text().slice(0, 300)); });
   await pg.goto('http://localhost:' + port + '/index.html'); await pg.waitForTimeout(1800);
@@ -54,6 +54,6 @@ const srv = http.createServer((q, r) => {
   console.log('Ereignisse Seite', JSON.stringify(got.tl), 'gleich Bündel:', JSON.stringify(got.tl) === JSON.stringify(tlW));
   console.log('moves', got.moves, 'calls', got.calls, 'kalender', got.cal, 'kb', got.kb, 'sweep.n', got.n, 'pxAsOf', got.px, 'asOf', got.asOf, 'SPX', got.spx, 'szen', got.sc);
   console.log('KPI', got.kpi);
-  const neu = got.st.filter(s => s.sw === 11).map(s => s.id); console.log('sw 11 auf der Seite:', neu.length, neu.join(' '));
+  const neu = got.st.filter(s => s.sw === desk.sweep.n).map(s => s.id); console.log('sw ' + desk.sweep.n + ' auf der Seite:', neu.length, neu.join(' '));
   await b.close(); srv.close();
 })().catch(e => { console.error('FEHLER', e); process.exit(1); });

@@ -1863,11 +1863,11 @@
 "tk": "PLTR",
 "nm": "Palantir",
 "ac": "minus",
-"det": "24.11.: rund 29.900 Stück (rund 4,8 Mio. $), ARKQ 21,2 Tsd. und ARKX 8,7 Tsd.",
+"det": "24.11.: 44.682 Stück (rund 7,2 Mio. $) über alle ETF, davon ARKQ 21,2 Tsd. und ARKX 8,7 Tsd.",
 "sec": "soft",
 "per": "Tageshandel Nov. 2026",
 "d": "2026-11-24",
-"src": "att_ark"
+"src": "gf_ark2511"
 },
 {
 "p": "wood",
@@ -1979,5 +1979,69 @@
 "det": "neue Position, rund 39 Mio. $",
 "sec": "health",
 "src": "gsig_einhorn"
+},
+{
+"p": "wood",
+"tk": "NFLX",
+"nm": "Netflix",
+"ac": "minus",
+"det": "25.11.: ARKW verkauft 25.874 Stück",
+"sec": "mega",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "arkt_2511"
+},
+{
+"p": "wood",
+"tk": "RBLX",
+"nm": "Roblox",
+"ac": "minus",
+"det": "25.11.: ARKW verkauft 41.785 Stück",
+"sec": "mega",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "arkt_2511"
+},
+{
+"p": "wood",
+"tk": "HOOD",
+"nm": "Robinhood",
+"ac": "minus",
+"det": "25.11.: ARKK verkauft 3.526 Stück",
+"sec": "fin",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "arkt_2511"
+},
+{
+"p": "wood",
+"tk": "BLSH",
+"nm": "Bullish",
+"ac": "minus",
+"det": "25.11.: ARKK verkauft 57.491 Stück",
+"sec": "krypto",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "arkt_2511"
+},
+{
+"p": "wood",
+"tk": "CRSP·RXRX·BEAM·TWST·TEM",
+"nm": "Biotech: CRISPR Therapeutics, Recursion, Beam, Twist Bioscience, Tempus AI",
+"ac": "plus",
+"det": "25.11.: CRISPR 68.813 Stück · Recursion 452.648 · Beam 151.674 · Twist 30.833 · Tempus AI 38.663, überwiegend im ARKK; dazu GeneDx 16.910, Natera 6.895, Arcturus 33.673",
+"sec": "health",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-25",
+"src": "arkt_2511"
+},
+{
+"p": "tudorjones",
+"tk": "IBIT",
+"nm": "iShares Bitcoin Trust",
+"ac": "plus",
+"det": "+98 % auf 1.363.567 Anteile (zuvor 688.529), rund 64,6 Mio. $; unter 1 % des gemeldeten Depots",
+"sec": "krypto",
+"src": "ceo_ptj2711"
 }
 ]

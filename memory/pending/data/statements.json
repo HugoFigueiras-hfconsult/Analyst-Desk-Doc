@@ -10303,7 +10303,7 @@
 "ailab",
 "mega"
 ],
-"t": "Am Tag, an dem Anthropic erstmals unter dem Ausgabepreis schließt, kauft ARK 751.710 Aktien über alle sechs aktiven ETF, rund 61,6 Mio. Dollar zum Schlusskurs von 81,91 Dollar und mehr als die Hälfte davon im ARKK. Dazu kommen rund 62.600 Alphabet-Aktien der Gattung C (rund 17,3 Mio. Dollar); verkauft werden Meta (23,4 Tsd. Stück, 13,8 Mio. Dollar), Palantir (rund 29.900 Stück) und im ARKW der gesamte Bestand am eigenen Bitcoin-ETF ARKB. Nvidia steht nicht in der Tagesliste. Angaben nach TIKR (Handelsmail von ARK) und ARK Trade Timing.",
+"t": "Am Tag, an dem Anthropic erstmals unter dem Ausgabepreis schließt, kauft ARK 751.710 Aktien über alle sechs aktiven ETF, rund 61,6 Mio. Dollar zum Schlusskurs von 81,91 Dollar und mehr als die Hälfte davon im ARKK. Dazu kommen rund 62.600 Alphabet-Aktien der Gattung C (rund 17,3 Mio. Dollar); verkauft werden Meta (23,4 Tsd. Stück, 13,8 Mio. Dollar), Palantir (44.682 Stück über alle ETF) und im ARKW der gesamte Bestand am eigenen Bitcoin-ETF ARKB. Nvidia steht nicht in der Tagesliste. Angaben nach TIKR (Handelsmail von ARK), ARK Trade Timing und GuruFocus.",
 "src": "tikr_ark2411",
 "sw": 11
 },
@@ -10449,5 +10449,261 @@
 "t": "Schreibt am Sonntagabend (New Yorker Zeit) in einer X-Diskussion darüber, ob sich der KI-Ausbau rechnet, Alphabet sei der einzige Hyperscaler, der solche Zahlen tatsächlich vorweise: 47 % Rendite auf das zusätzlich eingesetzte Kapital im dritten Quartal. Amazon, Meta, Microsoft und Oracle kämen im Schnitt auf weniger als die Hälfte (22 %). Wiedergabe nach TIKR.",
 "src": "tikr_chanos2511",
 "sw": 11
+},
+{
+"id": "r12-01",
+"d": "2026-11-25",
+"who": "S&P Global Ratings",
+"org": "S&P Global Ratings",
+"k": "Research",
+"s": "warn",
+"a": [
+"NVDA"
+],
+"th": [
+"Governance",
+"Kredit"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis",
+"zins"
+],
+"lv": "Rating AA auf CreditWatch negativ; Herabstufung um eine Stufe binnen 90 Tagen möglich",
+"t": "S&P Global Ratings setzt das Rating AA von Nvidia und seiner vorrangigen Anleihen auf CreditWatch mit negativem Vorzeichen: Die Vorgänge um den CEO und die Fragen zur Exportkontrolle hätten Schwächen in Führung und Aufsicht offengelegt, etwa bei der Unabhängigkeit des Verwaltungsrats, der Abhängigkeit von einer Person und der Nachfolgeplanung. Eine Herabstufung binnen 90 Tagen wäre voraussichtlich auf eine Stufe begrenzt; Wettbewerbsstellung und Finanzprofil sieht die Agentur vorerst unverändert.",
+"src": "spg_nvda2511",
+"sw": 12
+},
+{
+"id": "r12-02",
+"d": "2026-11-25",
+"who": "JD Vance",
+"org": "US-Vizepräsident",
+"k": "Kommentar",
+"s": "neut",
+"a": [
+"NVDA"
+],
+"th": [
+"Regulierung",
+"Governance"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "Vizepräsident Vance sagt vor Reportern, Jensen Huang brauche keine Begnadigung: Er habe keinen Beleg für eine Straftat gesehen, und ihm sei versichert worden, dass nicht gegen Huang ermittelt werde. Trump hatte am Vortag in der New York Post eine Begnadigung als stets mögliche Option bezeichnet, die aber wohl nicht nötig sei.",
+"src": "cnbc_vance2511",
+"sw": 12
+},
+{
+"id": "r12-03",
+"d": "2026-11-25",
+"who": "Olof Gill",
+"org": "EU-Kommission, Sprecher",
+"k": "Kommentar",
+"s": "warn",
+"a": [],
+"th": [
+"Europa",
+"Geopolitik"
+],
+"st": [
+"eu"
+],
+"ar": [
+"eu"
+],
+"lv": "Obergrenze von 15 % aus dem Handelsabkommen",
+"t": "Die EU-Kommission weist die Begründung der US-Zollvorschläge zurück: Europa sei keine Quelle struktureller Überkapazitäten, sondern gehöre zu den am stärksten Betroffenen, sagt Sprecher Olof Gill, und man bedauere, dass es kein gemeinsames Vorgehen gebe. Die Kommission will die Befunde prüfen und erwartet, dass Washington die im Handelsabkommen vereinbarte Obergrenze von 15 % einhält (RTÉ, RFI).",
+"src": "rte_eu2511",
+"sw": 12
+},
+{
+"id": "r12-04",
+"d": "2026-11-26",
+"da": 1,
+"who": "Rory Johnston",
+"org": "Commodity Context",
+"k": "Kommentar",
+"s": "bull",
+"a": [
+"BRENT"
+],
+"th": [
+"Öl",
+"Geopolitik"
+],
+"st": [
+"gold"
+],
+"ar": [
+"oil"
+],
+"t": "Der Gründer von Commodity Context hält den Ausblick für Rohöl für freundlich: Brent sei unter 90 Dollar überverkauft gewesen, und es sei nur eine Frage der Zeit gewesen, bis der Markt wieder enger wird. Er verweist auf langsamere Lieferungen durch die Straße von Hormus, niedrige Lagerbestände und ein akutes Risiko für rund 15 % des weltweiten Angebots, auch wenn die Daten für Oktober einen kleinen Überschuss zeigen dürften. Zitiert von Reuters.",
+"src": "rt_oil2611",
+"sw": 12
+},
+{
+"id": "r12-05",
+"d": "2026-11-26",
+"da": 1,
+"who": "Jean-David Pequignot",
+"org": "Deribit, Chief Commercial Officer",
+"k": "Kommentar",
+"s": "warn",
+"a": [
+"BTC"
+],
+"th": [
+"Krypto",
+"Positionierung"
+],
+"st": [
+"btc"
+],
+"ar": [
+"krypto"
+],
+"lv": "Put-Call-Verhältnis 0,89 zum Verfall am 27.11. (Oktober: 0,55)",
+"t": "Vor dem Monatsverfall am 27.11. (rund 7 Mrd. Dollar an Bitcoin-Optionen bei Deribit) beschreibt der Vertriebschef der Börse eine deutlich vorsichtigere Aufstellung: Das Verhältnis offener Puts zu Calls liegt für den Verfallstag bei 0,89 und über alle Laufzeiten bei 0,81, nach 0,55 Ende Oktober. Die offenen Positionen häufen sich bei Puts mit Basis 60.000 Dollar und darunter; vor dem Oktober-Verfall lagen die größten Wetten bei Calls über 90.000 bis 100.000 Dollar. Zitiert von CoinDesk.",
+"src": "cd_opt2611",
+"sw": 12
+},
+{
+"id": "r12-06",
+"d": "2026-11-24",
+"da": 1,
+"p": "griffin",
+"k": "Interview",
+"s": "neut",
+"a": [],
+"th": [
+"KI-Capex",
+"Positionierung"
+],
+"st": [
+"capex"
+],
+"ar": [
+"aiinfra"
+],
+"t": "Im Gespräch mit Risk.net (erschienen am 24.11. zur Auszeichnung von Citadel als Hedgefonds des Jahres) nennt Griffin die Grundthese von Leopold Aschenbrenners Essay von 2024 zutreffend: Es komme ein gewaltiger Ausbau von Rechenzentren, und die KI-Modelle würden deutlich besser. Zugleich erinnert er daran, dass Märkte länger irrational bleiben können, als Anleger zahlungsfähig sind. Citadel hatte Ende Juli den Großteil des Aktienportfolios von Situational Awareness mit über 10 % Abschlag übernommen, das KI-Risiko zunächst abgesichert und die Einzelwerte danach abgebaut.",
+"src": "risk_griffin2411",
+"sw": 12
+},
+{
+"id": "r12-07",
+"d": "2026-11-26",
+"p": "fink",
+"k": "Konferenz",
+"s": "bull",
+"a": [],
+"th": [
+"KI-Capex",
+"Europa"
+],
+"st": [
+"capex",
+"eu"
+],
+"ar": [
+"aiinfra",
+"eu"
+],
+"t": "Per Videoschalte beim Managerkongress CEDE in Barcelona sagt Fink, die Welt stehe am Beginn eines der größten Investitionszyklen seiner Lebenszeit, getrieben von Infrastruktur, Energieversorgung, KI und Industriekapazität. Öffentliche Mittel reichten dafür wegen der hohen Staatsschulden nicht, die Kapitalmärkte müssten einen größeren Teil tragen; die KI sieht er noch in einer frühen Phase. Europa brauche tiefere, stärker integrierte Kapitalmärkte und günstigere Energie, Spanien nennt er besonders gut aufgestellt.",
+"src": "cat_fink2611",
+"sw": 12
+},
+{
+"id": "r12-08",
+"d": "2026-11-25",
+"p": "lee",
+"k": "Research",
+"s": "bull",
+"a": [],
+"th": [
+"Kredit",
+"Stimmung"
+],
+"st": [],
+"ar": [
+"us",
+"zins"
+],
+"t": "Im Video »Macro Minute« vom Mittwochabend sieht Lee in der verkürzten Handelswoche Anzeichen, dass sich der Aktienmarkt stabilisiert: Der Markt für Hochzinsanleihen reagiere auf die Aktienschwankungen weit gelassener als 2018 und auch gedämpfter als 2025. Als Einzelfall bespricht er die Schuldenlage von CoreWeave. Frei zugänglich sind nur Titel und Anriss.",
+"src": "fs_lee2511",
+"sw": 12
+},
+{
+"id": "r12-09",
+"d": "2026-11-24",
+"p": "yardeni",
+"k": "Interview",
+"s": "neut",
+"a": [],
+"th": [
+"KI-Capex",
+"Stimmung"
+],
+"st": [
+"capex"
+],
+"ar": [
+"us"
+],
+"t": "Im Gespräch mit dem indischen Sender CNBC-TV18 (Dienstagabend New Yorker Zeit) sagt Yardeni, der KI-Handel lebe, hinke aber: Das Tief der Korrektur sei am Freitag wohl erreicht worden, eine V-förmige Erholung bis zum Jahresende erwartet er trotz des Montagssprungs nicht, die Märkte blieben sehr unruhig. Erst müsse sich zeigen, ob die Investitionen in Rechenzentren Gewinn bringen und wie schärfere Exportkontrollen wirken; Indien profitiere davon, dass Anleger über die KI-Werte hinaus streuen.",
+"src": "tv18_yardeni2511",
+"sw": 12
+},
+{
+"id": "r12-10",
+"d": "2026-11-26",
+"da": 1,
+"p": "elerian",
+"k": "Interview",
+"s": "warn",
+"a": [],
+"th": [
+"Geopolitik",
+"Makro"
+],
+"st": [
+"nvda",
+"fed"
+],
+"ar": [
+"us",
+"zins"
+],
+"lv": "US-Rezession: Wahrscheinlichkeit unter 50 %, steigend",
+"t": "Im Interview mit dem Handelsblatt wertet El-Erian die von Trump betriebene Wiedereinsetzung des Nvidia-Chefs als Zeichen einer neuen Wirtschaftsordnung: Das sei nicht mehr der Kapitalismus, wie man ihn kannte, Innenpolitik, nationale Sicherheit und Geopolitik bestimmten zunehmend über wirtschaftliche Ergebnisse, mit Folgen für die Preisbildung an den Märkten. Die Wahrscheinlichkeit einer US-Rezession sieht er unter 50 %, aber steigend; die Schwankungen hielten an, und mit der Fed-Erhöhung am 9.12. rechnet er fest. Wiedergabe nach der Nachrichtenagentur dts.",
+"src": "hb_elerian2611",
+"sw": 12
+},
+{
+"id": "r12-11",
+"d": "2026-11-26",
+"p": "musk",
+"k": "Post",
+"s": "bull",
+"a": [
+"SPCX"
+],
+"th": [
+"Raumfahrt",
+"Aktienangebot"
+],
+"st": [],
+"ar": [
+"space"
+],
+"t": "Musk kündigt auf X an, jedes Kind in den USA erhalte zwei SpaceX-Aktien: eine vom Unternehmen, übertragen im Dezember, und eine von ihm persönlich, sobald seine Haltefrist im Juni 2027 endet. In der Nacht zum 26.11. rät er den Empfängern, die Aktien zu behalten: Gelinge es SpaceX, das Leben multiplanetar zu machen und ein Millionstel der Sonnenenergie zu nutzen, sei das Unternehmen etwa das Millionenfache der heutigen Weltwirtschaft wert; die Ziele nennt er selbst absurd schwierig.",
+"src": "x_musk2611",
+"sw": 12
 }
 ]

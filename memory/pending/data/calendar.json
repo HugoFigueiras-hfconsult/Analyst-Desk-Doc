@@ -144,10 +144,10 @@
 },
 {
 "d": "2026-11-27",
-"t": "Bitcoin-Optionen im Wert von 6,6 Mrd. $ laufen aus (Deribit: rund 112.000 BTC, Max Pain 72.000 $)",
+"t": "Bitcoin-Optionen im Wert von rund 7 Mrd. $ laufen bei Deribit aus (rund 113.000 BTC, Max Pain 71.000 bis 72.000 $; Put-Call-Verhältnis 0,89)",
 "k": "Markt",
 "st": "btc",
-"src": "bic_cal",
+"src": "cd_opt2611",
 "aff": [
 "BTC"
 ],
@@ -166,13 +166,14 @@
 },
 {
 "d": "2026-11-29",
-"t": "Treffen der OPEC+",
+"t": "OPEC+: vier Ministerrunden zur Förderpolitik 2027; laut Reuters dürften die Förderziele mindestens für das erste Quartal fortgeschrieben werden, strittig sind die Kapazitätsschätzungen für den Irak und Kasachstan",
 "k": "Markt",
-"src": "tnfx_2311",
+"src": "rt_opec2611",
 "st": "gold",
 "aff": [
 "BRENT"
-]
+],
+"tm": "ab 14:00 MEZ"
 },
 {
 "d": "2026-11-30",
@@ -186,15 +187,16 @@
 },
 {
 "d": "2026-11-30",
-"t": "Vorläufige Verbraucherpreise für November aus dem Euroraum und Deutschland (30.11. und 1.12.)",
+"t": "Vorläufige Verbraucherpreise für November: Deutschland am 30.11., Euroraum am 1.12.",
 "k": "Daten",
-"src": "ac_ifo",
+"src": "adm_wk2611",
 "e": "2026-12-01",
 "st": "eu",
 "aff": [
 "DAX",
 "SX5E"
-]
+],
+"tm": "Deutschland 14:00 MEZ, Euroraum 11:00 MEZ"
 },
 {
 "d": "2026-11-30",
@@ -373,6 +375,17 @@
 "aff": [
 "TSM",
 "SMH"
+]
+},
+{
+"d": "2026-12-11",
+"t": "Nasdaq-100: Bekanntgabe der jährlichen Neuzusammensetzung nach US-Börsenschluss erwartet (von der Nasdaq noch nicht bestätigt), wirksam zur Eröffnung am 21.12.; Anthropic gilt als Kandidat",
+"k": "Markt",
+"st": "ant",
+"src": "ls_ant2611",
+"aff": [
+"ANT",
+"NDX"
 ]
 },
 {
