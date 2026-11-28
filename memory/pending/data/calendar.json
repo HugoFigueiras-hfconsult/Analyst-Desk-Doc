@@ -176,6 +176,18 @@
 "tm": "ab 14:00 MEZ"
 },
 {
+"d": "2026-11-29",
+"t": "Spanien wählt ein neues Parlament (vorgezogene Wahl); erste Reaktion des Ibex 35 am Montag",
+"k": "Markt",
+"tm": "Wahllokale bis 20:00 MEZ",
+"st": "eu",
+"src": "aj_es2711",
+"aff": [
+"SX5E",
+"VGK"
+]
+},
+{
 "d": "2026-11-30",
 "t": "MSCI nimmt Strategy und Metaplanet zum Handelsschluss aus seinen Indizes (wirksam 1.12.); J.P. Morgan schätzt die erzwungenen Verkäufe bei Strategy auf rund 2,8 Mrd. $",
 "k": "Markt",
@@ -209,8 +221,40 @@
 ]
 },
 {
+"d": "2026-11-30",
+"t": "EU-Handelsminister beraten in Brüssel über die Handelsbeziehungen zu den USA; beim Arbeitsessen ist der US-Handelsbeauftragte Greer per Video zugeschaltet",
+"k": "Markt",
+"tm": "ab 10:00 MEZ",
+"st": "eu",
+"src": "fac_3011",
+"aff": [
+"DAX",
+"SX5E"
+]
+},
+{
+"d": "2026-11-30",
+"t": "Cyber Monday: Adobe erwartet erstmals mehr als 15 Mrd. $ Online-Umsatz an einem Tag (15,1 Mrd. $, +6,2 %); an Thanksgiving waren es laut Adobe Analytics 7,1 Mrd. $ (+10,4 %)",
+"k": "Daten",
+"src": "dc360_2711",
+"aff": [
+"AMZN",
+"XLY"
+]
+},
+{
+"d": "2026-11-30",
+"t": "Brent: Der Januar-Kontrakt läuft aus, Frontkontrakt wird der Februar-Kontrakt, der am 27.11. rund 4,50 $ tiefer notierte; die Kursreihe kann dadurch springen",
+"k": "Markt",
+"st": "gold",
+"src": "ice_brent2711",
+"aff": [
+"BRENT"
+]
+},
+{
 "d": "2026-12-01",
-"t": "US-Daten: ISM-Einkaufsmanagerindex Industrie und offene Stellen (JOLTS) für Oktober",
+"t": "US-Daten: ISM-Einkaufsmanagerindex Industrie (Prognose 54,8 nach 55,5) und offene Stellen (JOLTS) für Oktober (Prognose 7,4 Mio. nach 7,5 Mio.); Prognosen aus der Umfrage des Wall Street Journal",
 "k": "Daten",
 "tm": "16:00 MEZ",
 "st": "fed",
@@ -222,13 +266,12 @@
 },
 {
 "d": "2026-12-01",
-"t": "Quartalszahlen nach US-Börsenschluss: Marvell (Telefonkonferenz 22:30 MEZ) und CrowdStrike, beide vom Unternehmen bestätigt",
+"t": "Quartalszahlen nach US-Börsenschluss: Marvell (vom Unternehmen bestätigt, Telefonkonferenz 22:30 MEZ). CrowdStrike hat seine Zahlen schon am 23.11. vorgelegt, zusammen mit der Übernahme von Zscaler; der Termin am 1.12. entfällt",
 "k": "Zahlen",
 "st": "capex",
 "src": "mrvl_ir",
 "aff": [
-"SMH",
-"IGV"
+"SMH"
 ]
 },
 {
@@ -255,7 +298,7 @@
 },
 {
 "d": "2026-12-02",
-"t": "ADP-Beschäftigungsbericht für November",
+"t": "ADP-Beschäftigungsbericht für November (Prognose +75.000 nach +86.000, Umfrage des Wall Street Journal)",
 "k": "Daten",
 "tm": "14:15 MEZ",
 "st": "fed",
@@ -267,7 +310,7 @@
 },
 {
 "d": "2026-12-03",
-"t": "ISM-Einkaufsmanagerindex Dienstleistungen (USA)",
+"t": "ISM-Einkaufsmanagerindex Dienstleistungen (USA; Prognose 54,6 nach 54,5, Umfrage des Wall Street Journal)",
 "k": "Daten",
 "tm": "16:00 MEZ",
 "src": "cal_macro",
@@ -290,11 +333,11 @@
 },
 {
 "d": "2026-12-04",
-"t": "US-Arbeitsmarktbericht für November",
+"t": "US-Arbeitsmarktbericht für November (Prognose: +80.000 Stellen nach +165.000, Arbeitslosenquote 4,1 %; Umfrage des Wall Street Journal)",
 "k": "Daten",
 "tm": "14:30 MEZ",
 "st": "fed",
-"src": "cal_adm",
+"src": "wsj_wk2711",
 "aff": [
 "SPX",
 "NDX",
@@ -312,6 +355,18 @@
 "src": "fool_nvda10q",
 "aff": [
 "NVDA"
+]
+},
+{
+"d": "2026-12-08",
+"t": "DoubleLine-Webcast »Gundlach Unlocked« mit Jeffrey Gundlach, am Vorabend des Fed-Entscheids",
+"k": "Markt",
+"tm": "22:15 MEZ",
+"st": "fed",
+"src": "dl_webcast",
+"aff": [
+"TLT",
+"UST10"
 ]
 },
 {

@@ -5,7 +5,7 @@
 "t": "Nvidia: Huang kehrt zurück",
 "kpi": "125,53 $",
 "sub": "−14,0 % am 20.11. · 47,5 % unter Rekordschluss vom 06.10.",
-"sum": "Der Verwaltungsrat hat Jensen Huang am 22.11. einstimmig wieder als Präsident, CEO und Direktor eingesetzt, elf Tage nach dem Rücktritt. Dem Kurssprung vom 23.11. (+31,5 % auf 165,05 $) folgten zwei Verlusttage: Am 25.11. schloss die Aktie bei 149,30 $ (−3,9 %), rund 38 % unter dem Rekordschluss vom 6.10.; am 26.11. ruhte der US-Handel. S&P Global Ratings hat das Rating AA am 25.11. auf CreditWatch negativ gesetzt und nennt Schwächen bei Aufsicht, Unabhängigkeit des Verwaltungsrats und Nachfolgeplanung; Moody’s lässt Aa1 unverändert. Trump nannte eine Begnadigung Huangs eine Option, Vizepräsident Vance hält sie für unnötig, weil nicht gegen Huang ermittelt werde; laut Reuters gab es vor der Wiedereinsetzung keine förmliche Untersuchung des Justizministeriums. Offen bleiben die Untersuchung des unabhängigen Ausschusses, die SEC-Prüfung der Bilanzierung, die Verfahren zur Exportkontrolle und der Quartalsbericht (10-Q), für den die Frist am 4.12. endet; die Demokraten kündigen für Januar eigene Untersuchungen an (CBS). Am 1.12. befragen drei Ausschüsse des Repräsentantenhauses Huang hinter verschlossenen Türen, am 3.12. sagt er öffentlich vor dem Bankenausschuss des Senats aus.",
+"sum": "Der Verwaltungsrat hat Jensen Huang am 22.11. einstimmig wieder als Präsident, CEO und Direktor eingesetzt, elf Tage nach dem Rücktritt. Nach dem Kurssprung vom 23.11. (+31,5 % auf 165,05 $) und zwei Verlusttagen schloss die Aktie am 27.11. bei 150,49 $ (+0,8 %): rund 20 % über dem Schluss vom 20.11., aber 37 % unter dem Rekordschluss vom 6.10., und sie blieb am Freitag hinter dem Chipsektor zurück. Neu ist ein Bloomberg-Bericht, nach dem Blackwell-Systeme in einem Rechenzentrum in Schanghai stehen, das mit Alice Huang und Megaspeed verbunden ist; das hält die Frage der Exportkontrollen offen. S&P Global Ratings prüft seit dem 25.11. eine Herabstufung des Ratings AA (CreditWatch negativ), Moody’s lässt Aa1 unverändert. Trump stellt sich weiter hinter Huang, Vizepräsident Vance hält eine Begnadigung für unnötig; im Kongress wächst der Druck aus beiden Parteien. Offen bleiben die Untersuchung des unabhängigen Ausschusses, die SEC-Prüfung der Bilanzierung, die Verfahren zur Exportkontrolle und der Quartalsbericht (10-Q), für den die Frist am 4.12. endet. Am 1.12. befragen drei Ausschüsse des Repräsentantenhauses Huang hinter verschlossenen Türen, am 3.12. sagt er öffentlich vor dem Bankenausschuss des Senats aus; auch Handelsminister Lutnick soll dort aussagen.",
 "tl": [
 {
 "d": "2026-10-29",
@@ -114,6 +114,14 @@
 {
 "d": "2026-11-25",
 "t": "S&P Global Ratings setzt das Rating AA von Nvidia auf CreditWatch negativ: Rücktritt und Wiedereinsetzung des CEO beantworteten die Fragen zur Aufsicht durch den Verwaltungsrat nicht, eine Herabstufung binnen 90 Tagen wäre voraussichtlich auf eine Stufe begrenzt. Moody’s belässt Aa1 mit stabilem Ausblick (The Edge). Vizepräsident Vance sagt, Huang brauche keine Begnadigung, ihm sei versichert worden, dass nicht gegen ihn ermittelt werde (CNBC); laut Reuters prüfte das Justizministerium Huang vor Trumps Vorstoß nicht förmlich (Indian Express)."
+},
+{
+"d": "2026-11-26",
+"t": "Trump sagt in Mar-a-Lago, Huang freue sich auf seine »zweite Amtszeit« an der Spitze von Nvidia und werde sie noch besser führen als die erste; gesprochen habe er seit der Wiedereinsetzung nicht mit ihm (Fox Business). Mehrere republikanische Senatoren kritisieren die Rückkehr öffentlich (Al Jazeera)."
+},
+{
+"d": "2026-11-27",
+"t": "Bloomberg: Zwei chinesische Firmen haben Nvidias Blackwell-Systeme in einem Rechenzentrum in Schanghai installiert, das mit Alice Huang und Megaspeed verbunden ist, darunter ein Serverschrank GB300 NVL72, der als Sicherheit für einen Kredit über 96 Mio. Yuan diente; wie die Geräte nach China kamen, ist offen, Megaspeed bestreitet Verstöße. Die Aktie schließt 0,8 % höher bei 150,49 $ und bleibt hinter dem Chipsektor zurück (SMH +4,2 %). Handelsminister Lutnick will vor dem Bankenausschuss des Senats aussagen, ein Termin steht noch nicht fest; der Energie- und Handelsausschuss des Repräsentantenhauses verhandelt über eine Unterrichtung (MS NOW)."
 },
 {
 "d": "2026-12-01",
@@ -368,7 +376,12 @@
 "cnn_pardon2411",
 "ie_nvda2611",
 "edge_nvda2611",
-"cbs_nvda2511"
+"cbs_nvda2511",
+"bbg_nvda2711",
+"fox_trump2711",
+"msnow_nvda2711",
+"aj_nvda2711",
+"bz_ives2711"
 ],
 "sym": "NVDA",
 "px": "NVDA",
@@ -380,7 +393,7 @@
 "t": "Anthropic-Börsengang",
 "kpi": "88,91 $",
 "sub": "−8,5 % am 20.11. · Ausgabepreis 83 $",
-"sum": "Rekord-IPO mit 81,3 Mrd. $ Volumen, mit Mehrzuteilung rund 93,5 Mrd. $. Nach dem Debüt (+17 %) gab die Aktie drei Handelstage in Folge nach und schloss am 24.11. erstmals unter dem Ausgabepreis von 83 $; am 25.11. fiel sie im Handel bis auf 73,85 $ und schloss bei 82,79 $ (+1,1 %); am 26.11. ruhte der Handel. Als Gründe nennen Analysten den Kapitalbedarf, das noch fehlende Kreditrating und das Angebot aus auslaufenden Haltefristen: bis zu 303 Mio. Aktien am 15.12., weitere 303 Mio. am 5.1. und über 700 Mio. bis Anfang Februar (Barron's nach dem Prospekt). Stützen könnten Indexkäufe: MSCI nimmt die Aktie zum Handelsschluss am 30.11. auf, der Nasdaq-100 nach dem 18.12. Canaccord (135 $) und Oppenheimer (150 $) starten mit Kaufempfehlungen, ARK kauft unter dem Ausgabepreis weiter zu. Ab dem 30.11. ist die Schweigefrist der Konsortialbanken vorüber, deren Erststudien dann folgen können; die jährliche Neuzusammensetzung des Nasdaq-100 wird für den 11.12. erwartet (Leverage Shares).",
+"sum": "Rekord-IPO mit 81,3 Mrd. $ Volumen, mit Mehrzuteilung rund 93,5 Mrd. $. Nach dem Debüt (+17 %) gab die Aktie nach und schloss am 24. und 25.11. unter dem Ausgabepreis von 83 $ (Tagestief 73,85 $); am 27.11. sprang sie mit den übrigen KI-Werten um 11,0 % auf 91,88 $, den höchsten Schluss seit dem 19.11., und liegt damit 10,7 % über dem Ausgabepreis. Als Belastung nennen Analysten den Kapitalbedarf, das noch fehlende Kreditrating und das Angebot aus auslaufenden Haltefristen: bis zu 303 Mio. Aktien am 15.12., weitere 303 Mio. am 5.1. und über 700 Mio. bis Anfang Februar (Barron's nach dem Prospekt). Stützen könnten Indexkäufe: MSCI nimmt die Aktie zum Handelsschluss am 30.11. auf, laut EBC folgen die Russell-Indizes am 14.12. und FTSE am 21.12., der Nasdaq-100 nach dem 18.12. Canaccord (135 $) und Oppenheimer (150 $) starten mit Kaufempfehlungen, ARK kaufte unter dem Ausgabepreis zu. Ab dem 30.11. ist die Schweigefrist der Konsortialbanken vorüber, deren Erststudien dann folgen können; die jährliche Neuzusammensetzung des Nasdaq-100 wird für den 11.12. erwartet (Leverage Shares).",
 "tl": [
 {
 "d": "2026-11-19",
@@ -433,6 +446,10 @@
 {
 "d": "2026-11-25",
 "t": "Tagestief 73,85 $ kurz nach Handelsbeginn, 11 % unter dem Ausgabepreis (Reuters); Schluss 82,79 $ (+1,1 %), weiter knapp unter 83 $. ARK kauft am 24. und 25.11. zusammen rund 1,07 Mio. Aktien. Oppenheimer hatte die Aktie am 24.11. mit Outperform und Ziel 150 $ aufgenommen; laut Intropic könnten passive Fonds bis Jahresende bis zu 30 % der platzierten Aktien kaufen (Reuters)."
+},
+{
+"d": "2026-11-27",
+"t": "Die Aktie steigt im verkürzten Handel um 11,0 % auf 91,88 $ (Tagesspanne 84,51 bis 93,39 $), der größte Tagesgewinn seit dem Debüt, und steht wieder über dem Ausgabepreis von 83 $; auf Wochensicht bleibt ein Plus von 3,3 %. The Motley Fool nennt als Grund die Rückkehr der Käufer in KI-Werte. Nach MSCI (Handelsschluss 30.11.) folgen laut EBC die Russell-Indizes zum 14.12. und die FTSE-Indizes zum 21.12."
 },
 {
 "d": "2026-11-30",
@@ -584,7 +601,9 @@
 "tikr_ark2411",
 "bz_ark2511",
 "st_mkt2511",
-"ls_ant2611"
+"ls_ant2611",
+"fool_ant2711",
+"ebc_ant2411"
 ],
 "sym": "ANT",
 "px": "ANT",
@@ -596,7 +615,7 @@
 "t": "KI-Investitionen unter Verdacht",
 "kpi": "52 %",
 "sub": "der Fondsmanager erwarten binnen 6 Monaten eine Capex-Kürzung",
-"sum": "Die vier großen Hyperscaler planen 2026 zusammen rund 730 Mrd. $ Investitionen und finanzieren zunehmend über Anleihen; J.P. Morgan erwartet für 2027 knapp 1,4 Bio. $ KI-Investitionen und ab 2028 deutlich weniger Zuwachs. Die Debatte dreht sich darum, ob die Erträge das tragen, dazu kommt politischer Druck: Trumps angekündigte Steuer auf Rechenzentren im Ausland und lokaler Widerstand in den USA. Am 25.11. griff die Sorge auf den Kreditmarkt über: Die Ausfallprämien von Oracle, Alphabet, SpaceX und CoreWeave stiegen auf Rekordstände, die Rendite einer CoreWeave-Anleihe auf fast 18 % (Reuters), und S&P Global Ratings prüft eine Herabstufung von Nvidia. Am 26.11. erholten sich die Chipwerte in Asien und Europa (SoftBank +7,3 % nach −14,8 %, europäische Technologiewerte +2,7 %), während die US-Börsen geschlossen blieben. Die Gegenstimmen: Fink sieht den Beginn eines der größten Investitionszyklen seiner Lebenszeit, Griffin nennt die These vom gewaltigen Ausbau der Rechenzentren zutreffend, Lee verweist auf den ruhigen Markt für Hochzinsanleihen.",
+"sum": "Die vier großen Hyperscaler planen 2026 zusammen rund 730 Mrd. $ Investitionen und finanzieren zunehmend über Anleihen; J.P. Morgan erwartet für 2027 knapp 1,4 Bio. $ KI-Investitionen und ab 2028 deutlich weniger Zuwachs. Die Debatte dreht sich darum, ob die Erträge das tragen, dazu kommt politischer Druck: Trumps angekündigte Steuer auf Rechenzentren im Ausland und lokaler Widerstand in den USA. Am 25.11. griff die Sorge auf den Kreditmarkt über: Die Ausfallprämien von Oracle, Alphabet, SpaceX und CoreWeave stiegen auf Rekordstände, die Rendite einer CoreWeave-Anleihe auf fast 18 % (Reuters), und S&P Global Ratings prüft eine Herabstufung von Nvidia. Seither läuft eine Gegenbewegung: Nach Asien und Europa erholten sich am 27.11. auch die US-Chipwerte (SOX +4,7 %, Micron +7,6 %, SanDisk +16,0 %), der Halbleiter-ETF SMH gewann in der Woche 10,0 %. Marktbeobachter wie Kathleen Brooks (XTB) nennen die Erholung technisch, weil die Fragen zu Erträgen und Finanzierung offen sind. Die Gegenstimmen: Fink sieht den Beginn eines der größten Investitionszyklen seiner Lebenszeit, Griffin nennt die These vom gewaltigen Ausbau der Rechenzentren zutreffend, Lee verweist auf den ruhigen Markt für Hochzinsanleihen. Nächste Prüfsteine sind die Zahlen von Marvell (1.12.), Salesforce und Snowflake (2.12.) und Broadcom (9.12.).",
 "tl": [
 {
 "d": "2026-10-28",
@@ -677,6 +696,14 @@
 {
 "d": "2026-11-26",
 "t": "Asien und Europa holen die späte US-Wende nach: Nikkei +0,9 %, Taiex +2,5 %, Kospi +0,3 %; SoftBank +7,3 %, Kioxia +12,6 % (AP). In Europa steigt der Technologiesektor um 2,7 % (dpa-AFX). Fink spricht in Barcelona vom Beginn eines der größten Investitionszyklen seiner Lebenszeit."
+},
+{
+"d": "2026-11-26",
+"t": "Burry empfiehlt auf X den Aufsatz »Mark to Swap« eines anderen Autors als Pflichtlektüre: Gemessen an den Ausfallprämien stufe der Markt das Kreditrisiko der KI-Zahler rund fünf Stufen schlechter ein als die Ratingagenturen, finanziert werde der Ausbau aber zu den Konditionen der Agenturnoten."
+},
+{
+"d": "2026-11-27",
+"t": "Die verkauften KI-Werte führen die Erholung im verkürzten US-Handel an: Halbleiterindex SOX +4,7 %, SanDisk +16,0 %, Seagate +7,9 %, Micron +7,6 %, Marvell +7,3 %, AMD +4,6 %, Broadcom +3,8 %, CoreWeave +3,7 %, Oracle +3,1 %; Nvidia nur +0,8 %. Kathleen Brooks (XTB) nennt die Erholung technisch, die Fragen hinter dem Kursrutsch seien unbeantwortet. Auf Wochensicht gewinnt der Halbleiter-ETF SMH 10,0 %."
 }
 ],
 "src": [
@@ -710,7 +737,11 @@
 "ap_mkt2611",
 "dpa_dax2611",
 "cat_fink2611",
-"risk_griffin2411"
+"risk_griffin2411",
+"fox_mkt2711",
+"cl_2711",
+"wst_sndk2711",
+"x_burry2611"
 ],
 "sym": null,
 "q": "AI capex hyperscaler data center spending"
@@ -719,9 +750,9 @@
 "id": "fed",
 "tk": "FED",
 "t": "Fed im Erhöhungsmodus",
-"kpi": "99,5 %",
-"sub": "Marktpreis für +25 bp am 9.12., dazu 0,5 % für eine Pause (CME FedWatch laut Gate News, 26.11., 16:53 UTC)",
-"sum": "Unter Chair Kevin Warsh hat die Fed im September erhöht. Der Markt preist für den 9.12. einen weiteren Schritt um 25 Basispunkte zu 99,5 % ein (CME FedWatch laut Gate News, 26.11.); 50 Basispunkte gelten als vom Tisch, Prognosemärkte sehen dafür noch rund 3 %. Für Januar war am 25.11. ein zweiter Schritt zu 58 % eingepreist. Die Daten vom 25.11. stützen das: PCE-Inflation 3,8 %, Kernrate 3,3 %, BIP-Wachstum im dritten Quartal auf 4,3 % hochrevidiert, Erstanträge bei 189.000; das Beige Book meldet breiteren Kostendruck. Dazu kommen die am 25.11. vorgeschlagenen Zölle gegen 14 Handelspartner, über die frühestens nach den Anhörungen ab 25.1.2027 entschieden wird; für EU, Japan, Südkorea, die Schweiz und Taiwan bleibt es bei 15 % einschließlich der bestehenden Sätze. Bessent, Ackman und Siegel warnen vor zu starker Straffung; El-Erian sieht die Wahrscheinlichkeit einer US-Rezession unter 50 %, aber steigend. Am 28.11. beginnt die Schweigephase der Fed, die zehnjährige US-Rendite schloss am 25.11. bei 4,85 %. Nächste große Zahl ist der Arbeitsmarktbericht am 4.12.",
+"kpi": "99,2 %",
+"sub": "Marktpreis für +25 bp am 9.12. (CME FedWatch laut Investing.com, 27.11. früh) · Prognosemärkte 92,5 bis 93,5 %",
+"sum": "Unter Chair Kevin Warsh hat die Fed im September erhöht. Der Markt preist für den 9.12. einen weiteren Schritt um 25 Basispunkte zu 99,2 % ein (CME FedWatch laut Investing.com, 27.11.); 50 Basispunkte gelten als vom Tisch. Für zwei Schritte bis zur Sitzung am 27.1. lag die Wahrscheinlichkeit zum Schluss vom 25.11. bei 60 %. Die Daten vom 25.11. stützen das: PCE-Inflation 3,8 %, Kernrate 3,3 %, BIP-Wachstum im dritten Quartal auf 4,3 % hochrevidiert, Erstanträge bei 189.000; das Beige Book meldet breiteren Kostendruck. Dazu kommen die am 25.11. vorgeschlagenen Zölle gegen 14 Handelspartner, über die frühestens nach den Anhörungen ab 25.1.2027 entschieden wird; für EU, Japan, Südkorea, die Schweiz und Taiwan bleibt es bei 15 % einschließlich der bestehenden Sätze, China weist den Vorschlag zurück und behält sich Gegenmaßnahmen vor. Bessent, Ackman und Siegel warnen vor zu starker Straffung; El-Erian sieht die Wahrscheinlichkeit einer US-Rezession unter 50 %, aber steigend. Seit dem 28.11. gilt die Schweigephase der Fed; die zehnjährige US-Rendite stieg am 27.11. auf 4,94 %. Nächste große Zahl ist der Arbeitsmarktbericht am 4.12. (Erwartung: 80.000 neue Stellen, Quote 4,1 %).",
 "tl": [
 {
 "d": "2026-09-17",
@@ -796,6 +827,14 @@
 "t": "Thanksgiving: US-Märkte geschlossen. CME FedWatch zeigt für den 9.12. 99,5 % für eine Erhöhung um 25 Basispunkte und 0,5 % für eine Pause (Gate News, 16:53 UTC); die Prognosemärkte Kalshi und Polymarket liegen bei rund 93 % für 25 und rund 3 % für 50 Basispunkte. Am 28.11. beginnt die Schweigephase vor der Sitzung."
 },
 {
+"d": "2026-11-26",
+"t": "China weist die vorgeschlagenen US-Zölle zurück: Das Handelsministerium nennt die Untersuchung einseitig und einen Verstoß gegen WTO-Regeln und behält sich Gegenmaßnahmen vor (Caixin), das Außenministerium spricht von einer falschen Prämisse (AP). Die Waffenruhe im Handelsstreit läuft bis 10.1.2027. Trump verlangt eine Untersuchung der revidierten BIP-Zahlen (The Hill)."
+},
+{
+"d": "2026-11-27",
+"t": "CME FedWatch zeigt am Freitagmorgen 99,2 % für eine Erhöhung um 25 Basispunkte am 9.12. (Investing.com); für zwei Schritte bis zur Sitzung am 27.1. waren es zum Schluss vom 25.11. 60,1 % nach 67,4 % am Vortag. Die zehnjährige US-Rendite steigt um 9 Basispunkte auf 4,94 %, der Dollar-Index auf 104,01. Für den Arbeitsmarktbericht am 4.12. erwarten vom Wall Street Journal befragte Ökonomen 80.000 neue Stellen nach 165.000 und eine Arbeitslosenquote von 4,1 %. Am 28.11. beginnt die Schweigephase der Fed (bis 10.12.)."
+},
+{
 "d": "2026-12-09",
 "t": "Zinsentscheid um 20:00 MEZ, Pressekonferenz Warsh um 20:30 MEZ."
 }
@@ -841,7 +880,13 @@
 "gate_fed2611",
 "pmp_fed2611",
 "hk_301",
-"hb_elerian2611"
+"hb_elerian2611",
+"inv_fed2711",
+"pmp_fed2711",
+"caixin_2711",
+"ap_tariff2611",
+"hill_gdp2711",
+"wsj_wk2711"
 ],
 "sym": "UST10",
 "q": "Federal Reserve December rate decision"
@@ -852,7 +897,7 @@
 "t": "Rotation Tech → Defensiv",
 "kpi": "37 % → 12 %",
 "sub": "Tech-Übergewicht der Fondsmanager binnen eines Monats",
-"sum": "Der Markt dreht im Tagestakt, die Breite hält: Am 25.11. stieg der gleichgewichtete S&P 500 um 0,8 %, während der Index 0,25 % verlor; rund drei Viertel der Werte legten zu. Vorn lagen Grundstoffe (+2,1 %), Immobilien, Kommunikation, Industrie und Finanzen, hinten Technologie (−0,8 %) und Halbleiter (−1,0 %); der Dow Jones schloss mit 50.182,95 den zweiten Tag über 50.000 Punkten. Hedgefonds haben ihr Netto-Engagement laut Goldman Sachs auf das Niveau von April 2025 gesenkt und schichten in Finanz-, Konsum- und Industriewerte um. Die 13F-Daten vom 30.09. zeigen bereits Verkäufe bei Internet-Plattformen und KI-Infrastruktur.",
+"sum": "Die Erholungswoche war breit: Der S&P 500 gewann 5,6 %, der gleichgewichtete Index 5,3 %, die Nebenwerte (IWM) 6,7 %; der Dow Jones schloss mit 50.774,94 Punkten den dritten Handelstag in Folge über 50.000 und verbuchte laut CNBC seine beste Woche seit 2022. Am 27.11. stiegen alle elf Sektoren und vier von fünf Indexwerten; vorn lagen Technologie (+2,8 %), zyklischer Konsum und Kommunikation, hinten Versorger, Gesundheit und Basiskonsum. Damit führten zum Wochenschluss wieder die zuvor verkauften Wachstumswerte, nachdem am 24. und 25.11. defensive Sektoren und Substanzwerte vorn gelegen hatten: Der Markt dreht weiter im Tagestakt. Hedgefonds haben ihr Netto-Engagement laut Goldman Sachs auf das Niveau von April 2025 gesenkt und schichten in Finanz-, Konsum- und Industriewerte um. Die 13F-Daten vom 30.09. zeigen bereits Verkäufe bei Internet-Plattformen und KI-Infrastruktur.",
 "tl": [
 {
 "d": "2026-11-10",
@@ -897,6 +942,10 @@
 {
 "d": "2026-11-25",
 "t": "Breite gegen Schwergewichte: Der gleichgewichtete S&P 500 (RSP) steigt um 0,8 %, der Index fällt um 0,25 %; rund drei Viertel der Indexwerte legen zu (AP). Sektoren (SPDR-ETFs): Grundstoffe +2,1 %, Immobilien +0,9 %, Kommunikation +0,9 %, Industrie +0,8 %, Finanzen +0,7 %; Technologie −0,8 %, Gesundheit −0,6 %, Halbleiter (SMH) −1,0 %. Der Dow Jones schließt 0,33 % höher bei 50.182,95."
+},
+{
+"d": "2026-11-27",
+"t": "Breite Erholung, diesmal mit den Schwergewichten vorn: Alle elf Sektoren steigen, 406 der 500 Indexwerte schließen höher (Closing Look), der S&P 500 gewinnt 1,6 % gegen 1,2 % im gleichgewichteten Index (RSP). Sektoren (SPDR-ETFs): Technologie +2,8 %, zyklischer Konsum +2,1 %, Kommunikation +2,0 %, Grundstoffe +1,8 %, Industrie +1,6 %; hinten Versorger und Gesundheit (je +0,3 %) und Basiskonsum (+0,4 %). Wochenbilanz: S&P 500 +5,6 % (stärkste Woche seit April 2025, AP), Dow Jones +5,5 % (laut CNBC die beste seit 2022), Nasdaq 100 +6,8 %, Nebenwerte (IWM) +6,7 %, gleichgewichteter S&P 500 +5,3 %."
 }
 ],
 "src": [
@@ -914,7 +963,10 @@
 "hngn_mkt2411",
 "ap_mkt2511",
 "cnbc_live2511",
-"rt_hf2311"
+"rt_hf2311",
+"ap_mkt2711",
+"cnbc_live2711",
+"cl_2711"
 ],
 "sym": null,
 "q": "sector rotation defensive stocks tech selloff"
@@ -925,7 +977,7 @@
 "t": "S&P-500-Ziele für 2027",
 "kpi": "8.150",
 "sub": "Median der Reuters-Umfrage unter 42 Strategen für Ende 2027 (16.–24.11.) · Bloomberg-Konsens 8.471",
-"sum": "Die Banken bleiben für 2027 zuversichtlich, die Spanne wird aber breiter: Die Ziele für Ende 2027 reichen von 7.800 (Bank of America, 25.11.) über 8.200 (J.P. Morgan, 24.11.) bis 9.000 Punkte (Deutsche Bank, Yardeni), Federated Hermes nennt 10.000. Der Median der Reuters-Umfrage unter 42 Strategen liegt bei 8.150, der Bloomberg-Konsens bei 8.471. Der S&P 500 schloss am 25.11. nach einem Tagestief von −3,2 % bei 7.182,78 (−0,25 %); bis zum Rekord vom 6.10. fehlen 8,1 %, im November steht ein Minus von 5,2 %. Am 26.11. blieb die Börse geschlossen, die Futures lagen 0,5 bis 0,7 % im Plus. Hartnett (Bank of America) nennt für 2027 zwei Randszenarien, 6.666 Punkte bei harter Landung und 8.888 bei anhaltendem KI-Boom; Yardeni sieht in der Korrektur die Kaufgelegenheit nach den Zwischenwahlen und das Tief wohl am 20.11. erreicht.",
+"sum": "Die Banken bleiben für 2027 zuversichtlich, die Spanne wird aber breiter: Die Ziele für Ende 2027 reichen von 7.800 (Bank of America, 25.11.) über 8.200 (J.P. Morgan, 24.11.) bis 9.000 Punkte (Deutsche Bank, Yardeni), Federated Hermes nennt 10.000. Der Median der Reuters-Umfrage unter 42 Strategen liegt bei 8.150, der Bloomberg-Konsens bei 8.471. Der S&P 500 schloss am 27.11. bei 7.297,49 Punkten (+1,6 %) und gewann in der verkürzten Woche 5,6 %, so viel wie seit April 2025 nicht; bis zum Rekord vom 6.10. fehlen 6,7 %, im November steht ein Minus von 3,7 %, zum Median der Reuters-Umfrage sind es rund 11,7 %. Hartnett (Bank of America) nennt für 2027 drei Szenarien: 7.777 Punkte bei weicher Landung als Basisfall, 6.666 bei harter Landung und 8.888 bei anhaltendem KI-Boom; Yardeni sieht in der Korrektur die Kaufgelegenheit nach den Zwischenwahlen und das Tief wohl am 20.11. erreicht.",
 "tl": [
 {
 "d": "2026-11-10",
@@ -990,12 +1042,16 @@
 {
 "d": "2026-11-26",
 "t": "Thanksgiving: Die US-Börsen bleiben geschlossen, die Futures auf den S&P 500 liegen 0,5 bis 0,7 % im Plus (AP, MarketWatch). Zu Hartnetts Ausblick werden weitere Marken bekannt: 8.888 Punkte, falls der KI-Boom anhält, 6.666 bei harter Landung, die laut TheStreet nicht sein Basisszenario ist."
+},
+{
+"d": "2026-11-27",
+"t": "Der S&P 500 schließt im verkürzten Handel 1,6 % höher bei 7.297,49 Punkten; mit +5,6 % ist es die stärkste Woche seit April 2025 (AP). Der VIX fällt auf 23,81. Bis zum Rekordschluss vom 6.10. fehlen 6,7 %, im November steht noch ein Minus von 3,7 %. Lees Wette vom 19.11., der Index stehe eine Woche nach sechs Verlusttagen höher, geht auf (Bezug 7.175,83)."
 }
 ],
 "lv": {
 "u": "Pkt",
-"now": 7182.78,
-"nowL": "Schluss 25.11. (Kassa-Index)",
+"now": 7297.49,
+"nowL": "Schluss 27.11. (Kassa-Index)",
 "items": [
 {
 "v": 9000,
@@ -1176,6 +1232,12 @@
 "l": "BofA · Hartnett: Bullenfall 2027",
 "d": "2026-11-24",
 "k": "ref"
+},
+{
+"v": 7777,
+"l": "BofA · Hartnett: Basisfall 2027 (weiche Landung)",
+"d": "2026-11-24",
+"k": "ref"
 }
 ]
 },
@@ -1222,7 +1284,10 @@
 "ap_mkt2611",
 "mw_fut2611",
 "aol_bofa2611",
-"tv18_yardeni2511"
+"tv18_yardeni2511",
+"ap_mkt2711",
+"cnbc_live2711",
+"sa_hartnett2411"
 ],
 "sym": "SPX",
 "q": "S&P 500 2027 target strategists"
@@ -1231,9 +1296,9 @@
 "id": "gold",
 "tk": "XAU",
 "t": "Gold, Öl und Hormus",
-"kpi": "≈ 3.600 $",
-"sub": "Gold Spot 26.11., 21:02 Uhr New York (Kitco) · Spanne am Feiertag 3.551,40 bis 3.607,90 $ · Brent 96,57 $",
-"sum": "Gold pendelte am 26.11. im dünnen Feiertagshandel zwischen 3.551,40 und 3.607,90 $ und notierte am Abend in New York bei rund 3.600 $ (Spot, Kitco); am 25.11. war der Preis erstmals seit September 2025 unter 3.500 $ gefallen (Tief 3.426,40 $). Die fest eingepreiste Fed-Erhöhung bremst, im November liegt Gold laut CNBC rund 10 % im Minus, es wäre der dritte Verlustmonat in Folge. Brent schloss am 26.11. um 1,96 $ höher bei 96,57 $, dem höchsten Schluss seit dem 6.11. (Reuters, Januar-Kontrakt): Irans Revolutionsgarden meldeten zwei Tanker, die in der Straße von Hormus auf Seeminen liefen, am Vortag hatten die Huthi einen Angriff auf die saudische Raffinerie Ras Tanura für sich reklamiert. Am 29.11. tagt die OPEC+; laut Reuters dürfte sie ihre Förderziele für das erste Quartal 2027 fortschreiben, Rystad erwartet für 2027 einen Überschuss von rund 5 Mio. Barrel am Tag. Der Chart zeigt den COMEX-Future, nicht den Spotpreis; die Kursreihen für Gold und Brent enden am 25.11.",
+"kpi": "≈ 3.653 $",
+"sub": "Gold Spot 27.11., 16:46 Uhr New York (Kitco) · Tagesspanne 3.569,60 bis 3.686,00 $ · Brent 95,44 $",
+"sum": "Gold erholte sich am 27.11. um 2,45 % auf rund 3.653 $ (Spot, Kitco) und gewann in der Woche rund 3 %; am 25.11. war der Preis erstmals seit September 2025 unter 3.500 $ gefallen (Tief 3.426,40 $). Die fest eingepreiste Fed-Erhöhung bremst weiter, der November dürfte der dritte Verlustmonat in Folge werden. Brent schloss am 27.11. bei 95,44 $ (−1,13 $), nachdem der Preis am Vortag mit 96,57 $ den höchsten Schluss seit dem 6.11. erreicht hatte (Reuters, Januar-Kontrakt); in der Woche gewann Brent rund 3 %, der erste Wochengewinn im November. Treiber sind die Angriffe am Golf: Seeminen in der Straße von Hormus, der Huthi-Angriff auf die saudische Raffinerie Ras Tanura und ein Treffer auf die Raffinerie Jazan. Am 29.11. tagt die OPEC+; laut Reuters dürfte sie ihre Förderziele für das erste Quartal 2027 unverändert lassen. Rystad erwartet für 2027 einen Überschuss von rund 5 Mio. Barrel am Tag, die ANZ-Analysten halten dennoch mehr als 100 $ für möglich. Der Chart zeigt den COMEX-Future, nicht den Spotpreis; der Januar-Kontrakt für Brent läuft am 30.11. aus, der Februar-Kontrakt notierte am 27.11. rund 4,50 $ tiefer (ICE).",
 "tl": [
 {
 "d": "2026-10-30",
@@ -1298,12 +1363,16 @@
 {
 "d": "2026-11-26",
 "t": "Brent schließt 1,96 $ höher bei 96,57 $, dem höchsten Schluss seit dem 6.11. (Reuters, CNBC; Januar-Kontrakt): Irans Revolutionsgarden melden zwei Tanker, die nördlich des omanischen Hafens Khasab auf Seeminen liefen, darunter ein Supertanker mit über 2 Mio. Barrel. Die OPEC+ dürfte am 29.11. ihre Förderziele mindestens für das erste Quartal 2027 fortschreiben (Reuters, zwei Insider). Gold-Spot bewegt sich im Feiertagshandel zwischen 3.551,40 und 3.607,90 $ und notiert am Abend in New York bei rund 3.600 $ (Kitco)."
+},
+{
+"d": "2026-11-27",
+"t": "Gold-Spot steigt um 2,45 % auf rund 3.653 $ (Kitco, 16:46 Uhr New York; Tagesspanne 3.569,60 bis 3.686,00 $), Silber um 5,3 % auf 43,62 $; auf Wochensicht gewinnt Gold rund 3 %. Kitco nennt die Erholung der Aktienmärkte, Käufe aus China und Eindeckungen nach dem Tief vom 25.11. Brent gibt um 1,13 $ auf 95,44 $ nach (Reuters, Januar-Kontrakt; Woche rund +3 %), WTI schließt bei 83,08 $: Am 26.11. traf ein Geschoss die Aramco-Raffinerie Jazan, das US-Militär setzte ein Handelsschiff außer Gefecht, das die Blockade Irans durchbrechen wollte. Die OPEC+ dürfte am 29.11. die Förderziele für das erste Quartal 2027 unverändert lassen (drei Insider laut Reuters)."
 }
 ],
 "lv": {
 "u": "$",
-"now": 3600.0,
-"nowL": "Gold Spot 26.11. (Abend in New York, Kitco)",
+"now": 3653.0,
+"nowL": "Gold Spot 27.11. (später US-Handel, Kitco)",
 "items": [
 {
 "v": 5000,
@@ -1352,6 +1421,18 @@
 "l": "Tagestief 25.11.",
 "d": "2026-11-25",
 "k": "sup"
+},
+{
+"v": 5000,
+"l": "Yardeni: Ende 2027 (zuvor Ende 2026)",
+"d": "2026-11-22",
+"k": "kz"
+},
+{
+"v": 3400,
+"l": "Unterstützung · Yardeni",
+"d": "2026-11-22",
+"k": "sup"
 }
 ]
 },
@@ -1386,7 +1467,12 @@
 "cnbc_oil2711",
 "rt_opec2611",
 "kit_2611",
-"gg_2711"
+"gg_2711",
+"kit_2711",
+"kit_wk2711",
+"rt_oil2711",
+"ice_brent2711",
+"yqt_gmc2211"
 ],
 "sym": "GOLDF",
 "q": "gold price outlook Fed"
@@ -1397,7 +1483,7 @@
 "t": "Europa und DAX",
 "kpi": "24.802,78",
 "sub": "DAX-Schluss 20.11. (−2,6 %) · Ziel der DZ Bank Ende 2027: 28.500",
-"sum": "Der DAX erholte sich am 26.11. um 2,08 % auf 25.215,52 Punkte, nachdem er am Vortag auf den tiefsten Schluss seit Ende Juni gefallen war (24.702,13); der Euro Stoxx 50 gewann 2,04 %, der Stoxx 600 1,75 %. Vorn lagen Technologie-, Auto- und Rohstoffwerte. Auslöser waren die späte Wende an der Wall Street und die Lesart, dass die US-Zollpläne milder ausfallen als befürchtet: Für EU-Waren bleibt es bei 15 % einschließlich bestehender Sätze, mit einem Ausweichsatz von 20 %, falls Washington die Gespräche für unzureichend hält; die EU-Kommission weist den Vorwurf der Überkapazitäten zurück. Die Zinsen bleiben Gegenwind: Laut EZB-Protokoll hätte schon im Oktober eine große Zahl der Ratsmitglieder eine Erhöhung mitgetragen, für den 17.12. ist ein Schritt zu rund 84 % eingepreist. Die Frühindikatoren bleiben besser als die harten Daten: Ifo-Geschäftsklima 90,6 Punkte, vorläufiger Einkaufsmanagerindex für Deutschland 55,0, BIP im dritten Quartal +0,1 %. Die Deutsche Bank sieht den Stoxx 600 Ende 2027 bei 640.",
+"sum": "Der DAX schloss am 27.11. bei 25.441,24 Punkten (+0,90 %) und gewann in der Woche 2,6 %, nachdem er am 25.11. auf den tiefsten Schluss seit Ende Juni gefallen war (24.702,13); der Stoxx 600 legte in der Woche 2,9 % zu, so viel wie seit Mitte Mai nicht. Vorn lagen Chip-, Auto-, Rohstoff- und Rüstungswerte. Auslöser waren die Erholung der KI-Werte und die Lesart, dass die US-Zollpläne milder ausfallen als befürchtet: Für EU-Waren bleibt es bei 15 % einschließlich bestehender Sätze, mit einem Ausweichsatz von 20 %; am 30.11. sprechen die EU-Handelsminister per Video mit dem US-Handelsbeauftragten Greer. Die Zinsen bleiben Gegenwind: Laut EZB-Protokoll hätte schon im Oktober eine große Zahl der Ratsmitglieder eine Erhöhung mitgetragen, für den 17.12. ist ein Schritt zu rund 84 % eingepreist. An der EZB-Spitze steht ein Wechsel an: Der Europäische Rat hat Pablo Hernández de Cos als Nachfolger von Christine Lagarde vorgeschlagen, die am 7.2.2027 geht. Die Frühindikatoren bleiben besser als die harten Daten: Ifo-Geschäftsklima 90,6 Punkte, BIP im dritten Quartal +0,1 %, die Arbeitslosigkeit stieg im November saisonbereinigt auf 3,025 Mio.; Frankreichs Wirtschaft schrumpfte im dritten Quartal um 0,2 %. Am 29.11. wählt Spanien ein neues Parlament, am 30.11. folgen die deutschen Verbraucherpreise. Die Deutsche Bank sieht den Stoxx 600 Ende 2027 bei 640.",
 "tl": [
 {
 "d": "2026-11-10",
@@ -1450,6 +1536,14 @@
 {
 "d": "2026-11-26",
 "t": "DAX schließt 2,08 % höher bei 25.215,52, Euro Stoxx 50 +2,04 % auf 6.014,74, Stoxx 600 +1,75 % auf 636,98, MDAX +2,34 % (dpa-AFX, Kursreihe). Technologie-, Auto- und Rohstoffwerte führen; laut Reuters beruhigt, dass der Zoll für EU-Waren bei 15 % gedeckelt bleibt. Die EU-Kommission weist den Vorwurf struktureller Überkapazitäten zurück; am 30.11. wollen die EU-Handelsminister mit dem US-Handelsbeauftragten Greer sprechen (ILKHA). Das EZB-Protokoll zeigt, dass im Oktober eine große Zahl der Ratsmitglieder eine Erhöhung mitgetragen hätte; für den 17.12. sind 25 Basispunkte zu 84 % eingepreist (WatchTower, aus Futures; am 25.11. nannte Reuters nach LSEG 87 %)."
+},
+{
+"d": "2026-11-26",
+"t": "Der Europäische Rat schlägt Pablo Hernández de Cos als nächsten EZB-Präsidenten vor; er soll Christine Lagarde ablösen, die am 7.2.2027 aus dem Amt scheidet. Für das Direktorium sind Laurence Boone und Markus Brunnermeier vorgesehen (für Isabel Schnabel, die am 3.1.2027 geht, und Philip Lane, dessen Amtszeit am 31.5.2027 endet). Parlament und EZB-Rat werden noch angehört."
+},
+{
+"d": "2026-11-27",
+"t": "DAX schließt 0,90 % höher bei 25.441,24 (Woche +2,6 %), Euro Stoxx 50 +1,24 % auf 6.089,20, Stoxx 600 +1,1 % auf 643,85 und damit +2,9 % in der Woche, der stärkste Wochengewinn seit Mitte Mai (Reuters); MDAX +1,51 %. Gefragt sind Chip- und Rüstungswerte, Rheinmetall gewinnt nach dem Kapitalmarkttag 3,3 %, die Commerzbank verliert 1,9 % (dpa-AFX). Arbeitsmarkt: Die Zahl der Arbeitslosen steigt saisonbereinigt um 9.000 auf 3,025 Mio. (erwartet +4.000), unbereinigt sinkt sie auf 2,936 Mio. (Quote 6,2 %). Frankreichs BIP im dritten Quartal wird auf −0,2 % revidiert (Insee). Am 29.11. wählt Spanien."
 }
 ],
 "src": [
@@ -1485,7 +1579,14 @@
 "rte_eu2511",
 "ilkha_eu2611",
 "hk_301",
-"cat_fink2611"
+"cat_fink2611",
+"dpa_dax2711",
+"rt_eu2711",
+"ba_2711",
+"rt_alo2711",
+"insee_2711",
+"euco_ecb2611",
+"fac_3011"
 ],
 "sym": "DAX",
 "lv": {
@@ -1516,7 +1617,7 @@
 "t": "Bitcoin im Risk-off",
 "kpi": "60.741 $",
 "sub": "Stand 22.11. · 30 % unter dem Sechsmonatshoch vom 21.09.",
-"sum": "Bitcoin fiel am 21.11. zeitweise auf rund 55.100 $, den tiefsten Stand seit September 2024, und pendelt seit dem 24.11. um 60.000 $; am Feiertag stieg der Kurs im dünnen Handel auf rund 60.900 $. Aus den US-Spot-ETFs flossen am 25.11. weitere 453,0 Mio. $ ab, der siebte Abflusstag in Folge; mit 5,39 Mrd. $ ist der November der schwächste Monat seit dem Start der Fonds (Farside). Am 27.11. verfallen bei Deribit Optionen über rund 7 Mrd. $; das Put-Call-Verhältnis liegt bei 0,89 nach 0,55 im Oktober, die Absicherungen häufen sich bei 60.000 $ und darunter. Strategy kaufte zuletzt 457 BTC zu durchschnittlich 64.898 $ und liegt mit einem Einstand von 75.446 $ im Minus; zum 30.11. fällt die Aktie aus den MSCI-Indizes, am selben Tag steht die nächste Wochenmeldung an.",
+"sum": "Bitcoin fiel am 21.11. zeitweise auf rund 55.100 $, den tiefsten Stand seit September 2024, und pendelt seit dem 24.11. um 60.000 $; nach dem Verfall von Optionen über rund 7 Mrd. $ am 27.11. notierte der Kurs bei rund 61.600 $ und blieb damit hinter der Erholung der Aktien zurück. Die Serie von sieben Verlustwochen könnte an diesem Wochenende enden, im November bleibt ein Minus von rund 20 % (CoinDesk). Aus den US-Spot-ETFs flossen am 25.11. 453,0 Mio. $ ab, der siebte Abflusstag in Folge; mit 5,39 Mrd. $ ist der November der schwächste Monat seit dem Start der Fonds, für den 27.11. meldet Farside vorläufig weitere −61,8 Mio. $ (ohne IBIT). Strategy kaufte zuletzt 457 BTC zu durchschnittlich 64.898 $ und liegt mit einem Einstand von 75.446 $ im Minus; zum 30.11. fällt die Aktie aus den MSCI-Indizes, am selben Tag steht die nächste Wochenmeldung an. Chamath Palihapitiya hält Bitcoin wegen der Fortschritte der KI für nach oben begrenzt, Saylor widerspricht.",
 "tl": [
 {
 "d": "2026-09-21",
@@ -1593,6 +1694,10 @@
 {
 "d": "2026-11-26",
 "t": "Bitcoin steigt im dünnen Feiertagshandel auf rund 60.900 $ (CoinDesk; Crypto Briefing nennt 60.948 $ und Eindeckungen von Leerverkäufern). Farside: Am 25.11. fließen 453,0 Mio. $ aus den US-Spot-ETFs ab (IBIT 329,7 Mio. $), der siebte Abflusstag in Folge; im November sind es 5,39 Mrd. $. Vor dem Verfall am 27.11. (rund 7 Mrd. $ bei Deribit) liegt das Put-Call-Verhältnis bei 0,89 nach 0,55 im Oktober."
+},
+{
+"d": "2026-11-27",
+"t": "Der Verfall von Optionen über rund 7 Mrd. $ bei Deribit (08:00 UTC) bleibt ohne Kurssprung: Bitcoin notiert danach bei rund 61.600 $, weit unter dem Max-Pain-Niveau von 70.000 $ (CoinDesk, CoinLab). Auf Wochensicht liegt der Kurs am Freitagmittag (MEZ) 0,6 % im Plus; hält das bis Sonntag, endet die Serie von sieben Verlustwochen, im November bleibt ein Minus von rund 20 % (CoinDesk). Farside meldet für den 27.11. vorläufig −61,8 Mio. $ aus den US-Spot-ETFs, noch ohne BlackRocks IBIT. Chamath Palihapitiya nennt Bitcoin wegen der Fortschritte der KI nach oben begrenzt, Saylor widerspricht."
 }
 ],
 "src": [
@@ -1626,7 +1731,12 @@
 "dt_saylor2511",
 "si_etf2611",
 "cd_opt2611",
-"cb_btc2611"
+"cb_btc2611",
+"cd_btc2711",
+"cl_btc2711",
+"fs_btc2711",
+"sc_chamath2711",
+"x_saylor2711"
 ],
 "sym": "BTC",
 "px": "BTC",

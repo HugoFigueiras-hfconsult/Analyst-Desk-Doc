@@ -241,7 +241,9 @@
 "by": "2026-11-27",
 "t": "S&P 500 eine Woche nach sechs Verlusttagen höher",
 "stm": "r5-02",
-"note": "Der 26.11. war ein Feiertag. Am 25.11., dem letzten Handelstag davor, schloss der Index bei 7.182,78 und damit 6,95 Punkte über dem Bezug; maßgeblich bleibt der Schluss vom 27.11."
+"note": "Aufgegangen: Der S&P 500 schloss am 27.11. bei 7.297,49 und damit 1,7 % über dem Bezug vom 19.11.; der 26.11. war ein Feiertag, am 25.11. lag der Schluss mit 7.182,78 nur 6,95 Punkte darüber.",
+"res": "erreicht",
+"resD": "2026-11-27"
 },
 {
 "id": "c25",

@@ -88,8 +88,9 @@
 "tk": "STX",
 "nm": "Seagate",
 "ac": "plus",
-"det": "fast verdreifacht",
-"sec": "semis"
+"det": "+180 % auf 341.790 Stück (zuvor 122.000), über 300 Mio. $, rund 7 % des 13F-Depots",
+"sec": "semis",
+"src": "ts_druck2711"
 },
 {
 "p": "druckenmiller",
@@ -2043,5 +2044,145 @@
 "det": "+98 % auf 1.363.567 Anteile (zuvor 688.529), rund 64,6 Mio. $; unter 1 % des gemeldeten Depots",
 "sec": "krypto",
 "src": "ceo_ptj2711"
+},
+{
+"p": "wood",
+"tk": "SPCX",
+"nm": "SpaceX",
+"ac": "plus",
+"det": "27.11.: ARKK kauft 70.601 Stück (rund 9,4 Mio. $ zum Schluss von 133,59 $)",
+"sec": "space",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-27",
+"src": "arkt_2711"
+},
+{
+"p": "wood",
+"tk": "ILMN",
+"nm": "Illumina",
+"ac": "minus",
+"det": "27.11.: ARKK verkauft 93.123 Stück (nach 151,4 Tsd. am 25.11.)",
+"sec": "health",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-27",
+"src": "arkt_2711"
+},
+{
+"p": "wood",
+"tk": "SHOP",
+"nm": "Shopify",
+"ac": "minus",
+"det": "27.11.: ARKK verkauft 39.123 Stück",
+"sec": "soft",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-27",
+"src": "arkt_2711"
+},
+{
+"p": "wood",
+"tk": "CRSP·RXRX·TWST·TEM·BEAM",
+"nm": "Biotech: CRISPR Therapeutics, Recursion, Twist Bioscience, Tempus AI, Beam",
+"ac": "plus",
+"det": "27.11.: CRISPR 35.772 Stück · Recursion 115.086 · Twist 26.157 (ARKK 24.873, ARKG 1.284) · Tempus AI 10.114 · Beam 8.419 (ARKK 8.213, ARKG 206); dazu Arcturus 6.538 und Natera 1.857",
+"sec": "health",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-27",
+"src": "arkt_2711"
+},
+{
+"p": "wood",
+"tk": "RBLX",
+"nm": "Roblox",
+"ac": "minus",
+"det": "24.11.: ARKW verkauft 47.704 Stück (rund 2,6 Mio. $)",
+"sec": "mega",
+"per": "Tageshandel Nov. 2026",
+"d": "2026-11-24",
+"src": "folio_ark2411"
+},
+{
+"p": "burry",
+"tk": "LULU",
+"nm": "Lululemon",
+"ac": "neu",
+"det": "11.11.: Wiedereinstieg bei rund 106 $ (eigene Angabe im Substack vom 25.11., nach 24/7 Wall St.)",
+"sec": "cons",
+"per": "Substack 25.11.2026, Kauf am 11.11.",
+"d": "2026-11-11",
+"src": "wst_burry2611"
+},
+{
+"p": "burry",
+"tk": "MELI",
+"nm": "MercadoLibre",
+"ac": "plus",
+"det": "11.11.: unter 1.500 $ aufgestockt (eigene Angabe im Substack vom 25.11., nach 24/7 Wall St.)",
+"sec": "cons",
+"per": "Substack 25.11.2026, Kauf am 11.11.",
+"d": "2026-11-11",
+"src": "wst_burry2611"
+},
+{
+"p": "tudorjones",
+"tk": "IRDM",
+"nm": "Iridium Communications",
+"ac": "neu",
+"det": "neue Position: 3,95 Mio. Stück, rund 189 Mio. $",
+"sec": "space",
+"src": "sa_ptj1611"
+},
+{
+"p": "tudorjones",
+"tk": "SKHY",
+"nm": "SK Hynix",
+"ac": "neu",
+"det": "neue Position: rund 1,0 Mio. Stück, rund 184 Mio. $",
+"sec": "semis",
+"src": "sa_ptj1611"
+},
+{
+"p": "tudorjones",
+"tk": "CRM",
+"nm": "Salesforce",
+"ac": "neu",
+"det": "neue Position, rund 128 Mio. $",
+"sec": "soft",
+"src": "sa_ptj1611"
+},
+{
+"p": "tudorjones",
+"tk": "TLT",
+"nm": "US-Staatsanleihen 20+ Jahre (TLT)",
+"ac": "plus",
+"det": "auf 1,20 Mio. Anteile (rund 94 Mio. $) von 60,8 Tsd.",
+"sec": "zins",
+"src": "sa_ptj1611"
+},
+{
+"p": "tudorjones",
+"tk": "XLU",
+"nm": "Versorger (XLU)",
+"ac": "plus",
+"det": "auf 6,08 Mio. Anteile (rund 239 Mio. $) von 640,1 Tsd.",
+"sec": "aiinfra",
+"src": "sa_ptj1611"
+},
+{
+"p": "einhorn",
+"tk": "CMCSA",
+"nm": "Comcast",
+"ac": "plus",
+"det": "mehr als verdoppelt (laut TIKR)",
+"sec": "mega",
+"src": "tikr_einhorn2711"
+},
+{
+"p": "einhorn",
+"tk": "VTRS",
+"nm": "Viatris",
+"ac": "plus",
+"det": "+55 % (laut TIKR)",
+"sec": "health",
+"src": "tikr_einhorn2711"
 }
 ]

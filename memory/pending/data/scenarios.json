@@ -3,12 +3,12 @@
 "id": "fed-dez",
 "t": "Fed-Entscheid am 9. Dezember",
 "type": "Marktpreis",
-"basis": "CME FedWatch (Fed-Funds-Futures), Stand 26.11., wiedergegeben von Gate News (16:53 UTC, 11:53 Uhr New York); die US-Märkte waren wegen Thanksgiving geschlossen",
-"asOf": "2026-11-26",
+"basis": "CME FedWatch (Fed-Funds-Futures), Stand 27.11. früh, wiedergegeben in einer Analyse bei Investing.com",
+"asOf": "2026-11-27",
 "items": [
 {
 "l": "Erhöhung um 25 Basispunkte",
-"p": 99.5
+"p": 99.2
 },
 {
 "l": "Erhöhung um 50 Basispunkte",
@@ -16,11 +16,11 @@
 },
 {
 "l": "Pause oder Senkung",
-"p": 0.5
+"p": 0.8
 }
 ],
-"note": "Am 25.11. nach den PCE-Daten: 97,8 % zu 2,2 % (PANews, Gate News). Frenzy Capital errechnet aus den Futures am 26.11. um 08:01 Uhr New York 99 % zu 1 % (Schluss vom 25.11.: 96 % zu 4 %). Prognosemärkte am 26.11. mittags: Kalshi und Polymarket rund 93 % für 25 Basispunkte, 2,5 bis 3,5 % für 50 Basispunkte und 4,5 % für eine Pause (PredictionMarketsPicks). Für die Sitzung am 27.1. waren am 25.11. 40,7 % für insgesamt einen Schritt und 58,4 % für zwei eingepreist.",
-"src": "gate_fed2611",
+"note": "Am 26.11.: 99,5 % zu 0,5 % (Gate News, 16:53 UTC). PredictionMarketsPicks am 27.11.: 98,6 % aus den Futures, 92,5 % bei Kalshi und 93,5 % bei Polymarket für eine Erhöhung; Kalshi sieht 4 % für 50 Basispunkte und 4 % für eine Pause. Für die Sitzung am 27.1. waren zum Schluss vom 25.11. 60,1 % für zwei Schritte eingepreist (24.11.: 67,4 %), für drei Schritte bis zum 17.3. 35,2 % (Investing.com). Schweigephase der Fed vom 28.11. bis 10.12.",
+"src": "inv_fed2711",
 "st": "fed",
 "aff": [
 "UST10",
@@ -137,10 +137,10 @@
 "t": "S&P 500 erreicht bis Ende 2027 den Median der Reuters-Umfrage von 8.150",
 "type": "Schätzung",
 "basis": "Reuters-Umfrage unter 42 Strategen, Analysten und Portfoliomanagern, 16. bis 24.11.",
-"asOf": "2026-11-25",
+"asOf": "2026-11-27",
 "items": [
 {
-"l": "Nötiger Anstieg vom Schluss 7.182,78 (25.11.): rund 13,5 %"
+"l": "Nötiger Anstieg vom Schluss 7.297,49 (27.11.): rund 11,7 %"
 },
 {
 "l": "Spanne der Bankziele: 7.800 (Bank of America) bis 9.000 (Deutsche Bank)"
@@ -149,7 +149,7 @@
 "l": "Bloomberg-Konsens: 8.471"
 }
 ],
-"note": "Für dieses Szenario liegt keine Wahrscheinlichkeit vor. Die frühere Umfrage unter acht Strategen ergab im Schnitt 8.638. Außerhalb der Spanne: Federated Hermes mit 10.000 Punkten (18.11.); Hartnett (Bank of America) nennt 6.666 Punkte für den Rezessionsfall.",
+"note": "Für dieses Szenario liegt keine Wahrscheinlichkeit vor. Die frühere Umfrage unter acht Strategen ergab im Schnitt 8.638. Außerhalb der Spanne: Federated Hermes mit 10.000 Punkten (18.11.); Hartnett (Bank of America) nennt 7.777 Punkte als Basisfall, 6.666 für den Rezessionsfall und 8.888 bei anhaltendem KI-Boom.",
 "src": "rt_poll2411",
 "st": "spx27",
 "aff": [

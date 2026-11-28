@@ -10705,5 +10705,212 @@
 "t": "Musk kündigt auf X an, jedes Kind in den USA erhalte zwei SpaceX-Aktien: eine vom Unternehmen, übertragen im Dezember, und eine von ihm persönlich, sobald seine Haltefrist im Juni 2027 endet. In der Nacht zum 26.11. rät er den Empfängern, die Aktien zu behalten: Gelinge es SpaceX, das Leben multiplanetar zu machen und ein Millionstel der Sonnenenergie zu nutzen, sei das Unternehmen etwa das Millionenfache der heutigen Weltwirtschaft wert; die Ziele nennt er selbst absurd schwierig.",
 "src": "x_musk2611",
 "sw": 12
+},
+{
+"id": "r13-01",
+"d": "2026-11-27",
+"who": "Andreas Lipkow",
+"org": "CMC Markets",
+"k": "Kommentar",
+"s": "neut",
+"a": [
+"DAX"
+],
+"th": [
+"Europa",
+"Stimmung"
+],
+"st": [
+"eu"
+],
+"ar": [
+"eu"
+],
+"t": "Zum Wochenschluss (DAX +0,9 % auf 25.441 Punkte) sagt Lipkow, die Bereitschaft der Anleger, in deutsche Standardwerte zu investieren, bleibe vorhanden, allerdings sehr selektiv und nicht zu jedem Preis. Im Blick stünden weiter Technologie- und Autowerte, die für das kommende Börsenjahr zwei der interessantesten Geschichten lieferten. Zur Commerzbank (−1,9 %) schreibt er, die Unsicherheit um die Übernahme durch Unicredit sorge auch bei Investoren für Unbehagen. Wiedergabe nach dpa-AFX.",
+"src": "dpa_dax2711",
+"sw": 13
+},
+{
+"id": "r13-02",
+"d": "2026-11-27",
+"da": 1,
+"who": "Kathleen Brooks",
+"org": "XTB, Research-Direktorin",
+"k": "Kommentar",
+"s": "warn",
+"a": [],
+"th": [
+"Stimmung",
+"KI-Capex"
+],
+"st": [
+"capex"
+],
+"ar": [
+"us",
+"semis"
+],
+"t": "Die Research-Direktorin von XTB nennt die Erholung der Aktien gegenüber Reuters technisch; die Fragen, die die Panik am Markt ausgelöst hätten, seien weiter unbeantwortet. Gemeint sind die Zweifel, ob sich die KI-Infrastruktur rechnet und zu welchen Kosten sie finanziert wird. Wiedergabe nach 24/7 Wall St., das Reuters zitiert; der Tag der Äußerung ist nicht genannt.",
+"src": "wst_sndk2711",
+"sw": 13
+},
+{
+"id": "r13-03",
+"d": "2026-11-27",
+"da": 1,
+"who": "Brian Martin und Daniel Hynes",
+"org": "ANZ",
+"k": "Research",
+"s": "bull",
+"a": [
+"BRENT"
+],
+"th": [
+"Öl",
+"Geopolitik"
+],
+"st": [
+"gold"
+],
+"ar": [
+"oil"
+],
+"lv": "Brent über 100 $ möglich",
+"t": "Die ANZ-Analysten halten laut Reuters einen Anstieg von Brent über 100 Dollar je Barrel auch ohne weitere große Eskalation im Nahen Osten für möglich; dafür brauche es aber zunehmend Belege, dass das lieferbare Angebot knapp ist. Brent schloss am 27.11. bei 95,44 Dollar; der Tag der Notiz ist im Bericht nicht genannt.",
+"src": "rt_oil2711",
+"sw": 13
+},
+{
+"id": "r13-04",
+"d": "2026-11-25",
+"p": "gundlach",
+"k": "Post",
+"s": "warn",
+"a": [],
+"th": [
+"Kredit"
+],
+"st": [],
+"ar": [
+"fin",
+"zins"
+],
+"t": "Spottet auf X über den Zug in Privatmarktanlagen: Die Aktien der großen Anbieter liegen seit Jahresbeginn tief im Minus, Apollo und Ares um je 20 %, KKR um 29 %, Blue Owl um 41 %. Schon am 12.11. hatte er den Boom bei Privatkrediten mit der Lage vor 2008 verglichen.",
+"src": "x_gundlach2511",
+"sw": 13
+},
+{
+"id": "r13-05",
+"d": "2026-11-27",
+"p": "wood",
+"k": "Handel",
+"s": "bull",
+"a": [
+"SPCX"
+],
+"th": [
+"Positionierung",
+"Raumfahrt"
+],
+"st": [],
+"ar": [
+"space",
+"health"
+],
+"t": "Im verkürzten Handel am 27.11. kauft ARK im ARKK 70.601 SpaceX-Aktien, rund 9,4 Mio. Dollar zum Schlusskurs von 133,59 Dollar und fast doppelt so viele wie am 25.11. Dazu kommen erneut Biotech-Käufe (CRISPR 35.772 Stück, Recursion 115.086, Twist 26.157, Tempus AI 10.114, Beam 8.419); verkauft werden weitere 93.123 Illumina-Aktien und 39.123 Shopify-Aktien. Angaben nach der Tagestabelle von ARK Invest Daily Trades, bisher die einzige Quelle für diesen Tag; der Dollarwert ist mit dem Schlusskurs gerechnet.",
+"src": "arkt_2711",
+"sw": 13
+},
+{
+"id": "r13-06",
+"d": "2026-11-27",
+"da": 1,
+"p": "ives",
+"k": "Research",
+"s": "bull",
+"a": [
+"NVDA"
+],
+"th": [
+"Halbleiter",
+"Regulierung"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "In einer neuen Notiz (laut Benzinga vom 27.11.) nennt Ives die Auftritte von Jensen Huang im Kongress in der kommenden Woche entscheidend für Nvidia und den gesamten Markt; er rechnet weiter mit einer Achterbahnfahrt. An seiner These zum KI-Ausbau und an Nvidia als Gewinner hält er fest; zuvor habe die Sorge bestanden, Nvidia drohe ein Jahrzehnt wie Microsoft im Kartellstreit. Der Tag der Notiz ist nicht genannt.",
+"src": "bz_ives2711",
+"sw": 13
+},
+{
+"id": "r13-07",
+"d": "2026-11-27",
+"p": "saylor",
+"k": "Post",
+"s": "bull",
+"a": [
+"BTC"
+],
+"th": [
+"Krypto"
+],
+"st": [
+"btc"
+],
+"ar": [
+"krypto"
+],
+"t": "Saylor widerspricht auf X der These von Chamath Palihapitiya, KI könne Bitcoin über gebrochene Verschlüsselung entwerten: Bitcoin sei keine Software, sondern ein ökonomisches Protokoll wie das metrische System oder die arabischen Ziffern. Breche KI die Verschlüsselung, sei der gesamte digitale Handel gefährdet; die Lösung sei der Umstieg auf Verschlüsselung der nächsten Generation.",
+"src": "x_saylor2711",
+"sw": 13
+},
+{
+"id": "r13-08",
+"d": "2026-11-27",
+"p": "chamath",
+"k": "Research",
+"s": "warn",
+"a": [
+"BTC"
+],
+"th": [
+"Krypto"
+],
+"st": [
+"btc"
+],
+"ar": [
+"krypto"
+],
+"t": "In einer Analyse von Social Capital Research, die er auf X vorstellt, bekräftigt Chamath, Krypto und Bitcoin seien angesichts des Aufstiegs der KI nach oben begrenzt: Neue Mathematik aus KI-Systemen könne den Aufwand, kryptografische Schlüssel zu brechen, um Größenordnungen senken. Der Text prüft Aufbau, Verschlüsselung und Proof of Work von Bitcoin; die vollständige Analyse steht hinter der Bezahlschranke.",
+"src": "sc_chamath2711",
+"sw": 13
+},
+{
+"id": "r13-09",
+"d": "2026-11-25",
+"da": 1,
+"p": "cramer",
+"k": "Interview",
+"s": "bull",
+"a": [
+"NVDA"
+],
+"th": [
+"Bewertung",
+"Halbleiter"
+],
+"st": [
+"nvda"
+],
+"ar": [
+"semis"
+],
+"t": "In der »Mad Money«-Folge vom 25.11. (laut TheStreet) antwortet Cramer einem Anrufer, Nvidia wirke gemessen an den Gewinnschätzungen stets teuer und erweise sich im Rückblick als günstig, weil das Unternehmen die Schätzungen weit übertreffe; so laufe es seit 2012. Zugleich erinnert er an seine Regel, nach 20 % Kursgewinn einen Teil der Position zu verkaufen. Die Folge war eine Sondersendung, der Aufnahmetag ist nicht gesichert.",
+"src": "ts_cramer2711",
+"sw": 13
 }
 ]
